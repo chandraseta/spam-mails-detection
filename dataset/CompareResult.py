@@ -15,4 +15,4 @@ def compare(File1,File2):
         for line in list(d-e):
            f.write(line)
 
-compare("dataset/spam-mail.tr.label","dataset/result.txt")
+compare("spam-mail.tr.label","result.txt")
