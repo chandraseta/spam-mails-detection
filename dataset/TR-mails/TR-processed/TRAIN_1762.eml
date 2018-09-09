@@ -24,9 +24,7 @@ Content-Type: text/plain; charset=UTF-8
 > Subsystem: Acer Incorporated [ALI] Device 011f
 > Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr-
 > Stepping- SERR+ FastB2B- DisINTx-
-> Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort-
-> SERR- <PERR- INTx-
-> Latency: 0, Cache Line Size: 64 bytes
+> Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort-  SERR-  Latency: 0, Cache Line Size: 64 bytes
 > Interrupt: pin A routed to IRQ 21
 > Region 0: Memory at fc300000 (64-bit, non-prefetchable) [size=16K]
 > Capabilities: 

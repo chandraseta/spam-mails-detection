@@ -21,24 +21,7 @@ if(a) <--which apparently works but is 'bad coding style'.
 that is what I mean about letting the programming tools take care
 of the coding.... it is considered 'bad' apparently.
 Or for example say you are writing a loop that says
-For(a=0;a<strlen(somestring);a++)
-{
- some_thing_goes_here();
- if(b=strlen(somestring)-4)
-	do_something;
-};
-when I probably should say
-c=strlen(somestring);
-For(a=0;a<c;a++)
-{
- some_thing_goes_here();
- if(b=c)
-	do_something;
-};
-Of course 'people' always say that the extra call to strlen() will make no
-difference on the machines we have 'these days'.
-But my machine has 256mb of ram.... not 640k.
-<>
+For(a=0;a
 -- 
 Irish Linux Users' Group: ilug@linux.ie
 http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.

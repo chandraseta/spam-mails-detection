@@ -11,15 +11,9 @@ Zope.
 it out to the browser. Lovely. all works.
  Except for framed pages (like Zope's management interface). It ends up
 looking like:
-    <frame src="http://localhost:8080/reenactors/manage_top_frame"
-name="manage_top_frame"
-   marginheight="0" scrolling="no"/>
-    <frame src="http://localhost:8080/reenactors/manage_menu"
-name="manage_menu"
-     marginwidth="2" marginheight="2" scrolling="auto"/>
-    <frame src="http://localhost:8080/reenactors/manage_workspace"
-name="manage_main"
-     marginwidth="2" marginheight="2" scrolling="auto"/>
+    
+
+
  and of course, that is not what my client should go to. Any ideas what I am
 doing wrong ?
 Kate

@@ -33,19 +33,7 @@ Leaky PGP Outlook plug-in
 PGP 7.03 and 7.04, widely used plug-ins for Microsoft's Outlook
 e-mail client, inadvertently weakens security and leaves the mail
 program open to attack. Fortunately, there is a patch available.
-<!--<IMG height=20 alt="Software Mailbag" src="http://a.r.tv.com/cnet.1d/i/nl/sw/rhc_mail.gif" width=150 border=0 NOSEND="1">
-Are Web-based e-mail accounts less virus-prone than Outlook?
->Is it true that if I use a Web-based e-mail service such as
->Yahoo I will be safe from Outlook-related viruses? --Charles M.
-No. Many new viruses do not require a PC-based e-mail client such
-as Outlook in order to spread. These new viruses, including 
-Klez, have their own e-mail client (SMTP) and can find e-mail
-addresses within cached Web pages on an infected machine,
-bypassing the need to use Outlook's Address Book. Larger
-Web-based e-mail services, such as Hotmail and Yahoo Mail, screen
-mail hosted on their sites for viruses, but there is no beating
-having a good antivirus product on your desktop just in case.
--->
+
  Digital photography starter kitThis guide to digital photos will show you the best products to take your images from snap to finish.
 	• Panasonic's littlest Lumix
 	• Minolta"s 4-megapixel Dimage F100
@@ -57,16 +45,7 @@ having a good antivirus product on your desktop just in case.
 	4. Canon PowerShot A40
 	5. Sony Cyber Shot DSC-F707
   See all most popular cameras
-<!--Horizontal Brick
-<IMG border=0 height=20 src="http://home.cnet.com/Ads/Media/Images/RHC_ALSOfromCNETnet.gif" width=150 
-NOSEND="1">  
- <A 
-        href="http://www.tech24.com/cnet.asp?tag=st.nl.horizontal.xpro-txt.ba_th">Live tech help: submit your question now <A 
-        href="http://news.com.com/1200-1120-933954.html?tag=st.nl.horizontal.xpro-txt.newsvision">CNET News.com: Top CIOs on the future of IT <A 
-        href="http://www.cnet.com/techjobs/0-7067.html?tag=st.nl.horizontal.xpro-txt.tj">Find a job you love: more than 1 million postings <A 
-        href="http://www.cnet.com/go/to?tag=st.nl.horizontal.xpro-txt&destURL=http://techupdate.zdnet.com/techupdate/stories/main/0,14179,2868051,00.html">ZDNet: This IT director has had enough of Microsoft <A 
-        href="http://electronics.cnet.com/electronics/0-9400734-1304-8810525.html?tag=st.nl.horizontal.xpro-txt.ba_ed">May Editors' Choice Award: Pioneer Home Theater System HTS-910DV
-End Horizontal Brick-->
+
   
  Search 
   In SoftwareAll CNET    The Web

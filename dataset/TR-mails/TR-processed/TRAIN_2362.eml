@@ -114,10 +114,7 @@ the HTML taken directly from the above URL.  Clues:
      woulduct': 0.01;  themail addr:digicool': 0.01;  themail name:paul':
     0.01; 'everitt': 0.01; 'exist,': 0.01; 'forwards': 0.01;
     'framework': 0.01; 'from:email addr:digicool': 0.01; 'from:email
-    name:<paul': 0.01; 'from:paul': 0.01; 'height': 0.01;
-    'hodge-podge': 0.01; 'http0:deja': 0.01; 'http0:zope': 0.01;
-    'http1:[st_rn': 0.01; 'http1:comp': 0.01; 'http1:getdoc': 0.01;
-    'http1:ps]': 0.01; 'http>1:22': 0.01; 'http>1:24': 0.01;
+    name:1:22': 0.01; 'http>1:24': 0.01;
     'http>1:57': 0.01; 'http>1:an': 0.01; 'http>1:author': 0.01;
     'http>1:fmt': 0.01; 'http>1:getdoc': 0.01; 'http>1:pr': 0.01;
     'http>1:products': 0.01; 'http>1:query': 0.01; 'http>1:search':
@@ -165,15 +162,7 @@ the HTML taken directly from the above URL.  Clues:
     'http>1:post': 0.99; 'http>1:ps': 0.99; 'http>1:site': 0.99;
     'http>1:st': 0.99; 'http>1:title': 0.99; 'http>1:yahoo': 0.99;
     'inc.': 0.99; 'jobs!': 0.99; 'normal;': 0.99; 'nowrap': 0.99;
-    'nowrap>': 0.99; 'nowrap><font': 0.99; 'padding:': 0.99;
-    'rowspan=2': 0.99; 'rowspan=3': 0.99; 'servlets,': 0.99;
-    'size=15': 0.99; 'size=35': 0.99; 'skip:< 10': 0.99; 'skip:b 60':
-    0.99; 'skip:h 110': 0.99; 'skip:h 170': 0.99; 'skip:h 200': 0.99;
-    'skip:h 240': 0.99; 'skip:h 250': 0.99; 'skip:h 290': 0.99;
-    'skip:v 40': 0.99; 'solid;': 0.99; 'text=#000000': 0.99; 'to':
-    0.99; 'type="image"': 0.99; 'type="text"': 0.99; 'type=hidden':
-    0.99; 'type=image': 0.99; 'type=radio': 0.99; 'type=submit': 0.99;
-    'type=text': 0.99; 'valign=top': 0.99; 'valign=top>': 0.99;
+    'nowrap>': 0.99; 'nowrap>': 0.99;
     'value="">': 0.99; 'visibility:': 0.99; 'width:': 0.99;
     'width="33"': 0.99; 'width=1': 0.99; 'width=100%': 0.99;
     'width=100%>': 0.99; 'width=12': 0.99; 'width=125': 0.99;
