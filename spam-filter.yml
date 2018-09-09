@@ -1,0 +1,7 @@
+name: spam-filter
+dependencies:
+- python=3.6
+- pip
+- pip:
+  - beautifulsoup4
+  - nltk
