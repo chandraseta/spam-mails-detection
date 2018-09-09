@@ -1,5 +1,5 @@
 dumb question: X client behind a firewall?
-Let's say you're behind a firewall and have a NAT address.
+let us say you are behind a firewall and have a NAT address.
 Is there any way to telnet to a linux box out there in the world
 and set your DISPLAY in some way that you can create
 xterms on your own screen?

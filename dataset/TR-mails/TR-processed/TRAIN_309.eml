@@ -13,19 +13,19 @@ ormatted
 > >=20
 > > I know how to do this in PL/I=2C but despite having spent the last two =
 hours
-> > paging through a C language reference manual=2C I couldn't find any exa=
+> > paging through a C language reference manual=2C I could not find any exa=
 mples
 > > of overlaying two structures.  I did find reference to something called
-> > a union=2C but I don't have enough knowledge to know what to do.  Does
+> > a union=2C but I do not have enough knowledge to know what to do.  Does
 > > anyone know how to do this?
 > >=20
 >=20
 > union is exactly what you need.
 >=20
-Yes thats absolutely right. Remember since C is a powerful=2C low level=2C =
+Yes that is absolutely right. Remember since C is a powerful=2C low level=2C =
 and untyped programming language untagged unions are consider unsafe.
 Good luck though!=20
-> "I'm feeling lucky" sample c code union
+> "I am feeling lucky" sample c code union
 >=20
 > http://www.wellho.net/resources/ex.php4?item=3Dc209/union.c
 >=20

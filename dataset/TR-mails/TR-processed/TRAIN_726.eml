@@ -13,7 +13,7 @@ by using a Custom printer and sending the job to KPrinter works so this
 seems to be a clear bug in how Acrobat is reading the PPD file and
 creating the print command.
 Has anyone else encountered this problem? Is there a workaround? If not,
-I suppose I'll need to figure out how one reports bugs for acroread to
+I suppose I will need to figure out how one reports bugs for acroread to
 Adobe.  Thanks - John
 -- 
 To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 

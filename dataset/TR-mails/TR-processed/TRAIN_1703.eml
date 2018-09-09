@@ -15,11 +15,11 @@ On Wed, 2010-05-05 at 16:41 -0400, John A. Sullivan III wrote:
 > creating the print command.
 > 
 > Has anyone else encountered this problem? Is there a workaround? If not,
-> I suppose I'll need to figure out how one reports bugs for acroread to
+> I suppose I will need to figure out how one reports bugs for acroread to
 > Adobe.  Thanks - John
 > 
 > 
-Oops! typing a little too fast.  That's appreciated help and the
+Oops! typing a little too fast.  that is appreciated help and the
 PageRegion is preceded by -o and not -p - John
 -- 
 To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 

@@ -9,7 +9,7 @@ On Sun, May 09, 2010 at 06:46:20PM +0200, Merciadri Luca wrote:
 >   libavdevice version: 52.0.0
 >   built on Jan 28 2010 20:57:25, gcc: 4.3.2
 > [x11grab @ 0xb7f7fec8]device: :0.0 -> display: :0.0 x: 0 y: 0 width: 352 height: 288
-> [x11grab @ 0xb7f7fec8]AVParameters don't have video size and/or rate. Use -s and -r.
+> [x11grab @ 0xb7f7fec8]AVParameters do not have video size and/or rate. Use -s and -r.
 > :0.0: I/O error occured
 > Usually that means that input file is truncated and/or corrupted.
 > ==
@@ -24,15 +24,15 @@ On Sun, May 09, 2010 at 06:46:20PM +0200, Merciadri Luca wrote:
 >   libavdevice version: 52.0.0
 >   built on Jan 28 2010 20:57:25, gcc: 4.3.2
 > [x11grab @ 0xb7eb7ec8]device: :0.0+10,20 -> display: :0.0 x: 10 y: 20 width: 352 height: 288
-> [x11grab @ 0xb7eb7ec8]AVParameters don't have video size and/or rate. Use -s and -r.
+> [x11grab @ 0xb7eb7ec8]AVParameters do not have video size and/or rate. Use -s and -r.
 > :0.0+10,20: I/O error occured
 > Usually that means that input file is truncated and/or corrupted.
 > ==
 Simply look at that line:
-> [x11grab @ 0xb7eb7ec8]AVParameters don't have video size and/or rate. Use -s and -r.
+> [x11grab @ 0xb7eb7ec8]AVParameters do not have video size and/or rate. Use -s and -r.
 As far as you have size (-s parameter)  specified already, you only need to add
 frame rate (-r). Following command should work fine:
-$ ffmpeg -f x11grab -s cif -r 24 -i :0.0 /tmp/out.mpg
+$ ffmpeg -f x11grab -s cif -are 24 -i :0.0 /tmp/out.mpg
 -- 
 Regards,
 Alexander Batischev

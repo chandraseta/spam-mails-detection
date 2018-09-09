@@ -2,7 +2,7 @@ Re: Where to find setup for env variable?
 Liam O'Toole  writes:
 > On 2010-04-14, Paul Chany  wrote:
 >> I have setup somewhere the JAVA_HOME environment variable, but
->> don't know where?
+>> do not know where?
 > ---SNIP---
 >
 > Maybe /etc/environment?

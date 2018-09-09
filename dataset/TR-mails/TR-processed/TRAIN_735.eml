@@ -10,7 +10,7 @@ On Apr 16, 2010, at 16:12, Schindler Karl-Michael wrote:
 > Am 17.04.2010 um 00:42 schrieb Jeremy Huddleston:
 >=20
 >> Are you running your application while X11 is already running (launch =
-X11.app but don't start an xterm), or are you using it to launch X11 =
+X11.app but do not start an xterm), or are you using it to launch X11 =
 (from Terminal.app using the launchd $DISPLAY socket)?
 >=20
 >=20

@@ -18,7 +18,7 @@ e
 >=20
 >=20
 > > Since we are on
-> > Lenny, we are on KDE 3.5 and we'd like to keep it that way until KDE4
+> > Lenny, we are on KDE 3.5 and we would like to keep it that way until KDE4
 > > matures a bit more.  How are Lenny users handling the crippling bugs?=20
 >=20
 >=20
@@ -40,7 +40,7 @@ e
 e
 > > interpreted as UTC.  Thus, all appointments are offset by our offset
 > > from UTC.  This is the bug which is rendering it unusable and is
-> > apparently well known.  I can't believe this is broken in a production
+> > apparently well known.  I cannot believe this is broken in a production
 > > system.
 > >=20
 > > Malformed URIs: Calendar requests via IMAP are requesting

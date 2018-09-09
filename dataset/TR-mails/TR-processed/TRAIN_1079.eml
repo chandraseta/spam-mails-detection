@@ -11,7 +11,7 @@ Re: Kde 3.5 ...
 >
 Actually, I personally have not. However, this was actually the design
 goal of Qt4 and many users have tested and reported lower memory usage
-in KDE 4 compared to KDE 3. I don't know about CPU, though.
+in KDE 4 compared to KDE 3. I do not know about CPU, though.
 Also, the last time I ran KDE 3.5.10 it felt was noticeably lagging
 compared to my then-current KDE 4.3 setup on the same hardware. Note
 that the KDE 4.3 even had quite a few other apps installed, and the

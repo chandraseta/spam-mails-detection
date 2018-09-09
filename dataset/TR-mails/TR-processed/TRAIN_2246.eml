@@ -21,7 +21,7 @@ and donors are needed to help defray the costs of holding DebConf10 as
 Raphael Geissert wrote on his blog [6].
    6 : http://my.opera.com/atomo64/blog/2010/05/04/debconf10-needs-your-help
 Joey Hess also blogged about DebConf10 [7] saying "Let us get you to
-DebConf -- I promise you won't regret it!" There is still time (you have
+DebConf -- I promise you will not regret it!" There is still time (you have
 until the 15th of May) to contact Joey about this year's special funding
 to get you to DebConf10.
    7 : http://kitenet.net/~joey/blog/entry/Sponsoring_non-regulars_for_DebConf10/
@@ -39,16 +39,16 @@ have done so before May 21st."
 The release team is already working on some transitions now, like Qt4
 and gnome-desktop, which are finished. The KDE team is working on KDE
 4.4 with the goal of having as up-to-date and stable version of the KDE
-suite as is possible. To quote Adam: "We're also close to completing the
-evince / totem-pl-parser transition, which means we're well on the way
+suite as is possible. To quote Adam: "we are also close to completing the
+evince / totem-pl-parser transition, which means we are well on the way
 to have GNOME 2.30 in Squeeze."
 "Even though the descending slope of theRC bug graph [8] is pretty
 impressive [2], we still have about 400 RC bugs in Squeeze. Some of them
 are waiting for packages to transition from unstable to testing, but
-there's still a large number which need working on. On this every DD can
+there is still a large number which need working on. On this every DD can
 help out by NMUing packages which are currently affected by RC bugs.
 Please remember that releasing is a collective effort and it is not
-enough to just have your own packages RC-bug free (although it's a good
+enough to just have your own packages RC-bug free (although it is a good
 start) to be able to release. So, if you can help, please choose an RC
 bug [9], fix it :-) and NMU it, possibly to the DELAYED queue so that
 the maintainer can react if needed."
@@ -111,7 +111,7 @@ Administrators and the Debian Account Managers.
    21 : http://lists.debian.org/debian-devel-announce/2010/05/msg00001.html
 Debian New Maintainer Frontdesk Member Enrico Zini reminded [22]
 Developers on how to properly advocate applicants for the new maintainer
-process. While advocation message don't need to be cumbersome and long,
+process. While advocation message do not need to be cumbersome and long,
 he highlights that only persons, who already have actively contributed
 to Debian should be advocated.
    22 : http://lists.debian.org/debian-devel-announce/2010/05/msg00003.html
@@ -392,7 +392,7 @@ Want to continue reading DPN?
 -----------------------------
 Please help us create this newsletter. We still need more volunteer
 writers to watch the Debian community and report about what is going on.
-Please see the contributing page [143] to find out how to help. We're
+Please see the contributing page [143] to find out how to help. we are
 looking forward to receiving your mail at
 debian-publicity@lists.debian.org [144].
    143 : http://wiki.debian.org/ProjectNews/HowToContribute

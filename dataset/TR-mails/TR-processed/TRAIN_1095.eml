@@ -29,7 +29,7 @@ On 5/15/10 10:34 AM, Chris Austin wrote:
 >         Option      "ZAxisMapping" "4 5 6 7"
 > EndSection
 >
-> I ran X -config /root/xorg.conf.new to test the new xorg.conf, but the new mouse was still nonfunctional.  It was plugged into Serial port 1, and I also tried going into the BIOS and altering Onboard Serial Port A from 3f8h/COM1 to Auto, but this didn't help either.
+> I ran X -config /root/xorg.conf.new to test the new xorg.conf, but the new mouse was still nonfunctional.  It was plugged into Serial port 1, and I also tried going into the BIOS and altering Onboard Serial Port A from 3f8h/COM1 to Auto, but this did not help either.
 >
 > Are serial mice supported in Lenny?
 >

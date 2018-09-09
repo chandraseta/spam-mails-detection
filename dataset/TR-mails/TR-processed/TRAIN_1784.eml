@@ -18,7 +18,7 @@ Ben Mord wrote:
 >     interested in applying it to the security problem. Unfortunately,
 >     you hit a bunch of problems:
 >
->         * When can you "commit" a state as being "good"?  You can't
+>         * When can you "commit" a state as being "good"?  You cannot
 >           run from a redo log forever; the performance and storage
 >           penalties accumulate. Even log structured file systems
 >           garbage collect eventually. So you have to commit sometime.
@@ -42,7 +42,7 @@ Ah. In that case, you can use something considerably less powerful than
 VMWare. All you need is a machine configured to boot from CD-ROM and use 
 a RAM disk for scratch space. Numerous Linux distros are available that 
 let you boot a stateless but functional system from CD-ROM.
-> Obviously, you can't do this with partitions that accrue important 
+> Obviously, you cannot do this with partitions that accrue important 
 > state, e.g. a partition that stores database table data.
 ... but if you *do* want some state to persist, then you need a 
 mountable writable partition. To protect it, you need some kind of 

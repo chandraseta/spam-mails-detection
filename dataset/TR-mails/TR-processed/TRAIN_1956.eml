@@ -6,18 +6,18 @@ On Wed, May 12, 2010 at 19:40, Snood  wrote:
 >
 >> On 5/12/2010 6:49 AM, Snood wrote:
 >>
->>  I'm looking forward to seeing if nouveau will be an improvement,
+>>  I am looking forward to seeing if nouveau will be an improvement,
 >>> performance-wise, without causing reliability issues.
 >>>
 >>> I am, however, going to wait and install nouveau the easy way, once the
 >>> upgrade to xserver-xorg-core becomes available in the repository. If
->>> this weren't my main system I might be tempted to experiment, but I just
+>>> this were not my main system I might be tempted to experiment, but I just
 >>> need this thing to keep working.
 >>>
 >>
 >>
 >> People running non-stable (even squeeze) are going to run into problems
->> now and then. It's an unavoidable certainty. nouveau is, well, new.
+>> now and then. it is an unavoidable certainty. nouveau is, well, new.
 >> There are going to be problems with it.
 >>
 >
@@ -27,8 +27,8 @@ On Wed, May 12, 2010 at 19:40, Snood  wrote:
 > drivers. Never with nv or vesa. I think this is, perhaps, more a measure of
 > the card itself than the drivers. But I know a number of people with "high
 > end" graphics cards from nvidia who have reported the same sorts of issues
-> that I saw. It doesn't really matter much as these particular systems are no
-> longer used as graphics workstations. As they've aged we stuck Linux on them
+> that I saw. It does not really matter much as these particular systems are no
+> longer used as graphics workstations. As they have aged we stuck Linux on them
 > and use them as admin workhorses, a job for which they are admirably suited
 > because of all of the screen real estate.
 >

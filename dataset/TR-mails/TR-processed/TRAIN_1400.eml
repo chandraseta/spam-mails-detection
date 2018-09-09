@@ -12,7 +12,7 @@ his
 >
 > Just a stupid question, can Debian see this modem?
 > Do the following for a start just to see if Debian can see it :
-> dmesg | more | grep --color -A1 'dev'
+> dmesg | more | grep --color -A1  wouldev'
 >
 > It is a simple command but at least you will see if it is recognised
 >
@@ -26,7 +26,7 @@ his
 >> X-Loop: debian-user@lists.debian.org
 >>
 >> i had done that once and documented it at=C2=A0http://umarzuki.org/blogk=
-u/?p=3D174
+you/?p=3D174
 >>
 >> P/S: use google translate to translate from Malay to English
 >>

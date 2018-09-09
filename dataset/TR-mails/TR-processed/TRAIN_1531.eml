@@ -9,15 +9,15 @@ On Fri, May 21, 2010 at 11:41:38AM -0500, John Hasler uttered:
 > In any case, a few weeks is not old.
 It is on a fast moving target, and especially in the case of a major
 release. Many improvements are rolled into the recent 6.x release.
-If Debian isn't going to keep up with the current trunk; then there
-really is no point in packaging it here. As it stands I'm not going to
+If Debian is not going to keep up with the current trunk; then there
+really is no point in packaging it here. As it stands I am not going to
 go backwards a full version, so I have reverted to the PPA builds.
-I don't feel that it's necessary to package it daily, but
-weekly should be done as that's the release cycle that Google-Chrome
+I do not feel that it is necessary to package it daily, but
+weekly should be done as that is the release cycle that Google-Chrome
 Developer version usually follows.
 For those of use that also use Debian on a desktop/Laptop BESIDES a
-server; using old versions isn't usually desireable on the
-workstations where stability isn't as necessary as that of a
+server; using old versions is not usually desireable on the
+workstations where stability is not as necessary as that of a
 production server.
 -- 
 To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 

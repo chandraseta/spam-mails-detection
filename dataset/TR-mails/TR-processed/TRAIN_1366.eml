@@ -1,7 +1,7 @@
 Does QTVisualContextCopyImageForTime block?
-The documentation isn't clear, will QTVisualContextCopyImageForTime() =
-block or just return nil if the data isn't there yet.
-I'm iterating a movie frame by frame from a secondary thread. Rather =
+The documentation is not clear, will QTVisualContextCopyImageForTime() =
+block or just return nil if the data is not there yet.
+I am iterating a movie frame by frame from a secondary thread. Rather =
 than polling/spinning on QTVisualContextIsNewImageAvailable() for each =
 frame, can I just CopyImageForTime() and let it block until the data is =
 available? The alternative is to install a hook via =

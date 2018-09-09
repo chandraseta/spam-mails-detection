@@ -1,7 +1,7 @@
 Re: XQuartz 2.5.0_rc2
 I too have been having issues with gl stuff (work just added some 3d =
 stuff recently to our software). I just figured it was unsupported.=20
-I'm running (under VMWare) a Fedora 12 x86_64 VM (no VMWare tools =
+I am running (under VMWare) a Fedora 12 x86_64 VM (no VMWare tools =
 installed)... I use ssh -X from OSX to the VM.. I then tried the line =
 you suggested:=20
 [john@subvale ~]$ LIBGL_ALWAYS_INDIRECT=3D1 glxgears
@@ -28,12 +28,12 @@ On Apr 7, 2010, at 10:49 PM, Jeremy Huddleston wrote:
 > On Apr 7, 2010, at 19:17, James Gunning wrote:
 >=20
 >> Dear Jeremy,
->>                 thanks for all your great work on Xquartz. I'm =
+>>                 thanks for all your great work on Xquartz. I am =
 running the latest 2.5.0.
 >> I wonder if you can send to the list some clarification (or a URL) =
 about remote openGL.
 >>=20
->> I find at present I can't get a glxgears from a remote linux box to =
+>> I find at present I cannot get a glxgears from a remote linux box to =
 work
 >> with any combination of=20
 >> LIBGL_ALWAYS_SOFTWARE
@@ -45,7 +45,7 @@ work
 >> With LIBGL_ALWAYS_INDIRECT unset
 >> glxinfo gives me
 >> name of display: localhost:10.0
->> Error: couldn't find RGB GLX visual or fbconfig
+>> Error: could not find RGB GLX visual or fbconfig
 >>=20
 >> with LIBGL_ALWAYS_INDIRECT set, glxinfo seems OK:
 >> ...
@@ -66,7 +66,7 @@ operation)
 >>=20
 >> In previous versions, I got remote openGL to work OK via =
 LIBGL_ALWAYS_INDIRECT.
->> I'm doubtless confused. Any clarifications welcome.
+>> I am doubtless confused. Any clarifications welcome.
 >>=20
 >> Very best wishes,=20
 >>        James.

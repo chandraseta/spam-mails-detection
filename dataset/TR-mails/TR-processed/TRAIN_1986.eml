@@ -1,9 +1,9 @@
 Re: [SAtalk] getting single-user spam assassin to work in FreeBSD
     default install
 "Clark C . Evans" said:
-> Hello.  I'm hosted on a FreeBSD box where I can't modify the
+> Hello.  I am hosted on a FreeBSD box where I cannot modify the
 > local Perl installation.  I downloaded and installed procmail
-> in my home directory, and now I'm trying to get spamassassin to work...
+> in my home directory, and now I am trying to get spamassassin to work...
 > 
 > bash-2.05$ perl Makefile.PL PREFIX=/home/cce SYSCONFDIF=/home/cce/etc
 > Warning: prerequisite HTML::Parser 0 not found at (eval 1) line 219.

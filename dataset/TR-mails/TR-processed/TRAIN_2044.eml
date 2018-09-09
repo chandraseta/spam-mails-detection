@@ -9,7 +9,7 @@ On 11 May 2010 00:20, Facundo Aguilera  wrote:
 >> fixed.
 >
 > The old problem using proxies with kopete and kmail. They do not use the
-> general settings in systemsettings and can't be configured in any other w=
+> general settings in systemsettings and cannot be configured in any other w=
 ay.
 >
 Thanks, Facundo. It seems that the proxy configuration is only for kio slav=

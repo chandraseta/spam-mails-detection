@@ -3,14 +3,14 @@ Re: [ILUG] Newbie seeks advice - Suse 7.2
 > I downloaded a driver from the nVidia website and installed it using RPM.
 > Then I ran Sax2 (as was recommended in some postings I found on the net),
 but
-> it still doesn't feature my video card in the available list. What next?
+> it still does not feature my video card in the available list. What next?
 hmmm.
 Peter.
 Open a terminal and as root type
 lsmod
 you want to find a module called
 NVdriver.
-If it isn't loaded then load it.
+If it is not loaded then load it.
 #insmod NVdriver.o
 Oh and ensure you have this module loaded on boot.... else when you reboot
 you might be in for a nasty surprise.
@@ -28,7 +28,7 @@ Section "Module"
  Load  "xie"
  Load  "pex5"
  Load  "glx"
- SubSection "dri"    #You don't need to load this Peter.
+ SubSection "dri"    #You do not need to load this Peter.
   Option     "Mode" "666"
  EndSubSection
  Load  "dbe"

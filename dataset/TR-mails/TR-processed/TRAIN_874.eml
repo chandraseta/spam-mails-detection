@@ -20,7 +20,7 @@ huge
 Servers")
 > > ?????
 >
-> 15 seconds is more than enough timeout... There's no request/minute limit,
+> 15 seconds is more than enough timeout... there is no request/minute limit,
 > and we are not close to hardware limits on any of the servers.
 >
 > Could you send me relevant sections from the log file as well as
@@ -81,9 +81,9 @@ whitelist              = razor-whitelist
 Realizing that the above, after looking at it, is pretty much no help,
 changed debug to 9 and output the results to a text file. It is attached but
 the crux of the messages resemble:
-Jul 31 23:11:14.633544 check[5689]: [ 7] Can't read file
+Jul 31 23:11:14.633544 check[5689]: [ 7] cannot read file
 servers.discovery.lst, looking relatve to
-Jul 31 23:11:14.634218 check[5689]: [ 5] Can't read file
+Jul 31 23:11:14.634218 check[5689]: [ 5] cannot read file
 /servers.discovery.lst: No such file or directory
  or
 Jul 31 23:07:19.115412 check[26156]: [ 6] no discovery listfile:

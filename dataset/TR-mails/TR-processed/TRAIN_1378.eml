@@ -1,4 +1,4 @@
-I Can't Wait Anymore!
+I cannot Wait Anymore!
 if (window.Event) // Only Netscape will have the CAPITAL E.
   document.captureEvents(Event.MOUSEUP); // catch the mouse up event
 function nocontextmenu()  // this function only applies to IE4, ignored ot=

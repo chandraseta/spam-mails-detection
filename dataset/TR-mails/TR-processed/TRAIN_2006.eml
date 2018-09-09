@@ -1,7 +1,7 @@
 Re: Is this possible ?
 export@hope.cz wrote:
 > Is this possbile?
-Look at IP address spoofing techniques, it's a broad subject.  I would 
+Look at IP address spoofing techniques, it is a broad subject.  I would 
 consider identifying the client at the application level though (add support 
 for this to your protocol), if possible.
 -thib

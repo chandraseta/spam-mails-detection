@@ -6,7 +6,7 @@ Hugo Vanwoerkom wrote:
 >> I just made the mistake of my life and upgraded mc from 
 >> 2:4.6.2~git20080311-4 to 3:4.7.0.1-1.
 >>
->> And the new color scheme is enough to cause instant blindness :-(
+>> And the new color scheme is enough to because instant blindness :-(
 >> No kidding!
 >>
 >> How do I get back to what I had?
@@ -19,7 +19,7 @@ Hugo Vanwoerkom wrote:
 > 
 > darkfar - black background
 > default - the old default: blue background
-> double-lines - like default but with double lines. Couldn't get that to 
+> double-lines - like default but with double lines. could not get that to 
 > work
 > featured - like double-lines
 > gotar - black backround
@@ -31,10 +31,10 @@ Hugo Vanwoerkom wrote:
 > 
 > I found no skins anywhere with my choice for years: white background.
 > 
-> So it's back to the old blue default because it takes days of diddling 
+> So it is back to the old blue default because it takes days of diddling 
 > to make up a skin.
 > 
-I've complained about it on the mc userlist:
+I have complained about it on the mc userlist:
 http://mail.gnome.org/archives/mc/2010-April/msg00024.html
 Hugo
 -- 

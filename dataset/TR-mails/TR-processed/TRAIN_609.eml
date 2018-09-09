@@ -2,19 +2,19 @@ Re: Hard crashes in java.util.zip.ZipFile.getEntry (radar 7972090)
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 On May 17, 2010, at 9:15 AM, Chas Emerick wrote:
-> I see that a new Java update is in the wings, but I don't see  
+> I see that a new Java update is in the wings, but I do not see  
 > anything in the release notes that might be related to the problem  
 > described in the noted radar report.
 >
-> I thought I'd post here and see if anyone in the know could comment  
-> on that report.  I'm about to start downgrading and attempting to  
+> I thought I would post here and see if anyone in the know could comment  
+> on that report.  I am about to start downgrading and attempting to  
 > get back to a stable environment (the crashes are getting too  
-> frequent to bear), but if there's any chance a fix can get into  
-> update 7, then I'd hold off.
+> frequent to bear), but if there is any chance a fix can get into  
+> update 7, then I would hold off.
 >
-Can't comment to that. As far as I know 'anyone in the know' would  
+cannot comment to that. As far as I know 'anyone in the know' would  
 have to be Apple or the originator to view that radar.
-You don't indicate the situation where you run into the bug. Have you  
+You do not indicate the situation where you run into the bug. Have you  
 considered using anything besides Sun java.util.zip?
 This for one turned up quickly looking for (googling)
 java.util.zipfile compatible

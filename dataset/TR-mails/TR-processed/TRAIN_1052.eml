@@ -1,4 +1,4 @@
-Re: can't determine affected package
+Re: cannot determine affected package
 From nobody Sun Sep  9 13:55:01 2018
 Content-Type: text/plain; charset=ISO-8859-1
 Content-Transfer-Encoding: quoted-printable
@@ -25,7 +25,7 @@ tadziu wrote:
 >>
 >> tadziu wrote:
 >>    =20
->>> it's a simple reproduction of this bug:
+>>> it is a simple reproduction of this bug:
 >>>
 >>> https://bugs.launchpad.net/ubuntu/+source/linux/+bug/329645
 >>>
@@ -33,7 +33,7 @@ tadziu wrote:
 e
 >>> kernels up to 2.6.34 (not tested yet). can someone tell mi how to
 >>> send a bug report in that case? launchpad service seems little
->>> easier since it doesn't reqiure exact package ;)
+>>> easier since it does not reqiure exact package ;)
 >>>
 >>> thanks in advance and all the best
 >>> t.

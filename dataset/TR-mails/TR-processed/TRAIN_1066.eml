@@ -8,7 +8,7 @@ On Fri,07.May.10, 15:49:27, Ron Johnson wrote:
 > >That seemed a lot simpler than fetchmail withh the certificates.
 >=20
 > Maybe the certificates are already somewhere in /usr/share?
-IIUC getmail doesn't check the certificates.
+IIUC getmail does not check the certificates.
 Regards,
 Andrei
 --=20

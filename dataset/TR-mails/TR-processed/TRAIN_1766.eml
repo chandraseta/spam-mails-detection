@@ -30,9 +30,9 @@ On Fri, 30 Apr 2010 06:47:13 -0400 (EDT), Jan Willem Stumpel wrote:
 > e.g. 2.6.29-2, gets the old (proper) behaviour back.
 > 
 > Configuration error? Or bug? If the latter, which package?
-I think that this is a bug, but I don't know where.  I'm
+I think that this is a bug, but I do not know where.  I am
 guessing that it has something to do with KMS in newer kernels.
-But that's just a guess.  I do a lot of work in the text
+But that is just a guess.  I do a lot of work in the text
 consoles.  I often use an 80x50 video mode
 (via the VGA option of lilo), which generally
 works everywhere.  Anyway, I was not happy with the fonts provided

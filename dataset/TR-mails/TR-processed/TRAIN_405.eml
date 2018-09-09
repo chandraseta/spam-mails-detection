@@ -5,6 +5,6 @@
   >> mboxtest.MyTokenizer.tokenize_headers().  This uses all headers
   >> except Received, Data, and X-From_.  ...
   TP> Try the latter again, but call the base tokenize_headers() too.
-Sorry.  I haven't found the time to try any more test runs.  Perhaps
+Sorry.  I have not found the time to try any more test runs.  Perhaps
 later today.
 Jeremy

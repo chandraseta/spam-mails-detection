@@ -1,26 +1,26 @@
 Re: RH 8 no DMA for DVD drive
 On Mon, 2002-10-07 at 19:36, Matthias Saou wrote:
-> > Eek.  Maybe it's just me, but I don't think that's a good idea. 
+> > Eek.  Maybe it is just me, but I do not think that is a good idea. 
 > > Outputting a message in %post and providing a README of some kind would
 > > be better, as well as perhaps adding a note in %description.
 > 
 > Why "Eek"? :-)
-> If no /dev/dvd exists, it'll create it.
-> If /dev/dvd exists, it won't touch it.
-I assume that you won't %ghost or remove these and the modules.conf
+> If no /dev/dvd exists, it will create it.
+> If /dev/dvd exists, it will not touch it.
+I assume that you will not %ghost or remove these and the modules.conf
 change on uninstall, though.  So people who are installing this RPM and
 are unfortunate enough to have a DVD drive (or just an ordinary CD,
-non-DVD drive) that doesn't support DMA will be left with a system
+non-DVD drive) that does not support DMA will be left with a system
 without a working CD drive, even after removing the RPM.  And without
-ever knowing what struck them.  You can't remove the DMA setting from
-modules.conf either unless you're sure that ogle added it there and
+ever knowing what struck them.  You cannot remove the DMA setting from
+modules.conf either unless you are sure that ogle added it there and
 nothing else needs it.
-The /dev stuff isn't that dangerous, but the modules.conf change can
-be.  That's why "Eek" :)
-> If someone installs ogle (a DVD player), I'm assuming the hardware is
+The /dev stuff is not that dangerous, but the modules.conf change can
+be.  that is why "Eek" :)
+> If someone installs ogle (a DVD player), I am assuming the hardware is
 > recent enough for software playback and that the drive is a DVD-ROM... all
 > of them support DMA! But since that change requires a reboot or a manual
-> change, I'm still hesitating to integrate it :-/
+> change, I am still hesitating to integrate it :-/
 A worthy goal...
 > My goal is to allow users to install a DVD player through synaptic and play
 > DVDs in no time. Outputting a message in the %post section of a package is

@@ -10,7 +10,7 @@ On Wed, Aug 14, 2002 at 11:56:26AM +0100, Justin Mason wrote:
 > mail, which fell into Razor.
 > 
 > Looks like the fuzzy matching will hit on all confirmation mails until
-> it's whitelisted.
+> it is whitelisted.
 > 
 > just fyi,
 > 
@@ -82,6 +82,6 @@ On Wed, Aug 14, 2002 at 11:56:26AM +0100, Justin Mason wrote:
 > Razor-users@lists.sourceforge.net
 > https://lists.sourceforge.net/lists/listinfo/razor-users
 -- 
-Vipul Ved Prakash          |   "The future is here, it's just not 
+Vipul Ved Prakash          |   "The future is here, it is just not 
 Software Design Artist     |    widely distributed."
 http://vipul.net/          |              -- William Gibson

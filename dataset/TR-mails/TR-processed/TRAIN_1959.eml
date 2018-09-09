@@ -1,9 +1,9 @@
 Re: USB device attached via RS232 adaptor
 On Sun, 18 Apr 2010 22:08:16 +0300, Dotan Cohen wrote:
-> He's got a few of these connected via serial adaptors:
+> he is got a few of these connected via serial adaptors:
 > http://www.infinityusb.com/default.asp?show=productsdetail&ProductID=12
 > 
-> Why aren't they on real USB, I don't know. 
+> Why are not they on real USB, I do not know. 
 Because the device may expect a USB host controller instead a RS-232 :-?
 > I am going over there to help
 > him tomorrow, so to come prepared I started googling today. Although the

@@ -14,7 +14,7 @@ techniques for returning 'int' and 'long'.
 Conclusion: in such an ABI, machine-level code which arranges for
 callers to see an 'int' return value of 0 could easily be written such
 that a caller which expects 'long' to see something other than zero.
-Conclusion: if you're paranoid about portability, you can't assume
+Conclusion: if you are paranoid about portability, you cannot assume
 that messages to nil with a 'long' return type will return 0, with a
 strict reading of Apple's guarantees.
 And note that absolutely nothing in the above is even slightly related

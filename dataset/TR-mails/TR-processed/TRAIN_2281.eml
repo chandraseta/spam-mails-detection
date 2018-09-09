@@ -10,7 +10,7 @@ Alexander Batischev  wrote:
 > >
 > > CONCURRENCY=makefile
 > >
-> > That is it.  It will cause sysv-rc to use the startpar tool to run
+> > That is it.  It will because sysv-rc to use the startpar tool to run
 > > scripts in parallel using the dependency information stored in
 > > /etc/init.d/.depend.boot, /etc/init.d/.depend.start and
 > > /etc/init.d/.depend.stop to order the scripts.  Startpar is configured
@@ -24,8 +24,8 @@ Alexander Batischev  wrote:
 > > dependent scripts have incomplete dependencies).  Report bugs and get
 > > the package maintainers to fix it. :)
 > 
-> Well, I did that and restarted system. I didn't notice any errors, and
-> system doesn't boot faster or slower than usual. Don't know is it good
+> Well, I did that and restarted system. I did not notice any errors, and
+> system does not boot faster or slower than usual. do not know is it good
 > or bad news, though…
 The last time we discussed this, it was claimed that there will be no
 difference on single core systems:

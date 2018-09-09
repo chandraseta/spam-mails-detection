@@ -2,13 +2,13 @@ Re: C programming question
 On Thu, 15 Apr 2010 20:43:21 -0400 (EDT), Ron Johnson wrote:
 > On 2010-04-15 19:37, Stephen Powell wrote:
 >> 
->> I'm going to be filing a bug report against parted for (a) miscalculating
+>> I am going to be filing a bug report against parted for (a) miscalculating
 >> the starting block of the implicit partition on an ldl (Linux Disk Layout)
 >> formatted disk on the s390 architecture when the block size is other than
 >> 4096, and (b) no support for CMS-formatted disks.
 > 
 > If practical, I hope you file 2 bugs.
-I hear you.  I'll have to look at the code to see if that's easily separated
+I hear you.  I will have to look at the code to see if that is easily separated
 out.  I started with the purpose of adding an enhancement to support CMS
 formatted disks.  I stumbled across the bug in the starting block calculation
 for ldl formatted disks in the process.  CMS formatted disks are handled
@@ -19,7 +19,7 @@ handling reserved CMS disks.  To do that I had to access the reserved block
 offset in the CMS label, which prompted this thread.
 All of this is specific to the s390 architecture and has no bearing on i386,
 amd64, ia64, etc.  I hope upstream (GNU, I believe) will accept the fix.
-I have no reason to believe that they won't.
+I have no reason to believe that they will not.
 -- 
   .''`.     Stephen Powell    
  : :'  :

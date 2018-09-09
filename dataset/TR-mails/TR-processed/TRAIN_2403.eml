@@ -14,14 +14,14 @@ is
 >
 > Who says that=A0 you need virtuoso to run KDE4?
 KDE4 when it starts...
-> If you don't need it, you don't install it.
+> If you do not need it, you do not install it.
 nepomukserver is contained in kdebase-runtime. There is a dependency on =20
 kdebase-runtime in almost every kde4 package.
-> It's like installing debian with Oracle, and afterwards complain that =20
+> it is like installing debian with Oracle, and afterwards complain that =20
 > Debian needs Oracle... sigh...
 Except for the dependency and stuff, yes. And your post is like sticking =
 =20
-your head in the sand and then telling us what you've read.
+your head in the sand and then telling us what you have read.
 Ji=F8=ED Pale=E8ek
 > =A0
 > =A0
@@ -37,7 +37,7 @@ Ji=F8=ED Pale=E8ek
 > receive a message at login that declares Nepomuk requires virtuoso
 > soprano to work. =A0Having looked nepomuk up via Google, it seems like =
 it
-> is something from our KDE friends, but using apt-cache search I don't
+> is something from our KDE friends, but using apt-cache search I do not
 > see anything called virtuoso soprano to draw down to satisfy nepomuk.
 >
 > My question is: how does one satisfy nepomuk and/ or is nepomuk even

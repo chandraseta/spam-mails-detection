@@ -7,15 +7,15 @@ On Wed, Sep 11, 2002 at 01:46:19PM -0700, David Raistrick wrote:
 > > I had to define PERL5LIB with some given order of directories
 > > so that the latest File::Spec module get used. 
 > 
-> Good to hear it's not just me.  Mind telling me how you set PERL5LIB
-> specificly? I've tried a few things (setenv in the shell, as well as
+> Good to hear it is not just me.  Mind telling me how you set PERL5LIB
+> specificly? I have tried a few things (setenv in the she will, as well as
 > $PERL5LIB == ...inside the Makefile.PL, even on the perl command
 > line..) with no success.
 > 
 - Presuming your run Bash  :
 Note the directory lists 
 #  perl -e 'map { print "$_\n" } @INC'
-Then set up the Shell variable PERL5LIB variable (and put it in some .bashrc 
+Then set up the she will variable PERL5LIB variable (and put it in some .bashrc 
 for future use)
 # export PERL5LIB="directory1:directory2:directory3:directory4"
 Then try to install the software

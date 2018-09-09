@@ -8,11 +8,11 @@ CNET: Copycat worms and a PGP Outlook flaw
  Dear Readers,
  So far, 2002 has been a year marked with variations on earlier
 worms. If you update your antivirus software on a regular basis,
-these new versions of Frethem and Yaha shouldn't be a nuisance.
-But if you haven't updated in a while, these variants--plus the
+these new versions of Frethem and Yaha should not be a nuisance.
+But if you have not updated in a while, these variants--plus the
 continuing threat of Klez.h--should motivate you. In security
 news, a flaw in certain versions of PGP encryption could affect
-Outlook users. Read on to learn whether you're vulnerable.
+Outlook users. Read on to learn whether you are vulnerable.
 						 
 Frethem.k worm wants to give you a password
  An e-mail message that promises to reveal secret information with
@@ -36,14 +36,14 @@ program open to attack. Fortunately, there is a patch available.
 <!--<IMG height=20 alt="Software Mailbag" src="http://a.r.tv.com/cnet.1d/i/nl/sw/rhc_mail.gif" width=150 border=0 NOSEND="1">
 Are Web-based e-mail accounts less virus-prone than Outlook?
 >Is it true that if I use a Web-based e-mail service such as
->Yahoo I'll be safe from Outlook-related viruses? --Charles M.
+>Yahoo I will be safe from Outlook-related viruses? --Charles M.
 No. Many new viruses do not require a PC-based e-mail client such
 as Outlook in order to spread. These new viruses, including 
 Klez, have their own e-mail client (SMTP) and can find e-mail
 addresses within cached Web pages on an infected machine,
 bypassing the need to use Outlook's Address Book. Larger
 Web-based e-mail services, such as Hotmail and Yahoo Mail, screen
-mail hosted on their sites for viruses, but there's no beating
+mail hosted on their sites for viruses, but there is no beating
 having a good antivirus product on your desktop just in case.
 -->
  Digital photography starter kitThis guide to digital photos will show you the best products to take your images from snap to finish.

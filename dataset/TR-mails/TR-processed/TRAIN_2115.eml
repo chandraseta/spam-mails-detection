@@ -1,4 +1,4 @@
-Apt repository authentication: it's time
+Apt repository authentication: it is time
     Cliped from the latest CERT.org warning list:
 -----------------------------------------------------------------------------------------------
 "I. Description
@@ -16,8 +16,8 @@ Apt repository authentication: it's time
    encourages  users  who  may  have  downloaded the source code via HTTP
    during  this  time  period  to take the steps outlined in the Solution
    section as a precautionary measure."
-     OK, it's now time to work out the PGP securing of apt repository traffic. I've never gotten anything but "sitename.whatever will not be authenticated" until running Redhat 8.0 when I get something about having "No Key" for various files.
-    What's it take to ensure we're covered against this kind of childish/moronic/Microsoft-era problems?
+     OK, it is now time to work out the PGP securing of apt repository traffic. I have never gotten anything but "sitename.whatever will not be authenticated" until running Redhat 8.0 when I get something about having "No Key" for various files.
+    what is it take to ensure we are covered against this kind of childish/moronic/Microsoft-era problems?
 ------------------------------------------------------------------------
 Brian Fahrländer              Linux Zealot, Conservative, and Technomad
 Evansville, IN                    My Voyage: http://www.CounterMoon.com

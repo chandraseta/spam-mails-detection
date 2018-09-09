@@ -17,7 +17,7 @@ set reverse_name
 **************************************************************************
 On Tue, 30 Jul 2002, David Neary wrote:
 > I have 3 or 4 email addresses (which get used for different
-> reasons), and I'd prefer not to mix them up. So I was wondering
+> reasons), and I would prefer not to mix them up. So I was wondering
 > if anyone knows of a way that I can have mail (apart from list
 > mail, which I have already sorted) which arrives to a certain
 > e-mail address have the From: header in the reply automatically
@@ -25,7 +25,7 @@ On Tue, 30 Jul 2002, David Neary wrote:
 > 
 > For example, say I have a company, and sales@company.com,
 > info@company.com and tech@company.com arrive in the same mailbox.
-> I don't want to reply to sales@company.com mails with the From:
+> I do not want to reply to sales@company.com mails with the From:
 > set to dave@company.com, I would like the mail to come from
 > sales@company.com.
 > 

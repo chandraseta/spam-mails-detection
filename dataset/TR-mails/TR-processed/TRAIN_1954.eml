@@ -1,19 +1,19 @@
 Re: How to Find a Printer Driver?
 On Mon, 10 May 2010 15:16:21 -0400 (EDT), Kent West wrote:
 > 
-> Something I've never figured out with Debian is how to know which 
+> Something I have never figured out with Debian is how to know which 
 > package to install to get a certain printer driver.
 > 
-> I know I've printed to this HP Color Laserjet CM3530 from a Debian box 
+> I know I have printed to this HP Color Laserjet CM3530 from a Debian box 
 > before, but I have no idea what package I had installed to do so, nor 
-> what driver I chose (since I can't find the CM3530 listed in my 
+> what driver I chose (since I cannot find the CM3530 listed in my 
 > web-based CUPS setup (localhost:631)).
 > 
-> I'm unsure if I don't have the right package installed, or if I used a 
+> I am unsure if I do not have the right package installed, or if I used a 
 > different driver in the past. Google and the Debian search engines are 
 > not helping me one whit.
 > 
-> I've never really understood the relationship between printer drivers 
+> I have never really understood the relationship between printer drivers 
 > for general use and printer drivers for gutenprint (whatever that is), 
 > or the relationship between those and/or cup-driver-gutenprint and/or 
 > cupsys-driver-gutenprint (and the descriptions are less than helpful), 
@@ -21,7 +21,7 @@ On Mon, 10 May 2010 15:16:21 -0400 (EDT), Kent West wrote:
 > 
 > Thanks!
 What release of Debian are you using?  Lenny?  Squeeze?  Sid?
-I've experienced what you describe before, mainly because older releases
+I have experienced what you describe before, mainly because older releases
 of Debian used the lpr/lpd printing setup, and I used apsfilter to
 install printer drivers.  Then when I switched to a newer release of
 Debian that used CUPS, and foomatic did not have a driver for the printer,

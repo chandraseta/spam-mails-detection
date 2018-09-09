@@ -2,13 +2,13 @@ Re: [SAdev] [Bug 735] spamassassin -t lies
 On Mon, 26 Aug 2002 the voices made bugzilla-daemon@hughes-family.org write:
 > http://www.hughes-family.org/bugzilla/show_bug.cgi?id=735
 > ------- Additional Comments From br+spamassassin@panix.com  2002-08-26 09:33 -------
-> Just because it's documented doesn't mean it's a good thing.
+> Just because it is documented does not mean it is a good thing.
 >
 > I work for an ISP.  We provide SpamAssassin to our customers.  I got email
 > today from a support tech saying that "spamassassin -t" reports that a
-> message is probably spam even when it's not, and why is this, and can we
+> message is probably spam even when it is not, and why is this, and can we
 > change it?  I thought about why it is, and the only answer I could come up
-> with was, "it was easier for the programmer that way".  That's an answer, I
+> with was, "it was easier for the programmer that way".  that is an answer, I
 > guess, but her point was that this is going to generate support calls, and
 > support calls cost us time and money.
  Why would a customer use `spamassassin -t` without understanding what it does?

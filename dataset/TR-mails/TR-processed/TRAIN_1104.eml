@@ -9,7 +9,7 @@ On Mon, Feb 04, 2002 at 02:33:29PM +0200, Peter Peltonen wrote:
 > kuinka lähteä liikkeelle? Ensin kannattanee peilata varsinainen RH:n rpm:t 
 > jostain, vaan millä softalla (rsync?) ja mistä (funet?) tuo kannattaa 
 > tehdä, ajatuksia?
-I'll post my own repository story here anyway, hope no-one minds.
+I will post my own repository story here anyway, hope no-one minds.
 It may freely be commented on or used in another text.
 I have a directory like this:
 $ tree  -d
@@ -48,13 +48,13 @@ Funet hosts a whole load of mirrors and projects (it used to be (is?)
 the main mirror for Linux. It was one of the big pub ftp sites). If
 there was a definite apt repository, maybe they might mirror that as
 well. I doubt RH would be very keen on using apt and forking a
-distribution doesn't seem like an easy option, someone should just start
+distribution does not seem like an easy option, someone should just start
 a project.
 -- 
 "Barry also was quick to point out that the Titanium uses torque screws as
-opposed to Phillips screws. We're not sure why this matters even a little
+opposed to Phillips screws. we are not sure why this matters even a little
 bit, but Barry sure seemed to think it was interesting.
-That's why Mac geeks scare us." 	-- ZDNet Powerbook Titanium review 
+that is why Mac geeks scare us." 	-- ZDNet Powerbook Titanium review 
 _______________________________________________
 RPM-List mailing list 
 http://lists.freshrpms.net/mailman/listinfo/rpm-list

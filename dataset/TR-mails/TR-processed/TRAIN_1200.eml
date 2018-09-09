@@ -1,6 +1,6 @@
-[Razor-users] can't call method "log" issue - solution
+[Razor-users] cannot call method "log" issue - solution
 I see that Robert S. Wojciechowski Jr. posted about this issue on 7/26,
-but I don't see any responses. I get that error when calling razor-report
+but I do not see any responses. I get that error when calling razor-report
 from a sendmail alias, but not from the command line as a different user.
 The way I solved it was to run 
 razor-admin -create

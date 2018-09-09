@@ -5,11 +5,11 @@ godo  wrote:
 > > Hi,
 > > 
 > > I just locally installed upstream firefox, and of course Debian 
-> > Alternatives doesn't know about it, so Iceweasel, which uses 
-> > x-www-browser loads iceape, which I don't want.
+> > Alternatives does not know about it, so Iceweasel, which uses 
+> > x-www-browser loads iceape, which I do not want.
 > > 
 > > "update-alternatives --install" seems to be what I want in order to
-> > add /usr/local/firefox/firefox to the x-www-browser list, but can't
+> > add /usr/local/firefox/firefox to the x-www-browser list, but cannot
 > > get it to work.
 > > 
 > > # update-alternatives --install x-www-browser firefox \
@@ -26,9 +26,9 @@ godo  wrote:
 > update-alternatives --install /usr/bin/x-www-browser x-www-browser 
 > /home/my_username/.firefox/firefox 3
 > 
-> I didn't got any error.
+> I did not got any error.
 > 
-Wouldn't it be better if the syntax was this:
+would not it be better if the syntax was this:
 update-alternatives --install /usr/bin/x-www-browser
 x-www-browser /opt/firefox/firefox 3
 Of course, this would be making use of /opt for what it was

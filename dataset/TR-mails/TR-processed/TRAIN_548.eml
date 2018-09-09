@@ -20,8 +20,8 @@ RE: when building a rpm i386-redhat-linux- is appended to man page
 > > does not already define, but how can we override an
 > > existing switch?
 > 
-> Well, %configure doesn't define "--program-prefix=", so that's why it
-> works. Maybe you thought that was an example, but no, it's 
+> Well, %configure does not define "--program-prefix=", so that is why it
+> works. Maybe you thought that was an example, but no, it is 
 > the exact syntax
 > to use as a workaround ;-)
 > 

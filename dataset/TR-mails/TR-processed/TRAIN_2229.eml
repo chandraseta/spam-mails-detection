@@ -7,9 +7,9 @@ Carlos Mennens schreef:
 >  wrote:
 >> Everything in the 64 bit section is 64 bit, except the ia32 compabilit=
 y
->> libraries. If you make sure you haven't installed those (which should =
+>> libraries. If you make sure you have not installed those (which should =
 be the
->> case on a base system that doesn't need those), then you have a fully =
+>> case on a base system that does not need those), then you have a fully =
 64 bit
 >> system.
 >=20

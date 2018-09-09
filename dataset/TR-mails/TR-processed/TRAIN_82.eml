@@ -9,10 +9,10 @@ On 04/07/2010 06:48 PM, Mike Swingler wrote:
 >> can post sources if needed). It works fine while in regular Swing JFrame
 >> but it fails to work when added to modal JDialog - events are blocked
 >> apparently. WebKit view shows properly, but if I request a page to be
->> loaded into it it's not loaded and FrameLoaderDelegate does not get
+>> loaded into it it is not loaded and FrameLoaderDelegate does not get
 >> didFinishLoadForFrame nor didFail* calls.
 >>
->> I wasn't able to find much about this issue in Google/Apple mailing
+>> I was not able to find much about this issue in Google/Apple mailing
 >> lists. The only thing I found was a thread from 2005 discussing nasty
 >> workaround based on having non-modal dialog with blocking loop after
 >> setVisible() call.
@@ -22,9 +22,9 @@ On 04/07/2010 06:48 PM, Mike Swingler wrote:
 >>
 >> Any ideas how to solve this problem in a clean way?
 >>      
-> I think the problem is that when an AWT-based dialog is up, the runloop is being run in a private Java-modality mode that doesn't let WebKit "events" occur the same way it lets key, mouse, and other events through. But that's just a guess.
+> I think the problem is that when an AWT-based dialog is up, the runloop is being run in a private Java-modality mode that does not let WebKit "events" occur the same way it let us key, mouse, and other events through. But that is just a guess.
 >
-> If you have reproducible test case, can you submit it to, and we can take a look and see if there isn't something we can do from within the AWT.
+> If you have reproducible test case, can you submit it to, and we can take a look and see if there is not something we can do from within the AWT.
 >
 > Thanks,
 > Mike Swingler
@@ -32,7 +32,7 @@ On 04/07/2010 06:48 PM, Mike Swingler wrote:
 > Apple Inc.
 >    
 Sure, no problem.
-I'll prepare simple example and file it to bugreporter.
+I will prepare simple example and file it to bugreporter.
 Best regards,
    Martin
  _______________________________________________

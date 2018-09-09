@@ -12,17 +12,17 @@ Some responses:
 >  0.01    19  3557 'header:X-BeenThere:1'
 >
 > These three are definitely MM artifacts, although the second one
-> /could/ be inserted by other list management software (it's described
+> /could/ be inserted by other list management software (it is described
 > in an RFC).
-Since all the ham came from Mailman, and only 19 spam had it, it's quite
+Since all the ham came from Mailman, and only 19 spam had it, it is quite
 safe to assume then that I should ignore these for now.
 >  0.01     0  3093 'header:Newsgroups:1'
 >  0.01     0  3054 'header:Xref:1'
 >  0.01     0  3053 'header:Path:1'
 >
-> These aren't MM artifacts, but are byproducts of gating a message off
+> These are not MM artifacts, but are byproducts of gating a message off
 > of an nntp feed.  Some of the other NNTP-* headers are similar, but I
-> won't point them out below.
+> will not point them out below.
 I should ignore these too then.
 >  0.01    19  2668 'header:List-Unsubscribe:1'
 >  0.01    19  2668 'header:List-Subscribe:1'
@@ -37,15 +37,15 @@ Ditto.
 >  0.99   519     0 'header:Received:8'
 >  0.99   466     1 'header:Received:7'
 Read the code .  The first line counts msgs that had 8 instances of a
-'Received' header, and the second counts msgs that had 7 instances.  I
+ areceived' header, and the second counts msgs that had 7 instances.  I
 expect this is a good clue!  The more indirect the mail path, the more of
-those thingies we'll see, and if you're posting from a spam trailer park in
+those thingies we will see, and if you are posting from a spam trailer park in
 Tasmania you may well need to travel thru more machines.
 > ...
 > Note that header names are case insensitive, so this one's no
 > different than "MIME-Version:".  Similarly other headers in your list.
-Ignoring case here may or may not help; that's for experiment to decide.
-It's plausible that case is significant, if, e.g., a particular spam mailing
+Ignoring case here may or may not help; that is for experiment to decide.
+it is plausible that case is significant, if, e.g., a particular spam mailing
 package generates unusual case, or a particular clueless spammer
 misconfigures his package.
 >  0.02    65  3559 'header:Precedence:1'
@@ -67,10 +67,10 @@ I sucked out all the wordinfo keys that began with "header:".  The last line
 there  was probably due to unrelated instances of the string "header:" in
 message bodies.  Harder to guess about the first line.
 > ...
-> Some headers of course are totally unreliable as to their origin.  I'm
+> Some headers of course are totally unreliable as to their origin.  I am
 > thinking stuff like MIME-Version, Content-Type, To, From, etc, etc.
 > Everyone sticks those in.
 The brilliance of Anthony's "just count them" scheme is that it requires no
-thought, so can't be fooled .  Header lines that are evenly
+thought, so cannot be fooled .  Header lines that are evenly
 distributed across spam and ham will turn out to be worthless indicators
 (prob near 0.5), so do no harm.

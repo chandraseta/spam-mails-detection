@@ -1,7 +1,7 @@
 How can I initialize a QTMovie object with certain attributes using
  writable data?
 Hello all,
-I'm trying to create an empty QTMovie object that I can add segments to, 
+I am trying to create an empty QTMovie object that I can add segments to, 
 and then play. This is easy to do with something like:
 movie = [[QTMovie alloc] initToWritableData:[NSMutableData 
 dataWithCapacity:1048576] error:&error];
@@ -16,7 +16,7 @@ So, I can create the QTMovie object like this:
 movie = [[QTMovie alloc] initWithAttributes:[NSDictionary 
 dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], 
 QTMovieRateChangesPreservePitchAttribute, nil] error:&error];
-Unfortunately, this is not editable. I've tried setting the 
+Unfortunately, this is not editable. I have tried setting the 
 QTMovieEditableAttribute as well on creation, but it does not help. I 
 still get an exception when I try to insert anything into this movie. I 
 presume this is because there is no writable file or data reference 

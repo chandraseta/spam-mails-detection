@@ -1,9 +1,9 @@
 Re: [SAdev] results of scorer evaluation
 Daniel Quinlan wrote:
-DQ> Before we release, it'd be great if someone could test a few
+DQ> Before we release, it would be great if someone could test a few
 DQ> additional score ranges.  Maybe we can lower FPs a bit more.  :-)
-I don't think there's much more room for lowering FPs left which the GA can 
-achieve.  Remember, also, that the AWL will reduce FPs, but its effects aren't 
+I do not think there is much more room for lowering FPs left which the GA can 
+achieve.  Remember, also, that the AWL will reduce FPs, but its effects are not 
 factored in to the GA scores.
 The work currently being done on the GA, and comparing different methods of 
 doing the score-setting, is very worthwhile, and extremely useful; however, we 
@@ -17,9 +17,9 @@ DQ>
 DQ>   for (low = -12; low <= -4; low += 2)
 DQ>     for (high = 2; high <= 6; high += 2)
 DQ>       evolve
-You could just allow low and high to be evolved by the GA (within ranges); I'd 
-be enormously surprised if it didn't end up with low=-12 and high=+6, since 
-that'd give the GA the broadest lattitude in setting individual scores.  The 
+You could just allow low and high to be evolved by the GA (within ranges); I would 
+be enormously surprised if it did not end up with low=-12 and high=+6, since 
+that would give the GA the broadest lattitude in setting individual scores.  The 
 issue with fixing low and high is not one of optimization, but rather one of 
 human-based concern that individual scores larger than about +4 are dangerous 
 and liable to generate FPs, and individual scores less than -8 are dangerous and 
@@ -27,12 +27,12 @@ liable to be forged to generate FNs.
 DQ> Maybe even add a nybias loop.
 Adding an nybias loop is not worthwhile -- changing nybias scores will just 
 alter the evaluation function's idea of what the FP:FN ratio should be.
-DQ> > AFAIK there's nothing major hanging out waiting to be checked in 
+DQ> > AFAIK there is nothing major hanging out waiting to be checked in 
 DQ> > on b2_4_0 is there?
 DQ> 
 DQ> Nope.
 Great!
-DQ> > I'll be on IM most of today, tomorrow, and monday while cranking 
+DQ> > I will be on im most of today, tomorrow, and monday while cranking 
 DQ> > on the next Deersoft product release (should be a fun one).  Hit 
 DQ> > me at:
 DQ> > 
@@ -41,8 +41,8 @@ DQ> > ICQ: 1130120
 DQ> > MSN: craig@stanfordalumni.org
 DQ> > YIM: hughescr
 DQ> 
-DQ> We've been hanging out on IRC at irc.rhizomatic.net on #spamassassin
+DQ> we have been hanging out on IRC at irc.rhizomatic.net on #spamassassin
 DQ> (the timezone difference gets in the way, though).
-I've been searching for that, but I guess the details of where the channel was 
+I have been searching for that, but I guess the details of where the channel was 
 got lost in the shuffle.
 C

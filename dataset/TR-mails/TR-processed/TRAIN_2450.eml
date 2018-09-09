@@ -11,13 +11,13 @@ On Tue, May 18, 2010 at 05:54:27PM -0500, Hugo Vanwoerkom  was heard to say:
 > >
 > >Because it decides that the grub-legacy package is unused and can be
 > >removed despite the pin.  Whether this is the right thing is debatable;
-> >I'm sure you find some bug reports about that if you dig into the long
+> >I am sure you find some bug reports about that if you dig into the long
 > >list of aptitude bugs.
 > >
 > 
 > That explains it well, thanks
-  It probably won't help, though.  If grub-legacy was unused, it would
-say "grub-legacy{u}".  Instead it says "grub-legacy{a}", indicating that
+  It probably will not help, though.  If grub-legacy was unused, it would
+say "grub-legacy{you}".  Instead it says "grub-legacy{a}", indicating that
 it was forced off the system by a conflicting package.
   Daniel
 -- 

@@ -6,7 +6,7 @@ Philip Reynolds wrote:
 >>sorry. So FreeBSD's ipfw is not encumbered in the same way the old
 >>OBSD firewalling was?
 ipfw was written specifically for FreeBSD under a bsd license by Luigi
-Rizzo, who's one of the FreeBSD whizzes.  All three of the BSD's
+Rizzo, who is one of the FreeBSD whizzes.  All three of the BSD's
 packaged IPFilter, which has been around for donkeys years and which has
 a slightly different feature set to ipfw.
 However, last year the author of IPFilter (Darren Reed) changed the
@@ -18,21 +18,21 @@ wheel and called their firewall "pf", under a full-time BSD license.
 The standard release versions of ipfilter are unencumbered, as always.
 > Nope, indeed IPFW2 has just been rolled out into -STABLE. (-STABLE
 > is a stable branch of the code that has been rolled into -CURRENT
-> first. It's basically a major release, that's still a work in
+> first. it is basically a major release, that is still a work in
 > progress)
-I'm not so sure that ipfw2 is really ready for production yet, having
-only been mfc'd last wednesday.  It certainly adds some nice syntactic
+I am not so sure that ipfw2 is really ready for production yet, having
+only been mfc would last wednesday.  It certainly adds some nice syntactic
 sugar, and is apparently much faster for certain types of complex
-rulesets.  It will be good once it's had some time to settle down a
+rulesets.  It will be good once it is had some time to settle down a
 little.
 >>i've no experience of ipfw. (closest i've come is looking at IPFilter 
->>for IRIX - but it had a problem in that it wasnt maintained 
->>anymore. however, while the englishy syntax is nice, i dont think 
+>>for IRIX - but it had a problem in that it was not maintained 
+>>anymore. however, while the englishy syntax is nice, i do not think 
 >>iptables command  syntax is a big obstacle).
 ipfilter is quite nice, and is my current o/s firewall of choice.  It
 has some nice features like the ability to save and restore state so
 that connections are persistent across reboots, and its logging is
-marginally better organised than ipfw's.  It's also very mature code,
+marginally better organised than ipfw's.  it is also very mature code,
 which appeals to the rather conservative tastes of my old age.
 Nick
 -- 

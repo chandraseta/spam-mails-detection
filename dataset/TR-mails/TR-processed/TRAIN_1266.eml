@@ -15,7 +15,7 @@ Well, Unicode, specifically the UTF-8 encoding, is generally the standard for
 modern Linux systems. Of course, as long as you are using only characters
 that are in ASCII, UTF-8 is compatible... There is also GB 18030, China's
 Unicode encoding, but again, it is ASCII compatible.
-The Win32, .NET and Java platforms all use UTF-16/USC-2 (it's complicated)
+The Win32, .NET and Java platforms all use UTF-16/USC-2 (it is complicated)
 natively, which is not ASCII and is not ASCII compatible.
 Joel's Unicode article is from 2003, but still very useful:
 http://www.joelonsoftware.com/articles/Unicode.html

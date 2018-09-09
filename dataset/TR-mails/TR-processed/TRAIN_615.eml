@@ -1,6 +1,6 @@
 Re: Mplayer
 Once upon a time, Roi wrote :
-> The new spec didn't even want to build the package
+> The new spec did not even want to build the package
 > something with config.mak
 Now that is weird! :-/
 > Also this new spec looks like the old one, it got libdv and libdv-devel

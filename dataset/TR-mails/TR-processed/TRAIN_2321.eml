@@ -1,5 +1,5 @@
 Migrate OS to smaller =?UTF-8?Q?drive=3F?=
-What's the best mechanism to migrate a working bootable system from one
+what is the best mechanism to migrate a working bootable system from one
 drive to a smaller capacity drive?
 e.g. take this 226G filesystem
 df -h

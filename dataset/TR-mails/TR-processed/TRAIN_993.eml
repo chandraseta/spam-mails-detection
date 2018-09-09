@@ -4,7 +4,7 @@ On Mon, 07 Oct 2002 08:01:24 +0200, Roi Dayan  wrote:
 > it wants to install libusb while I got it
 > (same version)
 > and all collapse because of this.
-    I had that too; I removed libusb (I don't think it needed --nodeps) and then 'apt-get -f install' and all was well.
+    I had that too; I removed libusb (I do not think it needed --nodeps) and then 'apt-get -f install' and all was well.
 ------------------------------------------------------------------------
 Brian Fahrländer              Linux Zealot, Conservative, and Technomad
 Evansville, IN                    My Voyage: http://www.CounterMoon.com

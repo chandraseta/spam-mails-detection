@@ -7,13 +7,13 @@ Stan Hoeppner  wrote:
 > > although it does, of course, require the basic Perl installation and
 > > about a half-dozen other modules.
 > > 
-> > If anyone has any feedback, or suggestions for improvement, I'd love
+> > If anyone has any feedback, or suggestions for improvement, I would love
 > > to hear them.
 > 
-> If you're writing an smtpd from scratch in Perl, why reinvent the wheel?
+> If you are writing an smtpd from scratch in Perl, why reinvent the wheel?
 > 
 > http://wiki.qpsmtpd.org/
-Thanks.  Steve Kemp also pointed this out to me.  I hadn't found it,
+Thanks.  Steve Kemp also pointed this out to me.  I had not found it,
 and since neither you, nor he, responded to me earlier email wondering
 if such a thing existed, I decided to practice my perl by coding one
 myself ...

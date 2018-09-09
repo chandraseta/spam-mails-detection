@@ -2,7 +2,7 @@ Re: Suggestion/Question for the approx apt(itutde) proxy daemon
 On 20100505_184737, Rick Thomas wrote:
 > Hi Eric,
 > 
-> I just started using approx.  I'm really impressed.  It's a great
+> I just started using approx.  I am really impressed.  it is a great
 > piece of work.  Thanks!
 > 
 > Here's a question:  Is it permissible/possible to have two (or more)
@@ -13,8 +13,8 @@ On 20100505_184737, Rick Thomas wrote:
 > 	volatile http://volatile.debian.org/debian-volatile/
 > 	debian http://ftp.us.debian.org/debian/
 > 
-> but the University has a fast Internet2 link so I'd like to use that
-> to connect when I can.  e.g. I'd like to add
+> but the University has a fast Internet2 link so I would like to use that
+> to connect when I can.  e.g. I would like to add
 > 	debian http://debian.cs.binghamton.edu/debian/
 > 	debian http://debian.lcs.mit.edu/debian/
 Look at man approx.conf for more details on what I say here.
@@ -39,8 +39,8 @@ You will find one one subdirectory there for each definition
 line in your /etc/approx.conf file. You might get what you
 want by replacing directories debia2 and debia3 by symlinks
 that point to debian.
-Post a reply saying whether this works. I don't have a situation where
-I can test this exactly, and I'd like to know.
+Post a reply saying whether this works. I do not have a situation where
+I can test this exactly, and I would like to know.
 HTH
 > 
 > before the one for ftp.us.d.o and have those be used by preference

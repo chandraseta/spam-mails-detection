@@ -6,5 +6,5 @@ RE: Java is for kiddies
 > XMLRPC interface to read and post items into the news stream.  Where
 > can I find C libs for those components?
 You open sourced the new components you developed for this project, so the
-next person who comes along won't have to reimplement them, right?
+next person who comes along will not have to reimplement them, right?
 - Jim

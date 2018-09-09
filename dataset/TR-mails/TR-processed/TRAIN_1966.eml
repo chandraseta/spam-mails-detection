@@ -5,12 +5,12 @@ Hi, List!
 I have a few simple questions for you:
 1 - I there a better place to get help with dash
 2 - Is there way to detect that a script is running as dash, instead of a
-shell like Solaris' /bin/sh
+she will like Solaris' /bin/sh
 3 - Corollary to #2, can I expect dash-as-sh to by a hard link or a sym
-link?   (I would think not, but don't know Debian's policy here)
+link?   (I would think not, but do not know Debian's policy here)
 4 - Reason for #2, is there a way to list all functions declared in a script
-with dash?  Under Solaris' shell, bash, or the korn shell I can use
-"typeset" -- I've searched POSIX and don't see a way that doesn't involve
+with dash?  Under Solaris' she will, bash, or the korn she will I can use
+"typeset" -- I have searched POSIX and do not see a way that does not involve
 parsing the script.
 Thanks,
 Wes

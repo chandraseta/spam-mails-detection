@@ -3,9 +3,9 @@ On 2010-04-21 06:58, B. Alexander wrote:
 [snip]
 > 
 > I leave /var in a separate partition, only because I cut my teeth on 
-> Unix/Linux back in the days when filling / or /var would cause a system 
+> Unix/Linux back in the days when filling / or /var would because a system 
 > crash.
-It still can.  But disks aren't 300MB anymore.
+It still can.  But disks are not 300MB anymore.
 -- 
 Dissent is patriotic, remember?
 -- 

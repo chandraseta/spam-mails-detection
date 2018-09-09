@@ -47,7 +47,7 @@ Curious.  I changed the arguments to Ftoc_ShowSequences to drop the folder
 argument and instead have an optional msgids argument.  Somehow your version 
 of ScanFolder is still trying to pass $F.  You seem to have the latest 
 ftoc.tcl (1.36), but not the latest scan.tcl (1.27).
-I don't know how that happened, but try getting your source tree completely 
+I do not know how that happened, but try getting your source tree completely 
 up to date.
 Chris
 -- 

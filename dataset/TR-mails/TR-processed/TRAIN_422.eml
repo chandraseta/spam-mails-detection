@@ -1,7 +1,7 @@
 Re: Servlets, JSP, EL and deprecated HTML attributes
 This is slightly off-topic, as nothing about this is Apple-specific...=20=
 But anyway: I think you are wrong. The "name" attribute is only =
-deprecated for certain elements, where "id" is a better match. It's =
+deprecated for certain elements, where "id" is a better match. it is =
 still the correct way to name "input", "textarea", "button" and other =
 form-elements (controls). See: =
 http://www.w3.org/TR/REC-html40/interact/forms.html#control-name

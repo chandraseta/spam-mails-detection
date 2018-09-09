@@ -17,7 +17,7 @@ On 05/25/2010 01:03 PM, Jean-François wrote:
 Yes, the PLUS is the correct model. I will have to look into it again, 
 but I have 3 drives so they could not all be in the two yellow ports. 
 This may also explain why fdisk lists my drives in the order: sdc, sdb, 
-sda. Running lspci -k, I don't recall seeing ata_piix at all.
+sda. Running lspci -k, I do not recall seeing ata_piix at all.
 Thanks for the input, I will have another look tonight.
 -- 
 To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 

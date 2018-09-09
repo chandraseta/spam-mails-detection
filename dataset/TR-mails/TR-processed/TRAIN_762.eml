@@ -9,27 +9,27 @@ Camaleón wrote:
 >>> 
 >>> 
 >> this is the problem the online option (down left) is outblended and
->> inactive. I don't understand why.
+>> inactive. I do not understand why.
 > 
 > It could be a bug, but Evolution depends much in network-manager settings
 > to check the connection status of the computer. Be sure you are indeed
 > online.
 does somebody here is using it (also in production)?
 I want to cross check some things.
-I'm not using network manager, because the stupid thing is waiting for me to
+I am not using network manager, because the stupid thing is waiting for me to
 login to connect, but my home is on a network share that I need to have
 mounted before I login
 > 
 > Also, go to "File" menu and look there for any "switch to online" option
 > you can toggle on.
-be sure I've done this already .. this option is disabled too
+be sure I have done this already .. this option is disabled too
 > 
 > You can try by launching Evolution being another user (not your usual
 > one) and from a console, to see any output errors.
-this is a good idea, I'll try. I've actually tried but only to see if evo is
+this is a good idea, I will try. I have actually tried but only to see if evo is
 running
 > 
->> By the way I'm using evolution in KDE4 so may be there is something from
+>> By the way I am using evolution in KDE4 so may be there is something from
 >> gnome missing.
 >> 
 >> I did a test upgrade so may be evolution packages are upgraded but
@@ -42,7 +42,7 @@ updating daily
 > that will be upgraded, I doubt you are missing one of them, it should
 > have warned you if something was missing or broken :-?
 > 
-thanks - perhaps is the network manager. I'll get it running and check
+thanks - perhaps is the network manager. I will get it running and check
 again.
 if someone is reading mails with evolution 2.30 from exchange please give me
 a note.

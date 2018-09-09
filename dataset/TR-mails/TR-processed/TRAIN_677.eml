@@ -1,12 +1,12 @@
 recompiling the kernel with a different version name
 Hi
-I've just recompiled the kernel from sources with the command
+I have just recompiled the kernel from sources with the command
 fakeroot make-kpkg --initrd --append-to-version=-recompiled kernel-image 
 kernel-headers
 and installed it successfully.
 However, the kernel name is
 2.6.32.10+drm33.1-recompiled
-and that "+drm33.1" seems to cause problems to Eclipse which does not 
+and that "+drm33.1" seems to because problems to Eclipse which does not 
 recognize it as a valid version (I think the problem is with the '+' 
 character).
 Is there a way to change the version so that I can do without that '+'?

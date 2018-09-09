@@ -1,15 +1,15 @@
 [Spambayes] Re: [Python-Dev] Getting started with GBayes testing 
 >>> Tim Peters wrote
-> > I've actually got a bunch of spam like that. The text/plain is something
+> > I have actually got a bunch of spam like that. The text/plain is something
 > > like
 > >
 > > **This is a HTML message**
 > >
 > > and nothing else.
 > 
-> Are you sure that's in a text/plain MIME section?  I've seen that many times
-> myself, but it's always been in the prologue (*between* MIME sections -- so
-> it's something a non-MIME aware reader will show you).
+> Are you sure that is in a text/plain MIME section?  I have seen that many times
+> myself, but it is always been in the prologue (*between* MIME sections -- so
+> it is something a non-MIME aware reader will show you).
 *nod* I know - on my todo is to feed the prologue into the system as well.
 A snippet, hopefully not enough to trigger the spam-filters.
 To: into89j@gin.elax.ekorp.com

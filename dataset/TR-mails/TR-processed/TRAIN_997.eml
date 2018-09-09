@@ -6,8 +6,8 @@ from the Lenny repos?  (Gnome, LXDE, or Fluxbox, most likely).
 Reason:
 I use a Debian-Live USB and I like to run Lenny because of the
 infrequent updates.  But one of my laptops requires the Squeeze kernel
-in order for wifi to work.  I've been told by the Debian-Live developer
-that I cannot install alternate kernels on my live system (otherwise I'd
+in order for wifi to work.  I have been told by the Debian-Live developer
+that I cannot install alternate kernels on my live system (otherwise I would
 be able to use a kernel from backports.org).
 -Rob
 -- 

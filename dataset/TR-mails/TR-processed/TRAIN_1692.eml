@@ -3,8 +3,8 @@ On 2010-04-13 11:13, thib wrote:
 > Ron Johnson wrote:
 >> On 2010-04-13 05:23, Jon Dowland wrote:
 >>> Stan Hoeppner wrote:
->>>> If you're going to buy two
->>>> drives, you'd be stupid to not use mirroring for fault tolerance and a
+>>>> If you are going to buy two
+>>>> drives, you would be stupid to not use mirroring for fault tolerance and a
 >>>> little added read performance here and there (depends on application).
 >>>
 >>> I disagree. Mirroring only protects you against drive failures and not
@@ -13,15 +13,15 @@ On 2010-04-13 11:13, thib wrote:
 >> And I disagree with that.  Mirroring *definitely* makes both reads and 
 >> writes go faster, due to parallelism.
 > 
-> Hmm.  Don't ^ these.
+> Hmm.  do not ^ these.
 > 
 > Backups are always necessary, mirroring is optional but speeds up 
-> recovery from hardware failure *only*.  Sometimes, you can't backup (it 
-> doesn't make sense, it's too big, ..) and thus, yes, you also *need* 
+> recovery from hardware failure *only*.  Sometimes, you cannot backup (it 
+> does not make sense, it is too big, ..) and thus, yes, you also *need* 
 > mirroring (not just to speed up things).  But it will not help you in 
 > case of human error, as Stan said.
 > 
-Note that I didn't mention human error; probably should have snipped 
+Note that I did not mention human error; probably should have snipped 
 out that part.
 -- 
 Dissent is patriotic, remember?

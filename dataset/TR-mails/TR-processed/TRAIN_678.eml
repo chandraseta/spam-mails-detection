@@ -1,5 +1,5 @@
 [Semi-OT] Accessing gmail from Python
-Does anyone have an example of how to do this?  Google hasn't 
+Does anyone have an example of how to do this?  Google has not 
 helped, specifically at telling me what the keyfile and certfile 
 should be.
 Google *did*, though, help me with fetchmail, so now I have the 

@@ -4,7 +4,7 @@ Once upon a time, Roi wrote :
 > and always worked with sdl (but not now with redhat 8)
 > now it gives black screen window and play the music of the movie.
 Strange, because as I said in an earlier post, it works for me. Maybe
-you're missing the SDL_image or something? :-/
+you are missing the SDL_image or something? :-/
 Matthias
 -- 
 Clean custom Red Hat Linux rpm packages : http://freshrpms.net/

@@ -58,10 +58,10 @@ Lance (lance_tt@bellsouth.net) wrote*:
 >and installed your SRPM of gamix.  One quick question, is there a way to
 >switch between digital out and analog out with the ALSA driver and
 >utilities, or, for that matter, with gamix?  I know with the OSS drivers
->I was using it was as simple as 'emu-config -d for digital and
+>I was using it was as simple as  themu-config -d for digital and
 >emu-config -a for analog, with the emu-tools package for SBLive!  I
 >noticed there is SB Live Analog/Digital Output Jack in alsamixer but
->haven't figured out the key to use, if this is the right control in
+>have not figured out the key to use, if this is the right control in
 >mixer.  Also, I tried to expand gamix to display all possible controls
 >but it defaults back to 'Wave' and 'Music'  With LFE, Center, Surround
 >and Playback under Wave (this is how I control output of front and rear
@@ -70,7 +70,7 @@ Lance (lance_tt@bellsouth.net) wrote*:
 >deck hooked up to an audio/video switch that goes into 'Line In' on the
 >soundcard.  Again, with the OSS drivers, it was as simple as emu-config
 >-d and emu-config -a.  Digital out for anything coming from the
->computer, analog out for the tuner and cassette deck.  I don't know if
+>computer, analog out for the tuner and cassette deck.  I do not know if
 >this is necessary to switch inbetween to get 'Line In' to work or not,
 >but an expansion of gamix would help, where I could see all the
 >controls....
@@ -95,7 +95,7 @@ Lance (lance_tt@bellsouth.net) wrote*:
 >:
 >
 --
-That's "angle" as in geometry.
+that is "angle" as in geometry.
 _______________________________________________
 RPM-List mailing list 
 http://lists.freshrpms.net/mailman/listinfo/rpm-list

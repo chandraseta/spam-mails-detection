@@ -4,12 +4,12 @@ The way to debug something like this is to turn on the log (Preferences
 being issued and the responses.
 FWIW, using exmh 2.5 and gpg 1.0.7 I do not have problems sending 
 encrypted messages to myself. When I select the message, an xterm 
-window pops up asking for the passphrase. I don't recall exmh ever 
+window pops up asking for the passphrase. I do not recall exmh ever 
 asking me for the passphrase from the tty that started exmh nor from a 
-dialog box. (But then again, I'm not a heavy gpg user).
+dialog box. (But then again, I am not a heavy gpg user).
 Kevin
 In message <200209111917.PAA02912@blackcomb.panasas.com>, Brent Welch writes:
-> Hmm - I'm cc'ing the exmh-workers list, because I really don't know
+> Hmm - I am cc'ing the exmh-workers list, because I really do not know
 > much about the various PGP interfaces.  I think there has been some
 > talk about "issues" with the latest version of gpg.
 > 
@@ -19,7 +19,7 @@ In message <200209111917.PAA02912@blackcomb.panasas.com>, Brent Welch writes:
 >  > EDT 2001 i686 unknown
 >  > Tk 8.3 Tcl 8.3
 >  > 
->  > It's not clear to me this is a bug with exmh per se, but it's something 
+>  > it is not clear to me this is a bug with exmh per se, but it is something 
 >  > that manifests through exmh, so I figured asking you might help me track
 >  > it down.
 >  > 

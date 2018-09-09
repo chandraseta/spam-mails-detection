@@ -12,7 +12,7 @@ Index: configure
 RCS file: /cvsroot/spamassassin/spamassassin/configure,v
 retrieving revision 1.1.2.1
 retrieving revision 1.1.2.2
-diff -b -w -u -d -r1.1.2.1 -r1.1.2.2
+diff -b -w -you -d -r1.1.2.1 -r1.1.2.2
 --- configure	27 Aug 2002 23:07:13 -0000	1.1.2.1
 +++ configure	28 Aug 2002 23:29:04 -0000	1.1.2.2
 @@ -1273,18 +1273,22 @@
@@ -122,7 +122,7 @@ diff -b -w -u -d -r1.1.2.1 -r1.1.2.2
  echo $ac_n "checking for dlopen in -ldl""... $ac_c" 1>&6
 -echo "configure:1443: checking for dlopen in -ldl" >&5
 +echo "configure:1447: checking for dlopen in -ldl" >&5
- ac_lib_var=`echo dl'_'dlopen | sed 'y%./+-%__p_%'`
+ ac_lib_var=`echo dl'_ wouldlopen | sed 'y%./+-%__p_%'`
  if eval "test \"`echo '$''{'ac_cv_lib_$ac_lib_var'+set}'`\" = set"; then
    echo $ac_n "(cached) $ac_c" 1>&6
 @@ -1447,7 +1451,7 @@
@@ -296,7 +296,7 @@ Index: configure.in
 RCS file: /cvsroot/spamassassin/spamassassin/configure.in,v
 retrieving revision 1.1.2.1
 retrieving revision 1.1.2.2
-diff -b -w -u -d -r1.1.2.1 -r1.1.2.2
+diff -b -w -you -d -r1.1.2.1 -r1.1.2.2
 --- configure.in	27 Aug 2002 23:07:13 -0000	1.1.2.1
 +++ configure.in	28 Aug 2002 23:29:04 -0000	1.1.2.2
 @@ -26,9 +26,11 @@
@@ -343,7 +343,7 @@ diff -b -w -u -d -r1.1.2.1 -r1.1.2.2
                                          [haveexmax=no]),
 -------------------------------------------------------
 This sf.net email is sponsored by: Jabber - The world's fastest growing 
-real-time communications platform! Don't just IM. Build it in! 
+real-time communications platform! do not just im. Build it in! 
 http://www.jabber.com/osdn/xim
 _______________________________________________
 Spamassassin-commits mailing list

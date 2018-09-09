@@ -1,14 +1,14 @@
 Re: use new apt to do null to RH8 upgrade?
 Once upon a time, ""Angles" wrote :
 > Matthias Saou (matthias@egwn.net) wrote*:
-> >You're really better off backuping all placed where you know you've hand
-> >edited or installed some files. For me that's only /etc/, /root/ and
+> >you are really better off backuping all placed where you know you have hand
+> >edited or installed some files. For me that is only /etc/, /root/ and
 > >/home/. Then you reinstall cleanly, formating "/", put your /home/ files
-> >back into place and you're ready to go.
+> >back into place and you are ready to go.
 > 
-> Matthias I gotta believe you, I've been using your RPMs for some time now
-> :) That's the way I'll do it.
-I'm no "messiah", just do what you think suits you the best :-)
+> Matthias I got to believe you, I have been using your RPMs for some time now
+> :) that is the way I will do it.
+I am no "messiah", just do what you think suits you the best :-)
 Matthias
 -- 
 Clean custom Red Hat Linux rpm packages : http://freshrpms.net/

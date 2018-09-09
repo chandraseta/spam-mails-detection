@@ -9,7 +9,7 @@ If you spawn the new thread in Java, and have it call down into your JNI =
 library, the thread will already be attached to the JVM, be part of the =
 correct Java ThreadGroup, and inherit all the expected behaviour of the =
 JWS environment. If you create the Thread in native code, what Java =
-ThreadGroup does it belong to? I've always avoided spawning new threads =
+ThreadGroup does it belong to? I have always avoided spawning new threads =
 in native code because of the amibuguity here.
 Be advised, however, that the thread where the static initializer is =
 running is holding the monitor lock for the class being loaded. The =

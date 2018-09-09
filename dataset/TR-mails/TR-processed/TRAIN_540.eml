@@ -1,6 +1,6 @@
 Re: VM software for personal use?
 > Richard Lawrence  :
-> I don't really know how to assess whether
+> I do not really know how to assess whether
 > Xen, VirtualBox, QEMU, KVM, or something else would be the best
 > software for me to start learning.
 KVM. Ubuntu has good documentation about it.

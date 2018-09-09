@@ -6,16 +6,16 @@ Content-Transfer-Encoding: quoted-printable
 On Friday 07 May 2010 05:53:57 Martin Steigerwald wrote:
 > Am Freitag 07 Mai 2010 schrieb Boyd Stephen Smith Jr.:
 > > Reverting to KDEPIM 4.3 is an option, as is shipping an Akonadi that
-> > doesn't  require MySQL.  I know KDEPIM 4.3 works in a mostly KDE SC
-> > 4.4 environment (that's my current setup).  I'll bet that
+> > does not  require MySQL.  I know KDEPIM 4.3 works in a mostly KDE SC
+> > 4.4 environment (that is my current setup).  I will bet that
 > > pre-Akonadi-integration KMail could work with the rest of KDEPIM
-> > 4.4.  There are a lot of ways to address my issue, and I don't demand
+> > 4.4.  There are a lot of ways to address my issue, and I do not demand
 > > that you address it at all.
 >=20
 > Where did you get that Akonadi from KDEPIM 4.3 does not require MySQL?
-> AFAIK thats just not true. Akonadi always *required* MySQL. Maybe it won't
+> AFAIK that is just not true. Akonadi always *required* MySQL. Maybe it will not
 > in KDE 4.5, but until then.
-KMail from KDEPIM 4.3 did not require MySQL because it didn't require Akona=
+KMail from KDEPIM 4.3 did not require MySQL because it did not require Akona=
 di.
 KMail from KDEPIM 4.4 does require MySQL because Akonadi form KDE SC 4.4=20
 requires MySQL.
@@ -24,7 +24,7 @@ KMail from KDEPIM 4.5 might not require MySQL because Akonadi from KDE SC 4=
 might not require MySQL.
 My concern is the KMail -> MySQL relationship.  There are quite a few ways =
 to=20
-fix that.  I think I'm going to focus my efforts on getting Akonadi/SQLite=
+fix that.  I think I am going to focus my efforts on getting Akonadi/SQLite=
 =20
 ready for a release that is compatible with KDE SC 4.4 but occurs before th=
 e=20

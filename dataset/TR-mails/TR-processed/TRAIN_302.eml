@@ -1,12 +1,12 @@
 Re: How to trick my Debian in thinking that a package is not installed
 On Wed, Apr 21, 2010 at 03:27:28PM +0000, T o n g  was heard to say:
 > On Tue, 20 Apr 2010 22:33:14 -0700, Daniel Burrows wrote:
-> >   Can you provide any more information about this?  It shouldn't happen
+> >   Can you provide any more information about this?  It should not happen
 > > in any recent version of aptitude.
 > 
 > I can only give you partial information. 
 > 
-> This is what I've been doing
+> This is what I have been doing
 > 
 >  aptitude --purge-unused purge durep
 >  dpkg -i /linux/linux_bin/deb-pkgs/durep_0.8.1-7.1_all.deb 
@@ -14,7 +14,7 @@ On Wed, Apr 21, 2010 at 03:27:28PM +0000, T o n g  was heard to say:
 > 
 > For how it happened, I need directions for where to look for such 
 > "more information". 
-  If you see "aptitude safe-upgrade" trying to upgrade durep, I'd like
+  If you see "aptitude safe-upgrade" trying to upgrade durep, I would like
 to see the output of these commands (after you type Control-C at the
 aptitude prompt, of course):
 aptitude show durep
@@ -22,7 +22,7 @@ aptitude -sy --show-resolver-actions safe-upgrade
 > It is not the first time such thing happens, I agree with Monique's 
 > obervation, "when aptitude is making suggestions to resolve conflicts, it 
 > will un-hold packages."
-  That shouldn't be possible.  If it is happening, something is very
+  That should not be possible.  If it is happening, something is very
 wrong.  My own guess is that something is clearing your hold flags.  For
 instance, it was recently pointed out to me that "aptitude keep-all"
 clears hold flags (probably wrongly).

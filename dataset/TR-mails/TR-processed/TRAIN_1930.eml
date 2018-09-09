@@ -7,15 +7,15 @@ On 04/15/2010 07:59 PM, Stan Hoeppner wrote:
 >> theoretically work better. I have one module in a dual-channel mobo and
 >> it works ok. Most desktop/workstation mobos do.
 >>      
-> No, that's not correct.  If the mobo DIMM slots are colored, you put one
+> No, that is not correct.  If the mobo DIMM slots are colored, you put one
 > DIMM in each color slot for dual channel operation, not both DIMMs in the
 > same colored slots.
 >    
 I believe different manufactures follow different conventions. For some 
-it's the two in same-color slots, for others in different-color slots. 
+it is the two in same-color slots, for others in different-color slots. 
 When in doubt, check the manual
 -- 
-Just don't create a file called -rf.  :-)
+Just do not create a file called -rf.  :-)
 		-- Larry Wall in<11393@jpl-devvax.JPL.NASA.GOV>
 Eduardo M KALINOWSKI
 eduardo@kalinowski.com.br

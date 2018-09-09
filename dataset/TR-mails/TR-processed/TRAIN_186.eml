@@ -11,7 +11,7 @@ SpamTalk said:
 > intermediate directory?
 A good plan, needs an implementation though: 
         http://bl.reynolds.net.au/ksi/email/
-hmm. seems down to me.  Basically it's a plan to store hash sums of
+hmm. seems down to me.  Basically it is a plan to store hash sums of
 URLs/phone numbers found in spam in a DNSBL, for apps like SpamAssassin to
 look up.  A little like spamcop's "spamvertized URL" list...
 --j.

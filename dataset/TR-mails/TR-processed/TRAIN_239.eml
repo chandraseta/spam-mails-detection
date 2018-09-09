@@ -1,6 +1,6 @@
 Re: Supporting Apple Remote from a Java app?
 The email thread below is from fall of 2006.
-I don't supposed anyone has any new comments to add to this question?
+I do not supposed anyone has any new comments to add to this question?
 iremoted is still popular ( http://danbri.org/words/2009/10/18/478 ).   
 And the license looks friendly.
 Also I noticed this:
@@ -24,7 +24,7 @@ Greg Guerin wrote:
 > parse the
 > text.
 >
-> The executable for iremoted can't be redistributed, hence the "for  
+> The executable for iremoted cannot be redistributed, hence the "for  
 > personal
 > use only" caveat above.  However, you might be able to negotiate  
 > something
@@ -34,9 +34,9 @@ Greg Guerin wrote:
 > seems
 > like an ideal way to add Apple-Remote features to a Java app,  
 > because the
-> child Process doesn't need to depend on or be constrained by the JVM.
+> child Process does not need to depend on or be constrained by the JVM.
 >
-> Maybe there's a version of Martin Kahr's code that already does  
+> Maybe there is a version of Martin Kahr's code that already does  
 > something
 > daemon-like.  If not, it would probably be a fairly straightforward  
 > ObjC

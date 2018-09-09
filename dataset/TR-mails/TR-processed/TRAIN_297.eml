@@ -2,7 +2,7 @@ Re: funky kernel message from syslogd
 On Thu, Apr 22, 2010 at 07:24:38PM -0400, Nick Lidakis wrote:
 > This popped up in one of my xterms after my Thinkpad came out of hibernation
 > today. The machine has beeped a few times as this message was repeated.
-> Does not sound good. Call Trace? That's, like, bad? Right?
+> Does not sound good. Call Trace? that is, like, bad? Right?
 > 
 > 
 > Message from syslogd@thinkpad at Apr 22 18:52:20 ...
@@ -33,7 +33,7 @@ On Thu, Apr 22, 2010 at 07:24:38PM -0400, Nick Lidakis wrote:
 > 
 > Message from syslogd@thinkpad at Apr 22 18:52:20 ...
 >  kernel:[42926.070333] CR2: 0000000000000014
-You'll probably find the complete message in /var/log/kern.log .
+you will probably find the complete message in /var/log/kern.log .
 -- 
 Tzafrir Cohen         | tzafrir@jabber.org | VIM is
 http://tzafrir.org.il |                    | a Mutt's

@@ -7,11 +7,11 @@ Boyd Stephen Smith Jr. wrote:
 >> from the Lenny repos?  (Gnome, LXDE, or Fluxbox, most likely).
 > This type of setup is neither tested nor supported.  Since a number of library 
 > transitions have already gone into Squeeze, I would expect issues, though I 
-> don't know what.
-I'm using the Squeeze+KDE4 version of Debian Live installed and it seems
-to be Lenny upgraded to Squeeze, it's definitely broken because the
-weather widgets will not config, I've seen the problem before on every
-Lenny upgrade and it's the only problem I can find, on that system I've
+> do not know what.
+I am using the Squeeze+KDE4 version of Debian Live installed and it seems
+to be Lenny upgraded to Squeeze, it is definitely broken because the
+weather widgets will not config, I have seen the problem before on every
+Lenny upgrade and it is the only problem I can find, on that system I have
 been able to upgrade the kernel with no problem.
 I would not recommend Debian Live to anyone looking for a usable system.
 -- 

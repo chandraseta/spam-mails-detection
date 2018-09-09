@@ -42,8 +42,8 @@ ps: I have the sequences window vertical instead of horizontal, and the
 good as the old unseen window used to look.   I still have some work to
 do to make it a little nicer (listboxes seem to have some strange habits)
 and then I need to make it all optional and parameterized, at the minute
-I'm just embedding stuff in the code, much quicker for prototyping.  Once
-its done, I'll send a patch for someone to look over.
+I am just embedding stuff in the code, much quicker for prototyping.  Once
+its done, I will send a patch for someone to look over.
 _______________________________________________
 Exmh-workers mailing list
 Exmh-workers@redhat.com

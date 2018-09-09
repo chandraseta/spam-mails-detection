@@ -23,7 +23,7 @@ ss
 >> > long, then a message sent to nil returns 0."
 >>
 >> This makes me wonder what the answer is for an integer scalar of size
->> *greater* than sizeof(void*) that isn't a long long.
+>> *greater* than sizeof(void*) that is not a long long.
 >
 > 6.3.1.1 Arithmetic operands
 > 1) The rank of long long int shall be greater than the rank of long int,

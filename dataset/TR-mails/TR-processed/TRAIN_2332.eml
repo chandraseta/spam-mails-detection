@@ -1,23 +1,23 @@
 Re: Java Web Start Offline Problems
 http://memorizeasy.mysimpatico.com
-It's actually 2 jnlps, one setup and one launch.
-Should it not work offline with you, pls let me know. I'm aware that
-it does work (I've tested that some time ago, and just now,  but ...).
-I also verified that yours doesn't launch offline.
+it is actually 2 jnlps, one setup and one launch.
+Should it not work offline with you, pls let me know. I am aware that
+it does work (I have tested that some time ago, and just now,  but ...).
+I also verified that yours does not launch offline.
 2010/4/16, Nick Howes :
 > On Apr 16, 2010, at 11:18 AM, Gabriele Kahlout wrote:
 >
 >>> Launching without an internet connection causes the application to
 >>> "hang".
 >>
->> In the case of my application this doesn't happen. Must be specific to
+>> In the case of my application this does not happen. Must be specific to
 >> some cases.
 >
 > Thanks for that information.
 >
-> Maybe it's something about our JNLP file
+> Maybe it is something about our JNLP file
 > .  Could you maybe share the JNLP
-> file for the case that doesn't hang?
+> file for the case that does not hang?
 >
 >
 > - Nick

@@ -5,9 +5,9 @@ Content-Transfer-Encoding: quoted-printable
 On Mon, 10 May 2010 15:36:41 -0500
 Kent West  wrote:
 Hello Kent,
-> I tried installing hpijs-ppds, but I still don't see the CM3530
+> I tried installing hpijs-ppds, but I still do not see the CM3530
 > listed; I do now see a Color Laserjet 3550 (without the CM, and not
-> the 3530), but who knows if that'd work? Not me.
+> the 3530), but who knows if that would work? Not me.
 In Testing, the CM3530 is listed.  You might try pulling the hplip-data
 package from there, or wait for it to migrate.
 --=20

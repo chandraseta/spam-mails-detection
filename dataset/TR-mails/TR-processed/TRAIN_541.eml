@@ -7,7 +7,7 @@ David Neary stated the following:
 > > and Advanced programmers?
 > 
 > Try the following newsgroups - Beginners: news:comp.lang.learn.c-c++
-I tried news:comp.lang.learn.c-c++ and it wouldn't work.  Is there a
+I tried news:comp.lang.learn.c-c++ and it would not work.  Is there a
 typo?
 > More advanced: news:comp.lang.c news:comp.lang.c++
 > news:comp.lang.c.moderated
@@ -21,9 +21,9 @@ typo?
 > http://www.eskimo.com/~scs/cclass/cclass.html
 > 
 > For C++, I would guess that the comp.lang.c++ FAQ is a good place to
-> start - they're likely to have links to suggested reading material.
+> start - they are likely to have links to suggested reading material.
 > 
-> If you're going to do any amount of C programming, you should
+> If you are going to do any amount of C programming, you should
 > think about getting K&R2 (The C programming language, 2nd edition,
 > by Kernighan and Ritchie), for C++ the equivalent book is
 > Stroustrup. Although the C++ book is a lot bigger :)

@@ -7,7 +7,7 @@ On Tue, 27 Apr 2010 10:40:58 -0500
 > > that come up explaining some on screen widget.  Very often, when one
 > > comes up and I then switch to a different window,
 > > the tool tip remains, superimposed over the new
-> > application, and won't go away until I switch back to the first app,
+> > application, and will not go away until I switch back to the first app,
 > > move the cursor somewhere else to get it to go away, and then switch
 > > back to the other application.
 > > 
@@ -25,8 +25,8 @@ On Tue, 27 Apr 2010 10:40:58 -0500
 > Multiple -> that library / related "thing".  Or any one of the applications, 
 > but include information about which other applications are affected.
 > Every -> Probably your window manager, maybe X.
-The main offender is oowriter.  I think that I've seen a similar
-problem with other applications, but I can't reproduce such right now.
+The main offender is oowriter.  I think that I have seen a similar
+problem with other applications, but I cannot reproduce such right now.
 Celejar
 -- 
 foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator

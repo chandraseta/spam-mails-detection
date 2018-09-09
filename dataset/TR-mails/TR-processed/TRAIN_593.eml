@@ -12,24 +12,24 @@ On Monday 26 April 2010 16:34:36 Celejar wrote:
 > > > hardware.  Now, if you had a board with completely closed HW, but that
 > > > presented an open, well documented interface for the driver, most
 > > > people would be very happy (although there are, of course, the open
-> > > hardware crusaders - more power to them!).  So, now that they've simp=
+> > > hardware crusaders - more power to them!).  So, now that they have simp=
 ly
 > > > implemented some of that functionality in SW, in the form of firmware
 > > > which the driver installs on the card, but which has nothing to do wi=
 th
 > > > your host machine, are you really any worse off?
 > >
-> > As a distributor you may very well be.  If you can't provide the source
-> > code, you can't satisfy the terms of the GPL (usually).
+> > As a distributor you may very well be.  If you cannot provide the source
+> > code, you cannot satisfy the terms of the GPL (usually).
 >=20
-> ?  We're talking about firmware for things like wireless cards, produced
+> ?  we are talking about firmware for things like wireless cards, produced
 > by the HW manufacturers, e.g., Broadcom.  Where does the GPL enter into
 > this?
 Some are included in the tarball provided by the Linux kernel team, which i=
 s=20
 distributed under the GPLv2.  In particular, I am thinking of the iwl3945=20
 firmware that is required to run my wireless card.
-It doesn't matter what upstream wants to call source code.  The GPL(v2)=20
+It does not matter what upstream wants to call source code.  The GPL(v2)=20
 defines it as the preferred form for making modifications.  (GPLv2, section=
 =20
 3.)  It is unlikely that the firmware was written in a hex editor (or=20

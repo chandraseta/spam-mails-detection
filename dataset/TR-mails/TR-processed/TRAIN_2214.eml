@@ -14,12 +14,12 @@ Re: Chromium Xperience
 >> faster than Iceweasel. No real tests done here, but Chromium does win
 >> for responsiveness to a casual user.
 >>
->> Being an Iceweasel user with the Adblock+ extension, I'm accustomed to
->> (almost) adfree web browsing. This hasn't worked as smoothly with
+>> Being an Iceweasel user with the Adblock+ extension, I am accustomed to
+>> (almost) adfree web browsing. This has not worked as smoothly with
 >> Chromium. There is an Adblock extension available for Chromium, but it
 >> works in a different way that it shows the advertisement while the page
 >> is loading and then hides the element. This is not as clean as Iceweasel
->> (firefox). In addition, the extension didn't block Google adverts!
+>> (firefox). In addition, the extension did not block Google adverts!
 >> Iceweasel takes this round (very important).
 >>
 >> And then comes the topic of shortcuts. I love the "/" shortcut for
@@ -38,11 +38,11 @@ Re: Chromium Xperience
 >> Debian?
 > I have the dev build installed. I used it a bit to play with Youtube's
 > html5 version.
-> I guess it's kind of fast, but I didn't really notice, although I
-> didn't feel like using
+> I guess it is kind of fast, but I did not really notice, although I
+> did not feel like using
 > in a realistic browsing session of mine. I am kind of curious about how it
 > would work when every session involves reopening 50-120 tabs (which is
-> normal for me), but I can't tolerate the UI for that long -_-
+> normal for me), but I cannot tolerate the UI for that long -_-
 >
 > To the extent I did use it, it worked ok. On one of the dev updates, html5
 > audio was broken, but I filed a bug and it was soon fixed.
@@ -50,14 +50,14 @@ Re: Chromium Xperience
 >
 > Cheers,
 > Kelly Clowers
-Ive bee using Chrome dev channel version for several months now.  I like the 
+I have bee using Chrome dev channel version for several months now.  I like the 
 fact that each tab has its on process.  If one crashed it does not take the 
 whole browser with it.  I watch a lot of flash videos on hulu, etc and when 
 flash crashes or I loose audio from flash all I have to do is terminate the 
 flash process from chrome's own task manager and restart the video.  I use 2 
 monitors and when I watch videos on one screen I some time browse the web in 
 another chrome window on the second monitor.  I may have many tabs open which I 
-don't want to close just to restart flash when it fails like I would in 
+do not want to close just to restart flash when it fails like I would in 
 Firefox.  I do use adblock for chrome but I have not seen it do mush for 
 blocking adds.
 ....Bob

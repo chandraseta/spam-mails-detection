@@ -23,10 +23,10 @@ Axel Freyn  wrote:
 > echo 0 > /proc/sys/net/ipv4/conf/all/arp_accept
 > 
 > they are ignored.
-Thanks much for this information.  I see that it's currently set
-(default?  I don't recall ever touching this setting) to 0, so that may
-have been the problem.  I don't have access to the other system
-currently, but I'll certainly check whether changing this works, when I
+Thanks much for this information.  I see that it is currently set
+(default?  I do not recall ever touching this setting) to 0, so that may
+have been the problem.  I do not have access to the other system
+currently, but I will certainly check whether changing this works, when I
 get a chance.
 Thanks again,
 Celejar

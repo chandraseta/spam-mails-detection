@@ -1,6 +1,6 @@
 Re: Moving /tmp to a separate partition. Advice?
 On Sunday 23 May 2010 04:37:18 Klistvud wrote:
-> Howdy, fellow Debianites!
+> how do you, fellow Debianites!
 > Given some extra hard drive space, I decided to move my /tmp dir
 > (currently located under / ) to a partition of its own. I am looking
 > forward to any advice, particularly of the been-there-done-that type:
@@ -10,9 +10,9 @@ On Sunday 23 May 2010 04:37:18 Klistvud wrote:
 be world-writable and have the sticky bit set, which ensures that only
 users who create files in there can write to them.  Permissions come
 from the mounted FS, not the mount point, so make sure you set these
-permissions while it's mounted.
+permissions while it is mounted.
   Because of the world-writability, security conscious admins mount
-it nodev and nosuid.  If you're more careful, you can mount it noexec,
+it nodev and nosuid.  If you are more careful, you can mount it noexec,
 too, but that will break some third-party software installers that
 work by examining your system, writing a custom config script inside
 /tmp somewhere, and then running it.
@@ -34,12 +34,12 @@ often put /tmp on a separate partition precisely so I can use mount
 options to globally control access.  This is more important in a 
 truly multi-user system than a home system, of course.
   Misbehaving apps rarely but sometimes blow the lid off of /tmp, and
-having it be on its own partition means this doesn't compromise the
-system as a whole, and you can easily figure out what's going on by 
+having it be on its own partition means this does not compromise the
+system as a whole, and you can easily figure out what is going on by 
 seeing the logged errors and looking at "df" output.  Some folks keep
 /var/log on a separate partition for similar reasons.
   Again, all of this is more important in a multi-user production 
-environment.  On my home systems, I mostly don't worry about this
+environment.  On my home systems, I mostly do not worry about this
 sort of thing.
 					-- A. 
 -- 

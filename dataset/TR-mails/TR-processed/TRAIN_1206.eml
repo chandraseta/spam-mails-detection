@@ -1,7 +1,7 @@
 Missing option in manual page for getconf
 Hi!
 I was toying around with getconf and was looking for options to print
-all configuration values. I've found there is a -a option for that. You
+all configuration values. I have found there is a -a option for that. You
 can find about it by running getconf with no arguments:
 ---
 razvan@valhalla:~$ getconf

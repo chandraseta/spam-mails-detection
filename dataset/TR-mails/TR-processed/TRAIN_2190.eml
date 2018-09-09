@@ -1,7 +1,7 @@
 Re: [ILUG] DHCP
 > Quoting Paul O'Neil :
 > 
-> > Excuse me for asking an old question here but Ive been running SuSE 
+> > Excuse me for asking an old question here but I have been running SuSE 
 with a
 > > cable modem for a couple months. About 5-6 weeks ago the internet 
 access
@@ -26,7 +26,7 @@ cable
 leases run
 > out, so you get away without a daemon for long enough to make you 
 think you
-> don't need one. :-)
+> do not need one. :-)
 > 
 > Ronan
 > 
@@ -34,7 +34,7 @@ think you
 Is what your talking about, this process is running all the time. 
 root       422  0.0  0.4  1332  500 ?        S    03:18   
 0:00 /sbin/dhcpcd -D -N -Y -t 999999 -h cable-modem-1 eth0
-If alright then maybe coincidence, I'll wait and see when I get another 
+If alright then maybe coincidence, I will wait and see when I get another 
 address.
 -- 
 Irish Linux Users' Group: ilug@linux.ie

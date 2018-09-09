@@ -13,7 +13,7 @@ One thing - to save an image as an animated GIF (for example),
 you just do a save as, and set the extension to .gif - you should
 get a dialog asking whether you want to merge visible layers or
 save as an animation. I believe that you can also specify the
-extension as .mpg or .mpeg if you've got the mpeg plug-in built.
+extension as .mpg or .mpeg if you have got the mpeg plug-in built.
 Cheers,
 Dave.
 -- 

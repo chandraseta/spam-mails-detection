@@ -27,7 +27,7 @@ But if you can cross-post, I can cross-reply.
 Second, unless you reply to debian-user, to which I am subscribed, please
 CC me.  I am not subscribed to any of the other lists.
 I am not a Debian package maintainer or a Debian developer.  I am just an
-ordinary system administrator.  So I'm sure that my opinion will not count
+ordinary system administrator.  So I am sure that my opinion will not count
 for much.  But I am opposed to the removal of lilo.  Both grub-legacy and
 grub-pc use sectors on the hard disk outside of the master boot record
 (cylinder 0, head 0, sector 1).  In other words they use cylinder 0, head 0,
@@ -35,24 +35,24 @@ sector 2 and possibly subsequent sectors on cylinder 0 head 0.  This breaks
 the design of the backup software that my employer uses.  This backup software
 backs up the master boot record and all partitions; but since the extra
 sectors used by grub-legacy and grub-pc are outside the master boot record
-and are not part of any partition, they don't get backed up.  Consequently,
+and are not part of any partition, they do not get backed up.  Consequently,
 if we have a hard drive failure and restore from a backup, we have an
 unbootable machine.  Lilo uses only the master boot record.  A lilo-booted
 machine can be backed up and restored with our existing backup software
-just fine.  Given these requirements, I wouldn't use grub-pc even if it
+just fine.  Given these requirements, I would not use grub-pc even if it
 were bug free and well documented.  (But neither is the case!)
 As for the claims that kernels are too big now, I find that hard to
 believe, especially now that we have the large-memory option available.
 The standard stock Debian kernel image file that I use for Squeeze,
 vmlinuz-2.6.32-3-686, is currently 2234080 bytes.  Are you trying to tell
-me that there's no room for a 2M kernel below the start of the EBDA?
+me that there is no room for a 2M kernel below the start of the EBDA?
 I am able to load *both* the kernel *and* the initial RAM filesystem
 below the EBDA (i.e. the large-memory option is not used) if I use
 MODULES=dep instead of MODULES=most in the initial RAM filesystem
-under Lenny.  I'll bet I can do it with Squeeze too.
-I realize that lilo doesn't work for everyone, and I'm not suggesting
+under Lenny.  I will bet I can do it with Squeeze too.
+I realize that lilo does not work for everyone, and I am not suggesting
 that it be the default bootloader; but to get rid of it entirely is
-unacceptable.  As far as I know, it's the only bootloader that meets
+unacceptable.  As far as I know, it is the only bootloader that meets
 all of my requirements, and I will not voluntarily give it up.
 No doubt you will tell me that I am welcome to maintain it myself.
 Unfortunately, I do not have the requisite skills to do so.  All I

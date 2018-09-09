@@ -14,7 +14,7 @@ On 0020 -0700 %{!Thu, Sep 05, 2002 at  3:17:36PM -0700}, eric nichols wrote:
 > Is it the case
 > that nothing is read on a line after a # mark (or am I just thinking
 > of another language?) and so should I delete the # at certain places?
-No that is appropriate content for the file.  I'm not a C programmer,
+No that is appropriate content for the file.  I am not a C programmer,
 but I think that these sort of things (#include ) are
 instructions to the compiler processed by a pre-processor in the compile
 process, and include all sorts of symbols/functions
@@ -31,19 +31,19 @@ is the right way to proceed.
 Alternatively, maybe the steps above regarding "make dep" and so forth
 should have been performed in the directory where the make process is
 looking for modversions.h & Co.
-I don't think it is a good idea keep moving files into the directory as
+I do not think it is a good idea keep moving files into the directory as
 you describe below.  First of all you will move modversions.h (which you
 have done), then you would have to move all those *.ver files, after
 that, there will almost certainly be a need for further header (*.h)
 files.  This could be quickly done, but is probably bad (those files
-don't really belong there).
-For what it's worth I think you are very close to a successful
+do not really belong there).
+For what it is worth I think you are very close to a successful
 compilation.
 m
 > 
 > Also, when I was in the pctel directory and typed "make", I noticed
 > that a different subdirectory is taken to a different modversions.h
-> file. Inside this other file, there's nothing at all. And so I moved
+> file. Inside this other file, there is nothing at all. And so I moved
 > the modversions.h file with 281 lines to the empty modversions.h file
 > - and got a different reply after "make". The output after I moved the
 > file over mostly looked like this:
@@ -55,9 +55,9 @@ m
 > linux/modules/af_ipx.ver: No such file or directory
 > 
 > The odd lines being the path and the first half of the other lines are
-> what's written after the # in the modversions.h file. Should there be
+> what is written after the # in the modversions.h file. Should there be
 > a file at each of these (one at each of the 281 lines of the file)
-> that I'd have to compile/make?
+> that I would have to compile/make?
 -- 
 Michael Conry   Ph.:+353-1-7161987, Web: http://www.acronymchile.com
 Key fingerprint = 5508 B563 6791 5C84 A947  CB01 997B 3598 09DE 502C

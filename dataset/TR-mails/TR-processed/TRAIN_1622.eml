@@ -1,6 +1,6 @@
 [Razor-users] Something wrong with Database?
 Until a few days ago, razor (sdk 2.03, client 2.12) was catching a
-decent set of spams.  It seems now, however, that it isn't catching
+decent set of spams.  It seems now, however, that it is not catching
 anything.  I got one email this morning with "ADV:" in the subject
 another two or three about how many inches longer I can be.  Did I
 miss something recently perhaps regarding configuration changes, etc?

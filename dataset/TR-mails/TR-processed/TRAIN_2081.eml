@@ -1,6 +1,6 @@
 [ILUG] cdrecord + 2.4.19 = hard-lock
 Hi all,
-I've run into a fairly intractable (for me) problem, and was wondering
+I have run into a fairly intractable (for me) problem, and was wondering
 if anybody could give me pointers on how to deal with it.
 I am running Debian Woody on a Pentium III IDE based system.
 I have a Ricoh 7083a ide cd rewriter, which I use using cdrecord and the
@@ -13,7 +13,7 @@ This problem is very reproducible (on my system at least).
 the cdrecord command I was using was
     cdrecord -v speed=4 blank=fast dev=0,1,0 -data bak.iso
 The blanking appears to go ok, but when it tries to write data, it just
-locks up the entire system (can't ping it from outside even).  AFAICS,
+locks up the entire system (cannot ping it from outside even).  AFAICS,
 the system just stops.  Hard reset is only way back in, and when it does
 reboot, I cannot see anything useful in any logfiles (/var/log/messages
 /var/log/kern.log /var/log/syslog, at any rate).
@@ -25,17 +25,17 @@ kernel issue it might have been fixed in these patches), but it gives
 the same error.  I also downloaded and compiled the source for
 cdrecord 1.1.10, and installed it instead of the debian package (i was
 wondering if maybe there was some compile option the packager had used
-which maybe would cause the problem), and still the problem persisted.
-Anyway, I'm completely stumped.  Google searching has not done me much
-good, and I'm a little bit lost.  What I'd like to know is
+which maybe would because the problem), and still the problem persisted.
+Anyway, I am completely stumped.  Google searching has not done me much
+good, and I am a little bit lost.  What I would like to know is
 a)  How to fix the problem ;-)
 b)  Is this likely to be an application or kernel problem?  The severity
-    of the crash would make me suspect it is a kernel problem, but I'm
+    of the crash would make me suspect it is a kernel problem, but I am
     not very knowledgeable on these things.
 c)  Should I post a description of this to the kernel mailing list? If
     this is an appropriate course of action, are there any tips (beyond
     the guidelines on kernel.org)?
-Like I said, I'm lost on this one, so any info is very gratefully
+Like I said, I am lost on this one, so any info is very gratefully
 received.
 mick
 -- 

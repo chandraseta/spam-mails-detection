@@ -4,7 +4,7 @@ On Sun, May 23, 2010 at 04:28:55PM -0700, Todd A. Jacobs wrote:
 > teeny-tiny text. How do I set the default terminal back to 80x25?
 Are you running grub-legacy? If so what is vga= set to?
 Is the old kernel still installed, that is, the one where the font was
-as you liked it? If so does it still behave as you'd like? If so, are
+as you liked it? If so does it still behave as you would like? If so, are
 there any differences between them -- configs/grub settings etc?
 -- 
 Chris

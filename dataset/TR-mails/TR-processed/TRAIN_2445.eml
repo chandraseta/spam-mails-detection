@@ -9,7 +9,7 @@ On Wed, May 12, 2010 at 04:44:12PM -0500, Boyd Stephen Smith Jr. wrote:
 > > > On 05/12/2010 04:16 PM, Boyd Stephen Smith Jr. wrote:
 > > >> On Wednesday 12 May 2010 16:04:07 Jordan Metzmeier wrote:
 > > >>> This issue is because the new udev requires a>  .31 kernel with
-> > >>> sysrq_deprecated=3Dn (I am going off memory here so don't quote me)=
+> > >>> sysrq_deprecated=3Dn (I am going off memory here so do not quote me)=
 =2E This
 > > >>> means you need to first upgrade to the squeeze kernel, reboot, then
 > > >>> upgrade udev and proceed with the "updgrade".
@@ -20,7 +20,7 @@ On Wed, May 12, 2010 at 04:44:12PM -0500, Boyd Stephen Smith Jr. wrote:
 en
 > > > you when you do the "apt-get update".
 > >=20
-> > It does appear when you do the aptitude full-upgrade, but it doesn't bl=
+> > It does appear when you do the aptitude full-upgrade, but it does not bl=
 ock
 > >  the output, it just shoots by.
 > >=20

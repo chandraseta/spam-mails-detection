@@ -9,7 +9,7 @@ On Wednesday 12 May 2010 17:22:21 Alejandro Exojo wrote:
 > > folder, if disk space is more important than loading speed, remove it
 > > regularily.
 >=20
-> Of course, that's what I do. But a plain user should not be asked to
+> Of course, that is what I do. But a plain user should not be asked to
 >  regularly remove it, should he? It probably should be handled like the
 >  trash folder, which IIRC has a size/time limit.
 I think "sweeper" (?) from kdeutils is supposed to handle this, right?

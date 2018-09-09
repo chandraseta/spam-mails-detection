@@ -1,10 +1,10 @@
 Re: Opportunistic apt sources?
 On Mon, Apr 19, 2010 at 00:52, Ron Johnson  wrote:
-> I'd use symlinks, where sources.list points to either sources.list.home,
+> I would use symlinks, where sources.list points to either sources.list.home,
 > sources.list.work or sources.list.internet, and a short script to flip
 > between them.
 That means I would need to bend the links and run apt-get update every
-time, though. I pondered something like that, but it's hardly
+time, though. I pondered something like that, but it is hardly
 opportunistic.
 Thanks for your reply,
 Richard

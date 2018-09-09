@@ -9,14 +9,14 @@ On Thu, 2010-05-06 at 16:52 -0700, Kelly Clowers wrote:
 > > 
 > > Is 4.5 or even 4.4 even making into Squeeze?
 > 
-> 4.4 is in Sid now, and we aren't frozen or anything, so I don't know why
-> it wouldn't be in Squeeze. For future versions, I imagine it just depends
+> 4.4 is in Sid now, and we are not frozen or anything, so I do not know why
+> it would not be in Squeeze. For future versions, I imagine it just depends
 > on when Debian decides to freeze.
 > 
 > 
 Thanks.  I had misinterpreted one of the Debian blog postings about 4.4.
 I see now that it is expected the next stable will ship with 4.4.4.  Has
-there been any word about when 4.4.x will be moved to testing? I'm
+there been any word about when 4.4.x will be moved to testing? I am
 really hesitant to introduce all the libraries that will be dragged in
 if I install KDE from unstable into a production environment.  I even
 hesitate with testing but we are so desperate to make Kontact work with

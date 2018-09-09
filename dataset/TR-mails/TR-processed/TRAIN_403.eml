@@ -6,12 +6,12 @@ Re: Middle button click broken
 > > The middle click caused the terminal to come forth.
 > 
 > You need to middle click inside the white box that was brought up.
-I assumed he had done that (it's what I asked him to do), in which
+I assumed he had done that (it is what I asked him to do), in which
 case the reported behaviour indicates something odd going on. Of
 course, the xev output he posted came from the mouse leaving the xev
-window, so maybe you're right and he misunderstood the instructions.
+window, so maybe you are right and he misunderstood the instructions.
 So, to make it even clearer: Move the xev window if necessary so it
-doesn't cover the terminal window. Middle click in it, preferably
+does not cover the terminal window. Middle click in it, preferably
 without moving the mouse, even a little. You should now see the mouse
 click event in the terminal window. The moment you move the mouse,
 tons of movement events will roll in and scroll the click events right

@@ -6,7 +6,7 @@ On Wed April 28 2010 18:51:18 Stan Hoeppner wrote:
 > are typically much more write than read heavy.  OLAP, or online analytical
 > processing, is exclusively reads, made up entirely of search queries.
 > Why/how would you think OLTP is mostly reads?
-If all you're doing is appending to a log file then you're write-intensive.
+If all you are doing is appending to a log file then you are write-intensive.
 For example, some INN servers using cycbuffs are write-intensive if they can
 forward the articles out to the peers before they disappear from cache.
 OLTP databases have indices (or hash tables or whatever) that need to be

@@ -9,7 +9,7 @@ occuring (I set the milter timeout per message to 15 seconds) often in huge
 lumps and the occasional "Could not get valid info from Discovery Servers")
 ?????
 I am not using procmail because this [cluster of] server is a gateway on to
-5 different pop3 servers (5 different domains), ergo, local users won't work
+5 different pop3 servers (5 different domains), ergo, local users will not work
 because of overlapping usernames ...(or insanely huge virtusertable to alias
 mappings .....)
 Alternatively does anyone have a working, high-capacity milter for this or

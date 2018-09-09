@@ -11,7 +11,7 @@ probably not source-available or tolerably licenced.   When I looked at
 what I had to do to gcc and link "hello world," I lost interest.
 Who the hell is writing the runtimes, anyway?   Why are Perl/Python/Ruby 
 more reliable?   In a world where the Macs all ran emulated 68K code 
-utterly reliably, it's just hard to accept that there can't be a single 
+utterly reliably, it is just hard to accept that there cannot be a single 
 portable JVM that just works.
 My opinion is biased because of the disgraceful state of non-Windoze 
 browser java implementations.

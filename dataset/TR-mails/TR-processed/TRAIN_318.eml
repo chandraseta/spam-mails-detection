@@ -5,10 +5,10 @@ On Tue, 04 May 2010 21:46:56 +0200, Jonas Stein wrote:
 > and some wait until i click on the device name in dolphin/thunar or
 > similar.
 > 
-> I dont understand who mounts when...
+> I do not understand who mounts when...
 > I suppose some of the "magic" is done by udev, automounter and KDE and
 > so on.
-Yes, in stable, it's a mix between hal/udev and desktop environment mount 
+Yes, in stable, it is a mix between hal/udev and desktop environment mount 
 system. 
 > I am looking for a set of rules which software is allowed to do mounts
 > and in which hierachy.
@@ -18,7 +18,7 @@ temporarily mount points) :-?
 > On a debian stable PC i users are not allowed to umount their usb stick,
 > if its mounted in KDE. But it works on console.
 On GNOME yes, users can mount/umount their own usb devices via Nautilus.
-> On a debian testing PC i'd like to have some automatic action after
+> On a debian testing PC i would like to have some automatic action after
 > inserting my GPS device in the USB slot. First it should be mounted
 > somewhere 
 It should be automatically mounted anywhere under "/media" as AKAIK, that 

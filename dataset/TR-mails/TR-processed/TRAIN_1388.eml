@@ -3,7 +3,7 @@ Thanks Dan. And the changes were very clever. Some of his rule changes
 actually did make thing more readable and he is highly skilled at 
 regular expressions.  I have found that readability and 
 understandability is important in maintaining code. I think in a group 
-project that it's more important.
+project that it is more important.
 Daniel Quinlan wrote:
 >This is not a big deal, but I think Marc has a good point.  The
 >performance difference is probably insignificant.  On the other hand, we

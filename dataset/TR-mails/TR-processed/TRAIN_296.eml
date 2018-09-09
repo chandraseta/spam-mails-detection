@@ -3,7 +3,7 @@ On Fri, Apr 30, 2010 at 09:14:43PM -0500, Brian Ryans  was heard to say:
 > In Aptitude, I can execute queued package modification orders (install,
 > remove, etc) by use of 'aptitude install', with no arguments.
 > 
-> How does one queue packages using only the command line? I'm looking to
+> How does one queue packages using only the command line? I am looking to
 > duplicate the following sequence done in the curses UI:
 > 
 > sudo aptitude

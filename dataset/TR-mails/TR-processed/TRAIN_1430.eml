@@ -20,7 +20,7 @@ Ben Mord wrote:
 > >interested in applying it to the security problem. Unfortunately, you hit a
 > >bunch of problems:
 > 
-> >    a.. When can you "commit" a state as being "good"?  You can't run from
+> >    a.. When can you "commit" a state as being "good"?  You cannot run from
 > a
 > >redo log forever; the performance and storage penalties accumulate. Even
 > log
@@ -39,7 +39,7 @@ Ben Mord wrote:
 > 
 > My proposed solution to the first two problems you mention is to be less
 > ambitious. The idea is that you *never* commit - instead, you simply revert
-> to base state on reboot. Obviously, you can't do this with partitions that
+> to base state on reboot. Obviously, you cannot do this with partitions that
 > accrue important state, e.g. a partition that stores database table data.
 > But in your typical web application, most partitions do not accrue important
 > state. For example, your typical web server or application server could have

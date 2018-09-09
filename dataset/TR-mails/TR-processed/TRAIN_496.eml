@@ -9,7 +9,7 @@ Hello T,
 > How can I trick my Debian into thinking that a package is not
 > installed?
 Your best option is, as others have said, to use pinning.  If that
-doesn't work, or you prefer not to use that method, you could
+does not work, or you prefer not to use that method, you could
 1) simply uninstall durep using the package manager you usually use,
 then d/l the package from the repos, and install, by hand, from your
 local copy.

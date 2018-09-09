@@ -5,9 +5,9 @@ Valdis.Kletnieks@vt.edu said:
 > 
 > 2.5-release: 350-450 msec
 > latest cvs: 1000-12000 msec
-> I'm not seeing a hit on 'next'. A quick "just pound on 'next' and
+> I am not seeing a hit on 'next'. A quick "just pound on 'next' and
 > watch the wall clock" test shows me able to go through 20 messages in
-> under 5 seconds, so it's well under 250ms per switch, but I'm seeing a
+> under 5 seconds, so it is well under 250ms per switch, but I am seeing a
 > really piggy CPU spike (100% for a few seconds) in the 'flist' code.
 > Of course, it seems to be related to number-of-folders:
 > [~] wc Mail/.folders

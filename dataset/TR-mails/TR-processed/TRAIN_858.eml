@@ -8,7 +8,7 @@ treated as the default package version.  It also increases the pin
 priority to 990.  aptitude's resolver tries particularly hard to install
 the default package version, and it will tie-break using the priority
 (you can configure both those behaviors extensively, but those are the
-defaults).  The story is more extreme with the apt resolver: it won't
+defaults).  The story is more extreme with the apt resolver: it will not
 even consider anything but the default version of a package.
   See also apt_preferences(5), section "APT's default priority
 assignments"; "-t" is the same as setting Default-Release.

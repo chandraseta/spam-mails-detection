@@ -14,7 +14,7 @@ On May 25, 2010, at 01:42, William Chops Westfield wrote:
 >>=20
 >> 'xhost +' enables connection without authentication from other =
 systems over TCP/IP and has nothing to do with ssh tunnels.  Make sure =
-you're sshing to the remote system using 'ssh -Y' and that the remote =
+you are sshing to the remote system using 'ssh -Y' and that the remote =
 system allows ssh tunneling in its /etc/sshd_config.
 >=20
 > I also recently got the latest System updates for 10.5.8 and had to =
@@ -23,11 +23,11 @@ install X11-2.5.1_rc1 over that to get working again (not unexpected.)
 > However, I no longer seem to be able to start xwindows remotely on my =
 desktop (NOT via ssh tunnels; just ssh to the host with no tunneling, =
 and do "xterm -display mymac:0")  It fails with 'cannot connect" issues, =
-in spite of either xhost +remotesystem or even just "xhost +"  I don't =
+in spite of either xhost +remotesystem or even just "xhost +"  I do not =
 see any related messages on the Mac-side console...
 >=20
 > Is this something in X, or something in the security update?  I CAN =
-still ssh to my mac, so the firewall hasn't cut everything out.  By the =
+still ssh to my mac, so the firewall has not cut everything out.  By the =
 firewall panel does look different than I remember it.
 >=20
 > Any ideas?

@@ -1,5 +1,5 @@
 [Razor-users] Re: Content-Type: message/rfc822  supported ?
-  For what you're trying to do, forwarding does not work.
+  For what you are trying to do, forwarding does not work.
   'bounce' works perfectly, if you can do that.
   Another option is to save spam to a folder and report 
   it all at once.
@@ -7,7 +7,7 @@
 On 26/07/02 08:41 +0200, Jørgen Thomsen wrote:
 ) Thu, 25 Jul 2002 18:33:15 -0700 skrev du:
 ) 
-) >  Not sure what you're asking.
+) >  Not sure what you are asking.
 )   
 ) I just want to be sure, that forwarding an email to my own spamtrap address
 ) which performs a razor-report on the entire received email is not waste of

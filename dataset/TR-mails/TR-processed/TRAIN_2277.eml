@@ -5,7 +5,7 @@ Dave Cridland  wrote:
 > > who accidentally type the leading % but this should not be relied
 > > upon."), and yet
 [snip]
-> They're just suggesting people use "./configure" instead.
+> they are just suggesting people use "./configure" instead.
 No, they do not (what would be the use of that, anyway?). They say that
 they will _try_ to eval macros even if the user forgot to pass the
 leading '%', but that this feature should not be relied upon.

@@ -7,8 +7,8 @@ procmail: Executing " ~/bin/SpamAssassin/spamassassin -P -c ~/bin/SpamAssassin/r
 dccproc: not found
 dccproc: not found
 Can someone enlighten me on why I get that? FreeBSD 4.6-STABLE, SA-2.3.0
-Secondly, I've tested (now on Three boxes) SA for site-wide usage but I believe I am
-missing something major because I've also had my setting checked/verified.
+Secondly, I have tested (now on Three boxes) SA for site-wide usage but I believe I am
+missing something major because I have also had my setting checked/verified.
 The problem is that the site-wide setup does NOT seem to work. Why?
 1. I have my local.cf in /etc/mail/spamassassin
 2. I have spamd running, and mail delivery logs show that all e-mails are
@@ -42,7 +42,7 @@ Some enlightenment would bail me out, I believe.
 Thanks
 -Wash
 -- 
-Odhiambo Washington      "The box said 'Requires
+Odhiambo Washington      "The box said  arequires
 Wananchi Online Ltd.  www.wananchi.com      Windows 95, NT, or better,'
 Tel: 254 2 313985-9   Fax: 254 2 313922     so I installed FreeBSD."   
 GSM: 254 72 743 223   GSM: 254 733 744 121  This sig is McQ!  :-)

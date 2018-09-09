@@ -11,7 +11,7 @@ ng
 > disappear. I no longer get a menu when right clicking on the (black)
 > desktop. I am also no longer able to change desktops, but I can still
 > access the windows on the current (only) desktop.
-That's symptoms of plasma-desktop crashing.
+that is symptoms of plasma-desktop crashing.
 > The only way to recover
 > from this is to go into a terminal window and restart kdm or reboot.
 Run plasma-desktop from krunner or X terminal.

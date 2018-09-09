@@ -4,10 +4,10 @@ Mike Castle put forth on 4/25/2010 10:29 AM:
 >> Does anyone have suggestions and practical experience with the pros and cons
 >> of the various filesystems?
 > 
-> Google is switching (has switched by now?) all of it's servers over to
+> Google is switching (has switched by now?) all of it is servers over to
 > ext4.  A web search will turn up more details on the subject.  But
 > they are mostly lots of big files.
-If it weren't for the live migration requirement, I read this to say that
+If it were not for the live migration requirement, I read this to say that
 Google would be using XFS due to its superior performance:
 "In a mailing list post, Google engineer Michael Rubin provided more insight
 into the decision-making process that led the company to adopt Ext4. The

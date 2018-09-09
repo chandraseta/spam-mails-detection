@@ -7,7 +7,7 @@ On 05/11/2010 04:40 PM, Oscar Corte wrote:
 >
 > I would like to test Debian on a new PC.
 >
-> It's a DELL XPS Inspiron 8100 with a Core i5 64 bits processor.
+> it is a DELL XPS Inspiron 8100 with a Core i5 64 bits processor.
 >
 > What would it be the recommended architecture/versioin to choose for 
 > download an install?
@@ -18,4 +18,4 @@ On 05/11/2010 04:40 PM, Oscar Corte wrote:
 > ------------------------------------------------------------------------
 > Hotmail: Free, trusted and rich email service. Get it now. 
 > 
-Not IA64 , that's Itanium; amd64 will work for you.
+Not IA64 , that is Itanium; amd64 will work for you.

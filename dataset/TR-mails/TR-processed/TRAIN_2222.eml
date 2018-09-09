@@ -19,7 +19,7 @@ On Sat, May 22, 2010 at 5:18 PM, Mike Swingler  wrote:
 >>> If your MacBook is actually 32-bit only, you should never even see the =
 64-bit JVMs.
 >>
->> And I don't. But like I said,
+>> And I do not. But like I said,
 >>
 >>> Have just tested my applet on a 64-bit Mac
 >>
@@ -32,7 +32,7 @@ On Sat, May 22, 2010 at 5:18 PM, Mike Swingler  wrote:
 > Switching between the in and out-of-process plugins is a simple matter of=
  adding or removing a symlink to the in-process plugin to /Library/Internet=
  Plug-Ins. You should only see grey radio buttons in Java Preferences if yo=
-u don't have write permissions in that directory. It's possible that if you=
+you do not have write permissions in that directory. it is possible that if you=
  have other Java plugins present in your ~/Library/Internet Plug-Ins folder=
 , that could be confusing the logic...maybe.
 >
@@ -50,12 +50,12 @@ e:
 >>
 >>> There is a known race condition between native background repainting an=
 d Java drawing in the resize/scrolling case for Java applets embedded in th=
-e browser process. The reason you don't see this behavior when using the ou=
+e browser process. The reason you do not see this behavior when using the ou=
 t-of-process plugin is because the applet painting is happening in a sepera=
 te process, and the browser is "pulling the pixels" from the Java process w=
-hen the browser thinks it's a good time to repaint.
+hen the browser thinks it is a good time to repaint.
 >>>
->>> I'm not clear why unchecking the "64-bit" checkbox in Java Preferences =
+>>> I am not clear why unchecking the "64-bit" checkbox in Java Preferences =
 should enable or disable the out-of-process vs. in-process applet setting. =
 If your MacBook is actually 32-bit only, you should never even see the 64-b=
 it JVMs.
@@ -73,12 +73,12 @@ it JVMs.
 >>>> Ergo, the non-flickering applet container is only available on 64-bit =
 Macs.
 >>>>
->>>> If anyone from Apple could clarify the situation, I'd be much obliged.
+>>>> If anyone from Apple could clarify the situation, I would be much obliged.
 >>>>
 >>>> On Wed, May 19, 2010 at 10:41 AM, Chung-Kai Chen  =
 wrote:
 >>>>
->>>>> It's really frustrating to see something on Mac so bad compared to Wi=
+>>>>> it is really frustrating to see something on Mac so bad compared to Wi=
 ndows.
 >>>>> I use this page (http://www.javafx.com/samples/TableInsights/index.ht=
 ml) to test
@@ -99,12 +99,12 @@ lmost
 >>>>>> window--something which the release notes suggest[2] might be the
 >>>>>> case--, but I find that they do still flicker.
 >>>>>>
->>>>>> One thing I note is that the Java Preferences app won't let me chang=
+>>>>>> One thing I note is that the Java Preferences app will not let me chang=
 e
 >>>>>> the way applets are run (from 'Within the browser process' to 'In
 >>>>>> their own process'), since the radio buttons are greyed out.
 >>>>>>
->>>>>> I'm on a 32-bit MacBook, btw.
+>>>>>> I am on a 32-bit MacBook, btw.
 >>>>>>
 >>>>>> Please could somebody help.
 >>>>>>

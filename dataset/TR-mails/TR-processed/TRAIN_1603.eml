@@ -1,6 +1,6 @@
 Re: advice on 7.3.92 to 7.3.93, and Apt compiling
 Once upon a time, Doug wrote :
-> Perms are borked on your en/ directory.  Can't get in.
+> Perms are borked on your en/ directory.  cannot get in.
 Indeed, sorry.
 Fixed now, happy download :-)
 Matthias

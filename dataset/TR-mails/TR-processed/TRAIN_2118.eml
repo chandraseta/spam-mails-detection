@@ -9,9 +9,9 @@ Am Donnerstag, 8. April 2010 schrieb Adrian von Bidder:
 > ddd or ...) so that it finds both the debugging symbols and the source
 > code?
 >=20
-> Just gdb -p  /usr/bin/kmail doesn't work :-(
+> Just gdb -p  /usr/bin/kmail does not work :-(
 >=20
-> (I've only ever used gdb on locally compiled simple projects, I've never
+> (I have only ever used gdb on locally compiled simple projects, I have never
 > worked with the separate symbol files as delivered in -dbg packages.)
 Not sure if this is the same as your example, but I usually used
 gdb kmail

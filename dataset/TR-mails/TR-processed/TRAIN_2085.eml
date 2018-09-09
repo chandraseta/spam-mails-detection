@@ -2,7 +2,7 @@ Re: What needs to improve in KDE 4?
 On 12 May 2010 09:58, Ferdinand Thommes  wrote:
 >> > Nepomuk / Strigi need to improve a *lot*.
 > yes, for sure
-It has, it's down to 2 MB of memory in KDE 4.5.
+It has, it is down to 2 MB of memory in KDE 4.5.
 >> What version? Strigi in 4.4 seems rather usable, those issues sound
 >> like familiar 4.3 issues.
 >
@@ -28,7 +28,7 @@ e and
 > in the end it works fine now but popular searches use a lot of ram.
 >
 Please test Strigi and Nepomuk in KDE Trunk / 4.5, and if you have
-problems let me know or file issues. It's all been heavily reworked
+problems let me know or file issues. it is all been heavily reworked
 and should really be usable now.
 --=20
 Dotan Cohen

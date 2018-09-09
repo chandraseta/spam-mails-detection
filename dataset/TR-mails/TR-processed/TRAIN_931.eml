@@ -19,7 +19,7 @@ the beginning.
 perl -e '$f=1; while(<>) { chomp; if ($_ eq "") { $f=1 } else { if ($f) 
 { $x{$_}=[]; $k=$_; $f=0 } else { push @{$x{$k}}, $_ } } } for(sort keys 
 %x) { print $_, "\n", join("\n", @{$x{$_}}), "\n\n" }'
-There's probably a perl hacker or two who can do it neater, but as I 
+there is probably a perl hacker or two who can do it neater, but as I 
 say, it seems to work ;)
 --
 Chris Jackson

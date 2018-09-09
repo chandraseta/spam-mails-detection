@@ -1,4 +1,4 @@
-OO.writer can't its file.
+OO.writer cannot its file.
 Good day.
 I can not open a file in 'oowriter' by 'edit' user, the program says, "Write error. The file could not be written." Running from console gives no additional info. The version is 3.2.0-4.
 ls -l 1.odt

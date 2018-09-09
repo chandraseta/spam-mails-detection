@@ -7,7 +7,7 @@ Re: Minor feature request
 > This could also be coded more generally in the new sequences code as a way to 
 > remove all messages before current from a particular sequence.
 Easy.
-First, you'll have to excuse me as I'm still using 2.3.1 (*), so, this
+First, you will have to excuse me as I am still using 2.3.1 (*), so, this
 may not play well with recent changes.  (I did look at 2.5.1, too).
 And, I just did this off the top of my head (I wanted to see if it
 (**) still worked), so this is somewhat untested.
@@ -19,7 +19,7 @@ Then you just need to provide the source for My_Mark2CurSeen and
 arrange for Exmh to include it (put it in your ~/.tk/exmh directory
 in your user.tcl; or in pick.patch if you enable the "source hook"
 under Prefs->Hacking Support)
-It's going to look something like this:
+it is going to look something like this:
 proc My_Mark2CurSeen {} {
     global exmh pick msg
     Exmh_Status "Clearing unseen up to cur..." red
@@ -28,7 +28,7 @@ proc My_Mark2CurSeen {} {
     busy PickMarkSeen
     Exmh_Status ok blue
 }
-(that's based upon the guts of Pick_MarkSeen)
+(that is based upon the guts of Pick_MarkSeen)
 You need to fill in the code for the [...get...] section; I ran out of
 time!
 John

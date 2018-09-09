@@ -10,7 +10,7 @@ Boyd Stephen Smith Jr. wrote:
 >>
 >> I have many media files in some specific directory (folder, call it as=
 >> you want). Loading the folder takes ~30 sec., even if I am using quite=
->> fast HDDs, etc. They're all on the same partition. I have disabled
+>> fast HDDs, etc. they are all on the same partition. I have disabled
 >> previewing, or thumbnails.
 >>
 >> How can I do to make this process faster?
@@ -57,7 +57,7 @@ Sorry, it is only slow to GUI (nautilus).
 > /home/z/ola
 > /home/z/oolander
 >
-> I'm most familiar with using this for ASCII names, but it can be conver=
+> I am most familiar with using this for ASCII names, but it can be conver=
 ted to=20
 > work with other names.  Japanese can use stroke count of the first char=
 acter=20

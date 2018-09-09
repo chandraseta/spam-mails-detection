@@ -5,9 +5,9 @@ On Fri, 09 Apr 2010 16:16:57 +0200, Wolodja Wentland wrote:
 > 
 > I am particularly fond of wpa_supplicant in roaming mode [1] but you
 > might want to take a look at wicd or network-mangler as well.
-I've read many good words about wicd, an am planning to go for it. 
+I have read many good words about wicd, an am planning to go for it. 
 Just to be 100% sure, with wpa_supplicant (from the wpasupplicant 
-package) in roaming mode, one doesn't necessarily need wicd, correct?
+package) in roaming mode, one does not necessarily need wicd, correct?
 Thanks
 -- 
 Tong (remove underscore(s) to reply)

@@ -2,8 +2,8 @@ aptitude stuck
 Today's run of 'aptitude -s safe-upgrade' had been running for over an
 hour and was using half my memory when I killed it. The status line was:
 open: 107756; closed: 119093; defer: 107181; conflict: 167
-There's evidently some situation it can't resolve. How can I figure out
-what package(s) cause the problem?
+there is evidently some situation it cannot resolve. How can I figure out
+what package(s) because the problem?
 -- 
 If tyranny and oppression come to this land, it will be in the guise
 of fighting a foreign enemy. -- James Madison

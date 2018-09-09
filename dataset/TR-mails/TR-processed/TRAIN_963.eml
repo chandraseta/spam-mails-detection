@@ -12,7 +12,7 @@ Re: [SAtalk] BUG: spamd --allowed-ips=[127.0.0.1 must be first]
 > NOT OK:
 > spamd --debug --daemonize --auto-whitelist --username=nobody --allowed-ips=1
 > 92.168.1.1, 127.0.0.1"
-fwiw, I can't reproduce this with
+fwiw, I cannot reproduce this with
   spamd --debug --auto-whitelist --allowed-ips="127.0.0.1"
   spamd --debug --auto-whitelist --allowed-ips="127.0.0.1, 192.168.1.1"
   spamd --debug --auto-whitelist --allowed-ips="192.168.1.1, 127.0.0.1"

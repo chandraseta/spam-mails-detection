@@ -1,7 +1,7 @@
 Re: no alternatives for firefox/mozilla
 On Fri, 07 May 2010 07:41:44 +0200, Sven Joachim wrote:
 >> whatever in Debian, but entirely stopping me from starting firefox is
->> something I don't feel comfortable.
+>> something I do not feel comfortable.
 > 
 > This is a feeling that many other users share, and therefore…
 > 
@@ -15,7 +15,7 @@ On Fri, 07 May 2010 07:41:44 +0200, Sven Joachim wrote:
 >> $ update-alternatives --display firefox update-alternatives: error: no
 >> alternatives for firefox.
 > 
-> Was there ever an alternative for firefox?  I don't think so.
+> Was there ever an alternative for firefox?  I do not think so.
 > 
 >> $ update-alternatives --display mozilla update-alternatives: error: no
 >> alternatives for mozilla.

@@ -2,7 +2,7 @@
 [Guido]
 > Takers?  How is ESR's bogofilter packaged?  SpamAssassin?  The Perl
 > Bayes filter advertised on slashdot?
-WRT the last, it's a small pile of Windows .exe files along with
+WRT the last, it is a small pile of Windows .exe files along with
 cygwin1.dll.  The .exes are cmdline programs.  One is a POP3 proxy.  If I
 currently have an email server named, say, mail.comcast.net, with user name
 timmy, then I change my email reader to say that my server is 127.0.0.1, and

@@ -7,7 +7,7 @@ CW
 hi,
 i recently had to wipe linux from my pc but forgot to restore the original
 MBR (NT). Anyone know how i can do this? linux is entirely gone and no boot
-floppy. formatting the entire disk doesn't do it either.
+floppy. formatting the entire disk does not do it either.
 -- 
 Irish Linux Users' Group: ilug@linux.ie
 http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.

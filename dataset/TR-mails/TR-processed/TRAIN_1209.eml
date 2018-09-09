@@ -1,5 +1,5 @@
 JAWT_macosxDRAWINGSurfaceInfo gets the wrong component
-I've got a Java application that contains a -panel within a frame and
+I have got a Java application that contains a -panel within a frame and
 I want to draw into the panel and the method works on Windows (with OS
 specific modification).
 However, when I execute the program on a Mac it would appear that

@@ -1,17 +1,17 @@
 Re: [Razor-users] Stripping the SpamAssassin report
 At 12:20 PM -0500 8/13/02, Mike Burger wrote:
 >Make sure you have this in your .spamassassin/user_prefs:
-This might be a problem.  I'll have to look into it further.  I just 
-got SA working yesterday.  It's being called from MIMEDefang.  I'm 
+This might be a problem.  I will have to look into it further.  I just 
+got SA working yesterday.  it is being called from MIMEDefang.  I am 
 not sure if it will look for user preferences when run like that. 
-One would hope it would be I can't say for certain.  I'll look in to 
+One would hope it would be I cannot say for certain.  I will look in to 
 it.
 ># By default, the subject lines of suspected spam will be tagged.
 ># This can be disabled here.
 >#
 >rewrite_subject 0
 Yeah, I disabled the subject rewrite.  I also lowered required_hits 
-to 1 (wonder if I can do zero) so that almost all mail is scored--I'm 
+to 1 (wonder if I can do zero) so that almost all mail is scored--I am 
 testing it right now.  auto_report_threshold was raised to 100 to 
 make sure that all mail gets through to me for now.
 ># By default, spamassassin will include its report in the body
@@ -19,12 +19,12 @@ make sure that all mail gets through to me for now.
 ># headers instead. Using 'use_terse_report' for this is recommended.
 >#
 >report_header 1
-Ah, now I didn't notice this.  I rather like this option.  I may set 
+Ah, now I did not notice this.  I rather like this option.  I may set 
 my global default to this.
 >The first tells it not to add *****SPAM***** to the subject, the second
 >tells it to put the report in the headers, instead of the body.
 >
->If the report is in the headers, it won't be calculated in the
+>If the report is in the headers, it will not be calculated in the
 >razor-check.
 This makes sense.  I may do that for just this reason.  Thanks!
 Justin

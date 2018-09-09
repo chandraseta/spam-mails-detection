@@ -5,8 +5,8 @@ Re: inbox mail notification broken
   | Any hints ?
 Probably a private sequence has gotten set, the highlighting only
 works for public ones.
-If "scan unseen" works as you'd expect, but highlighting doesn't,
-that's the usual explanation.
+If "scan unseen" works as you would expect, but highlighting does not,
+that is the usual explanation.
 kre
 _______________________________________________
 Exmh-users mailing list

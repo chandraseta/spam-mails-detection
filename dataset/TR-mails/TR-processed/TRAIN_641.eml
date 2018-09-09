@@ -10,9 +10,9 @@ RE: [ILUG] Dell GX260 V Redhat 7.3
 >> dell machine that 
 yes, yes, all terribly insightful and extremely useful information.
 > We just got some new Dell GX260 machines here are work and 
-> I'm supposed to
+> I am supposed to
 > be putting Linux on them. I tried installing RedHat 7.3. It 
-> just didn't want
+> just did not want
 > to know about the graphics card. I's an onboard Intel DVMT chip. No
 > dedicated memory, it takes it from the onboard RAM.
 The onboard DVMT card has an Intel 845 G/GL chipset.

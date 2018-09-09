@@ -4,7 +4,7 @@ Le 14/04/2010 15:28, Ron Johnson wrote:
 >> Hugo Vanwoerkom put forth on 4/13/2010 3:53 PM:
 > [snip]
 >>
->> Either way, avoid onboard RealTek ethernet as it's not currently
+>> Either way, avoid onboard RealTek ethernet as it is not currently
 >> supported
 >> well by Debian. One might be able to make it work, but the process
 >> requires
@@ -28,9 +28,9 @@ Le 14/04/2010 15:28, Ron Johnson wrote:
 >
 Hi, I have an Asus "sabertooth" 55i (socket LGA1156) with the same 
 Realtek lan chip (rev03 here), no problem.
-The motherboard is overpriced due to it's marketing hype regarding 
+The motherboard is overpriced due to it is marketing hype regarding 
 "military" grade components and "Ceramix" coated heatsinks , but 
-otherwise it's working great, and very cool too with an Intel Core i7. 
+otherwise it is working great, and very cool too with an Intel Core i7. 
 Layout is good for my needs, ample space for large video card without 
 blocking any sata port. Bundle is limited to bare minimum (esata/usb 
 bracket and a few cables). Used for video processing mainly, occasional 

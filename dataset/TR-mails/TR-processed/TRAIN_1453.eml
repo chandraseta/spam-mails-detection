@@ -25,9 +25,9 @@ will automatically bring you up to date with the final GM version.
 > Like the last pair of releases, all of the JavaDoc API jars, source =
 jars, native frameworks headers, and tools documentation is in a =
 separate docs package. Be sure to install this package to keep your IDE =
-in sync with the Java platform sources. We've made a number of additions =
+in sync with the Java platform sources. we have made a number of additions =
 to the eAWT, so you may also want to check out the appledocs.jar if you =
-haven't looked at it in a while.
+have not looked at it in a while.
 >=20
 > Java for Mac OS X 10.6 Update 2 Developer Documentation:
 > =

@@ -23,7 +23,7 @@ away, but this causes our entire application to run
 really sloooww !! lol
 Is there anything weird or different with the standard
 implemenation of semaphores on modern linux that could
-cause a semop() to fail to pick up the change in state
+because a semop() to fail to pick up the change in state
 in a semaphore immediately?
 Setting sem_flg = IPC_NOWAIT and checking for errno ==
 EAGAIN and recalling semop() if the semop() call fails
@@ -37,7 +37,7 @@ Rgds,
 Colin Nevin 
 __________________________________________________
 Do You Yahoo!?
-Everything you'll ever need on one web page
+Everything you will ever need on one web page
 from News and Sport to Email and Music Charts
 http://uk.my.yahoo.com
 -- 

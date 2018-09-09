@@ -8,7 +8,7 @@ be scanned for SPAM and viruses and then relayed to the mail(20) server for
 delivery.
 As I understand it, DNS A records are used in a rotating fashion for load
 balancing, but DNS MX records are used in order or prority, meaning the 10
-before the 20 and only 20 if the 10 isn't available.
+before the 20 and only 20 if the 10 is not available.
 But only some of the mail is actually being scanned which leads me to
 believe that not all of the mail is actually hitting that box and the 10
 never goes down. Why? Have I got something confused here?

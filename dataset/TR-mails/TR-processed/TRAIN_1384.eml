@@ -2,11 +2,11 @@ Re: bad focus/click behaviours
 >>>"Kevin Oberman" said:
  > It did for me, but I am not willing to say it is not a tcl/tk issue as
  > other apps seemed to work OK for cut and paste and Tk does its
- > clipboard stuff a bit differently than most toolkits. So I'm not
+ > clipboard stuff a bit differently than most toolkits. So I am not
  > about to place blame. Just reporting my experience.
 One more salvo on X and cut/paste.  X specifies at least two *mechanisms*
 for cut/paste, but as usual mandates no *policy*.  Windows and Macintosh
-have a slightly different mechanism and one uniform policy.  I'm quite
+have a slightly different mechanism and one uniform policy.  I am quite
 sure that Tk implements all PRIMARY and CLIPBOARD selections accurately.
 The PRIMARY selection is the one that is tied to the visible selection
 on your X display.  The CLIPBOARD selection is the one with the explicit
@@ -18,8 +18,8 @@ mechanisms under one umbrella, and by all reports it is not that great.
 I would encourage folks to play with those 10 lines of code in
 Text_Selection and report what works well for them.  We may come up
 with 8 lines that work for everyone, or perhaps introduce yet another
-setting that lets folks choose between a few useful models.  Of course,
-that's an admission of policy failure, but I'm willing to do that.
+setting that let us folks choose between a few useful models.  Of course,
+that is an admission of policy failure, but I am willing to do that.
 --
 Brent Welch
 Software Architect, Panasas Inc

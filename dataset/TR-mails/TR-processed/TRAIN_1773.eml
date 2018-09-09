@@ -1,8 +1,8 @@
 Is it possible to login as root with GDM3?
-I've just replaced gdm with gdm3 and find that it doesn't seem to be
+I have just replaced gdm with gdm3 and find that it does not seem to be
 possible to login as root any more. Does anyone know if this can be
 enabled?
-The old login screen settings included lots of options including 'allow
+The old login screen settings included lots of options including ow
 administrator login'. The new version has very few options.
 -- 
 Tixy               ()  The ASCII Ribbon Campaign (www.asciiribbon.org)

@@ -8,19 +8,19 @@ Lenny users know.
 The bad part is that now I cannot make the graphics card to work,
 because I should recompile the NVidia driver, but to accomplish this
 task I need linux-headers-$(uname -r), and this package depend on  the
-corresponding linux-kbuild, which won't install, according to apt-get
+corresponding linux-kbuild, which will not install, according to apt-get
 message.
-This is a pity, but at least now I'm sure the sound card is working. My
-PC is brand new, so I'm happy it's not a hardware problem, even though
-it's still a problem.
-So I would say the issue is solved, from my point of view. I won't ask
+This is a pity, but at least now I am sure the sound card is working. My
+PC is brand new, so I am happy it is not a hardware problem, even though
+it is still a problem.
+So I would say the issue is solved, from my point of view. I will not ask
 some help to force the installation of linux-headers in this thread,
-maybe I'll start another one.
+maybe I will start another one.
 Many many thanks to everyone!
 On Sun, 2010-05-02 at 09:26 +0530, Anand Sivaram wrote:
 > On Sat, May 1, 2010 at 22:49, Andrea Giuliano  wro=
 te:
-> > Here is /usr/share/alsa/alsa.conf (that's a lot of lines!)
+> > Here is /usr/share/alsa/alsa.conf (that is a lot of lines!)
 > >
 > > Best regards.
 > >
@@ -636,7 +636,7 @@ wrote:
 > >> >  Controls      : 4
 > >> >  Simple ctrls  : 3
 > >> >
-> >> > Actually, you are right, it's rather strange I see just a few contro=
+> >> > Actually, you are right, it is rather strange I see just a few contro=
 ls,
 > >> > they should be many more (my card is a 7.1 points one).
 > >> >
@@ -660,10 +660,10 @@ t all,
 > >> >> >  0 [NVidia         ]: HDA-Intel - HDA NVidia
 > >> >> >                       HDA NVidia at 0xf9ef8000 irq 22
 > >> >> >
-> >> >> > I'm going to try a LiveCD or such, but I'm not very optimistic.
+> >> >> > I am going to try a LiveCD or such, but I am not very optimistic.
 > >> >>
 > >> >> Modern motherboards use to include 5.1 or 7.1 audio channel chipset=
-, it's
+, it is
 > >> >> a bit weird your amixer output only shows 3 devices...
 > >> >>
 > >> >> This may sound silly, but have you tried to plug the speakers jack =

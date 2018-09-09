@@ -6,7 +6,7 @@
 >   point your mail reader to the pop server at localhost.  When it
 >   receives a connection, it connects to the remote pop servers, reads
 >   your mail, and gives you only the non-spam.
-FYI, I'll never trust such a scheme:  I have no tolerance for false
+FYI, I will never trust such a scheme:  I have no tolerance for false
 positives, and indeed do nothing to try to block spam on any of my email
 accounts now for that reason.  Deliver all suspected spam to a Spam folder
-instead and I'd love it.
+instead and I would love it.

@@ -9,9 +9,9 @@ Am Dienstag 11 Mai 2010 schrieb Mike Bird:
 > > KDE 3.5 packages for Squeeze.
 > >=20
 > > So IMHO any further request for KDE 3.5 in Squeeze is off topic on
-> > this list as Debian KDE/Qt maintainers repeatedly said they won't.
+> > this list as Debian KDE/Qt maintainers repeatedly said they will not.
 >=20
-> Please don't lie.  This list is for "Discussions related to KDE in
+> Please do not lie.  This list is for "Discussions related to KDE in
 > Debian. Those developing KDE-based packages are encouraged to use this
 > to discuss issues and share their experience."
 > http://lists.debian.org/debian-kde/
@@ -46,10 +46,10 @@ Mike
 =2D--------------------------------------------------------------------
 Now, how about that, Mike? How about being the change you want to achieve?
 Thanks.
-Note: KDE 3.5 doesn't really need to be co-installable for those only=20
+Note: KDE 3.5 does not really need to be co-installable for those only=20
 interested in KDE 3.5. At least not initially.
 Just a small start might pull this off for you. But if you do not *act*,=20
-probably nothing will happen. You can't change those who are not=20
+probably nothing will happen. You cannot change those who are not=20
 interested in providing KDE 3.5 for Debian Squeeze. So either you start=20
 pulling it off for yourself or it - unless someone else feels the=20
 motivation to do it - *will just not happen*.

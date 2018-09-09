@@ -1,10 +1,10 @@
 compile multiple java tools
-I'm not sure this is the right list to write to... sorry in any case...
+I am not sure this is the right list to write to... sorry in any case...
 I have three different tools (e.g. A, B, C) that use the same package (a 
 package I created).
 Is there a way to put it all in a singe XCode project that creates the 
 package, then A.jar, B.jar and finally C.jar?
-I tried with multiple targets, but it didn't work (may be I forgot to 
+I tried with multiple targets, but it did not work (may be I forgot to 
 set some options?).
 Any idea?
 Many thanks in advance,

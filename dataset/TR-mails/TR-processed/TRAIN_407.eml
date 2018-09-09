@@ -15,7 +15,7 @@ On Thu, 2002-10-03 at 08:16, Mark Derricutt wrote:
 >=20
 > Anyone know why Red Hat insist on sticking with python 1.5.2?
 >
-they are on python 2.2 for 8.0 - but they don't like to break
+they are on python 2.2 for 8.0 - but they do not like to break
 compatibility during major releases.
 therefore: 6.X was 1.5.2 b/c that was current
 7.x was 1.5.2 b/c that was current when 7.0 was released.

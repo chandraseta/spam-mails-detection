@@ -3,11 +3,11 @@ From nobody Sun Sep  9 13:55:00 2018
 Content-Type: text/plain; charset=ISO-8859-1
 On Tue, Apr 20, 2010 at 8:07 PM, John Hasler  wrote:
 > B. Alexander wrote:
-> > I've got an issue with a sid box that I have been maintaining for a
+> > I have got an issue with a sid box that I have been maintaining for a
 > > while. This is my workstation, and I have noticed a growing number of
 > > broken packages, unmet dependencies and conflicts. I have been using
 > > safe-upgrade for months now, hoping that it would work itself out over
-> > time. However, this hasn't happened.
+> > time. However, this has not happened.
 >
 > No, of course not.  Sid is constantly undergoing the sort of changes
 > that take place when you upgrade from one release to the next and which
@@ -32,10 +32,10 @@ Yes. I need to block out some time and do just this.
 > > tooth), then I upgrade it to testing and run until the next stable
 > > release.
 >
-> I'm having trouble imagining what packages appropriate to a firewall
+> I am having trouble imagining what packages appropriate to a firewall
 > could get long in the tooth.
 >
-ssh, ssl, iptables, snort, etc. I don't have an extensively large package
+ssh, ssl, iptables, snort, etc. I do not have an extensively large package
 list on my firewall, especially compared to a workstation, but since it is
 on the sharp end of my network, I try to keep it as up to date as is
 feasable.

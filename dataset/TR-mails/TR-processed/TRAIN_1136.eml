@@ -15,7 +15,7 @@ On 5/13/10, Merciadri Luca  wrote:
 >>> ps2pdf, I get a PDF.
 >>>
 >>
->> This is a rather clumsy way these days.  Why don't you use pdflatex?
+>> This is a rather clumsy way these days.  Why do not you use pdflatex?
 >>
 >>
 >>> Normal, but the problem is that if I the PDF is
@@ -34,7 +34,7 @@ On 5/13/10, Merciadri Luca  wrote:
 >>>
 >>
 >> A smart reader would have an option to detect changes to the file and
->> reload it automatically.  Since I haven't used acroread for ages I don't
+>> reload it automatically.  Since I have not used acroread for ages I do not
 >> know whether it has such an option.
 >>
 >>
@@ -69,7 +69,7 @@ On 5/13/10, Merciadri Luca  wrote:
 >
 > Note that, under Windows, I remember that acrord32.exe always blocked
 > the file for writing, even if it was only being read by acrord32.exe.
-> Okay, it's Windows. Bad memories.
+> Okay, it is Windows. Bad memories.
 >
 > --
 > Merciadri Luca
@@ -78,7 +78,7 @@ On 5/13/10, Merciadri Luca  wrote:
 > client, please contact me.
 >
 >
-> What doesn't kill you will make you stronger. (Friedrich Nietzsche)
+> What does not kill you will make you stronger. (Friedrich Nietzsche)
 >
 >
 -- 

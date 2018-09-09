@@ -2,24 +2,24 @@ Re: pdftk or related: how to make a bookmark for every inserted  PDF?
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 Camaleón  writes:
-> PDF manipulation is still very limited in Linux so don't expect the same 
+> PDF manipulation is still very limited in Linux so do not expect the same 
 > manageability and easiness of Acrobat Professional or such programs 
 > here :-)
-Mmh okay, but what I want looks basic, doesn't it? No problem.
+Mmh okay, but what I want looks basic, does not it? No problem.
 > That said, I would make first the big PDF file (with all the needed 
 > appended files in there) and then make the bookmarks with a program that 
 > allows creating/editing them, like "jPdfBookmarks¹".
-Thanks. I'll check it out.
+Thanks. I will check it out.
 > Dunno whether "pdfkt" or "pdfedit" will allow creating/editing
 > bookmarks.
 I think you meant `pdftk' at the place of `pdfkt'.
 > ¹ http://flavianopetrocchi.blogspot.com
-Thanks for this link. I'll check it.
+Thanks for this link. I will check it.
 - -- 
 Merciadri Luca
 See http://www.student.montefiore.ulg.ac.be/~merciadri/
 - -- 
-To live is the rarest thing in the world.  Most people exist, that's
+To live is the rarest thing in the world.  Most people exist, that is
  all. (Oscar Wilde)
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (GNU/Linux)

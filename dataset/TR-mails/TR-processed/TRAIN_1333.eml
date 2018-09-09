@@ -6,7 +6,7 @@ Content-Transfer-Encoding: quoted-printable
 Hello,
 On ketvirtadienis 06 Gegu=C5=BE=C4=97 2010 02:13:50 Boyd Stephen Smith Jr. =
 wrote:
-> > Debian packagers don't have that much time to spend on packaging (they
+> > Debian packagers do not have that much time to spend on packaging (they
 > > are volunteers after all), and hardly they can do decisions about which
 > > particular branch is better.
 > > They have to package the last one which has
@@ -35,7 +35,7 @@ kindly and wait till somebody else is motivated enough to do it.
 to
 > >  go back one whole release of the whole software compilation just becau=
 se
-> >  one app has one annoying dependency is a little bit overkill, isn't it?
+> >  one app has one annoying dependency is a little bit overkill, is not it?
 >=20
 > Just block the KDEPIM 4.4 apps from migrating to testing.  The KDEPIM 4.3
 > programs already work with the KDEBASE 4.4 libraries.
@@ -51,9 +51,9 @@ horse (4.3) makes absolutely no sense. I recommend you to face reality here.
 > sure KDE 4.4 is ready for stable".  My post was "KDE 4.4 is inappropriate
 > for stable".  All the replies have been "too bad, we are going to release
 > it anyway".
-Don't you see that you always put yourself in the front in your rationales?=
+do not you see that you always put yourself in the front in your rationales?=
 =20
-YOU run a dozen of DB servers, YOU don't want another one, YOU don't trust=
+YOU run a dozen of DB servers, YOU do not want another one, YOU do not trust=
 =20
 MySQL, YOU say KDE 4.4 is inappropriate for stable. Nothing objective and Y=
 OU=20

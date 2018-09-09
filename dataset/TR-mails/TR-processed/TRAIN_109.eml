@@ -1,4 +1,4 @@
-[Razor-users] Re: Can't use and undefined value.." error
+[Razor-users] Re: cannot use and undefined value.." error
 > Date: Mon, 30 Sep 2002 14:00:12 -0400 (EDT)
 > From: Dayv Gastonguay 
 >
@@ -6,7 +6,7 @@
 > problems with razor-check.  Any time razor-check is run, (with or without
 > arguments), i get this error:
 >
-> Can't use an undefined value as a symbol reference at
+> cannot use an undefined value as a symbol reference at
 > /usr/local/lib/perl5/site_perl/5.005/i386-freebsd/Razor2/Client/Agent.pm
 > line 756.
 >

@@ -1,8 +1,8 @@
 trouble with TransferMode
-I'm developing a QT app on Windows, and am using a WSH javascript to =
+I am developing a QT app on Windows, and am using a WSH javascript to =
 control output from the application. I have everything working, except I =
-want to make a track blend 50% with the background and it just doesn't =
-seem to work. Here is what I'm using:
+want to make a track blend 50% with the background and it just does not =
+seem to work. Here is what I am using:
 qtTargetMovie.QTControl.Movie.Tracks(3).top =3D =
 qtTargetMovie.QTControl.Movie.height-qtTargetMovie.QTControl.Movie.Tracks(=
 3).height;
@@ -13,12 +13,12 @@ qtTargetMovie.QTControl.Movie.Tracks(3).OperationColor =3D =
 qtTargetMovie.QTControl.Movie.Tracks(3).HighQualityMode =3D true;
 The first line is changing the location of the track, which it does just =
 fine, so I know I have the right track addressed. The next line just =
-doesn't seem to happen. The track is always set to Dither when I check =
+does not seem to happen. The track is always set to Dither when I check =
 the Movie Properties. I am using version 7.6.6 of QT on Windows.
 I also tried:
 qtTargetMovie.QTControl.Movie.Tracks(3).TransferMode =3D =
 QTTransferModesEnum.qtTransferModeStraighAlphaBlend;
-I'm using the book "QuickTime For .NET and COM Developers" by John =
+I am using the book "QuickTime For .NET and COM Developers" by John =
 Cromie as my reference (which is excellent, btw).
 Patrick Besong
 Manager, Creative Design & Development

@@ -1,6 +1,6 @@
 Problem with xquartz 2.5.0
 Hi !
-I'm getting some problems with Xquartz (2.5.0). I'm running on Mac OS =
+I am getting some problems with Xquartz (2.5.0). I am running on Mac OS =
 10.6.3. My problem is the following :
 I use the option of the terminal to automatically launch Xquartz when =
 launching terminal. It works well, and Xquartz is launched. I can then =
@@ -8,9 +8,9 @@ launch applications which need X11, like nedit.
 After working, I close all the open X11 windows, I close xquartz and =
 terminal with "command-q" keys.
 The problems appear here : if I want to relaunch nedit, doing exactly =
-the same procedure, I obtain the "can't open display" exit status for =
+the same procedure, I obtain the "cannot open display" exit status for =
 nedit. However, Xquartz is normally launched.
-I don't understand this behaviour. Somebody has an idea ? Probably a =
+I do not understand this behaviour. Somebody has an idea ? Probably a =
 problem with the environment variables ?
 Thank you !
 Cyril Georgy

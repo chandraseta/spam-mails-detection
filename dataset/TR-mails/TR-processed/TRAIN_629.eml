@@ -17,9 +17,9 @@ So I conclude that the problem lies with the GUI KDE login.
 Although some might be interested in figuring out exactly the problem, I
 take on the role of a "user" here and wish to figure out how to make my
 system well again.  (Of course, anyone reading this who wants to delve
-into why this is happening, I'd assist.)
+into why this is happening, I would assist.)
 If you, or anyone else, could tell me what I can try to do to fix
-things, I'd appreciate it.  I know I can do a clean install of
+things, I would appreciate it.  I know I can do a clean install of
 everything, but I would be hopeful that less drastic things might work.
   Any chance of fixing things by doing a reinstall or particular
 packages?  If so, not only telling me which packages to try, but also a
@@ -45,7 +45,7 @@ geany: symbol lookup error: /usr/lib/libgdk-x11-2.0.so.0: undefined
 symbol: g_malloc_n
 don@kali:~$
 Unless there is some relation to my password/login problem of this
-thread, I'll start a new thread with the above problem.
+thread, I will start a new thread with the above problem.
 Thanks, and if anyone has more ideas on fixing my password/login
 problem, please help!
 Regards,

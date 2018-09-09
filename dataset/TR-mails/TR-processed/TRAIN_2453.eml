@@ -11,9 +11,9 @@ On Fri, 21 May 2010 14:55:52 -0400 (EDT), Peter Easthope wrote:
 > and then update and upgrade.
 Not unless you want to upgrade your entire system to Sid.  To install
 only certain cherry-picked applications from Sid, you have to use
-apt pinning.  And don't use synaptic.  (But since you don't have X
-running, you can't use synaptic.  Yet.  But once you get it running,
-don't use synaptic.  I've heard that it does not respect apt pinning.)
+apt pinning.  And do not use synaptic.  (But since you do not have X
+running, you cannot use synaptic.  Yet.  But once you get it running,
+do not use synaptic.  I have heard that it does not respect apt pinning.)
 -- 
   .''`.     Stephen Powell    
  : :'  :

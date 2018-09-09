@@ -1,7 +1,7 @@
-Re: [Razor-users] What's wrong with the Razor servers now?
-except that the server doesn't know you are the same person that reported
-the spam, since the identity isn't checked (at least not required, so i
-assume it's not checked) when doing a razor-check
+Re: [Razor-users] what is wrong with the Razor servers now?
+except that the server does not know you are the same person that reported
+the spam, since the identity is not checked (at least not required, so i
+assume it is not checked) when doing a razor-check
 --
 Daniel Higgins
 Administrateur Système
@@ -11,11 +11,11 @@ From: "Tabor J. Wells"
 To: "Daniel Higgins" 
 Cc: ; "ML-razor-users" 
 Sent: Wednesday, August 07, 2002 10:39 AM
-Subject: Re: [Razor-users] What's wrong with the Razor servers now?
+Subject: Re: [Razor-users] what is wrong with the Razor servers now?
 > On Wed, Aug 07, 2002 at 10:22:13AM -0400,
 > Daniel Higgins  is thought to have said:
 >
-> > maybe i'm wrong, but it could be that your trust isn't high enough to
+> > maybe i'm wrong, but it could be that your trust is not high enough to
 flag a
 > > single message as spam?
 >

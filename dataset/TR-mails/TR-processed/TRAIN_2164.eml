@@ -1,7 +1,7 @@
 Re: Java for Mac OS X Developer Preview (10M3050+9M3150)
 should one restart the computer after it?
 I run java -version and it seems the update is immediate, yet clicking
-'show cache files' in Java preferences still doesn't do anything.
+'show cache files' in Java preferences still does not do anything.
 2010/4/15, Mike Swingler :
 > Java Developers,
 >
@@ -14,8 +14,8 @@ re?bundleID=3D20598>.
 he
 > correct disk images for your system.
 >
-> Even if you don't install the build, please read the HTML release notes.
-> We've fixed several regressions and made many interesting enhancements we
+> Even if you do not install the build, please read the HTML release notes.
+> we have fixed several regressions and made many interesting enhancements we
 > think you will want to know about before "Java for Mac OS X 10.6 Update 2=
 "
 > and "Java for Mac OS X 10.5 Update 7" goes live to customers.

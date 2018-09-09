@@ -1,9 +1,9 @@
-Re: Can't read DVD
+Re: cannot read DVD
 From nobody Sun Sep  9 13:55:01 2018
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: quoted-printable
 That worked, thanks!
-If one has to do this every time, why is it that these options aren't liste=
+If one has to do this every time, why is it that these options are not liste=
 d
 in /etc/fstab?
 On Fri, Apr 23, 2010 at 9:27 AM, =E5=88=98=E5=AE=87=E8=BE=89 <lyh19901223@g=
@@ -12,7 +12,7 @@ mail.com> wrote:
 >
 > On 23 April 2010 13:54, James Stuckey  wrote:
 > >
-> > I'm not able to read DVDs in squeeze. I burned this disc on the same
+> > I am not able to read DVDs in squeeze. I burned this disc on the same
 > > drive in squeeze. Thereafter it worked fine until a week or so ago
 > > (the disc is less than a month old). I tested the disc last week on a
 > > windoze and mac osx and it worked without a problem.

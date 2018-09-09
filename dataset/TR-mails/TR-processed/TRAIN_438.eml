@@ -1,5 +1,5 @@
 Re: Snow Leopard, Java 6 and Netbeans
-Has anyone tried it with the 10M3050 or 9M3150 developer preview? I'm =
+Has anyone tried it with the 10M3050 or 9M3150 developer preview? I am =
 somewhat concerned that this is a demonstrable regression between Java 5 =
 and Java 6 - however there are several other factors that can impact =
 memory use:
@@ -8,7 +8,7 @@ memory use:
 1.6/server/64-bit
 - client vs. server HotSpot itself (more aggressive compilation and =
 storage of compiled code)
-Anecdotally, I've talked to several people who have large long running =
+Anecdotally, I have talked to several people who have large long running =
 64-bit processes on Snow Leopard with 2GB-of-RAM machines who were =
 having a miserable time. While reverting to 32-bit may be a quick fix =
 for some, others who tuned the GC parameters or turned on =
@@ -16,8 +16,8 @@ for some, others who tuned the GC parameters or turned on =
 values in the heap) found that they could reclaim or even exceed their =
 original 32-bit performance (since they were still using the server =
 JVM).
-Since someone mentioned that NetBeans 6.9 Beta was working well, I'd =
-suggest taking a look at it's JVM options and see if there wasn't some =
+Since someone mentioned that NetBeans 6.9 Beta was working well, I would =
+suggest taking a look at it is JVM options and see if there was not some =
 tweaking done to optimize it for a 64-bit by default world.
 Best of luck,
 Mike Swingler
@@ -25,30 +25,30 @@ Java Runtime Engineer
 Apple Inc.
 On Apr 23, 2010, at 7:06 AM, Dave Minnigerode wrote:
 > I too have been using netbeans 6.8 on 10.5 and 10.6 with the default =
-jvm doing java 6 work... It's just stable enough for daily use.  I do =
+jvm doing java 6 work... it is just stable enough for daily use.  I do =
 restart NB every few hrs when the memory use gets out of hand =
-(apparently some object leaks with the apple jvm/nb combo).... can't =
-switch it back to java 5, so kinda stuck with it. So I'm probably just =
-going to switch to IntilliJ, I've found it's performance to be a lot =
+(apparently some object leaks with the apple jvm/nb combo).... cannot =
+switch it back to java 5, so kinda stuck with it. So I am probably just =
+going to switch to IntilliJ, I have found it is performance to be a lot =
 better than NB overall.   File tree nav is painless for example.
 >=20
-> I'm kinda sad about it, but got work to get done...
+> I am kinda sad about it, but got work to get done...
 >=20
 > On Apr 23, 2010, at 8:52 AM, eisenstein@csmining.org wrote:
 >=20
->> Hmm. I'm using the late 2006 Macbook Pro (2.33 GHz upgraded to 4 GB =
-[3.5 GB] RAM). I'm using the latest Java through Software Update, and my =
+>> Hmm. I am using the late 2006 Macbook Pro (2.33 GHz upgraded to 4 GB =
+[3.5 GB] RAM). I am using the latest Java through Software Update, and my =
 app is Swing-based (using Matisse) and using the Swing Application =
 Framework with an embedded Derby database, though I will note that I =
 have issues even before any files are open. Just expanding the tree to =
-get to a file for opening tended to take about 10 seconds, and that's =
-assuming I didn't switch to another window in the meantime.
+get to a file for opening tended to take about 10 seconds, and that is =
+assuming I did not switch to another window in the meantime.
 >>=20
 >> I just did a full wipe/reinstall of Netbeans to see if my settings =
 were a problem, but I had no change until I loaded in Java 5 and saw a =
-significant difference. I'll be trying out the suggestions people made =
+significant difference. I will be trying out the suggestions people made =
 about using a different target platform than the one Netbeans is running =
-on, but I'm starting to wonder if there is an issue with my system.
+on, but I am starting to wonder if there is an issue with my system.
 >>=20
 >> On Apr 23, 2010 9:22am, David Loeffler  wrote:
 >>> I use NetBeans 6.9 Beta (I was using 6.8 but want the metadata =
@@ -87,24 +87,24 @@ activity monitor at login just to keep an eye on things.
 >>>=20
 >>>=20
 >>>=20
->>>> I imagine this topic comes up every so often but I haven't been =
-able to find it in the archives. =46rom what I understand, there's some =
+>>>> I imagine this topic comes up every so often but I have not been =
+able to find it in the archives. =46rom what I understand, there is some =
 issue with Snow Leopard and Java 6 that makes Netbeans 6.8 near =
-unusable. (I've had to do my development on a lesser-powered PC because =
+unusable. (I have had to do my development on a lesser-powered PC because =
 there, things will actually open without pegging the CPU at 100% and =
 becoming unresponsive.) Following a tip, I used Pacifist to reinstall =
 Leopard's Java 5 back onto the system, set it as the default, and tried =
 to launch Netbeans. Lo and behold, it was fast, responsive and showed =
-none of the problems I'd been used to. Unfortunately, it made it so that =
-I couldn't work on my Java 6-based app!
+none of the problems I would been used to. Unfortunately, it made it so that =
+I could not work on my Java 6-based app!
 >>>=20
 >>>>=20
 >>>=20
 >>>> So, what is the actual situation here? Is this a known issue with =
-the Apple JVM that's (hopefully) going to get fixed? Is this a bug in =
+the Apple JVM that is (hopefully) going to get fixed? Is this a bug in =
 Netbeans? Am I the only one seeing issues this bad, and so it could be a =
 problem with my setup? Is there a workaround? Any help would be vastly =
-appreciated -- the Windows box is having disk issues, and I'd love to =
+appreciated -- the Windows box is having disk issues, and I would love to =
 move my primary development to the Macbook Pro as soon as possible. And =
 if push comes to shove, I may have to just rearchitect the project into =
 Java 5 (which would not be a simple task.)

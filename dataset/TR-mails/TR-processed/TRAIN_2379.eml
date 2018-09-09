@@ -17,7 +17,7 @@ Lad.
 > > server that can accept several connections at the same time .
 > > I do not need POP3 server
 > 
-> I'm not sure that I can help, but what, exactly, do you mean by tiny /
+> I am not sure that I can help, but what, exactly, do you mean by tiny /
 > liteweight?  Binary size, CPU / RAM usage?  IIUC, even the heavy
 > hitters like Exim use very few resources when not under load.  E.g., on
 > my system, htop shows Exim at 0 CPU, and only "6484 648 588" for "VIRT

@@ -4,17 +4,17 @@ Nick Hilliard's [nick-lists@netability.ie] 52 lines of wisdom included:
 > 
 > > Nope, indeed IPFW2 has just been rolled out into -STABLE. (-STABLE
 > > is a stable branch of the code that has been rolled into -CURRENT
-> > first. It's basically a major release, that's still a work in
+> > first. it is basically a major release, that is still a work in
 > > progress)
 > 
-> I'm not so sure that ipfw2 is really ready for production yet, having
-> only been mfc'd last wednesday.  It certainly adds some nice syntactic
+> I am not so sure that ipfw2 is really ready for production yet, having
+> only been mfc would last wednesday.  It certainly adds some nice syntactic
 > sugar, and is apparently much faster for certain types of complex
-> rulesets.  It will be good once it's had some time to settle down a
+> rulesets.  It will be good once it is had some time to settle down a
 > little.
 I would question anything being ready for "production" being in
 STABLE.
-He's kept backwards compatibility with ipfw, which is major plus.
+he is kept backwards compatibility with ipfw, which is major plus.
 My point about IPFW2 being rolled out into stable was merely an
 illustration of the fact that ipfw is indeed not ipfilter, and that
 there are no license issues there :)

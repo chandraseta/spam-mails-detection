@@ -6,29 +6,29 @@ Rene Engelhard wrote:
 >>         Secondly, KPackage is badly broken.  It only shows a handful
 >>         of
 >> applications installed or available.  Synaptic or aptitude show
->> thousands available and hundreds installed, of course.  What's more,
+>> thousands available and hundreds installed, of course.  what is more,
 >> I
 > 
 > Then use aptitude.. ;)
-        I've used it, of course.  Kpackage is much easier.  It's rare I say
-that about a GUI utility vs. a CLI one, but in this case it's true.
+        I have used it, of course.  Kpackage is much easier.  it is rare I say
+that about a GUI utility vs. a CLI one, but in this case it is true.
 >> no longer see how one can manage the sources in the new KDE4
 >> KPackage.
 > 
-> Feature. Just don't :-) (Personal opinion)
-        Neither of those comments are helpful.  Without KPackage, KDE isn't
+> Feature. Just do not :-) (Personal opinion)
+        Neither of those comments are helpful.  Without KPackage, KDE is not
 much use.
 >> In KDE3, one could not only easily manage the apt sources from inside
->> the app, but also RPM repositories.  Now I don't see how to manage
+>> the app, but also RPM repositories.  Now I do not see how to manage
 >> the apt sources (I can manually edit /etc/apt/sources.list, of
 >> course) or how to manage rpm sources, at all.
 > 
 > You must not install rpms on a Debian system if you need sanitiy.
 > Besides that installing rpms from a repos would not work because you
-> don't have the dependencies they require (because they're either not
+> do not have the dependencies they require (because they are either not
 > there, have "wrong" package names, or simply are not recorded in the
 > rpm database)
-        That's just nonsense.  Many packages simply do not have Debian sources,
+        that is just nonsense.  Many packages simply do not have Debian sources,
 and I have used KPackage to successfully install many alien packages. 
 In some cases, there may be a reasonable .deb subsitute, but many
 packages, most notably hardware drives, simply have no substitute.  Two

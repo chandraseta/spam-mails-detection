@@ -23,7 +23,7 @@ On Sun, May 23, 2010 at 6:35 AM, Anand Sivaram  wrote:
 >>> =A0 =A0 =A0- run a helloworld.c program whic has a while loop. =A0So wh=
 ile
 >>> running, its stuck in while.
->>> =A0 =A0 =A0- another shell, "kill -11 PID" [ PID of the ./a.out ]
+>>> =A0 =A0 =A0- another she will, "kill -11 PID" [ PID of the ./a.out ]
 >>> After kill, i get Segmentation fault. =A0But Core is not dumped. [ I
 >>> expect a print ( Core dumped ) ]
 >>>

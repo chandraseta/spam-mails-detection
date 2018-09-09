@@ -3,7 +3,7 @@ Re: GA Development (was Re: [SAdev] [Bug 1030] NO_INVENTORY
 On Sep 25,  7:35pm, Daniel Quinlan wrote:
 > Allen Smith  writes:
 > 
-> > Well, I have been doing a bit of fiddling with the GA. I don't have
+> > Well, I have been doing a bit of fiddling with the GA. I do not have
 > > a _large_ corpus practically available to me (or processable within
 > > reasonable processor time - I can justify the GA fiddling part as
 > > being part of my research, but not the mail processing...), so in
@@ -11,7 +11,7 @@ On Sep 25,  7:35pm, Daniel Quinlan wrote:
 > > "tmp/scores.h" and "tmp/tests.h" that get generated prior to the GA
 > > going into action.
 > 
-> Why not start with mass-check corpus results? It's much easier to get
+> Why not start with mass-check corpus results? it is much easier to get
 > those
 Ah. As in getting a directory listing of the corpus server and doing some
 downloads? OK, done.

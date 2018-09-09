@@ -13,12 +13,12 @@ On Thu, Feb 07, 2002 at 12:29:14AM +0200, Peter Peltonen wrote:
 > How do I tell apt hold all kernel packages? Can I use syntax like 
 > "kernel*"; ? 
 > 
-> And I don't quite understand what the part "^kernel$"; means?
+> And I do not quite understand what the part "^kernel$"; means?
 You could read about regular expressions.
 ^kernel$ matches "kernel" and nothimg more.
 Kerne, kernel-smp and kernel-enterprise are the kernel packages you
 might be running in a RH system. Packages like kernel-headers,
-kernel-BOOT and kernel-doc aren't matched. If it just said "kernel", it
+kernel-BOOT and kernel-doc are not matched. If it just said "kernel", it
 would match *all* those packages.
 -- 
 "You were good with that recorder." (=nokkahuilu)

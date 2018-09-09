@@ -6,10 +6,10 @@ On 11 May 2010 09:11, Adrian von Bidder  wrote:
 >> I started 4.4 on a new ~/.kde
 >> folder, can you try in a new user profile and report back?
 >
-> I hate it when this shows up. =C2=A0Yes, it's probably easier to debug, b=
+> I hate it when this shows up. =C2=A0Yes, it is probably easier to debug, b=
 ut often
-> bugs *do* show up that don't happen anymore when I remove my ~/.kde
-> directory, but this doesn't really help the user who has the bug.
+> bugs *do* show up that do not happen anymore when I remove my ~/.kde
+> directory, but this does not really help the user who has the bug.
 > Unfortunately, the end result is very often that removing ~/.kde and
 > starting from scratch becomes the only solution that is "officially"
 > recommended.
@@ -28,11 +28,11 @@ ges. =C2=A0I
 You can copy those parts right back over!
 > So yes, KDE people may well want to know if a bug happens on old
 > configurations only or if it happens on new configurations, but I think
-> there's an attitude problem here: KDE needs to become MUCH better at deal=
+> there is an attitude problem here: KDE needs to become MUCH better at deal=
 ing
-> with unexpected input from its configuration. =C2=A0(I don't have a preci=
+> with unexpected input from its configuration. =C2=A0(I do not have a preci=
 se
-> example right now; I'll try to report this kind of issue when I see it ne=
+> example right now; I will try to report this kind of issue when I see it ne=
 xt.
 > Admittedly, KDE has improved in this area as well.)
 >

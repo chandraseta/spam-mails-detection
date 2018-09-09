@@ -1,7 +1,7 @@
 Re: [SAdev] Re: Web subscription for spamassassin package
-> eh? any reason why?  wasn't causing any trouble for me, and
+> eh? any reason why?  was not causing any trouble for me, and
 > seems like a good idea.
-Because every time someone submitted a bug, they'd get a response
+Because every time someone submitted a bug, they would get a response
 saying "Message is held for moderator because of implicit message
 destination" or something like that. It annoyed users, it annoyed me,
 and Justin, you never actually got around to accepting the messages :-)

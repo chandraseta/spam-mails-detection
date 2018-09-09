@@ -1,6 +1,6 @@
 Re: bad focus/click behaviours
-It's all here in these 10 lines, otherwise known as the
-"I'll try my damnest to paste something" procedure:
+it is all here in these 10 lines, otherwise known as the
+"I will try my damnest to paste something" procedure:
 # Return the current selection (from any window) or cut buffer 0.
 proc Text_Selection {} {
     if [catch {selection get} sel] {
@@ -27,7 +27,7 @@ proc Text_Selection {} {
 }
 Everything funnels through here, so you just need to hack this one spot.
 >>>Rick Baartman said:
- > I've never understood the mouse buffer operation with exmh either. Here's th
+ > I have never understood the mouse buffer operation with exmh either. Here's th
      e 
  > behaviour I have. I have exmh and XEmacs windows up, and a terminal window. 
      (I 
@@ -56,7 +56,7 @@ Everything funnels through here, so you just need to hack this one spot.
  > sedit             Whatever was last highlighted in sedit and overwritten
  > 
  > The last needs some amplification. If I highlight something in sedit, then 
- > obviously that's what gets pasted. If the highlighting is off, then what get
+ > obviously that is what gets pasted. If the highlighting is off, then what get
      s 
  > pasted is NOT what was last highlighted in sedit, but what was last highligh
      ted 

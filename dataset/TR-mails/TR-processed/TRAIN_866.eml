@@ -21,9 +21,9 @@ there is no EDID information in Xorg.0.log. I get 1024x768 on the console
 and in X. The native resolution of the panel is 1280x1024. This is a step
 up on the nv driver which will give only 800x600 without being told
 otherwise in xorg.conf.
-So I'm disinclined to blame the behavior of the monitor.
+So I am disinclined to blame the behavior of the monitor.
 Not the same card as my onboard nvidia but this is close to the behaviour
-I've experienced:
+I have experienced:
 https://bugs.launchpad.net/ubuntu/+source/xserver-xorg-video-nouveau/+bug/569505
 > I never had any problems with the terminus fonts, YMMV.
 Which one do you use? TerminusBold 20x10, 22x11, 24x12 and 28x14 all lead

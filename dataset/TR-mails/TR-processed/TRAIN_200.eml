@@ -15,13 +15,13 @@ Why?  What threat does Outlook pose to your organization?
 > > can sort by any column instantly.
 > 
 > Have you looked into using a custom sequences file?
-More detail please?  I do use sequences, so I'm familiar with their
+More detail please?  I do use sequences, so I am familiar with their
 use, but how can I make indices with them, and how can I keep them
 up to date?
 > > And mime handling is pretty bad compared with modern mailers.
 > 
 > The only thing I actually miss in that regard is support for S/MIME.
-You're probably running exmh on a local machine.  I'm running it on
+you are probably running exmh on a local machine.  I am running it on
 a very remote machine.  In this scenario, the mime handling is weak.
 _______________________________________________
 Exmh-users mailing list

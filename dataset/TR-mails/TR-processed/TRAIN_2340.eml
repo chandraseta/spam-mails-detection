@@ -1,13 +1,13 @@
 Re: [ILUG] How to copy some files
 On Sat, Jul 20, 2002 at 08:24:47PM +0100, Aidan Kehoe wrote:
 >  Ar an 20ú lá de mí 7, scríobh kevin lyda :
->  > actaully i think soft links were invented because you can't hard link
+>  > actaully i think soft links were invented because you cannot hard link
 >  > directories. 
 > But you could hard link directories, back when soft links were
 > being invented, AFAIK. 
-that was before my time.  all unix systems i've used didn't allow hard
+that was before my time.  all unix systems i've used did not allow hard
 links to directories, or if they did they were restricted to root.
-the reason why is because you could cause infinite loops in the kernel -
+the reason why is because you could because infinite loops in the kernel -
 usually a bad place for infinite loops.
 >  > apparently some systems limited soft links to the same device but
 >  > gave up after a while.  
@@ -15,12 +15,12 @@ usually a bad place for infinite loops.
 to make them consistent with hard links.
 > A better way of doing it would be a) have global unique filesystem
 > identifiers for every FS created (such that the chance of two of them
-> clashing is miniscule; 64 bits creatively used would do it, I'd say),
+> clashing is miniscule; 64 bits creatively used would do it, I would say),
 > and b) implement the target info for the soft link as a {FSID, inode}
 > pair; the OS can work out if the thing linked to is now on a different
-> mount point, or has been moved. (HFS fans, is that what's done? Or are
+> mount point, or has been moved. (HFS fans, is that what is done? Or are
 > aliases implemented differently?)
-let's call these super-soft-links.  ln -ss
+let us call these super-soft-links.  ln -ss
     % ln -ss foo bar
     % ls -i foo
     111 foo

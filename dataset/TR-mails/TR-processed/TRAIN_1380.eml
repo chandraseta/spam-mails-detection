@@ -1,12 +1,12 @@
-Re: Apt repository authentication: it's time
+Re: Apt repository authentication: it is time
 Once upon a time, Brian wrote :
->      OK, it's now time to work out the PGP securing of apt repository
->      traffic. I've never gotten anything but "sitename.whatever will not
+>      OK, it is now time to work out the PGP securing of apt repository
+>      traffic. I have never gotten anything but "sitename.whatever will not
 >      be authenticated" until running Redhat 8.0 when I get something
 >      about having "No Key" for various files.
-I don't think gpg signing my repositories will help anything, as it will
+I do not think gpg signing my repositories will help anything, as it will
 just ensure that my passphrase was typed to confirm the md5 signatures of
-all pgklists and srclists. Basically, you'll then just be sure that it's me
+all pgklists and srclists. Basically, you will then just be sure that it is me
 who generated the files, and this will of course prevent automating the
 process of updating the apt repository when Red Hat updates show up.
 In Red Hat Linux 8.0 though, the warnings about "No Key" appear until you

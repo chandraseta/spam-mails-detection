@@ -1,5 +1,5 @@
 Re: class variables
-Kind of a Catch-22, isn't it? Why does it exist?
+Kind of a Catch-22, is not it? Why does it exist?
 -Daniel
 On Apr 13, 2010, at 12:16 PM, Greg Parker wrote:
 > On Apr 13, 2010, at 11:37 AM, Daniel DeCovnick wrote:
@@ -9,7 +9,7 @@ On Apr 13, 2010, at 12:16 PM, Greg Parker wrote:
 >> 
 >> Ivar class_getClassVariable(Class cls, const char* name)
 > 
-> It returns a class variable from a class. Since no classes have class variables, it won't actually do anything.
+> It returns a class variable from a class. Since no classes have class variables, it will not actually do anything.
 > 
 > The implementation is approximately: 
 >    return class_getInstanceVariable(cls->isa, name);

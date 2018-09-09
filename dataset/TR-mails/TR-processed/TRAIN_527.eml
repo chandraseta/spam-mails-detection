@@ -6,16 +6,16 @@ Ulises Ponce said:
 >for such things. Any other clue?
 The best I can think of is to figure out what the command being 
 issued by exmh is that selects and inserts the sig and bind that to a 
-key sequence.  That shouldn't be *too* difficult, it's just a matter 
-of figuring out the tcl (something my perl-based brain isn't excited 
+key sequence.  That should not be *too* difficult, it is just a matter 
+of figuring out the tcl (something my perl-based brain is not excited 
 about :)
 -- 
 Seeya,
 Paul
 --
-	It may look like I'm just sitting here doing nothing,
-   but I'm really actively waiting for all my problems to go away.
-	 If you're not having fun, you're not doing it right!
+	It may look like I am just sitting here doing nothing,
+   but I am really actively waiting for all my problems to go away.
+	 If you are not having fun, you are not doing it right!
 _______________________________________________
 Exmh-users mailing list
 Exmh-users@redhat.com

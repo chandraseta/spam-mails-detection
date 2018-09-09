@@ -1,6 +1,6 @@
 [ILUG] connecting at 1200bps in RH7.3 (help!)
 Hi All,
-Anyone ever try connecting at 1200bps in Linux? I've got a USR 56K
+Anyone ever try connecting at 1200bps in Linux? I have got a USR 56K
 Faxmodem which is meant to connect to another (same) modem and I have to
 connect at this speed due to the (NT) port settings on the remote side,
 but the modem handshake always fails at this speed.

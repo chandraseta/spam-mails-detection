@@ -1,6 +1,6 @@
 Re: X11 windows come to front with mouse click in non-X11 window
 	(fwd)
-This is a duplicate of #391, but I can't reproduce it.  Please help by =
+This is a duplicate of #391, but I cannot reproduce it.  Please help by =
 following up in #391.
 Thanks,
 Jeremy
@@ -31,7 +31,7 @@ was
 have
 > to click on the status bar or the top area of the window (the area =
 that
-> lets you drag the window around the screen).
+> let us you drag the window around the screen).
 >=20
 > --=20
 > Ticket URL: 

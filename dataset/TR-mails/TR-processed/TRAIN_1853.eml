@@ -5,8 +5,8 @@ Ron Johnson wrote:
 > Anyway, the cron-apt package does what you want.  It is recommended,
 > though, to use it only for downloads.
 It does help the OP since he uses apt-get, but what about the people who
-normally use aptitude? There's no "cron-aptitude" package. And though
-cron-apt can be configured to actually run aptitude, I don't get the
+normally use aptitude? there is no "cron-aptitude" package. And though
+cron-apt can be configured to actually run aptitude, I do not get the
 impression that it has really been tested that way.
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (GNU/Linux)

@@ -19,12 +19,12 @@ Niall O Broin wrote:
 >>    seq -s , $1 | sed "s¬[0-9]\{1,\}[,]*¬$2¬g"
 >>}
 > 
-> But it's such a crap colution anyway, why would you want to make it more
+> But it is such a crap colution anyway, why would you want to make it more
 > robust ?
 > 
-Give yourself credit :-) it's a nice solution,
+Give yourself credit :-) it is a nice solution,
 with just 2 lightweight processes. The same thing
-coded in shell loops wouldn't be nearly as elegant
+coded in she will loops would not be nearly as elegant
 and not as scalable to boot.
 Pádraig.
 -- 

@@ -5,7 +5,7 @@ On 05/02/2010 04:15 AM, Camaleón wrote:
 >> On 05/01/2010 05:17 PM, Camaleón wrote:
 >
 >>>> Interesting.  What magic do I chant to make executable those files in
->>>> udf partitions, since "exec" in the fstab options doesn't seem to
+>>>> udf partitions, since "exec" in the fstab options does not seem to
 >>>> work?
 >>>
 >>> Does this happen with all DVD/CDs you insert or just only with a few
@@ -28,7 +28,7 @@ On 05/02/2010 04:15 AM, Camaleón wrote:
 https://bugs.launchpad.net/ubuntu/+source/hal/+bug/72872/comments/24
 > Read comment #18 (it comes from a Debian user).
 >
-> Maybe it's worth to make a report in BTS.
+> Maybe it is worth to make a report in BTS.
 >
 There are enough bugs against the kernel already...
 -- 

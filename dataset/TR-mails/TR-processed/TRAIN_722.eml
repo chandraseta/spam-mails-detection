@@ -15,7 +15,7 @@ at
 [...]
 > > 1) Does hal know that there is a touchpad?
 > >
-> > =A0 lshal -u $(hal-find-by-capability --capability input.touchpad)
+> > =A0 lshal -you $(hal-find-by-capability --capability input.touchpad)
 > >
 > > 2) The output of 1) should tell you the associated linux.device_file; in
 > > =A0 my case this is /dev/input/event7. The next step is to find the
@@ -34,7 +34,7 @@ so
 >=20
 > I followed your advice, here's the output of that command:
 > http://debian.pastebin.com/Bft7phBw
-> It's quite long, and I have to say that I have very little
+> it is quite long, and I have to say that I have very little
 > understanding of anything it says...
 It looks OK to me; your custom rules file is read by udev (line 24) and
 the corresponding variables are set (lines 110-116).
@@ -62,7 +62,7 @@ results. In other words:
 4) Verify that hal is paying attention to the newly-uncommented options;
    the output of
   =20
-   lshal -u $(hal-find-by-capability --capability input.touchpad)
+   lshal -you $(hal-find-by-capability --capability input.touchpad)
    should include:
    input.x11_driver =3D 'synaptics'  (string)
    input.x11_options.CircularScrolling =3D 'true'  (string)

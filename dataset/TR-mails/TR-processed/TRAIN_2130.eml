@@ -2,22 +2,22 @@ Re: CVS report
 > > > > Just cvs up'ed and nowadays Catch-up Unseen is __extremely__ slow on 
 > > > > large (>100 msgs) unseen sequences. Anybody else having this problem?
 > > > 
-> > > I'll take the blame.
+> > > I will take the blame.
 > > > 
-> > > The reason, I suspect, is that we're needlessly reading the .sequences file 
+> > > The reason, I suspect, is that we are needlessly reading the .sequences file 
 > > > multiple times because of other sequences.  I need to make the code much 
 > > > smarter about handling that file, but first I have a few other fish to fry in 
-> > > my rather large patch that's on it's way.
+> > > my rather large patch that is on it is way.
 > > > 
 > > 
 > > No panic,
 > > 
-> > I'm all for cleaning things up before getting it optimized.
+> > I am all for cleaning things up before getting it optimized.
 > 
 > Okay, this fix is now checked in.
 > 
-I'm afraid it didn't help. It still seems to be slower than ~1 month 
-ago. Maybe slightly faster than yeasterday. I'm (still) seeing an 
+I am afraid it did not help. It still seems to be slower than ~1 month 
+ago. Maybe slightly faster than yeasterday. I am (still) seeing an 
 "unseen countdown" in the log.
 18:51:25 Writing /home/ander/Mail/lists/l-k/.mh_sequences
 18:51:25 lists/l-k has 57 msgs in unseen

@@ -7,5 +7,5 @@ On 30/04/10 19:34, Gary wrote:
 Note this is risky: the system call will return as soon as the g++
 process is invoked, rather than when it completes - the trailing '&'
 should be removed.  Also, any stdout output will still hit your console
-(although I presume, since things appear to be working, that there isn't
+(although I presume, since things appear to be working, that there is not
 any/much stdout output)

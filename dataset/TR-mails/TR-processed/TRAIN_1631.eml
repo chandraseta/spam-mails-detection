@@ -11,9 +11,9 @@ On Mon, 2010-05-03 at 19:07 +0000, Camaleón wrote:
 > >> Anyway, check if the affected applications make use of "EggTrayIcon".
 > >> 
 > > I found a patch for Rhytmbox dating February 10 2010, which replaces
-> > EggTrayIcon with GtkStatusIcon, looking at the source I'd say this
-> > change is already present in Squeeze. So I'd say the bug you mention
-> > doesn't affect Rhythmbox, or the bug is assigned to the wrong package.
+> > EggTrayIcon with GtkStatusIcon, looking at the source I would say this
+> > change is already present in Squeeze. So I would say the bug you mention
+> > does not affect Rhythmbox, or the bug is assigned to the wrong package.
 > 
 > AKAIK, Rhythmbox plugins got splitted from main package and now fall into 
 > "rhythmbox-plugins". So if the upstream version with the patch on 
@@ -24,7 +24,7 @@ Correct, the folder structure clearly shows the plugins folder, it is my
 understanding that both packages come from the sources I mentioned in my
 previous e-mail.
 In that plugins folder, for the notification icon, GtkStatusIcon is
-used, the diff doesn't mention either EggTrayIcon or GtkStatusIcon, so I
+used, the diff does not mention either EggTrayIcon or GtkStatusIcon, so I
 would assume that patch is included.
 Still leaves me with this issue, unfortunatly.
 Regards,

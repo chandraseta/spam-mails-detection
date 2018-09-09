@@ -15,9 +15,9 @@ On Wed, Apr 7, 2010 at 1:35 PM, Daniel Sutil  wrote=
 >>> > Finally I applied the following workaround: I remove kdm and installe=
 d
 >>> gdm.
->>> > After that, I have no problem to login. I haven't investigated any
+>>> > After that, I have no problem to login. I have not investigated any
 >>> further
->>> > because I really don't know from where the problem comes, but now,
+>>> > because I really do not know from where the problem comes, but now,
 >>> maybe we
 >>> > have to undo the steps applied with the skype's solution to solve our
 >>> > problem.
@@ -34,7 +34,7 @@ d
 >>> Hi. Installing gdm did not do the trick :(
 >>
 >> You must uninstall the kdm service first and select in the session
-> selector of gdm "kde". If you don't select the session type, get some
+> selector of gdm "kde". If you do not select the session type, get some
 > errors.
 >
 I uninstalled kdm and selected kde as a session but I got the same message
@@ -54,7 +54,7 @@ I do that as a normal user I get the errors..
 >
 >
 >>
->> Some friend told me to purge kde and reinstall it. I don't think this wi=
+>> Some friend told me to purge kde and reinstall it. I do not think this wi=
 ll
 >> help. Do you think I should give it a try?
 >>
@@ -62,5 +62,5 @@ ll
 >>
 > I tried that with no success :-(
 >
-> If that didn't help you I will not bother..
+> If that did not help you I will not bother..
 J

@@ -2,7 +2,7 @@ Re: only output the nth line
 On Wed May 12 2010 09:58:57 Jozsi Vadkan wrote:
 > sed -n '1,2p;4p' file.txt
 >
-> doesn't work.
+> does not work.
 Works for me in Lenny.  What output do you see?  What version
 of sed do you have?
 --Mike Bird

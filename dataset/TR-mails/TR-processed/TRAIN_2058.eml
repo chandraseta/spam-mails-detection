@@ -8,9 +8,9 @@ On Mon, 2 Sep 2002, Russell Turpin wrote:
 > allocation and a few other programming techniques, performance
 > differences disappear, but C++ gives a boost in development and
 > maintainability.
-Agreed, not much difference there. With C it just doesnt seem as wrong to
-be crawling around in registers and things. Quite frankly you cant fit
-_that_ big of a project into a 32K ROM, so large project issues dont matter
+Agreed, not much difference there. With C it just does not seem as wrong to
+be crawling around in registers and things. Quite frankly you cannot fit
+_that_ big of a project into a 32K ROM, so large project issues do not matter
 as much in the embedded world.
 And in the realtime space, or when you have data coming in at 2Gbit/sec
 [fibrechannel], every cycle DOES count.

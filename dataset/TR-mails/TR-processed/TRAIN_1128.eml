@@ -8,13 +8,13 @@ On Tue, April 27, 2010 00:33, Bernard wrote:
 > backup LVM volumes, or, if it does, that must be a very new feature, and
 > I have not found any doc on this.
 >
-> So, what should I do so as to backup my system ?  I once tried 'dd', but
-> I think I remember it took forever, and I don't really know whether I
+> So, what should I do so as to backup my system ?  I once tried  wouldd', but
+> I think I remember it took forever, and I do not really know whether I
 > would have been able to use the resulting file to successfully restore
 > the partitions if needed.
 >
 > Could someone suggest something that has been successfully tried ?  Even
-> 'dd' could do, if it is OK with LVM and if I get some details. I
+>  wouldd' could do, if it is OK with LVM and if I get some details. I
 > understand that I would have to unmount the partitions, but this is not
 > a problem. I have two IDE mirrored disks of 200 GB each.
 >
@@ -22,7 +22,7 @@ On Tue, April 27, 2010 00:33, Bernard wrote:
 >
 How about clonezilla (http://www.clonezilla.org/)? It supports LVM2 (not
 1) and is based on Debian (I think you should be able to get what you need
-from the Debian repositories anyway). But I'm not an expert :)
+from the Debian repositories anyway). But I am not an expert :)
 -- 
 Rarely do people communicate; they just take turns talking.
 -- 

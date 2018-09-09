@@ -3,12 +3,12 @@ On Mon, 12 Apr 2010 07:59:19 -0400 (EDT), Ionel Mugurel Ciob=C3=AEc=C4=83 w=
 rote:
 >=20
 > My previous post was premature, if I restore /dev/sdaX using tar,
-> I can only use the console. X can't make use of the keyboard or mouse.
-> /edv/eth0 also doesn't exist, althought the interface is up, etc.
+> I can only use the console. X cannot make use of the keyboard or mouse.
+> /edv/eth0 also does not exist, althought the interface is up, etc.
 > It looks like all /dev/ is screwed up!
 >=20
 > So I will install from scratch.
-Once again, as I suggested in a previous post, I'd use the latest
+Once again, as I suggested in a previous post, I would use the latest
 "daily-build" installer to directly install Squeeze, such as
 http://people.debian.org/~joeyh/d-i/images/daily/netboot/mini.iso for i386 =
 or

@@ -1,5 +1,5 @@
 asynchronous I/O (was Re: Gasp!)
-Of course we've had select() since BSD 4.2 and poll() since System V
+Of course we have had select() since BSD 4.2 and poll() since System V
 or so, and they work reasonably well for asynchronous I/O up to a
 hundred or so channels, but suck after that; /dev/poll (available in
 Solaris and Linux) is one approach to solving this; Linux has a way to
@@ -16,16 +16,16 @@ rewriting Linux's entire I/O subsystem essentially from scratch to
 work asynchronously, because they can easily build efficient
 synchronous I/O primitives from asynchronous ones, but not the other
 way around. So now Linux will support this mechanism too.
-It probably doesn't need saying for anyone who's read Beberg saying
+It probably does not need saying for anyone who is read Beberg saying
 things like "Memory management is a non-issue for anyone that has any
-idea at all how the hardware functions," but he's totally off-base.
+idea at all how the hardware functions," but he is totally off-base.
 People should know by now not to take anything he says seriously, but
-apparently some don't, so I'll rebut.
+apparently some do not, so I will rebut.
 Not surprisingly, the rebuttal requires many more words than the
 original stupid errors.
 In detail, he wrote:
 > Could it be? After 20 years without this feature UNIX finally
-> catches up to Windows and has I/O that doesnt [sic] totally suck for
+> catches up to Windows and has I/O that does not [sic] totally suck for
 > nontrivial apps? No way!
 Unix acquired nonblocking I/O in the form of select() about 23 years
 ago, and Solaris has had the particular aio_* calls we are discussing
@@ -39,12 +39,12 @@ performance.
 > idea, but not the clue.
 Readers can judge who lacks the clue here.
 > The Windows I/O model does definately [sic] blow the doors off the
-> UNIX one, but then they had select to point at in it's [sic]
+> UNIX one, but then they had select to point at in it is [sic]
 > suckiness and anything would have been an improvement. UNIX is just
-> now looking at it's [sic] I/O model and adapting to a multiprocess
-> multithreaded world so it's gonna be years yet before a posix API
+> now looking at it is [sic] I/O model and adapting to a multiprocess
+> multithreaded world so it is going to be years yet before a posix API
 > comes out of it.
-Although I don't have a copy of the spec handy, I think the aio_* APIs
+Although I do not have a copy of the spec handy, I think the aio_* APIs
 come from the POSIX spec IEEE Std 1003.1-1990, section 6.7.9, which is
 13 years old, and which I think documented then-current practice.
 They might be even older than that.
@@ -60,8 +60,8 @@ the immediate execution of a "signal handler" in a process.  By
 contrast, the Microsoft Windows mechanisms to do similar things (such
 as completion ports) do not deliver a notification until the process
 polls them.
-I don't think signals are a better way to do things in this case
-(although I haven't written any RDBMSes myself), but you got the
+I do not think signals are a better way to do things in this case
+(although I have not written any RDBMSes myself), but you got the
 technical descriptions of the two operating systems exactly backwards.
 Most programs that use Linux real-time signals for asynchronous
 network I/O, in fact, block the signal in question and poll the signal

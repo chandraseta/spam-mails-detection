@@ -1,15 +1,15 @@
 Re: How to Find a Printer Driver?
 Kent West wrote:
-> I tried installing hpijs-ppds, but I still don't see the CM3530 
+> I tried installing hpijs-ppds, but I still do not see the CM3530 
 > listed; I do now see a Color Laserjet 3550 (without the CM, and not 
-> the 3530), but who knows if that'd work? Not me.
+> the 3530), but who knows if that would work? Not me.
 >
 > The hplip-gui package is already installed, but running "hplip-gui" 
 > did nothing. "man hplip-gui" did nothing (I thought all Debian 
 > packages are supposed to have a man page, even if it does nothing more 
 > than point to some other documentation?). (Looking in 
 > /usr/share/doc/hplip-gui would have eventually maybe clued me to the 
-> hp-toolbox, but thankfully you've already pointed me to it so I didn't 
+> hp-toolbox, but thankfully you have already pointed me to it so I did not 
 > have to dig blindly.)
 >
 > The hp-toolbox said no device is set up, and to run hp-setup (as 
@@ -21,9 +21,9 @@ Kent West wrote:
 >
 > Arg.
 >
-> Thanks for the help though. At least I'm seeing stuff I've never seen 
+> Thanks for the help though. At least I am seeing stuff I have never seen 
 > before. (And they say Windows is hard to configure. Pfft. (Sorry for 
-> the ranting; I'm just frustrated. I really do love Debian, and really 
+> the ranting; I am just frustrated. I really do love Debian, and really 
 > do hate Windows.))
 >
 So I manually downloaded HPLIP from HP's web site 

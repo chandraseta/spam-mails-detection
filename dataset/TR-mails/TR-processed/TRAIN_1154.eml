@@ -17,14 +17,14 @@ Simple enough.
 >=20
 >   Of these three solutions, I prefer the second one, refusing to remove
 > unused held packages.  It fits in with the intuitive meaning of "hold",
-> it's easy to implement, and it doesn't have a high risk of surprising
+> it is easy to implement, and it does not have a high risk of surprising
 > side-effects, since it only affects a fairly precisely defined set of
 > packages.
 As a user, I also prefer that approach, for all the reasons you mention.
 > Essentially, it causes held packages to be added to the root
-> set (and that's the best implementation, I think: modify aptitude's
+> set (and that is the best implementation, I think: modify aptitude's
 > custom root set function to include held packages).
-You lost me, but I haven't delved into the aptitude source code.  My approa=
+You lost me, but I have not delved into the aptitude source code.  My approa=
 ch=20
 would have been just making the 'hold' action also clear the 'automatically=
 =20

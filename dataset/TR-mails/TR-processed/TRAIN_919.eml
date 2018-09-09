@@ -13,14 +13,14 @@ David Neary wrote:
 >>>>
 >>>>   http://www.optorium.net/remove.html
 >>>>eg, whether by piping through some already available tool, or 
->>>>programmatically (printf? - but i dont see how.).
+>>>>programmatically (printf? - but i do not see how.).
 >>>
 >>Actually the following would be in some way sensible:
 >>echo -e "`echo "$enc" | sed 's/%\([0-9a-fA-F]\{2,2\}\)/\\\x\1/g'`"
 > 
 > 
 > Why {2,2}? Why not {2}?
-Me being silly, that's all.
+Me being silly, that is all.
 Pádraig.
 -- 
 Irish Linux Users' Group: ilug@linux.ie

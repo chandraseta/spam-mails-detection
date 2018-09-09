@@ -19,19 +19,19 @@ J
 >
 >     i'm trying to figure out how to maintain about 200 domains, with a
 >     hundred or so computers per domain.  some internal, some external.
->     i recently learned lex and yacc and i'm thinking that's the way to go.
->     i don't really know perl and i know it's useful but i think i can
+>     i recently learned lex and yacc and i'm thinking that is the way to go.
+>     i do not really know perl and i know it is useful but i think i can
 >     write c faster then perl.
 >
 >     is this a good idea?
 >
->     ps  we're really busy.
+>     ps  we are really busy.
 >
 > obviously as a stupid developer with no real admin experience to speak
 > of, i'm not qualified to answer this question.  does anyone with real
 > admin experience have any suggestions here?  the problem sounds really
 > hard, and i doubt anyone has had to deal with this level of complexity
-> so there probably aren't any existing tools written.
+> so there probably are not any existing tools written.
 >
 > anyone else have any opinions or experience i could pass on?
 >

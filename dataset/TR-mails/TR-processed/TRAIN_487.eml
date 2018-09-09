@@ -54,7 +54,7 @@ o
 >=20
 > There are various possibilities, all not very appealing:
 >=20
-> - Install the lenny backport of gtk+-2.0 and see what's necessary to get
+> - Install the lenny backport of gtk+-2.0 and see what is necessary to get
 >   the zlib.pc file into the libz1g-dev package.  Resolve further build
 >   problems by installing packages from lenny-backports or creating your
 >   own backports.  You may want to hire somebody to do the work.
@@ -76,10 +76,10 @@ o
 > =C2=B9 http://blogs.gurulabs.com/dax/2009/10/what-gdk-native.html
 >=20
 >=20
-The upgrade to the squeeze zlib did the trick but now I've hit what I
+The upgrade to the squeeze zlib did the trick but now I have hit what I
 think is a linker problem:
 libtool: link: only absolute run-paths are allowed
-I ran libtoolize and aclocal but that didn't seem to help.  Off to
+I ran libtoolize and aclocal but that did not seem to help.  Off to
 Google to find out what this is.  Thanks - John
 -- 
 To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 

@@ -6,7 +6,7 @@ I have 'APT' installed and updated from 'freshmeat.net.  But I failed using it
 Processing File Dependencies... Done
 Reading Package Lists... Done
 Building Dependency Tree... Done
-E: Couldn't find package 
+E: could not find package 
 /mnt/cdrom/Linux/CDBurner/cdrtools-cdrecord-1.11a23-1.i386.rpm
 The file 'cdrtools-cdrecord-1.11a23-1.i386.rpm' is there
 I performed another test copying the file 
@@ -15,7 +15,7 @@ I performed another test copying the file
 Processing File Dependencies... Done
 Reading Package Lists... Done
 Building Dependency Tree... Done
-E: Couldn't find package /root/Download/cdrtools-cdrecord-1.11a23-1.i386.rpm
+E: could not find package /root/Download/cdrtools-cdrecord-1.11a23-1.i386.rpm
 Still failed.  Finally I rpm 'cdrtools-cdrecord-1.11a23-1.i386.rpm' from the 
 CD and suceeded.
 Kindly advise what mistake I have committed.

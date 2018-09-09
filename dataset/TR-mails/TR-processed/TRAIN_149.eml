@@ -31,7 +31,7 @@ On Fri, Apr 30, 2010 at 10:15 AM, Camale=F3n  wrote:
 > Archive: http://lists.debian.org/pan.2010.04.30.08.15.37@csmining.org
 >
 >
-Doing "xrandr --dpi 120", logging out of wmii and logging back in doesn't
+Doing "xrandr --dpi 120", logging out of wmii and logging back in does not
 change anything.
 Maybe the problem I perceived in the text on screen is just how the monitor
 displays.

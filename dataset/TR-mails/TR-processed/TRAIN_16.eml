@@ -8,12 +8,12 @@ Alle lunedì 12 aprile 2010, Robert van den Berg ha scritto:
 > 
 > Edson Marquezani Filho wrote:
 > > I would like to know if people here have the same problems with
-> > Amarok (Squeeze's version of it), as I do. I haven't looked for
+> > Amarok (Squeeze's version of it), as I do. I have not looked for
 > > bugs filled about it yet, but these issues have been annoying for
-> > time enough to put me wondering if I'am the only who has been
+> > time enough to put me wondering if I the only who has been
 > > facing them.
 > 
-> I've had other weird problems with the collection (like missing
+> I have had other weird problems with the collection (like missing
 > albums) after an upgrade of Amarok. This was due to database
 > corruption, and the fix
 > 
@@ -28,9 +28,9 @@ Alle lunedì 12 aprile 2010, Robert van den Berg ha scritto:
 > Cheers,
 > 
 > Robert
-In my experience it's probably better to use an external database 
-(MySQL) with amarok because it's faster to load. Anyhow, it still 
-happens that the changes you make to the tracks/albums don't show 
+In my experience it is probably better to use an external database 
+(MySQL) with amarok because it is faster to load. Anyhow, it still 
+happens that the changes you make to the tracks/albums do not show 
 immediately in the database. Bye
 Valerio
 -- 

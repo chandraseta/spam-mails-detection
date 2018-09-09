@@ -1,9 +1,9 @@
 RGB Balance video effect
-I'm trying to apply an RGB Balance effect 
+I am trying to apply an RGB Balance effect 
 (kRGBColorBalanceImageFilterType) to a video track, and I just end up 
-with a movie that's solid black all the way through.  I have working 
+with a movie that is solid black all the way through.  I have working 
 code that uses a cross-fade effect, and a lot of the code is the same. 
-I'm guessing that the most likely location of the problem is in 
+I am guessing that the most likely location of the problem is in 
 constructing the effect description.  Here's the code:
 	QTAtomContainer	atomCont;
 	OSStatus	err = QTNewAtomContainer( &atomCont );

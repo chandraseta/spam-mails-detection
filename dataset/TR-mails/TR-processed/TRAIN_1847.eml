@@ -1,4 +1,4 @@
-Re: ARRRGHHH Had GPG working, now it doesnt.
+Re: ARRRGHHH Had GPG working, now it does not.
 Hi,
 On Sun, 01 Sep 2002 00:05:03 MDT Reg Clemens wrote: 
 [...]
@@ -6,7 +6,7 @@ On Sun, 01 Sep 2002 00:05:03 MDT Reg Clemens wrote:
 > gives
 > 
 >         Signature made Thu Aug 29 00:27:17 2002 MDT using DSA key ID BDDF997A
->         Can't check signature: public key not found
+>         cannot check signature: public key not found
 > 
 > So, something else is missing.
 Yes, the public key of the signature you want to check :-).

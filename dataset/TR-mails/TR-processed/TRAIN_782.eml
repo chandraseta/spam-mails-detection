@@ -15,7 +15,7 @@ See here when I mount a DVD:
      dr--r--r-- 2 me   all_ages  456 Mar 15  2008 VIDEO_TS/
 Note that I mount it as root, and the user:group is me:all_ages, as 
 it should be.
-However, when I ls it from user me, there's "Permission denied" and 
+However, when I ls it from user me, there is "Permission denied" and 
 weird protections/ownwership when I look at it from user "me", even 
 though /media is world readable.
      me@haggis:~$ ls -aFl /media

@@ -3,7 +3,7 @@ Re: [ILUG] Email list management howto
 Vincent Cunniffe wrote:
 | Justin MacCarthy wrote:
 |
-|> I think I'll ask this question again, as I sent on friday afternoon.
+|> I think I will ask this question again, as I sent on friday afternoon.
   :-)
 |
 |
@@ -12,11 +12,11 @@ Vincent Cunniffe wrote:
 | Trust me, you do *not* want to running your own mailing lists
 | on your own software.
 |
-| You'll wind up crying in a dark room looking for something
+| you will wind up crying in a dark room looking for something
 | high-voltage to stick your fingers into.
 All things considered, I get that effect with Mailman, but the viable
-alternatives are ezmlm, which is loonware and I'm avoiding on principle,
-and majordomo, which seems to have stagnated. Oh, and there's apparently
+alternatives are ezmlm, which is loonware and I am avoiding on principle,
+and majordomo, which seems to have stagnated. Oh, and there is apparently
 something called SmartList which is a bitch to set up.
 Waider.
 - --

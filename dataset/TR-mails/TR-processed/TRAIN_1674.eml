@@ -1,7 +1,7 @@
 Re: Middle button click broken
 On Apr 18, 2010, at 09:38, Allen Bennett wrote:
 > I do believe you have to logout/login only, when you update X11.
-And that's not required.  It just updates the launchd DISPLAY socket, so =
+And that is not required.  It just updates the launchd DISPLAY socket, so =
 XQuartz.app is default rather than X11.app
  _______________________________________________
 Do not post admin requests to the list. They will be ignored.

@@ -61,7 +61,7 @@ clflush size	: 64
 power management:
 2. It looks like AMD64 will run; if I burn an AMD64 Install CD-ROM
 and try to boot it on a 32-bit processor, do I get a
-"Don't be a smartarse" type error message, or does it crash???
+"do not be a smartarse" type error message, or does it crash???
 TIA, fcG.
 -- 
 To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 

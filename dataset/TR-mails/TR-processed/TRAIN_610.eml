@@ -1,5 +1,5 @@
-Re: ARRRGHHH Had GPG working, now it doesnt.
-If you haven't already, you should enable the debug log under
+Re: ARRRGHHH Had GPG working, now it does not.
+If you have not already, you should enable the debug log under
 Hacking Support preferences and look for clues there.
 >>>Reg Clemens said:
  > > Hi,
@@ -12,7 +12,7 @@ Hacking Support preferences and look for clues there.
  > > > 
  > > >         Signature made Thu Aug 29 00:27:17 2002 MDT using DSA key ID BDD
      F997A
- > > >         Can't check signature: public key not found
+ > > >         cannot check signature: public key not found
  > > > 
  > > > So, something else is missing.
  > > 
@@ -32,7 +32,7 @@ Hacking Support preferences and look for clues there.
  > it went out to get the public key from a keyserver.
  > Now, whether I have the key or NOT, I get the failure message.
  > 
- > Its as if it cant find gpg to execute it (but I fixed that path), so there
+ > Its as if it cannot find gpg to execute it (but I fixed that path), so there
  > must be something else that I am missing...
  > 
  > 

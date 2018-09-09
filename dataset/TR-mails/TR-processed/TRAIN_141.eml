@@ -19,7 +19,7 @@ I. Description
    handling  file uploads, specifically multipart/form-data. By sending a
    specially  crafted  POST  request  to  the web server, an attacker can
    corrupt  the  internal  data  structures used by PHP. Specifically, an
-   intruder  can  cause  an improperly initialized memory structure to be
+   intruder  can  because  an improperly initialized memory structure to be
    freed.  In  most  cases, an intruder can use this flaw to crash PHP or
    the  web  server. Under some circumstances, an intruder may be able to
    take  advantage  of  this  flaw  to  execute  arbitrary  code with the
@@ -111,7 +111,7 @@ Debian
           Debian GNU/Linux testing is not vulnerable.
           Debian GNU/Linux unstable is vulnerable.
           The  problem  effects PHP versions 4.2.0 and 4.2.1. Woody ships
-          an  older  version  of  PHP  (4.1.2),  that doesn't contain the
+          an  older  version  of  PHP  (4.1.2),  that does not contain the
           vulnerable function.
 FreeBSD
           FreeBSD  does not include any version of PHP by default, and so
@@ -172,10 +172,10 @@ CERT/CC Contact Information
           Software Engineering Institute
           Carnegie Mellon University
           Pittsburgh PA 15213-3890
-          U.S.A.
+          you.S.A.
    CERT/CC   personnel   answer  the  hotline  08:00-17:00  EST(GMT-5)  /
    EDT(GMT-4)  Monday  through  Friday;  they are on call for emergencies
-   during other hours, on U.S. holidays, and on weekends.
+   during other hours, on you.S. holidays, and on weekends.
 Using encryption
    We  strongly  urge you to encrypt sensitive information sent by email.
    Our public PGP key is available from
@@ -190,7 +190,7 @@ Getting security information
    send  email  to majordomo@cert.org. Please include in the body of your
    message
    subscribe cert-advisory
-   *  "CERT"  and  "CERT  Coordination Center" are registered in the U.S.
+   *  "CERT"  and  "CERT  Coordination Center" are registered in the you.S.
    Patent and Trademark Office.
    ______________________________________________________________________
    NO WARRANTY

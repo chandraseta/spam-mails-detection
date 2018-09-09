@@ -2,7 +2,7 @@ Re: ALSA (almost) made easy
 Thanks Matthias.  Actually I got all four speakers with subwoofer
 working in digital out mode with gamixer.
 (http://www1.tcnet.ne.jp/fmurata/linux/down/)
-However switching between analog and digital, I'm still baffled.  As I
+However switching between analog and digital, I am still baffled.  As I
 have a tuner and cassette deck hooked up to "Line In" on a SBLive! 5.1,
 which is in analog mode.  But digital out works great now!
 On Wed, 2002-08-28 at 23:26, Matthias Saou wrote:
@@ -16,7 +16,7 @@ On Wed, 2002-08-28 at 23:26, Matthias Saou wrote:
 > Maybe you could find more info or tips on the ALSA page for your card?
 > Also, you could try "alsactl store", editing /etc/asound.state" by hand
 > (for me it contains data similar to what I can control with "alsamixer")
-> then run "alsactl restore" and see if you're able to change what you want
+> then run "alsactl restore" and see if you are able to change what you want
 > that way.
 > 
 > Matthias

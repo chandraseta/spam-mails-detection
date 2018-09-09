@@ -10,7 +10,7 @@ it negative points unless it contains other signs of being from
 Outlook.
 > I think the headers should be paid special attention to.  The message
 > content of something from the NY Times or Lockergnome might look spammy, but
-> usually they don't forge or fake anything in the header.  Tone down the
+> usually they do not forge or fake anything in the header.  Tone down the
 > negative scores and ding them extra for any obvious forgeries.
 When we get more (good) "nice" tests, the GA will assign lower
 scores to them.  I think the current problem is that there are

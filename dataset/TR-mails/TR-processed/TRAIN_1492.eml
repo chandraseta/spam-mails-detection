@@ -4,12 +4,12 @@ On Tue, May 11, 2010 at 10:54:47PM -0700, Marc Shapiro wrote:
 > working just fine, and has been all along.  Automount does its thing as 
 > soon as a device is ACCESSED, not plugged in.  I was plugging the flash 
 > drives in and looking in /mnt to see if they were showing up.  The 
-> weren't.  The weren't supposed to, either.  As soon as I executed "ls 
+> were not.  The were not supposed to, either.  As soon as I executed "ls 
 > /mnt/lexar" lo and behold, there was the listing and everything was 
 > working just fine.
 > 
-> I think I'll slap myself on the head, again.
-Not so fast! :) How are you supposed to access them if you don't know
+> I think I will slap myself on the head, again.
+Not so fast! :) How are you supposed to access them if you do not know
 what they will be labelled as?
 What does "ls /mnt/" do?
 Are you supposed to carry round a scrap of paper with the mount labels

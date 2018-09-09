@@ -43,7 +43,7 @@ merciadriluca
 > ~$ dir /dev/sdh
 > brw-rw---- 1 root floppy 8, 112 2010-04-22 16:19:48 /dev/sdh
 >
-> You wouldn't happen to be logged in as root, would you?
+> You would not happen to be logged in as root, would you?
 I am not logged as root. Unfortunately. I do not understand this
 problem. It happens for every removable device: USB keys, external
 HDDs, etc.
@@ -51,7 +51,7 @@ HDDs, etc.
 Merciadri Luca
 See http://www.student.montefiore.ulg.ac.be/~merciadri/
 - -- 
-Man is truly himself when he's alone.
+Man is truly himself when he is alone.
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 Comment: Processed by Mailcrypt 3.5.8 

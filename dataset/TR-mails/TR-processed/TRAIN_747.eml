@@ -6,9 +6,9 @@ On Mon, 10 May 2010 07:42:33 -0700, Mark wrote:
 >> AFAIK, in Lenny, the updater icon only appears in system tray when
 >> security patches are available.
 >>
-> I'm running Lenny and the updater icon alerts me for program updates,
+> I am running Lenny and the updater icon alerts me for program updates,
 > etc., as well as security updates.
-Unless I'm wrong, lenny does not get package updates for newer versions 
+Unless I am wrong, lenny does not get package updates for newer versions 
 of programs, only patches for bugs.
 What repositories do you have enabled in your "/etc/apt/sources.list"? :-?
 Greetings,

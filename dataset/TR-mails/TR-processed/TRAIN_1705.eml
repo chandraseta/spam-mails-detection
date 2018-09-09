@@ -9,13 +9,13 @@ On Sun, 25 Apr 2010 06:59:33 -0400 (EDT), Camale=C3=B3n wrote:
 >=20
 > It does the same when you print with another PDF viewer (i.e., GV)? It=20
 > happens with *any* PDF?
-Well, I didn't try them all, but both evince and xpdf do the same thing.
+Well, I did not try them all, but both evince and xpdf do the same thing.
 And yes, it seems to be every multi-page PDF file.
 >>
 >> My printer is an HP PaintJet.  This wastes paper and
 >> is very annoying.  I have searched the Internet, of course, but I did
 >> not find any solutions.  The closest I found was Debian bug report
->> 316392, but his work-around doesn't work for me.  My PPD file already
+>> 316392, but his work-around does not work for me.  My PPD file already
 >> specifies Letter instead of A4 for Page Size.  Does anyone know a
 >> work-around for this?  Surely someone has run across this before.
 >=20
@@ -28,7 +28,7 @@ Further testing leads me to believe that this problem is driver-specific.
 When I print to another printer, an IBM Proprinter II, I do not have
 this problem.  I see that in Lenny the ghostscript pj driver is used
 and in Squeeze they have switched to the hplis driver.  Perhaps upgrading
-to Squeeze may fix the problem.  In the meantime, I'm going to do some
+to Squeeze may fix the problem.  In the meantime, I am going to do some
 experimenting with the ghostscript driver directly and see what I can
 see.
 --=20

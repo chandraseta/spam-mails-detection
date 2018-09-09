@@ -13,16 +13,16 @@ than I
 > >
 > >The question I have is: what needs to be done/help needs to be provided
 to
-> >make the system suck less? It's obviously a great idea, it just needs
+> >make the system suck less? it is obviously a great idea, it just needs
 some
 > >work...
-That's simple.  The same thing that any beta project needs to improve.
+that is simple.  The same thing that any beta project needs to improve.
 Continuous
 End-User testing, constructive feedback, and suggestions on how to improve
 the
 system.  Upgrade each time a new beta version comes out, so everyone is
 testing
-on the same version of the code, and old bugs don't get reported as being in
+on the same version of the code, and old bugs do not get reported as being in
 the
 new version, thus slowing down the debugging process.
 Report any installation issues, bugs, errors, etc., to the V2 beta list

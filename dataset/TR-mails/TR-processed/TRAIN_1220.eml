@@ -33,7 +33,7 @@ O.k.
 >> I think the application is crashing because cannot establish a
 >> connection with the device.
 > Such a (trivial, as habitual) case should have been handled by the
-> developers, shouldn't it?
+> developers, should not it?
 Yes... I would report. But also take a look into this:
 Connect HP 50g (or HP 49g+) to a Linux Box with hptalx
 http://bleedux.wordpress.com/2010/03/11/connect-hp-50g-to-a-linux-box-with-hptalx/

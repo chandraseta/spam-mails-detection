@@ -7,17 +7,17 @@ Hi,
 =09I made a spec file for it some weeks ago, maybe it can be included in =
 fresh.=20
 If not,  at least you can use it...
-I'm attaching it here...
+I am attaching it here...
 Hope it might be some use for you, does the trick for me. Might be an old=
 =20
 version though, but should still work
 Nick
 On Wednesday 04 September 2002 21:00, Doug Stewart wrote:
-> I've noted that there are packaged versions of
+> I have noted that there are packaged versions of
 > Blackbox and hackedbox available from FreshRPMs.  What
 > about FluxBox? http://fluxbox.sf.net
 >
-> I'd certainly enjoy a packaged version, since its
+> I would certainly enjoy a packaged version, since its
 > creators seem hesitant to provide .rpms (.debs, yes,
 > but no .rpms).
 >

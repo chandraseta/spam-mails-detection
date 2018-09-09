@@ -9,5 +9,5 @@ On Tue, Apr 20, 2010 at 10:05:57PM +0200, Thierry Chatelet wrote:
 > either the cpu or the graphic card.
 For giggles, I just enabled the BIOS warning beep when my CPU gets >60C. Af=
 ter starting 4x burnP6 and letting it run for a while, sure enough, I got t=
-he warning beep. I'm gonna look a little more into this, and maybe involve =
+he warning beep. I am going to look a little more into this, and maybe involve =
 my vga card in this using FurMark to see what happens there.

@@ -5,7 +5,7 @@ Re: Another sequences window nit
   | Restarting exmh was necessary.
 Probably not.   Next time try clicking on the folder name in the
 sequences window for the sequence.   That is, request that sequence
-be the one displayed in the FTOC.   If the sequence doesn't exist,
+be the one displayed in the FTOC.   If the sequence does not exist,
 it will be cleaned up then.
 Perhaps it would be nicer if flist would do it as well, but this
 is effective enough.

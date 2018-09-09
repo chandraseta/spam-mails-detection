@@ -1,7 +1,7 @@
 Re: network setup question
 On Thu, May 6, 2010 at 10:12 PM, Miles Fidelman
  wrote:
-> Thanks to all who replied. =A0I'm starting to zero in on this now.
+> Thanks to all who replied. =A0I am starting to zero in on this now.
 >
 > A few more details:
 >
@@ -16,7 +16,7 @@ On Thu, May 6, 2010 at 10:12 PM, Miles Fidelman
 > Destination =A0 =A0 Gateway =A0 =A0 =A0 =A0 Genmask =A0 =A0 =A0 =A0 Flags=
  Metric Ref =A0 =A0Use
 > Iface
-> localnet =A0 =A0 =A0 =A0* =A0 =A0 =A0 =A0 =A0 =A0 =A0 255.255.255.224 U =
+> localnet =A0 =A0 =A0 =A0* =A0 =A0 =A0 =A0 =A0 =A0 =A0 255.255.255.224 you =
 =A0 =A0 0 =A0 =A0 =A00 =A0 =A0 =A0 =A00 eth0
 > default =A0 =A0 =A0 =A0 207.154.13.33 =A0 0.0.0.0 =A0 =A0 =A0 =A0 UG =A0 =
 =A00 =A0 =A0 =A00 =A0 =A0 =A0 =A00 eth0
@@ -32,7 +32,7 @@ On Thu, May 6, 2010 at 10:12 PM, Miles Fidelman
 > Destination =A0 =A0 Gateway =A0 =A0 =A0 =A0 Genmask =A0 =A0 =A0 =A0 Flags=
  Metric Ref =A0 =A0Use
 > Iface
-> localnet =A0 =A0 =A0 =A0* =A0 =A0 =A0 =A0 =A0 =A0 =A0 255.255.255.224 U =
+> localnet =A0 =A0 =A0 =A0* =A0 =A0 =A0 =A0 =A0 =A0 =A0 255.255.255.224 you =
 =A0 =A0 0 =A0 =A0 =A00 =A0 =A0 =A0 =A00 eth0
 > default =A0 =A0 =A0 =A0 207.154.59.129 =A00.0.0.0 =A0 =A0 =A0 =A0 UG =A0 =
 =A00 =A0 =A0 =A00 =A0 =A0 =A0 =A00 eth0
@@ -56,7 +56,7 @@ s =A00.309 ms
 > The traffic is definitely going through the datacenter's router
 > (207.154.13.33).
 >
-> I'm thinking that adding something like:
+> I am thinking that adding something like:
 >
 > server 1: route add -net 207.154.13.128 netmask 255.255.255.244 dev eth0
 > server 2: route add -net 207.154.13.32 netmask 255.255.255.244 dev eth0
@@ -76,7 +76,7 @@ of
 f
 > so, where it store the information?
 iproute is the new route
-place them in /etc/network/interfaces as post-up command don't forget
+place them in /etc/network/interfaces as post-up command do not forget
 || true at the end of the command
 >
 > Thanks again,

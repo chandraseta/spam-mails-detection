@@ -5,10 +5,10 @@ On Fri, 07 May 2010 19:58:26 +0200, Merciadri Luca wrote:
 > becomes sluggish, slower and slower, and often stalls after some time. I
 > also noticed that, when becoming more and more sluggish, it takes more
 > and more RAM, even when all the pages are completely loaded. Why? Am I
-> the only person who's experiencing this? Is there an objective
+> the only person who is experiencing this? Is there an objective
 > explanation to this?
 He... did you never search in Google for "Firefox memory hog"? O:-)
-There's even a Mozilla KB explaining the issue:
+there is even a Mozilla KB explaining the issue:
 Reducing memory usage - Firefox
 http://kb.mozillazine.org/Memory_Leak
 Also, never versions (>3.5.x) provide /a bit/ better memory management.

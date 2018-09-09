@@ -6,15 +6,15 @@ On 05/03/2010 06:20 PM, deloptes wrote:
 >> machine that can use 4 GB of memory.
 >>
 >
-> I also found that people underestimate the importance of L2/3 cache. I'm
-> compiling very often and it's really faster on my developer's notebook with
+> I also found that people underestimate the importance of L2/3 cache. I am
+> compiling very often and it is really faster on my developer's notebook with
 > 4M cache then on faster CPU with 512K. The difference is in the terms of
 > 4-8 times.
-> I've noticed that there is only 512K cache in the most netbooks which makes
+> I have noticed that there is only 512K cache in the most netbooks which makes
 > then unsuitable for development. ATM this is stopping me from buying one.
 > Do you know if there are some with larger cache?
 >
-Just as a Mini Cooper isn't a dragster or a lorry, netbooks are not 
+Just as a Mini Cooper is not a dragster or a lorry, netbooks are not 
 *designed* for heavy computational abilities.
 -- 
 Dissent is patriotic, remember?

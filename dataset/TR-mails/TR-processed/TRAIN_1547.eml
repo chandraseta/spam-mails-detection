@@ -1,6 +1,6 @@
 Re: [SAtalk] Re: SA SQL Prefs and MIMEDefang
-> The main reason I'd like to stick with a milter-based approach is the 
-> ability to reject messages at the SMTP stage.  This way the recipient isn't 
+> The main reason I would like to stick with a milter-based approach is the 
+> ability to reject messages at the SMTP stage.  This way the recipient is not 
 > bothered and the sender knows immediately that the message failed.  My 
 > understanding is that once it gets to Procmail, as far as the sender is 
 > concerned, it got through.  And since all our users connect via POP, moving 

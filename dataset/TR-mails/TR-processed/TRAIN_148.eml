@@ -1,18 +1,18 @@
 [Spambayes] Ditching WordInfo
-> Yeah, that's exactly what I was doing--I didn't realize I was
-> incurring administrative pickle bloat this way.  I'm specifically
-> trying to make things faster and smaller, so I'm storing individual
+> Yeah, that is exactly what I was doing--I did not realize I was
+> incurring administrative pickle bloat this way.  I am specifically
+> trying to make things faster and smaller, so I am storing individual
 > WordInfo pickles into an anydbm dict (keyed by token).  The result
-> is that it's almost 50 times faster to score messages one per run
+> is that it is almost 50 times faster to score messages one per run
 > our of procmail (.408s vs 18.851s).
 This is very worthwhile.
 > However, it *does* say all over the place that the goal of this
-> project isn't to make the fastest or the smallest implementation, so
-> I guess I'll hold off doing any further performance tuning until the
+> project is not to make the fastest or the smallest implementation, so
+> I guess I will hold off doing any further performance tuning until the
 > goal starts to point more in that direction.  .4 seconds is probably
 > fast enough for people to use it in their procmailrc, which is what
 > I was after.
-Maybe.  I batch messages using fetchmail (don't ask why), and adding
+Maybe.  I batch messages using fetchmail (do not ask why), and adding
 .4 seconds per message for a batch of 50 (not untypical) feels like a
 real wait to me...
 --Guido van Rossum (home page: http://www.python.org/~guido/)

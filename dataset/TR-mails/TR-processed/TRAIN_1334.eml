@@ -21,16 +21,16 @@ Brian ODonoghue said:
 >> What I was hoping to do was to install some kind of internal tape
 >> device, then swap tapes round every month, so I had an onsite backup
 >> of say the last 24 hours and an offsite backup of the last month. Is
->> this feasible? I'm beginning to think it isn't. External devices are
+>> this feasible? I am beginning to think it is not. External devices are
 >> not an option as part
 >> of the charge for colocation is rackspace.
 >>
 >> Thanks,
 >> Ciaran.
 >
-> I'd recommend a good external DLT drive.
+> I would recommend a good external DLT drive.
 > You will probably need a SCSI card for that too.
-Yeah, so would I, but as I said, external ain't really an option.
+Yeah, so would I, but as I said, external are not really an option.
 /Ciaran.
 >
 > Mmmm.

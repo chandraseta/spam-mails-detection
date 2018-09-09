@@ -1,5 +1,5 @@
 Re: bad focus/click behaviours
-I've never understood the mouse buffer operation with exmh either. Here's the 
+I have never understood the mouse buffer operation with exmh either. Here's the 
 behaviour I have. I have exmh and XEmacs windows up, and a terminal window. (I 
 also have gnome1.4 running and enlightenment as wm.) I select text in the exmh 
 window and while it is highlighted, I can paste into anything else. If I select 
@@ -17,7 +17,7 @@ AbiWord           nothing
 Nedit             nothing
 sedit             Whatever was last highlighted in sedit and overwritten
 The last needs some amplification. If I highlight something in sedit, then 
-obviously that's what gets pasted. If the highlighting is off, then what gets 
+obviously that is what gets pasted. If the highlighting is off, then what gets 
 pasted is NOT what was last highlighted in sedit, but what was last highlighted 
 and typed over (I have "Type Kills SEL" on.).
 It seems that exmh and sedit are the oddballs here. Very often when I try to 

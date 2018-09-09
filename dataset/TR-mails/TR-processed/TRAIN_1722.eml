@@ -2,7 +2,7 @@ Re: Linux compatible mainboards
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 Kelly Clowers wrote:
-> I don't know specifically about buggy bioses, but in general, Foxconn
+> I do not know specifically about buggy bioses, but in general, Foxconn
 > is not a brand associated with quality, while Gigabyte, Asus and Intel are.
 Aside from the quality issue, two+ years ago there was considerable
 internet chatter about BIOSes on some Foxconn models that were
@@ -13,11 +13,11 @@ in that article is even half true, Foxconn is a manufacturer to avoid.
 > Intel chipsets make sense for Intel Motherboards, the days when you
 > needed to look to Via or someone else to provide the needed features
 > are mostly gone (Nvidia is, for now, still the best for more powerful
-> integrated graphics with Intel CPUs. But Linux users probably don't
+> integrated graphics with Intel CPUs. But Linux users probably do not
 > want Nvidia graphics anyway).
 As I mentioned in my "another thought" post, I am planning to use a
 Nvidia GPU anyway, mainly in order to have two monitors.
-> Driver-wise it isn't really a matter of the north- or south- bridge, it is
+> Driver-wise it is not really a matter of the north- or south- bridge, it is
 > about the individual chips that need drivers. Things like ATA controllers
 > and wired Ethernet controllers are generally a non-issue nowadays.
 > The biggest things you need to look at are the GPU (all Intel GPUs
@@ -25,8 +25,8 @@ Nvidia GPU anyway, mainly in order to have two monitors.
 > chipsets (not usually built in on desktops, of course)
 Good to know.
 > In the case of the GA-G41M-ES2H, the Southbridge is old (ICH7; ICH11
-> will be out soon), and the Realtek audio and ethernet chips aren't the
-> greatest. Nonetheless, they do the job and shouldn't have any major
+> will be out soon), and the Realtek audio and ethernet chips are not the
+> greatest. Nonetheless, they do the job and should not have any major
 > compatibly problems with recent kernels. It should be noted that
 > boards with newer ICHs and something other than Realtek are a
 > fair bit more expensive.

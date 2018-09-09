@@ -1,5 +1,5 @@
 How do I fsck and XFS file system in "Squeeze"
-        OK, I'm stumped.  I was having some problems which were likely related
+        OK, I am stumped.  I was having some problems which were likely related
 to the old kernel in Debian "Lenny", so I upgraded to "Squeeze" in
 order to alleviate the issue, which it apparently has.  Now, however, I
 need to fsck the main array on the box, which is formatted as XFS.  The

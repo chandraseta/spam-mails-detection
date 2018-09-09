@@ -3,7 +3,7 @@ Gary Funck said:
 > I thought the ">> /perllocal.pod" line looked odd. Is it normal to write
 > documentation into the root directory? (). Is there some Make parameter, o
 > r
-> environment variable that should've been set when I ran "make"?
+> environment variable that should have been set when I ran "make"?
 an issue for Razor folks I think.
 > It seems that by registering that I avoided the error path noted in my previo
 > us

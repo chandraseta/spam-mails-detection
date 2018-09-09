@@ -1,12 +1,12 @@
 Re: Moving to Debian: updated software
 On Thu, 22 Apr 2010 18:13:49 +0300, Dotan Cohen wrote:
->> It's hard for distributions to include the latest KDE SC available
+>> it is hard for distributions to include the latest KDE SC available
 >> *and* deliver it as "stable". Rolling distros (such Arch Linux), which
 >> are always up-to-date, may fit better into this schema.
 >>
 >>
 > That is where a third-party repo would come in, such as Backports.
-> Kubuntu, for all it's flaws, does this quite well. I understand that so
+> Kubuntu, for all it is flaws, does this quite well. I understand that so
 > does Suse.
 As per openSUSE, yes, they have the OBS (Build Service) with many 
 packages up-to-date and available (backported or not) for the current 

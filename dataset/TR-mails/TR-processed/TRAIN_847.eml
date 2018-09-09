@@ -5,16 +5,16 @@ Sven Joachim put forth on 5/23/2010 1:05 AM:
 >> No, resist forced conformity.  This is Linux.  We have multiple choice with
 >> everything else, so we should darn well have our choice of boot loader.
 > 
-> You're welcome to work on lilo so that can cope with the increasing size
+> you are welcome to work on lilo so that can cope with the increasing size
 > of kernel images and initramfs.
 My point was exactly that.  For users who run tight, tiny, custom kernels
 either without initrd (such as myself) or with tiny initrd tailored to a
 specific hardware config, LILO should be allowed as an option for these users.
 Grub is bloated because it is designed to accommodate bloat.  LILO is the
 antithesis of bloat.
-Many OPs don't need or want LILO to be able to accommodate bloated kernel
+Many OPs do not need or want LILO to be able to accommodate bloated kernel
 images or initrd.  The current version of LILO is fine.  We just want the
-option to be able to use LILO because our kernel images aren't bloated, and
+option to be able to use LILO because our kernel images are not bloated, and
 Grub is a PITA to work with, and is unnecessary on our systems.
 -- 
 Stan

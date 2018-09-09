@@ -53,7 +53,7 @@ Lisi  writes:
 >> > ~$ dir /dev/sdh
 >> > brw-rw---- 1 root floppy 8, 112 2010-04-22 16:19:48 /dev/sdh
 >> >
->> > You wouldn't happen to be logged in as root, would you?
+>> > You would not happen to be logged in as root, would you?
 >
 >  /media# ls -al   (from previous email from Merciadri)
 >

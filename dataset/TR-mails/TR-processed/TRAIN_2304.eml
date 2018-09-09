@@ -9,8 +9,8 @@ router
 > You mean packets coming in from the Internet with a destination IP =
 that is=20
 > assigned to the router itself? =20
-Yup. I've blocked telnet and some irrelevant ICMP for a long time. It =
-dawned on me the other day that I couldn't think of any reason not to =
+Yup. I have blocked telnet and some irrelevant ICMP for a long time. It =
+dawned on me the other day that I could not think of any reason not to =
 just drop all TCP and UDP traffic to the router's outside IP.
 > Are you running any sort of routing protocol=20
 > or similar that communicates with your ISP's routers, including things =
@@ -21,7 +21,7 @@ host in the DMZ. To this router, the VPN traffic looks like just more =
 UDP between public IPs.
 > What about NAT=20
 > or port forwarding on the border router?
-There's no port forwarding, and NAT all happens inside, on the firewall =
+there is no port forwarding, and NAT all happens inside, on the firewall =
 that connects the outside, the DMZ, and the LAN. This router sees only =
 my routable address space (and its IP on the 1918 net between it and the =
 firewall).

@@ -4,9 +4,9 @@ Stephen Powell  wrote:
 ...
 > It sounds to me like you want to get pristine kernel sources directly
 > from kernel.org and compile them and run them on a Debian system.
-> I've never done that, but others tell me that they do it.  Of course,
-> this is not supported by Debian.  But why don't you just install the
-I'm not sure that it's correct to say that using kernel-package to
+> I have never done that, but others tell me that they do it.  Of course,
+> this is not supported by Debian.  But why do not you just install the
+I am not sure that it is correct to say that using kernel-package to
 build and install vanilla kernel sources is "not supported by Debian".
 My understanding is that the package is supposed to work on any kernel
 tree, not just Debian's packaged ones.  Perhaps Manoj will comment?

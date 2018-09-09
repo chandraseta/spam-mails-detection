@@ -5,7 +5,7 @@ Inn Share  writes:
 > Does anyone know how to list the biggest file in my
 > root directory?or the second biggest ..etc...
 > 
-> Because I want to find out what is the reason cause my
+> Because I want to find out what is the reason because my
 > root all most full.
 find / -xdev -type f -exec du -sk {} \; | sort -rn | head -5
         -xdev will stop find recursing into other filesystems.

@@ -8,8 +8,8 @@ On Friday 14 May 2010 14:36:44 Boyd Stephen Smith Jr. wrote:
 an
 > 'aptitude' binary?
 >=20
-> Typing 'aptitude-curses' is a little annoying.  I'm assuming the rename is
-> because of work on aptitude-gtk and aptitude-qt.  If so, wouldn't using t=
+> Typing 'aptitude-curses' is a little annoying.  I am assuming the rename is
+> because of work on aptitude-gtk and aptitude-qt.  If so, would not using t=
 he
 > alternatives system for an 'aptitude' symlink make sense?
 I think I may have been hit by bug 575137.  I am using btrfs, and there wer=

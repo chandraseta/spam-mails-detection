@@ -7,7 +7,7 @@ Re: Compositing two movies
 > 'QTCaptureVideoPreviewOutput' may not respond to '-connectedChannels'
 > 'QTCaptureVideoPreviewOutput' may not respond to '-setVisualContext:forChannel:'
 >
-> It does mix two movies now, it just doesn't see my computer's camera.
+> It does mix two movies now, it just does not see my computer's camera.
 Yes, sure, but my point was only about having two movies perfectly in sync,
 and this sample code is just a way to achieve it !
 Raphael

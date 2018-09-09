@@ -12,13 +12,13 @@ of nil):
 >=20
 > while (word =3D [enm nextObject]) { printf("%s\n", [word UTF8String]);
 > }
-I am not quite sure what's an "appropriate negative literal" and whether =
-it's present or absent, but perhaps it's just that there's a fine point =
+I am not quite sure what is an "appropriate negative literal" and whether =
+it is present or absent, but perhaps it is just that there is a fine point =
 there which escapes me (I do admit I did not check the doc, it might use =
 the term before in a way which makes the statement unambiguous).
-What's -- IMHO of course -- pretty misleading is what follows though. =
+what is -- IMHO of course -- pretty misleading is what follows though. =
 Seems to me we are checking the word object variable very very =
-explicitly -- you can't be much more explicit in testing XXX than =
+explicitly -- you cannot be much more explicit in testing XXX than =
 writing "while (XXX)".
 What we are -- in fact -- testing _implicitly_ is whether the _enm_ =
 object variable might contain nil.

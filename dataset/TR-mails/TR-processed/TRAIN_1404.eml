@@ -5,24 +5,24 @@ On Tue, May 04, 2010 at 11:08:12AM +0200, Imre Vida wrote:
 > laptop.
 >=20
 > Its output consists only of error report lines such as the following:
-> May  3 06:35:16 sharp syslog-ng[4361]: Log statistics; processed=3D'desti=
+> May  3 06:35:16 sharp syslog-ng[4361]: Log statistics; processed=3D wouldesti=
 nation(d_error)=3D249', processed=3D'cent er(received)=3D0', processed=3D's=
 rc.internal(s_src#1)=3D206', stamp=3D'src.internal(s_src#1)=3D1272860716', =
-processed=3D 'destination(d_syslog)=3D206', processed=3D'destination(d_xcon=
-sole)=3D268', processed=3D'destination(d_newscrit)=3D0', processed=3D'desti=
-nation(d_auth)=3D74', processed=3D'destination(d_daemon)=3D77', processed=
+processed=3D  wouldestination(d_syslog)=3D206', processed=3D wouldestination(d_xcon=
+sole)=3D268', processed=3D wouldestination(d_newscrit)=3D0', processed=3D wouldesti=
+nation(d_auth)=3D74', processed=3D wouldestination(d_daemon)=3D77', processed=
 =3D'global(payload_realloc s)=3D0', processed=3D'global(msg_clones)=3D0', p=
-rocessed=3D'destination(d_mail)=3D1354', processed=3D'destination(d_cron)=
-=3D36', processed=3D'destination(d_kern)=3D243', processed=3D'destination(d=
-_uucp)=3D0', processed=3D'destination(d_debu g)=3D36', processed=3D'destina=
-tion(d_lpr)=3D0', processed=3D'destination(d_user)=3D16', processed=3D'cent=
-er(queued)=3D0', processed=3D'global(sdata_updates)=3D0', processed=3D'dest=
-ination(d_newsnotice)=3D0', processed=3D'destination(d_conso le_all)=3D268'=
-, processed=3D'destination(d_console)=3D1', processed=3D'source(s_src)=3D20=
-42', processed=3D'destination(d _newserr)=3D0'
+rocessed=3D wouldestination(d_mail)=3D1354', processed=3D wouldestination(d_cron)=
+=3D36', processed=3D wouldestination(d_kern)=3D243', processed=3D wouldestination(d=
+_uucp)=3D0', processed=3D wouldestination(d_debu g)=3D36', processed=3D wouldestina=
+tion(d_lpr)=3D0', processed=3D wouldestination(d_user)=3D16', processed=3D'cent=
+er(queued)=3D0', processed=3D'global(sdata_updates)=3D0', processed=3D wouldest=
+ination(d_newsnotice)=3D0', processed=3D wouldestination(d_conso le_all)=3D268'=
+, processed=3D wouldestination(d_console)=3D1', processed=3D'source(s_src)=3D20=
+42', processed=3D wouldestination(d _newserr)=3D0'
 > =20
 > This started when the /var partition filled up due to an=20
-> update (without cleaning up old debs before). In an 'emergency'
+> update (without cleaning up old debs before). In an  themergency'
 > clean up i deleted also old, compressed log files (as i usually do).
 >=20
 > This has happened before without an consequences, but now what ever=20
@@ -47,7 +47,7 @@ Imre Vida, M.D., Ph.D.
 Neuroscience and Molecular Pharmacology
 FBLS, University of Glasgow=20
 West Medical Building=20
-Glasgow, G12 8QQ, U.K.
+Glasgow, G12 8QQ, you.K.
 Tel.: 0044 141 330 5143
 Fax.: 0044 141 330 5481
 eMail: i.vida@bio.gla.ac.uk

@@ -1,7 +1,7 @@
 Re: How to manage multiple Internet connections?
 On Sat, 15 May 2010 16:32:05 +0200, Merciadri Luca wrote:
 > `Bonding' seems to achieve what I wanted to do. Thanks.
-Sure? I don't think so :-)
+Sure? I do not think so :-)
 "Bonding" is for ethernet devices, nothing to do with using your 
 "router's bandwith". Ethernet bonding is like hard disk raid: it will 
 prevent for a "link" going down and you can use it to increasing 

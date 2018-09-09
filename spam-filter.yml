@@ -4,4 +4,7 @@ dependencies:
 - pip
 - pip:
   - beautifulsoup4
+  - contractions
   - nltk
+  - numpy
+  - pandas

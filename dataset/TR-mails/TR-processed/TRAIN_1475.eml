@@ -1,11 +1,11 @@
 Re: Java graphicsgeneration on Mac servers without graphics hardware
 Stuart Wier  wrote:
-> It seems that Java on Mac OS X doesn't use X11 (or Xvfb) at all. Is it
+> It seems that Java on Mac OS X does not use X11 (or Xvfb) at all. Is it
 > attempting to interact with the quartz/Cocoa/Aqua window framework?
-Yes.  The X server is completely secondary, and I don't think Apple Java
+Yes.  The X server is completely secondary, and I do not think Apple Java
 interacts with it at all.
 > It seems not particularly interested in whether or not an X server is
-> available or the DISPLAY variable is set or whether you've tunneled X
+> available or the DISPLAY variable is set or whether you have tunneled X
 > through SSH.
 Right.
 > Is there is a way to run Java graphics generation on the Mac 10.6
@@ -19,9 +19,9 @@ control access to various things; you can find more information on it at
 http://developer.apple.com/mac/library/technotes/tn2005/tn2083.html.
 Worth reading.  Several times.
 But the pertinent bit is ``A process can only use the global window
-server service if its EUID is 0 (it's running as root) or matches the
+server service if its EUID is 0 (it is running as root) or matches the
 UID of the console user. All other users are barred from using it.''
-I don't see an update of this document for 10.6, either.
+I do not see an update of this document for 10.6, either.
 > How can I set up things so that graphics generation proceeds and makes
 > image files as if graphics hardware were available?   The program is
 > designed to do this using X, either with X11 with graphics hardware,

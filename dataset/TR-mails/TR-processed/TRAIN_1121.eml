@@ -4,8 +4,8 @@ elliptic curves (over fields of characteristic 2).
 In 1998, Reynald Lercier set a record at 1663 bits in 330 days of CPU
 on 266 MHz Alphas.  In 1999, Frederik Vercauteren set a record at 1999
 bits in 65 days of CPU on 400 MHz PCs.
-I've been working on the problem since then.  These were measured just
-now on Rajit's 750 MHz Alpha:
+I have been working on the problem since then.  These were measured just
+now on Rajit is 750 MHz Alpha:
   1009 bits:
     Lift:  4.8 s + 0.64 s precomputation.
     Norm:  2.6 s + 0.31 s precomputation.

@@ -4,8 +4,8 @@ On Sat, May 01, 2010 at 03:52:30PM -0500, Mark Allums wrote:
 >> On 05/01/2010 04:50 AM, markus reichelt wrote:
 >>> * Ron Johnson wrote:
 >>>
->>>> The issue is that I'm trying to read some 2-3 year old "movie"
->>>> DVD-Rs and they're all at some point failing.
+>>>> The issue is that I am trying to read some 2-3 year old "movie"
+>>>> DVD-Rs and they are all at some point failing.
 >>>
 >>> Try another drive (best would be a dvd burner).
 >>>
@@ -14,11 +14,11 @@ On Sat, May 01, 2010 at 03:52:30PM -0500, Mark Allums wrote:
 >>
 >> ddrescue or gddrescue?
 >>
->>> Also, check out vobcopy, it's my fav
+>>> Also, check out vobcopy, it is my fav
 >>> application to backup dvds.
 >>>
 >>
->> I'll try that.
+>> I will try that.
 >>
 >
 >
@@ -30,9 +30,9 @@ On Sat, May 01, 2010 at 03:52:30PM -0500, Mark Allums wrote:
 > They provide libdvdcss and libdvdplay, useful libraries to install,  
 > which are not included in Debian.  (non-DFSG)
 >
-VLC also has a neat "stream to file" feature.  I've used that many times
-to backup DVD movies, or to get them onto my MythTV machine.  Ron, I'm
-not sure that'll help your situation, but you might want to give it a
+VLC also has a neat "stream to file" feature.  I have used that many times
+to backup DVD movies, or to get them onto my MythTV machine.  Ron, I am
+not sure that will help your situation, but you might want to give it a
 shot.  If you need help with that, let me know.
 -Rob
 -- 

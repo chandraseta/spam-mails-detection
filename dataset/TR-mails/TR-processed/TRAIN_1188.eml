@@ -18,7 +18,7 @@ which should have reported its preferred resolution via EDID.
 >> is to use a bigger font.  Install the console-setup and kbd packages and
 >> use "dpkg-reconfigure console-setup" to choose your preferred font.
 >
-> I don't know which bigger console font you have in mind but if it is
+> I do not know which bigger console font you have in mind but if it is
 > one of the Terminus family screen corruption will most likely happen.
 I never had any problems with the terminus fonts, YMMV.
 Sven

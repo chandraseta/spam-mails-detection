@@ -14,14 +14,14 @@ Stephen Powell  writes:
 >>> vga option, though, which I use a lot, especially since svgatextmode
 >>> has already been pulled from squeeze.
 >> 
->> I'm not sure what you're after, I haven't used LILO for ages.  But
+>> I am not sure what you are after, I have not used LILO for ages.  But
 >> typing vmlinuz-2.6.32 vga=0xf07 at the pxelinux boot prompt gives me a
 >> 80x60 console.  The other variants use the same code.
 >
 > Interesting.  At one point, the kernel itself had de-supported the
 > vga boot option, relying on the boot loader to set the video mode
-> before transferring control to the kernel.  And now you're saying
-> it's back.  Hmm.  According to Documentation/svga.txt in the kernel
+> before transferring control to the kernel.  And now you are saying
+> it is back.  Hmm.  According to Documentation/svga.txt in the kernel
 > source tree:
 >
 >    This small document describes the "Video Mode Selection" feature which
@@ -35,12 +35,12 @@ Stephen Powell  writes:
 > does it not?
 It does not, the kernel is sort of a self-decompressing binary.
 However, the vga= parameter is indeed parsed by the bootloader and
-passed to the kernel by a special protocol.  It's then used before the
+passed to the kernel by a special protocol.  it is then used before the
 kernel parses its command line.
-> I'm going to have to try installing Squeeze using extlinux as the boot
-> loader.  (No doubt I'll have to change bootloaders after installation,
-> as the Debian Installer won't offer that option.)
-Yes, you'll have to back out of Grub installation, start a shell, chroot
+> I am going to have to try installing Squeeze using extlinux as the boot
+> loader.  (No doubt I will have to change bootloaders after installation,
+> as the Debian Installer will not offer that option.)
+Yes, you will have to back out of Grub installation, start a she will, chroot
 into /target, and install exlinux.  Take care to have /boot on an ext2
 partition.
 -- 

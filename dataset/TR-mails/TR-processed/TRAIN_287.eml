@@ -1,7 +1,7 @@
-Re: Apt repository authentication: it's time
+Re: Apt repository authentication: it is time
 Hi.
 Brian Fahrlander  wrote:
->     What's it take to ensure we're covered against this kind of
+>     what is it take to ensure we are covered against this kind of
 >     childish/moronic/Microsoft-era problems?
 Well, I am checking the packet signatures while building the apt-tree.
 Not very pretty, not very fast, but it works.

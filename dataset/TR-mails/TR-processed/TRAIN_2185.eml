@@ -11,7 +11,7 @@ What about a java launcher stub. Use Runtime exec to launch a java
 process. I think this is what the Apache common launcher project code  
 amounts to. It is based on the Tomcat or some such product launcher  
 code and uses a ant task approach but I think in the end just amounts  
-to Runtime exec'd java. Assuming you can decide at Runtime what  
+to Runtime exec would java. Assuming you can decide at Runtime what  
 parameters you want to use.
 Mike Hall        hallmike at att dot net
 http://www195.pair.com/mik3hall

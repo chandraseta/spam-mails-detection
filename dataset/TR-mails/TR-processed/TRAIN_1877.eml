@@ -17,15 +17,15 @@ to
 > > > > > but that presented an open, well documented interface for the
 > > > > > driver, most people would be very happy (although there are, of
 > > > > > course, the open hardware crusaders - more power to them!).  So,
-> > > > > now that they've simply implemented some of that functionality in
+> > > > > now that they have simply implemented some of that functionality in
 > > > > > SW, in the form of firmware which the driver installs on the card,
 > > > > > but which has nothing to do with your host machine, are you really
 > > > > > any worse off?
 > > > >
-> > > > As a distributor you may very well be.  If you can't provide the
-> > > > source code, you can't satisfy the terms of the GPL (usually).
+> > > > As a distributor you may very well be.  If you cannot provide the
+> > > > source code, you cannot satisfy the terms of the GPL (usually).
 > > >
-> > > ?  We're talking about firmware for things like wireless cards,
+> > > ?  we are talking about firmware for things like wireless cards,
 > > > produced by the HW manufacturers, e.g., Broadcom.  Where does the GPL
 > > > enter into this?
 > >
@@ -34,7 +34,7 @@ ch
 > > is distributed under the GPLv2.  In particular, I am thinking of the
 > > iwl3945 firmware that is required to run my wireless card.
 > >
-> > It doesn't matter what upstream wants to call source code.  The GPL(v2)
+> > It does not matter what upstream wants to call source code.  The GPL(v2)
 > > defines it as the preferred form for making modifications.  (GPLv2,
 > > section 3.)  It is unlikely that the firmware was written in a hex edit=
 or
@@ -46,22 +46,22 @@ or
 > This is all very well, but the context of this subthread is James's
 > statement that he avoids installing the non-free firmware that his HW
 > requires out of a commitment to FLOSS ideals, to which I responded that
-> I'm not sure if one is really worse off installing such firmware, or
+> I am not sure if one is really worse off installing such firmware, or
 > using a card that just has that logic built in to its non-free HW.
-And I claim he would be better off using a card that doesn't use firmware[1=
+And I claim he would be better off using a card that does not use firmware[1=
 ]=20
 or uses free firmware, since non-free firmware is an issue for distributors=
 =20
-and it's relatively easy to "accidentally" participate in distributing=20
+and it is relatively easy to "accidentally" participate in distributing=20
 software in violation of its license.
-I wouldn't want to be stuck without non-free available, but I recommend mak=
+I would not want to be stuck without non-free available, but I recommend mak=
 ing=20
 hardware purchases that allow you to avoid non-free as much as possible.  I=
 'm=20
 gradually moving that way myself.  (Desktop and laptop each need one driver=
 =20
 from non-free.)
-Once you've got the hardware, you might as well use it, even if it requires=
+Once you have got the hardware, you might as well use it, even if it requires=
 =20
 non-free drivers.  The manufacturer has already got their cut of what you=20
 paid; you are hurting none but yourself by not using it.  You should try an=

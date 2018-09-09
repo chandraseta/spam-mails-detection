@@ -3,18 +3,18 @@ On 4/30/2010 6:39 PM, Ron Johnson wrote:
 > On 04/26/2010 09:29 AM, Tim Clewlow wrote:
 >> Hi there,
 >>
->> I'm getting ready to build a RAID 6 with 4 x 2TB drives to start,
+>> I am getting ready to build a RAID 6 with 4 x 2TB drives to start,
 >
 > Since two of the drives (yes, I know the parity is striped across all
 > the drives, but "two drives" is still the effect) are used by striping,
-> RAID 6 with 4 drives doesn't seem rational.
-We've taken OP to task already for this, but I guess it bears repeating.
+> RAID 6 with 4 drives does not seem rational.
+we have taken OP to task already for this, but I guess it bears repeating.
 Use multiple HW controllers, and at least 7-8 drives, I believe was the 
 consensus, given that SW RAID 6 is a performance loser and losing a 
 controller during a rebuild is a real ruin-your-week kind of moment.
 But while some of us were skeptical about just how bad the performance 
 of RAID 5 or 6 really is and wanted citation of references, more of us 
-just questioned the perceived frugality.  With four drives, wouldn't a 
+just questioned the perceived frugality.  With four drives, would not a 
 RAID 10 be better use of resources, since you can migrate to bigger 
 setups later?  And there we were content to let it lie, until...
 >> but the intention is to add more drives as storage requirements

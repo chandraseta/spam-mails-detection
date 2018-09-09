@@ -1,8 +1,8 @@
 Re: no alternatives for firefox/mozilla
 > Having upgraded iceweasel, I am no longer able to call firefox or mozilla 
-> from command line any more. I don't mind firefox is called iceweasel or 
+> from command line any more. I do not mind firefox is called iceweasel or 
 > whatever in Debian, but entirely stopping me from starting firefox is 
-> something I don't feel comfortable.
+> something I do not feel comfortable.
 > Please comment. 
 If I understand correctly, you cannot find executable.
 I encountered similar on my bsd box, when file changed

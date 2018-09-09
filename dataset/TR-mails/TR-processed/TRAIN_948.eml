@@ -44,7 +44,7 @@ To: hacksaw@hacksaw.org
 *gpgHKPKeyServerUrl:    keys.pgp.com
 *gpgKeyServerURL:       http://www-swiss.ai.mit.edu/htbin/pks-extract-key.pl?op
 =get&search=0x%s
-*gpgKeyOtherMethod:     exec echo "can't find $id" > $tmp
+*gpgKeyOtherMethod:     exec echo "cannot find $id" > $tmp
 *gpgComment:    Exmh version 2.5 08/15/2002
 *gpgModulePath: /usr/lib/gnupg
 *gpgCipherMods: skipjack idea

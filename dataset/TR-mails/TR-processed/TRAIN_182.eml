@@ -4,12 +4,12 @@ Content-Type: text/plain; charset=us-ascii
 Content-Disposition: inline
 Content-Transfer-Encoding: quoted-printable
 On Mon, Apr 19, 2010 at 09:16 -0400, B. Alexander wrote:
-> I've got an issue with a sid box that I have been maintaining for a while=
+> I have got an issue with a sid box that I have been maintaining for a while=
 =2E This
 > is my workstation, and I have noticed a growing number of broken packages,
 > unmet dependencies and conflicts. I have been using safe-upgrade for mont=
 hs
-> now, hoping that it would work itself out over time. However, this hasn't
+> now, hoping that it would work itself out over time. However, this has not
 > happened. So what can I do to fix the problems without losing functionali=
 ty?
 > Below is the result of aptitude full-upgrade (forgive the cut-and-paste):
@@ -17,7 +17,7 @@ As a sid user you are certainly aware of the differences between
 'safe-upgrade' and 'full-upgrade' and I would be interested in the
 actions proposed by aptitude if you run a full-update.
 I assume that this will allow aptitude to take actions which are more to
-your liking as you obviously don't like the ones proposed by aptitude
+your liking as you obviously do not like the ones proposed by aptitude
 when you run safe-upgrade.
 Thanks for testing a development branch of Debian :)
     Wolodja

@@ -28,7 +28,7 @@ the transitional one as soon as nothing depends on it anymore.
 > So why does aptitude pay no attention to my pin?
 Because it decides that the grub-legacy package is unused and can be
 removed despite the pin.  Whether this is the right thing is debatable;
-I'm sure you find some bug reports about that if you dig into the long
+I am sure you find some bug reports about that if you dig into the long
 list of aptitude bugs.
 Sven
 -- 

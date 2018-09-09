@@ -4,9 +4,9 @@ Content-Type: Text/Plain;
   charset="iso-8859-15"
 Content-Transfer-Encoding: quoted-printable
 On Thursday 08 April 2010 07.21:59 Adrian von Bidder wrote:
-> Just gdb -p  /usr/bin/kmail doesn't work :-(
+> Just gdb -p  /usr/bin/kmail does not work :-(
 Arrgh!
-As it turns out, gdb 7.0 (squeeze) doesn't really work with binarries from=
+As it turns out, gdb 7.0 (squeeze) does not really work with binarries from=
 =20
 sid (or experimental), at least onn 32bit x86.  gdb 7.1 (sid) works fine.
 cheers

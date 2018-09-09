@@ -2,7 +2,7 @@ Re: Where to find setup for env variable? [a question]
 On 20100414_113944, Paul Chany wrote:
 > Hi,
 > 
-> I have setup somewhere the JAVA_HOME environment variable, but don't
+> I have setup somewhere the JAVA_HOME environment variable, but do not
 > know where?
 ...snip
 When I am reading this thread there are already two search suggestions
@@ -11,7 +11,7 @@ find out where the setting was actually done. I would have thought it
 could only be in /etc or /home --- but wierd things can happen. Where
 is it? How long did the search command take to run? And some idea of
 the size of your working environment?
-If the cause for that particular location appears to be something that
+If the because for that particular location appears to be something that
 involved user volition, it could still be useful to know what mistakes
 can be made. Better than learning from ones mistakes is learning from
 others experience. TIA

@@ -1,6 +1,6 @@
 Re: How to play 3gp audio files?
 On Sat, 17 Apr 2010 10:52:10 -0700, John Magolske wrote:
-> I installed the amrnb package from the multimedia repo, but it didn't
+> I installed the amrnb package from the multimedia repo, but it did not
 > help. 
 Wow :-(
 > I also installed the OpenCORE AMR libraries to /usr/local/lib as
@@ -12,7 +12,7 @@ Wow :-(
 >     http://www.mplayerhq.hu/DOCS/HTML/en/codec-installation.html
 >     http://sourceforge.net/projects/opencore-amr/
 > 
-> But that didn't help. 
+> But that did not help. 
 Ouch! :-(
 > Also built ffmpeg from source as suggested here:
 > http://ubuntuforums.org/showthread.php?t=178455 and did this:
@@ -22,7 +22,7 @@ Ouch! :-(
 >     make install
 Mmm, those instructions seems pretty old (2006-2007), maybe something has 
 changed since then.
-> That didn't help either, keep getting "Cannot find codec 'libamr_nb' in
+> That did not help either, keep getting "Cannot find codec 'libamr_nb' in
 > libavcodec..." still searching around the www to see what I can find.
 Two more hints:
 1/ The error message you got was:

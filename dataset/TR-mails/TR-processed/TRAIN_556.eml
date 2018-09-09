@@ -15,12 +15,12 @@ On Tuesday 11 May 2010 21.10:18 Dotan Cohen wrote:
 > > to the point where the oom kill kills my session.
 > > * Strigi index uses all my disk.  Removing folders that were indexed
 > > (either removing these files, or removing them from the strigi
-> > configuration so they're not indexed anymore) didn't seem to have any
+> > configuration so they are not indexed anymore) did not seem to have any
 > > effect on index size.
-I'll retry, but I think I was already on early 4.4 packages already.  Not=20
+I will retry, but I think I was already on early 4.4 packages already.  Not=20
 sure though.
 > > * Likewise when I completely disable file
-> > indexing: the database doesn't shrink / isn't removed.
+> > indexing: the database does not shrink / is not removed.
 This one certainly is not fixed in 4.4.  On a big database inherited from=20
 earlier strigi, enabling strigi and then disabling strigi and nepomuk=20
 alltogether, the database is still there.  (To be precise: the database=20

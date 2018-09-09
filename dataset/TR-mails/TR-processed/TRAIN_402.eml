@@ -9,7 +9,7 @@ started demanding more from the Web and the servers got loaded down with CGI
 and mod_perl and active pages and stuff. So now the Web server can choose to
 go back to simple serving and (where the application is appropriate) let the
 client do the other razzamatazz. This is superior to JavaScript in one
-important detail: the program doesn't have to reload when a new page is
+important detail: the program does not have to reload when a new page is
 loaded, as JavaScript functions do.
 And because XDegrees uses Web-compatible technology, users can access
 XDegrees resources without installing any software, simply by using their

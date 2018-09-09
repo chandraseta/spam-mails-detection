@@ -2,10 +2,10 @@ Re: backing up LVM volumes
 On Tue, 27 Apr 2010 13:44:27 +0100
 Chris Davies  wrote:
 ...
-> LVM provides a snapshot mode for this kind of requirement. It's not
-> stunning but it's usually sufficient.
-Perhaps usually, but in my use-case (and that of others) it's badly
-broken (I've mentioned this elsewhere in the thread, but I really need
+> LVM provides a snapshot mode for this kind of requirement. it is not
+> stunning but it is usually sufficient.
+Perhaps usually, but in my use-case (and that of others) it is badly
+broken (I have mentioned this elsewhere in the thread, but I really need
 to vent about this badly documented, frustrating mess:
 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=549691
 Celejar

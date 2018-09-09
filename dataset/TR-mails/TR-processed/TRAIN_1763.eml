@@ -8,8 +8,8 @@ Now my demands are growing ;-)
 I use my laptop remotely very often and now I would
 like the bell to sound on that when I am there.
 I triedto use the KDE remote sound server and it works in
-the tests, but when procmail runs it it doesn't, presumably
-as it doesn't have the authorization to communicate with
+the tests, but when procmail runs it it does not, presumably
+as it does not have the authorization to communicate with
 the laptop, beeing another user?
 Any hints.
 BRGDS

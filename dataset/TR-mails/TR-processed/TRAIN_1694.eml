@@ -1,6 +1,6 @@
 Re: Problem with me Modem Huawei on Debian Lenny
 Christian Simo wrote:
-> the problem is, nm-applet or wvdialconf don't detect my modem.
+> the problem is, nm-applet or wvdialconf do not detect my modem.
 > so i can setting it.
 > 
 the modem is communicating with the system over a driver. you have to find

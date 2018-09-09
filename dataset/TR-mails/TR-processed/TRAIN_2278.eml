@@ -9,8 +9,8 @@ To: Michael Graff
 Cc: razor-users@example.sourceforge.net
 Subject: Re: [Razor-users] New to razor 
 Michael Graff said:
-> I'm trying to get spamassassin 2.31 and razor (latest) to play 
-> together.  From what I see, this isn't likely to happen trivially,
+> I am trying to get spamassassin 2.31 and razor (latest) to play 
+> together.  From what I see, this is not likely to happen trivially,
 Mike -- use the CVS version of SpamAssassin.  it works well and supports
 Razor 2.
 --j.

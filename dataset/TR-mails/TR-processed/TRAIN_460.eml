@@ -1,7 +1,7 @@
 Re: ICMCompressionSession question
->> I have no idea what that's supposed to mean. You'd use a =
+>> I have no idea what that is supposed to mean. you would use a =
 decompression session and do whatever you want with the pixel buffers it =
-gives you. Why do you think you can't?
+gives you. Why do you think you cannot?
 I believe this is a newbie question related to the general use of the =
 decompression session. Let me try to explain:=20
 First I initialize my decompression session within the data proc =

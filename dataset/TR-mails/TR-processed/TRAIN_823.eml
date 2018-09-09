@@ -2,9 +2,9 @@ Re: Trouble setting environment variables
 On Thu, May 13, 2010 at 06:49:35PM +0300, Jason Filippou wrote:
 > Hi,
 > 
-> I've been trying to set my PATH and CLASSPATH environment variables so that
+> I have been trying to set my PATH and CLASSPATH environment variables so that
 > they point to my JDK's bin and some Java source files respectively and this
-> is what I've written in my .profile file:
+> is what I have written in my .profile file:
 > 
 > # PATH should also include the latest jdk "bin" directory
 > PATH="/usr/lib/jvm/java-6-sun-1.6.0.20/bin:$PATH"
@@ -12,7 +12,7 @@ On Thu, May 13, 2010 at 06:49:35PM +0300, Jason Filippou wrote:
 >  # set the CLASSPATH variable to include anything I do with java
 >  CLASSPATH="/home/jason/code/java:$CLASSPATH"
 > 
-> Yet I don't seem to have much luck, since "echoing" both environment
+> Yet I do not seem to have much luck, since "echoing" both environment
 > variables gives me the old value of PATH for PATH and nothing for CLASSPATH:
 > 
 > jason@debian:~$ echo $PATH
@@ -21,7 +21,7 @@ On Thu, May 13, 2010 at 06:49:35PM +0300, Jason Filippou wrote:
 > 
 > jason@debian:~$
 > 
-> This is strange, especially for PATH, because earlier in my .profile I've
+> This is strange, especially for PATH, because earlier in my .profile I have
 > written:
 > 
 > # set PATH so it includes the eclipse bin directory

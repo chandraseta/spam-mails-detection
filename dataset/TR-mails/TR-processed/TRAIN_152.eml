@@ -3,7 +3,7 @@ On Fri, 07 May 2010 19:36:36 +0200, Merciadri Luca wrote:
 > Camaleón writes:
 > 
 >> Just a wild guess, but try to launch the application as "root" user.
->> Maybe it's a device permissions issue :-?
+>> Maybe it is a device permissions issue :-?
 > I had thought about it. I had not tried it, and, to my deception,
 > exactly the same facts happen. When I use hptalx for the first time as
 > root, I configure the calculator, I `Save' but when I click `Connect'

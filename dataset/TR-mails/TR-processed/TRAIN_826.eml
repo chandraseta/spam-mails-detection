@@ -1,8 +1,8 @@
 RE: [Razor-users] Reducing impact from tons of email
 See your /etc/sendmail.cf file, there are a number of methods for limiting
-the number of concurrent sendmail processes, either by load average (I'm
+the number of concurrent sendmail processes, either by load average (I am
 sure), or concurrency (I think)... I use sendmail anymore (I use qmail) but
-I'm sure that if you look in the config file, you will see what you need...
+I am sure that if you look in the config file, you will see what you need...
 Regards,
 Adam
 > -----Original Message-----
@@ -13,7 +13,7 @@ Adam
 > Subject: [Razor-users] Reducing impact from tons of email
 >
 >
-> I'm not sure if this is really a razor problem/issue or a sendmail
+> I am not sure if this is really a razor problem/issue or a sendmail
 > problem. Here's the scenario... My mail server is a 150mhz PC funning
 > FreeBSD 4.4. Ordinarily, the machine is quite idle; it supports my
 > wife's web site with Apache server running on it and a few other
@@ -29,7 +29,7 @@ Adam
 > with the call to razor-check. There was something in the log, though,
 > to make me suspicious that it was possibly not seeing all my razor
 > files. So I have just added "-home /etc/razor" as an argument. I
-> haven't had any down time since then so I cannot comment on whether
+> have not had any down time since then so I cannot comment on whether
 > this change has sped up my razor processing a noticable amount. (This
 > paragraph may be an aside to my real problem, the first paragraph
 > above; but I thought I should be complete in my description.)

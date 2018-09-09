@@ -16,29 +16,29 @@ containing some hardware testing programs supplied by Dell.  This works fine
 if the master boot record is a standard DOS/Windows-style master boot record,
 but does not work with Linux-style boot loaders, such as grub or lilo.
 Of course, I can always add the maintenance partition to the lilo boot
-menu, but our non-Linux-proficient technicians aren't used to this.  I
+menu, but our non-Linux-proficient technicians are not used to this.  I
 want a Linux box to look just like a Windows box as viewed by a service
 technician.
 I could use DOS or Windows to install its master boot record program
 with "fdisk /mbr" or fixmbr, or whatever, depending on the release of
 DOS or Windows, and set the Linux partition active, and that works.  But
 Microsoft may claim that this means that our box requires a license
-for DOS or Windows.  I'd hate to burn a Windows license just to get its
-master boot record installed, when that's all I'm using.  It would seem that
+for DOS or Windows.  I would hate to burn a Windows license just to get its
+master boot record installed, when that is all I am using.  It would seem that
 the mbr package in Debian GNU/Linux is just the ticket for this sort of
 problem.  I have run the "install-mbr" program, and it works just as
 expected.  There is just one little nit left that I would like to take
 care of.  lilo advertises itself by printing out "LILO" on the screen
-prior to booting the Linux kernel.  That's fine.  I want to see that.
+prior to booting the Linux kernel.  that is fine.  I want to see that.
 mbr also advertises itself by printing out "MBR" on the screen when it
 boots.  So what I see at boot time is something like this:
    MBR
    LILO 22.8 Loading Linux
    BIOS data check successful
-and then the Linux kernel boot messages.  That's tolerable, but I'd
+and then the Linux kernel boot messages.  that is tolerable, but I would
 like that "MBR" advertisement to be eliminated.  I read the man page
 for install-mbr, and I can see how to eliminate the boot prompt,
-which I have done, but I couldn't find a way to suppress the MBR
+which I have done, but I could not find a way to suppress the MBR
 advertisement.  The DOS/Windows mbr program is totally silent, a trick
 that I would like to teach this program.  Does anyone know of a way
 to accomplish this?  Or is this just something I have to live with?

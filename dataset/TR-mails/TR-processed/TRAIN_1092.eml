@@ -15,7 +15,7 @@ of packages compiled for stable, but the policy is to have only packages=20
 'apt-cache policy chromium-browser', but I do have sources for all three=20
 releases ;)
 You could also try to backport it yourself or just compile from source. =20
-The upstream provided debs I don't like, because of the way they handle=20
+The upstream provided debs I do not like, because of the way they handle=20
 updates.
 Regards,
 Andrei

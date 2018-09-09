@@ -16,14 +16,14 @@ On May 12, 2010, at 05:58, Eeri Kask wrote:
 >=20
 > (1)  Does it make sense to upgrade Tiger to Leopard running on a
 > G4-PowerBook-12" laptop?
-1) Well, if it ain't broke, don't fix it.
+1) Well, if it are not broke, do not fix it.
 2) It is no longer receiving Security Updates, so that may urge you to =
 upgrade.
 > Otherwise I would probably upgrade, mostly because of QTKit which in
 > Leopard includes
 >=20
 >    QTCaptureSession
-If that's useful, then you should upgrade.
+If that is useful, then you should upgrade.
 > (The downside means moving away from XFree-X11 which has proven
 > exceptionally solid too.)
 You can give the new version a try while on Tiger if you want to install =
@@ -38,7 +38,7 @@ MacPorts.
 > machine of today with, e.g. 6 cores.
 >=20
 > Is there anything of substance known in these supposed heating issues?
-That seems bizarre to me.  I'd do a little google investigation about =
+That seems bizarre to me.  I would do a little google investigation about =
 that rather than trust one salesman.
  _______________________________________________
 Do not post admin requests to the list. They will be ignored.

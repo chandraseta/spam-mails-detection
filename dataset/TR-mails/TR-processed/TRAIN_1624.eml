@@ -22,7 +22,7 @@ t
 > =A0 =A0 =A0 =A0obey pam restrictions =3D Yes
 > =A0 =A0 =A0 =A0passdb backend =3D tdbsam
 > =A0 =A0 =A0 =A0pam password change =3D Yes
-> =A0 =A0 =A0 =A0passwd program =3D /usr/bin/passwd %u
+> =A0 =A0 =A0 =A0passwd program =3D /usr/bin/passwd %you
 > =A0 =A0 =A0 =A0passwd chat =3D *Enter\snew\s*\spassword:* %n\n
 > *Retype\snew\s*\spassword:* %n\n *password\supdated\ssuccessfully* .
 > =A0 =A0 =A0 =A0unix password sync =3D Yes
@@ -31,11 +31,11 @@ t
 > =A0 =A0 =A0 =A0max log size =3D 1000
 > =A0 =A0 =A0 =A0name resolve order =3D lmhosts host wins bcast
 > =A0 =A0 =A0 =A0add user script =3D /usr/sbin/adduser --quiet
-> --disabled-password --gecos "" %u
+> --disabled-password --gecos "" %you
 > =A0 =A0 =A0 =A0add group script =3D /usr/sbin/addgroup --force-badname %g
 > =A0 =A0 =A0 =A0add machine script =3D /usr/sbin/useradd -g machines -c "%=
-u
-> machine account" -d /var/lib/samba -s /bin/false %u
+you
+> machine account" -d /var/lib/samba -s /bin/false %you
 > =A0 =A0 =A0 =A0domain logons =3D Yes
 > =A0 =A0 =A0 =A0os level =3D 33
 > =A0 =A0 =A0 =A0preferred master =3D Auto

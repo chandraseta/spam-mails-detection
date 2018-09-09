@@ -2,11 +2,11 @@ Re: [ILUG] slashdot EW Dijkstra humor
 speaking of things considered harmful, line lengths of over 80 chars
 are considered harmful.  cut it out.
 On Thu, Aug 08, 2002 at 11:27:59AM +0100, wintermute wrote:
-> Interesting. I've always wondered about things 'considered' to be bad. 
+> Interesting. I have always wondered about things 'considered' to be bad. 
 > Example the GOTO, most languages support a goto of some sort, so are
 > gotos really bad?
 if used properly, they actually can make code more readable.  but those
-proper occasions are quite rare really.  it's a good idea to avoid them
+proper occasions are quite rare really.  it is a good idea to avoid them
 since over use of goto will create what niall calls "write-only code."
 what a wonderful expression.  my professors would spend entire lectures
 explaining that concept, and yet three little words convey it so well.

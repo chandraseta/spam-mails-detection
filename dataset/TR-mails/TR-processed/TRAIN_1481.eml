@@ -11,19 +11,19 @@ On Mon, May 10, 2010 at 12:49 PM, Camale=C3=B3n  wrote:
 > d5446face7e308f577e5aee1c72cf9d156903722
 >
 >> I could be possible for me to configure this on every dom0 and setup an
->> DHCP server for all hosts. But, it's a little complicated. I'd prefer to
+>> DHCP server for all hosts. But, it is a little complicated. I would prefer to
 >> look for other solution to see how can I protect my IP servers if a
 >> newone gets an used IP. I was taking a look at this
->> http://sourceforge.net/projects/ipwatchd/, but I've to make my own test.
+>> http://sourceforge.net/projects/ipwatchd/, but I have to make my own test.
 >>
 >> Is there something similar tp ipwatchd inside debian OS?
 >
-> It's available in Sid:
+> it is available in Sid:
 >
 > http://packages.debian.org/sid/ipwatchd-gnotify
 >
 > But, are you sure you want such a solution for your Xen doms? :-?
-No, I'm not. :-)
+No, I am not. :-)
 >
 > That tool seems to be focused for desktop users and just for alerting
 > purposes, I mean, what is intended to do when it detects a IP conflict?
@@ -32,7 +32,7 @@ IP takeover by answering Gratuitous ARP requests received from
 conflicting system"
 >
 > You can use a network scanner (nmap, arp-scan, netdiscover...) to prevent
-> assigning a duplicate IP address to the hosts but I'm not sure this is
+> assigning a duplicate IP address to the hosts but I am not sure this is
 > your goal.
 >
 I know, but somtimes manual errors comes when setup a new domU's network.

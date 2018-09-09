@@ -5,7 +5,7 @@ the GNOME desktop, using CUPS under Debian Lenny, I get a blank page
 after every page.  My printer is an HP PaintJet.  This wastes paper and
 is very annoying.  I have searched the Internet, of course, but I did
 not find any solutions.  The closest I found was Debian bug report 316392,
-but his work-around doesn't work for me.  My PPD file already specifies
+but his work-around does not work for me.  My PPD file already specifies
 Letter instead of A4 for Page Size.  Does anyone know a work-around for
 this?  Surely someone has run across this before.
 -- 

@@ -1,5 +1,5 @@
 Re: [TexLive] This math formula work a few month a go, but  nowadays
- it didn't work anymore
+ it did not work anymore
 You seem to have configuration files of older texlive packages on your
 system (marked with "rc" in your dpkg output).
 So try to get rid of them and, may be, update your

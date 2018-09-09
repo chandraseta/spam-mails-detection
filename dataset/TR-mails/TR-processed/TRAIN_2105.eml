@@ -48,10 +48,10 @@ te:
 >>>>>>>> Le Mardi 06 Avril 2010 22:41:44, Daniel Sutil a =E9crit :
 >>>>>>>> > Finally I applied the following workaround: I remove kdm and
 >>>>>>>> installed gdm.
->>>>>>>> > After that, I have no problem to login. I haven't investigated a=
+>>>>>>>> > After that, I have no problem to login. I have not investigated a=
 ny
 >>>>>>>> further
->>>>>>>> > because I really don't know from where the problem comes, but no=
+>>>>>>>> > because I really do not know from where the problem comes, but no=
 w,
 >>>>>>>> maybe we
 >>>>>>>> > have to undo the steps applied with the skype's solution to solv=
@@ -71,7 +71,7 @@ e
 >>>>>>>> Hi. Installing gdm did not do the trick :(
 >>>>>>>
 >>>>>>> You must uninstall the kdm service first and select in the session
->>>>>> selector of gdm "kde". If you don't select the session type, get som=
+>>>>>> selector of gdm "kde". If you do not select the session type, get som=
 e
 >>>>>> errors.
 >>>>>>
@@ -113,7 +113,7 @@ t
 >> I remember that first time I try to execute the startx with my user I ge=
 t
 >> some errors but not with root. The problem was that the /tmp directory
->> doesn't have permissions to write with my user.
+>> does not have permissions to write with my user.
 >>
 >> The correct permissions are:
 >>
@@ -132,7 +132,7 @@ t
 >>>>>
 >>>>>>
 >>>>>>>
->>>>>>> Some friend told me to purge kde and reinstall it. I don't think th=
+>>>>>>> Some friend told me to purge kde and reinstall it. I do not think th=
 is
 >>>>>>> will help. Do you think I should give it a try?
 >>>>>>>
@@ -140,7 +140,7 @@ is
 >>>>>>>
 >>>>>> I tried that with no success :-(
 >>>>>>
->>>>>> If that didn't help you I will not bother..
+>>>>>> If that did not help you I will not bother..
 >>>>>
 >>>>> J
 >>>>>

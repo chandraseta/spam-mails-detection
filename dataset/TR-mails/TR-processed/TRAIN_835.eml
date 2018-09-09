@@ -5,7 +5,7 @@ UPS's to run out, and all that is left operational is the laptop and
 its battery supply...)
 First, I put in some defensive code into the area where the problem was
 occurring, so that if exmh is attempting (for any reason) to expand a
-sequence that isn't either a number, or a range of numbers (or a list of
+sequence that is not either a number, or a range of numbers (or a list of
 such things) it will simply ignore the trash, rather than giving a traceback.
 This one solves the initial problem:
 --- mh.tcl.WAS	Thu Aug 22 21:15:06 2002
@@ -23,8 +23,8 @@ This one solves the initial problem:
  	    lappend seq $parts
 That is amending proc MhSeqExpand which is where the error was occurring
 before (the code assumes that $range is either NNN or NNN-MMM so we should
-probably make sure that's true - issue an error instead of just "continue"
-if you like, but I don't think an error is needed).
+probably make sure that is true - issue an error instead of just "continue"
+if you like, but I do not think an error is needed).
 But that just allowed me to create a similar problem, in another place,
 by typing "NNN-" ... and rather than continue to fight fires like this,
 I thought I should think more about Brent's suggestion.   But rather than
@@ -39,32 +39,32 @@ be handled just there, without someone needing to remember that they have
 to go fix the selection processing code to allow it.
 But, while I was playing there, I noticed something I never new before.
 If you type "66+" the "66" changes to "67" (and so on, for each + that
-is typed).   I suspect that's perhaps an artifact of "+ is bound to a
+is typed).   I suspect that is perhaps an artifact of "+ is bound to a
 different function so it can be used as a toggle between changing the
 current and the target folder, but it has to mean something if the current
 input mode is a message number, so let it mean...", but now I found it,
 I think its nice.    But if we can type 66+ why not 66- as well?  That
 kind of limitation bugs me, so I fixed it.
 And then I wondered about folders with names containing '+' - the special
-use of + as the toggle character means there's no way to type those from
+use of + as the toggle character means there is no way to type those from
 the keyboard.   So I fixed that as well.   This makes two different
-restrictions - there's no way to type a folder name that has a name
+restrictions - there is no way to type a folder name that has a name
 beginning with '+' (but such a thing in MH would be a pain to use anyway,
 so I doubt this will bother anyone), and it is now only possible to
 toggle between typing the current & target folder name when the name
-being typed is empty.   I'm less happy about that part, but I think I
+being typed is empty.   I am less happy about that part, but I think I
 can live with it in order to allow folder names with +'s in them to
 exist and be typed.
 Then, since I was there anyway, I decided to do something about another
 feature that has always bugged me.   In "normal" keyboard mode, 's' is
-the key used to show a message.    But if you've just typed 123, and
+the key used to show a message.    But if you have just typed 123, and
 the FTOC is highlighting 123 as the current message, and you want to now
-show that message, you can't type 's', you have to type \r instead.
+show that message, you cannot type 's', you have to type \are instead.
 So I "fixed" this one as well.   "Fixed" here is in quotes, as it assumes
 that the keybinding for MsgShow is 's', if you change that to something
-else, it will remain 's' in here.   I don't know enough tk/tcl to have it
+else, it will remain 's' in here.   I do not know enough tk/tcl to have it
 discover what key is bound to a function in the external world in order
-to bind the same one here.   \r continues to work of course.
+to bind the same one here.   \are continues to work of course.
 And now I got started in fixing irritants in this code, I also made it
 clear the status line if you abort message/folder entry mode (^C or ^G).
 Previously it used to leave the prompt sitting there until the next
@@ -72,10 +72,10 @@ message appeared, which made it less than obvious that the keyboard had
 reverted to its usual bindings.
 In any case, what follows is the patch that does all of that.   I believe
 that if you apply this, then the one above is probably not needed, the
-"catch" around the "MsgShow" will hide the problem (I don't think we really
+"catch" around the "MsgShow" will hide the problem (I do not think we really
 need to fix Brent's way of invoking it).   Or include it anyway, just
-for completeness (I haven't run an exmh with the following patch, but not
-the previous one, so I don't know for sure that all will be OK then).
+for completeness (I have not run an exmh with the following patch, but not
+the previous one, so I do not know for sure that all will be OK then).
 kre
 --- select.tcl.WAS	Thu Aug 22 21:15:07 2002
 +++ select.tcl	Wed Aug 28 13:36:17 2002

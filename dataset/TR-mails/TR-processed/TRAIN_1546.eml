@@ -18,10 +18,10 @@ Date: Thu, 20 May 2010 15:13:35 -0800
 > Th.
 In Thomas' defense, I noticed the same thing and had much the same reaction.  
 The Squeeze KDE 4.4 update this week pulled down network-manager as a dependency.  In my case I much prefer wicd to handle my wireless.  
-The update had them both running simultaneously, which I didn't like at all.  I was plugged into my wired network, which wicd had set up as default, and network-manger connected to one of the wireless networks I had configured.  Both interfaces up, even two default routes.  Yuk.
-I didn't like the fact that the KDE update ignored my current install of wicd to install network-manager, and when I purged network-manager KDE worked (and continues to work) just fine.
-So the "dependency" on network-manager seems to be merely a preference of the KDE team.  To me that means I should not have seen network-manager if I already had wicd installed.  This is very similar to the various packages that insist they need avahi-daemon to work, and yet purging avahi-daemon doesn't break anything not using mDNS.
-So while Thomas could file a bug, I don't think it's not germane to complain about DDs putting everything under the sun into a dependency list.  Here's the place for the community to decide whether we really need to force an install of network-manager (or avahi) when they're not really needed, or decide that because some cases might require it everyone should have it.
+The update had them both running simultaneously, which I did not like at all.  I was plugged into my wired network, which wicd had set up as default, and network-manger connected to one of the wireless networks I had configured.  Both interfaces up, even two default routes.  Yuk.
+I did not like the fact that the KDE update ignored my current install of wicd to install network-manager, and when I purged network-manager KDE worked (and continues to work) just fine.
+So the "dependency" on network-manager seems to be merely a preference of the KDE team.  To me that means I should not have seen network-manager if I already had wicd installed.  This is very similar to the various packages that insist they need avahi-daemon to work, and yet purging avahi-daemon does not break anything not using mDNS.
+So while Thomas could file a bug, I do not think it is not germane to complain about DDs putting everything under the sun into a dependency list.  Here's the place for the community to decide whether we really need to force an install of network-manager (or avahi) when they are not really needed, or decide that because some cases might require it everyone should have it.
 Anyway, just my 2c
 James ------------------------------------ 
 Only time I have incurred this is when I have preferences set to

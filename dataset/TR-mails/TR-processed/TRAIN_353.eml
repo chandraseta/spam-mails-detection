@@ -9,7 +9,7 @@ In This Issue:
 From: "George J. Jahchan" 
 Subject: Re: QOS
 Date: Thu, 25 Jul 2002 12:11:40 +0300
-> So, I'm forced to conclude that the PacketShaper either sucks in a major
+> So, I am forced to conclude that the PacketShaper either sucks in a major
 > way, or that your explanation/the explanation that you have been given of
 > it is wrong. (Sorry.)
 You are wrong on both counts. Explanation is valid for symmetrical TCP, for
@@ -49,12 +49,12 @@ device, thereby indirectly timing the release of acknowledgements by the
 receiving host. This informs the sender's TCP/IP stack that it should slow
 the release of packets because limited bandwidth is available.
 For UDP, it utilizes flow-based derivative random drop. It selectively drops
-only one packet at a time from flows that are predicted to cause congestion,
+only one packet at a time from flows that are predicted to because congestion,
 which prevents heavy retransmissions and application timeouts.
 ICMP packets exceeding policy limits are dropped.
 >_Maybe_ you can do a special case for TCP and try to offload some of the
 queueing on
-> the endpoints, but I really don't see the real gain in that.
+> the endpoints, but I really do not see the real gain in that.
 The real gain is manageability and control. A LAN host only knows about the
 state of its own connections and is oblivious to WAN conditions until its
 TCP/IP stack learns (when router queues are nearly full) that the WAN is
@@ -86,9 +86,9 @@ congestion --
 > (calculated in real-time based on user-defined policies and current
 network
 > conditions).
-Umm, don't get me wrong here, but I think you've been fed a less-than-
+Umm, do not get me wrong here, but I think you have been fed a less-than-
 accurate sales pitch.
-Let's ponder this for a minute.
+let us ponder this for a minute.
 The device works by delaying ACKs... that is: packets with the ACK
 flag set, right?
 ...
@@ -97,34 +97,34 @@ flag set, right?
 Yes, all packets in an established TCP connection have the ACK flag set.
 So all packets except SYNs are candidates for delay when traffic limits
 are exceeded? Whoops.
-Okay, let's assume for a second that the packets aren't actually delayed,
+Okay, let us assume for a second that the packets are not actually delayed,
 but that the ACK sequence numbers or TCP window size fields are re-written
-(dicey). All you've accomplished is move the queueing (delaying) from
+(dicey). All you have accomplished is move the queueing (delaying) from
 the traffic shaper to the endpoints. You still get L7-to-L7 delays. Big
 deal if it happens on the wire or in the stack. Also, convincing endpoints
 to do delays probably results in less-than-perfect shaping since stack
 retransmit timings suddenly affect the actual bandwidth available rather
 than having the shaper itself do it; the shaper knows exactly when there
 is bandwidth available.
-But this doesn't even begin to touch on other protocols like UDP or
+But this does not even begin to touch on other protocols like UDP or
 ICMP. Or, for that matter, IPsec/GRE/whatever tunneled traffic.
 Neither of them have sequence numbers or window sizes that you can
 manipulate.
-So, I'm forced to conclude that the PacketShaper either sucks in a major
+So, I am forced to conclude that the PacketShaper either sucks in a major
 way, or that your explanation/the explanation that you have been given of
 it is wrong. (Sorry.)
 What I think happens is that the delay is <=2msec as long as traffic
-limits aren't exceeded. This is reasonable. BUT when traffic exceeds
+limits are not exceeded. This is reasonable. BUT when traffic exceeds
 the limits, things will begin to be queued. Now, with a well-behaved
 TCP stack, this _will_ mean that it will fall back to lower transmission
-rates; this is how TCP was designed, so that part isn't all wrong.
-And, again, this kind of shaping isn't rocket science. That is not to
+rates; this is how TCP was designed, so that part is not all wrong.
+And, again, this kind of shaping is not rocket science. That is not to
 say that there are shapers out there that are just being plain dumb
 (always queueing and the selecting what gets transmitted out of the
-queue), but, well, I just can't see that you can get any smarter
+queue), but, well, I just cannot see that you can get any smarter
 than queueing when limits are actually exceeded.  _Maybe_ you can do
 a special case for TCP and try to offload some of the queueing on the
-endpoints, but I really don't see the real gain in that.
+endpoints, but I really do not see the real gain in that.
 Respectfully,
 /Mikael Olsson
 --
@@ -132,7 +132,7 @@ Mikael Olsson, Clavister AB
 Storgatan 12, Box 393, SE-891 28 ÖRNSKÖLDSVIK, Sweden
 Phone: +46 (0)660 29 92 00   Mobile: +46 (0)70 26 222 05
 Fax: +46 (0)660 122 50       WWW: http://www.clavister.com
-"It's July. I'm on vacation. Can't you tell? :)"
+"it is July. I am on vacation. cannot you tell? :)"
 --
 Firewalls mailing list - [ firewalls@isc.org ]
 To unsubscribe: http://www.isc.org/services/public/lists/firewalls.html
@@ -151,7 +151,7 @@ The list addy changed ofcourse   :o)
 > Michael,
 > 
 > If I was in your shoes I would first investigate if there
-> is a security policy in your organisation. If you dont know
+> is a security policy in your organisation. If you do not know
 > what I mean by a security policy I would advice you to 
 > start reading about it. A search on google would be of a
 > big help for you.
@@ -162,14 +162,14 @@ The list addy changed ofcourse   :o)
 > policy there should be things what employees are allowed
 > to do on the network / internet and what not.
 > 
-> If there isnt a security policy I would advice you to implement
-> one in your company. Because without one you cant punish
+> If there is not a security policy I would advice you to implement
+> one in your company. Because without one you cannot punish
 > employees by violating the policy and if there is a court case
-> you dont have any rock solid thing to smack around with.
+> you do not have any rock solid thing to smack around with.
 > 
 > Without a policy you are just implementing solutions to prevent
-> employees in doing things that, im my opinion, they arent allowed
-> to do on their workstations anyway. I dont like the idea that 
+> employees in doing things that, im my opinion, they are not allowed
+> to do on their workstations anyway. I do not like the idea that 
 > employees play games, use kazaa, ICQ, MSN, etc etc in stead
 > of working what we pay them to do. This is why a security policy
 > is important because then you can say to employees that they
@@ -179,13 +179,13 @@ The list addy changed ofcourse   :o)
 > Owkee...    now that this is out of the way time to proceed about
 > the proxy thingie.
 > 
-> A proxy dont have to be the default gateway of your network to
+> A proxy do not have to be the default gateway of your network to
 > use it. It is a function in Internet Explorer or whatever browser you
 > use in your network.
 > 
 > If you ask me Checkpoint Firewalls are just good in using for what
-> their real purpose is and that is firewalling a network. I dont like the
-> idea that my firewall is also CVS http thingie because I dont think
+> their real purpose is and that is firewalling a network. I do not like the
+> idea that my firewall is also CVS http thingie because I do not think
 > a firewall is its purpose to do that. Proxies are a much better solutions
 > for that and they are also developed for that purpose.
 > 
@@ -200,7 +200,7 @@ The list addy changed ofcourse   :o)
 > and only allow traffic to the internet from servers that are allowed to do
 > so. You should think about proxies, email servers, etc etc. This should
 > also prevent people from playing games, especially those Quake kinda
-> games because those use ports that arent necessary for normal 
+> games because those use ports that are not necessary for normal 
 > webbrowsing. Games running over port 80 and not http related are blocked
 > by the proxy if that proxy is a true Layer 7 application layer proxy.
 > These
@@ -230,7 +230,7 @@ The list addy changed ofcourse   :o)
 > too difficult to change the topology , many thing need to be changed.
 > 
 > Did you have another idea to help me? Someone suggest me to buy the 
-> websence , but I dont have the budget right now.
+> websence , but I do not have the budget right now.
 > 
 > Thanks a lot
 > 
@@ -254,12 +254,12 @@ The list addy changed ofcourse   :o)
 > >The proxy will only allow http, ftp, and other "approved"
 > >services to connect to the internet. And you can let
 > >them check to some database which websites are
-> >allowed and deny access to sites that aren't allowed
+> >allowed and deny access to sites that are not allowed
 > >
 > >Your company firewall will only allow the proxy to connect
 > >to the internet. Clients are denied.
 > >
-> >This way the clients cant connect directly to the internet
+> >This way the clients cannot connect directly to the internet
 > >game servers and on the proxy you can deny clients
 > >to connect to the game servers.
 > >
@@ -303,8 +303,8 @@ The list addy changed ofcourse   :o)
 Date: Thu, 25 Jul 2002 15:08:21 -0600
 From: Jerry Lynde 
 Subject: DNAT with iptables question
-Howdy folks,
-I've been scouring the online docs for solid info on how to accomplish DNAT 
+how do you folks,
+I have been scouring the online docs for solid info on how to accomplish DNAT 
 with iptables.
 Essentially, I have converted the ipmasqadm lines of the form...
 ipmasqadm portfw -a -P tcp -L $WEB_OUT  http    -R $WEB_IN      http
@@ -319,14 +319,14 @@ ESTABLISHED,RELATED -j ACCEPT
 $IPTABLES -A FORWARD -i $EXTIF -o $INTIF -p tcp -j ACCEPT
 The last two lines seem functionally sorta redundant, but I threw em in in 
 an effort to make this work.
-So far, I am unable to show that it's working correctly... I even tried 
+So far, I am unable to show that it is working correctly... I even tried 
 logging all packets...
 $IPTABLES -A FORWARD -i $INTIF -p tcp -j LOG --log-level info
 $IPTABLES -A FORWARD -i $EXTIF -p tcp -j LOG --log-level info
 But nothing show up in /var/log/messages or anywhere else for that matter. 
 This is on a Redhat 7.3 box.
 Any help, clues, flames, RT(his particular)FM, etc are appreciated.
-I read the list, so please don't reply directly in addition to the list 
+I read the list, so please do not reply directly in addition to the list 
 resposne.
 Thanks,
 Jer 
@@ -350,10 +350,10 @@ Date: Fri, 26 Jul 2002 08:32:37 +0200
 > The last two lines seem functionally sorta redundant, but I 
 > threw em in in 
 > an effort to make this work.
-You're missing the NEW state. The initial SYN packet will not match with
-either of the first two rules. It should match the third if it's inbound,
+you are missing the NEW state. The initial SYN packet will not match with
+either of the first two rules. It should match the third if it is inbound,
 though.
-> So far, I am unable to show that it's working correctly... I 
+> So far, I am unable to show that it is working correctly... I 
 > even tried 
 > logging all packets...
 > 

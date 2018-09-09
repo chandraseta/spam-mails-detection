@@ -25,19 +25,19 @@ On Wed, Feb 06, 2002 at 04:29:53PM +0200, Peter Peltonen wrote:
 >=20
 > The openssl095a package should provide the openssl-0.9.5a compatibility=
 =20
-> but apt doesn't think so?=20
-I believe that's just a matter of string parsing. If someone were to fix
+> but apt does not think so?=20
+I believe that is just a matter of string parsing. If someone were to fix
 the openssh package, removing the explicit Requires:, I believe the
 automagic binary handler would figure the right libraries to use and
-install. I haven't met an openssh like that and in worst case I've had 3
-different openssl libraries (WTF can't they just bump a major version if
-it's incompatible?!?).
-> 2. I have postgresql installed from the source. So that's why I need=20
-> php-pgsql. Is there a way to tell apt about packages I don't want it to=
+install. I have not met an openssh like that and in worst case I have had 3
+different openssl libraries (WTF cannot they just bump a major version if
+it is incompatible?!?).
+> 2. I have postgresql installed from the source. So that is why I need=20
+> php-pgsql. Is there a way to tell apt about packages I do not want it to=
 =20
 > complain about?
 I have a few such things (with jdk, imlib, kernel DRI version..
-something) and Ive just made dummy packages (with verbose warning
+something) and I have just made dummy packages (with verbose warning
 attached ;) that explicitly provide those capabilities. (or claim to,
 that is).
 --=20

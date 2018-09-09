@@ -11,15 +11,15 @@
 >         self.global_ham_hist = Hist(options.nbuckets)
 >     AttributeError: 'OptionsClass' object has no attribute 'nbuckets'
 >
-> I'm running it as
+> I am running it as
 >
 >     timtest -n5 > Data/timtest.out
 >
 > from my ~/Mail directory (not from my ~/src/spambayes directory).  If I
 > create a symlink to ~/src/spambayes/bayes.ini it works once again, but
-> shouldn't there be an nbuckets attribute with a default value already?
+> should not there be an nbuckets attribute with a default value already?
 I never used ConfigParser before, but I read that its read() method silently
-ignores files that don't exist.  If 'bayes.ini' isn't found, *none* of the
+ignores files that do not exist.  If 'bayes.ini' is not found, *none* of the
 options will be defined.  Since you want to run this from a directory other
-than my spambayes directory, it's up to you to check in changes to make that
+than my spambayes directory, it is up to you to check in changes to make that
 possible .

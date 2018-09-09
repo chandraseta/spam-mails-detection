@@ -10,7 +10,7 @@ On Sat, 24 Apr 2010 00:04:48 +0800, Umarzuki Mochlis wrote:
 > ����
 > ^
 > 
-> and there's a pop-up with message "Failed to load the requested file
+> and there is a pop-up with message "Failed to load the requested file
 > T-SHIRTMODELS-by_APEstar.eps"
 That error is quite similar to the one reported at Debian BTS. 
 Check if the version of Inkscape that you are running is affected by that 

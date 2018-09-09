@@ -2,7 +2,7 @@ Re: Fwd: Re: Kde 3.5 ...
 On 11 May 2010 13:50, deloptes  wrote:
 > deloptes wrote:
 >
-> screenshot - I need at least those app/lets working to even start thinking
+> screenshot - I need at least those app/let us working to even start thinking
 > of using kde
 >
 > - teatime
@@ -16,7 +16,7 @@ Check!
 Check!
 > - wireless manager
 Knetworkmanager works, but I prefer wicd, which has integration in
-KDE's System Settings. It's in the system tray, not on the panel. You
+KDE's System Settings. it is in the system tray, not on the panel. You
 can configure it to always show, though.
 > - skype
 Integrated into Kopete!
@@ -49,11 +49,11 @@ https://bugs.kde.org/show_bug.cgi?id=205369
 > A HUGE trouble I see is with the keyboard layout for my mother
 > language "bulgarian"
 > Who the hell have change the default keyboard layout for the phonetic setup?
-> I've been using this for years now hen I press "W" I get seomthing
+> I have been using this for years now hen I press "W" I get seomthing
 > different ..
 > _THIS_ _IS_ _REALLY_ _ODD_ - _STUPID_ _MONKEYS_!
 >
-I don't speak Bulgarian, so I cannot reproduce. Please file a bug!
+I do not speak Bulgarian, so I cannot reproduce. Please file a bug!
 -- 
 Dotan Cohen
 http://bido.com

@@ -16,19 +16,19 @@ On May 25, 2010, at 8:29 AM, Guy Gascoigne-Piggford wrote:
 > is a complete blocker to me upgrading.
 >=20
 > Is there any way for anyone other than the bug reporter to see the
-> status of a specific bug?  Apple's bug parade doesn't appear to be as
+> status of a specific bug?  Apple's bug parade does not appear to be as
 > open as say Sun's was.
 >=20
 > Guy
 >=20
 > On Wed, May 19, 2010 at 11:06 PM, Phillip Ashworth =
  wrote:
->> Thanks - I've filed bug report ID: 8002471
->> I've discovered that the crash occurs when the pasted code includes =
+>> Thanks - I have filed bug report ID: 8002471
+>> I have discovered that the crash occurs when the pasted code includes =
 class name that are not already imported in the current document, IDEA =
 then pops-up a window to select the class to import and crashes =
 instantly and every time.
->> I've not got any screen reader or accessibility software running but =
+>> I have not got any screen reader or accessibility software running but =
 I do have LaunchBar and TextExpander.. not sure if these count.
 >> -Phill
 >>=20

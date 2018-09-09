@@ -4,7 +4,7 @@ On Sat, Apr 10, 2010 at 19:20:42 +0200, Clive McBarton wrote:
 > I run KDE and normally mount usb devices with the "Storage Media" applet
 > in the task bar. Recently I have been getting strange errors and
 > mounting failed:
-Which version of KDE, 3.x or 4.x? (I don't remember a task bar applet
+Which version of KDE, 3.x or 4.x? (I do not remember a task bar applet
 for mounting removable media from my KDE 3.x days - I always triggered
 mounting via the icons that appeared on the desktop for removable media
 - but I might simply not know about alternatives.)
@@ -17,7 +17,7 @@ Mounting worked for you earlier, so I assume that your users are all
 members of the "plugdev" group already. I would like to see the output
 of:
   awk '//,/<\/policy>/' /etc/dbus-1/system.d/hal.conf
-> Mounting as root on the commandline still works, but it's a hassle for
+> Mounting as root on the commandline still works, but it is a hassle for
 > the user who wants to simple use their usb stick.
 It would be interesting to know if regular users can mount USB sticks
 using pmount or pmount-hal on the command line. 
@@ -36,7 +36,7 @@ worked perfectly for single-user sessions, and I am not sure if a
 satisfactory solution exists. (I have no need for running multiple KDE
 sessions on the same machine, therefore I do not know much about this
 issue.)
-> Is it worth digging into hal to correct this? Given that hal won't be in
+> Is it worth digging into hal to correct this? Given that hal will not be in
 > Debian much longer.
 Well, it is a problem for you right now, so why not try to solve it?
 Besides, udisks has the same main developer as hal, so I doubt that it

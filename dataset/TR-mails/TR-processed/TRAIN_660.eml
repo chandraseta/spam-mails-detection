@@ -1,4 +1,4 @@
-Re: shouldn't apt-get upgrade, you know, upgrade ?
+Re: should not apt-get upgrade, you know, upgrade ?
 On Tue, 06 Apr 2010 06:50:37 +0200
 Johan Gr=C3=B6nqvist  wrote:
 >
@@ -20,7 +20,7 @@ That was a very good guess.
 > As ooffice is a rather complex package, it seems plausible to me that
 > a new version would require other packages to be installed as well,
 > and upgrade is not bold enough to do that.
-it does seem plausible, doesn't it ? :-)
+it does seem plausible, does not it ? :-)
 >=20
 > I think you may be interested in the dist-upgrade command instead.
 >=20

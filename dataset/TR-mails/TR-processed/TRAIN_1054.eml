@@ -11,14 +11,14 @@ Gaim is an instant messaging client based on the published TOC
 protocol from AOL. The developers of Gaim, an instant messenger client
 that combines several different networks, found a vulnerability in the
 hyperlink handling code. The 'Manual' browser command passes an
-untrusted string to the shell without escaping or reliable quoting,
+untrusted string to the she will without escaping or reliable quoting,
 permitting an attacker to execute arbitrary commands on the users
-machine. Unfortunately, Gaim doesn't display the hyperlink before the
-user clicks on it. Users who use other inbuilt browser commands aren't
+machine. Unfortunately, Gaim does not display the hyperlink before the
+user clicks on it. Users who use other inbuilt browser commands are not
 vulnerable.
 The fixed version of Gaim no longer passes the user's manual browser
-command to the shell. Commands which contain the %s in quotes will
-need to be amended, so they don't contain any quotes. The 'Manual'
+command to the she will. Commands which contain the %s in quotes will
+need to be amended, so they do not contain any quotes. The 'Manual'
 browser command can be edited in the 'General' pane of the
 'Preferences' dialog, which can be accessed by clicking 'Options' from
 the login window, or 'Tools' and then 'Preferences' from the menu bar

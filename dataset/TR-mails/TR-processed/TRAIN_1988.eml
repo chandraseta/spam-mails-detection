@@ -6,12 +6,12 @@ Stephen Powell writes:
 > the Hercules emulator.
 Which should suffice for testing his software with EBCDIC.
 > These are circa 1975 or so, which is about 35 years ago.  An example
-> is VM/SP Release 6.  The problem is that those operating systems don't
+> is VM/SP Release 6.  The problem is that those operating systems do not
 > have a C compiler or a POSIX interface.
 Are there any copies of MTS (Michigan Terminal System) around?  It would
 be in the public domain and I know it had a C compiler: I used it to
 teach myself C.
-My wife would love to have MTS back again (of course, she'd insist on a
+My wife would love to have MTS back again (of course, she would insist on a
 full set of printed manuals...)
 -- 
 John Hasler

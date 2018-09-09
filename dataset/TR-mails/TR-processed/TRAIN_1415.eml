@@ -2,7 +2,7 @@ Cannot stop XDM service
 From nobody Sun Sep  9 13:55:00 2018
 Content-Type: text/plain; charset=ISO-8859-1
 First of all, I am very new to Linux but am well aware of the need to
-learn.  After considerable googling with my issue, I gave up and thought I'd
+learn.  After considerable googling with my issue, I gave up and thought I would
 try a mailing list instead :)
 In attempting to install the cvm package (apt-get install cvm), I recieve a
 warning indicating that the XDM service cannot be automatically

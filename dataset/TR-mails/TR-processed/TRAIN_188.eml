@@ -10,7 +10,7 @@ On Wed, Apr 14, 2010 at 11:03:06AM +0200, Andreas Weber wrote:
 > disagree with its content at some point. Is this whole Nvidia driver
 > installation some kind of religious debate? Why use the wording "Make
 > sure to remove all the garbage created by the nvidia installer..." if it
-> really just works? I've been using the official driver installer since
+> really just works? I have been using the official driver installer since
 > 2008, and it works absolutely easy. A 1 liner to install and the same to
 > uninstall, AFAICS properly BTW.
 It is based on the fact that the 'official installer' overwrites files
@@ -20,7 +20,7 @@ I have helped enough people fix that kind of mess to know.
 Just a simple fact.  Overwriting packages owned by a package is always
 a bad idea no matter how it is done, because someday the package will
 overwrite it back on you.
-> What tricked me yesterday: Why don't I get the 2.6.32-4 kernel that
+> What tricked me yesterday: Why do not I get the 2.6.32-4 kernel that
 > works with the 195.36.15 Nvidia driver although I have
 > linux-image-2.6-amd64 installed? I had to install it manually. The
 > document states
@@ -31,7 +31,7 @@ of unstable (and sometimes testing).  It should always be up to date in
 stable though.  I have never quite figured out how the kernel packagers
 decide when to update it.
 > And no, please no flaming, I have no intention to provoke someone. All I
-> say is: The Nvidia installer really works easily. And yes, you'll have
+> say is: The Nvidia installer really works easily. And yes, you will have
 > to kick the installer after kernel upgrades. As easy as the Debian way
 > these days. I would really appreciate some technical hint about the
 > benefits of the Debian way other than "the official installer suckz".
@@ -48,7 +48,7 @@ Well I am thinking of trying to come up with a method that actually makes
 it try to compile the module if it is missing at boot.  My wife thought
 it was rather unfriendly that her last upgrade (which gave her a new
 kernel) took away X.  Sure recompiling the module with module-assistant
-was easy, but it had to be done manually.  I will see if I can't find
+was easy, but it had to be done manually.  I will see if I cannot find
 a way to automate that for those users that want it.
 > > i.e. edit /etc/X11/xorg.conf -remove 'nivida' and replace with 'nv'
 > > very handy when the compile fails.
@@ -56,9 +56,9 @@ a way to automate that for those users that want it.
 > 
 > Oh yes. ;-)
 Sometimes it does. :)
-Also the nvidia installer for a long time hasn't worked with debian's
+Also the nvidia installer for a long time has not worked with debian's
 2.6.29 and higher kernels because they are now kbuild only (and hence
-don't allow compiler tests that the nvidia installer used to work unless
+do not allow compiler tests that the nvidia installer used to work unless
 they get converted to kbuild).  I am not sure if it works with it yet.
 Those running their own kernels would of course never notice that problem
 since they have the full sources installed the way the nvidia makefiles

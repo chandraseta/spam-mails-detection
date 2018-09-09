@@ -3,7 +3,7 @@ On 2010-05-07 23:52:47 -0500, Ron Johnson wrote:
 >On 05/07/2010 09:48 PM, Phil Requirements wrote:
 >>On 2010-05-07 18:19:44 +0200, Merciadri Luca wrote:
 >>>Rob Owens wrote:
->>>>Avidemux can do it also.  It's a GUI, but I think it's more
+>>>>Avidemux can do it also.  it is a GUI, but I think it is more
 >>>>straightforward to do it with ffmpeg, as suggested above
 >>>
 >>>Thanks. ffmpeg does actually, exactly what I want. Thanks. (For such

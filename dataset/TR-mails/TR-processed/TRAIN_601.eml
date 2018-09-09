@@ -1,10 +1,10 @@
 Re: [ILUG] cups question
 zzzz@example.com (Justin Mason) writes:
 > /dev/fd/0 is STDIN -- filedescriptor 0.  Looks like the PS file wants
-> to know its filename, but it's being read from STDIN, that's my
+> to know its filename, but it is being read from STDIN, that is my
 > guess.  
-I don't think so: it should be getting a stream of PS from stdin,
-but it's not. The printing/spooling system is executing gs but
+I do not think so: it should be getting a stream of PS from stdin,
+but it is not. The printing/spooling system is executing gs but
 somehow failing to provide it with input.
 > Try tweaking the scripts to run "gs" with the ps file on
 > the command line instead of as "-".

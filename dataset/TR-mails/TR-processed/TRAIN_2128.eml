@@ -4,17 +4,17 @@ Re: PDF is blocked for printing, etc. OK for acroread (it behaves
 On Wed, Apr 21 at 15:04, Stefan Monnier penned:
 > 
 > Now think about the other route: the one based on the law instead of
-> technology: the legal document can simply describe what she's
+> technology: the legal document can simply describe what she is
 > allowed to do, and that will automatically cover all imaginable ways
 > to circumvent any technological means you could imagine.  And if she
-> does break the contract, you can sue her.  Don't know about you, but
+> does break the contract, you can sue her.  do not know about you, but
 > to me, it sounds a lot more useful.
 Except that most technical people would probably rather hammer a nail
 through their forehead than go through the pain of suing someone and
 dealing with the legal system, the paper work, the time involved ...
 So looking for a technical solution, even one that requires an
 enormous amount of development time, makes sense.  Maybe the
-development time is actually a bonus, if you're interested in that
+development time is actually a bonus, if you are interested in that
 sort of tinkering already.
 All of that being said - this entire thread is really a question of
 security, and security is a process and an approach, not an end result.

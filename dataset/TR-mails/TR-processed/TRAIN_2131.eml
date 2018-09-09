@@ -8,7 +8,7 @@ On 4/24/2010 10:53 AM, B. Alexander wrote:
 > unlike any filesystem I have encountered, it could be reduced in size.
 >
 > Well, now reiser3 is very long in the tooth, reiser4 will probably 
-> never go anywhere, so I'm wondering what filesystems are recommended. 
+> never go anywhere, so I am wondering what filesystems are recommended. 
 > Last I heard, ext4 is stablizing, but it had problems with filesystem 
 > corruption, though that was mid-fall last year, IIRC.
 >
@@ -17,7 +17,7 @@ On 4/24/2010 10:53 AM, B. Alexander wrote:
 > ext3/4, xfs, etc, and then there are a slew of new filesystems, such 
 > as nilfs2, btrfs and exofs.
 >
-> I'm talking about a range of machines, from workstations to servers to 
+> I am talking about a range of machines, from workstations to servers to 
 > NFS and storage servers with multi-terabyte disks, and a backup server 
 > with several hundred gigs of backups.
 >
@@ -28,16 +28,16 @@ On 4/24/2010 10:53 AM, B. Alexander wrote:
 > --b
 If file integrity are important to you, look for a FS that keeps 
 checksums of individual files.  Otherwise, if a file becomes corrupted, 
-you'll never know it, unless you keep your own checksums.  There are 
+you will never know it, unless you keep your own checksums.  There are 
 only a small handful of filesystems that keep checksums of your files.  
 Btrfs and ZFS come to mind.  I believe ZFS is more mature than Btrfs, 
-but it isn't in the kernel.  I believe the only way to get ZFS on Linux 
+but it is not in the kernel.  I believe the only way to get ZFS on Linux 
 is through FUSE.
-There's also JFS, which has been around for a number of years, and is 
-mature.  It doesn't checksum your files, but it does use copy-on-write 
+there is also JFS, which has been around for a number of years, and is 
+mature.  It does not checksum your files, but it does use copy-on-write 
 (as do Btrfs and ZFS), which goes a long way to keeping your data from 
 getting corrupted, something XFS does not do.
-So if Btrfs were more mature, or if ZFS were included in the kernel, I'd 
+So if Btrfs were more mature, or if ZFS were included in the kernel, I would 
 recommend either of those.  But as it is, I think JFS is the way to go.
 -- Kevin
 -- 

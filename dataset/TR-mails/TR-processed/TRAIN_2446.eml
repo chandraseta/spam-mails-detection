@@ -1,13 +1,13 @@
 How to flush cache of certain disk?
 Hi,
-On my netbook I'm using automatic USB sticks mount through udev rules,
+On my netbook I am using automatic USB sticks mount through udev rules,
 and I already used to running 'sync' command before unplugging stick,
 so no data will be lost. But if I have few sticks inserted and some
 information copying on one of them, if I run 'sync' I have to wait
 while copying ends, because:
 a) sync command drops cache on disk, but copying process fill it
 again; sync will work until all the caches are dropped to disks
-b) I can't unplug stick when it stops to flash because I can't be sure
+b) I cannot unplug stick when it stops to flash because I cannot be sure
 that there are no more parts of cache needed to be flushed on that
 disk.
 So here is my question - how can I run sync for only one device?

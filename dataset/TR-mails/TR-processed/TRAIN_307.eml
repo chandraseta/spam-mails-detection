@@ -11,7 +11,7 @@ Re: use of base image / delta image for automated recovery from
 > Windows) are not sufficiently organized and standardized to make this
 > combination of bootable CDs and RAM drives practical. Even if you are
 > fortunate enough to be using Linux (or another FHS-compliant *nix), you
-> still can't fit a lot on a CD. Its not unusual today to have gigabytes of
+> still cannot fit a lot on a CD. Its not unusual today to have gigabytes of
 > static multimedia content on the web server. This particular problem can be
 > alleviated somewhat by using DVDs, but this is a temporary solution at best
 > which will become outdated quickly as our data requirements grow and hard

@@ -1,5 +1,5 @@
 Automounting problems.
-I am running an up to date Lenny box with FVWM.  I do not run Gnome, or KDE.  I want to have removable devices, such as flash drives and mp3 players, automount.  I have read the mini How-To on automounting, but I still can't get it to work.
+I am running an up to date Lenny box with FVWM.  I do not run Gnome, or KDE.  I want to have removable devices, such as flash drives and mp3 players, automount.  I have read the mini How-To on automounting, but I still cannot get it to work.
 This is the relevant data:
 $ cat /etc/auto.master
 #

@@ -1,7 +1,7 @@
 [Webdev] mod_rewrite question
- I'm trying to wrap Zope up behind apache, so I can do VirtualHosts for
+ I am trying to wrap Zope up behind apache, so I can do VirtualHosts for
 Zope.
- I've a site on http://ip:8080/mysite.
+ I have a site on http://ip:8080/mysite.
  I want that to appear as http://mysite.com/ - so:
         ServerName mysite.com
         DocumentRoot /var/www/mysite
@@ -20,7 +20,7 @@ name="manage_menu"
     <frame src="http://localhost:8080/reenactors/manage_workspace"
 name="manage_main"
      marginwidth="2" marginheight="2" scrolling="auto"/>
- and of course, that's not what my client should go to. Any ideas what I'm
+ and of course, that is not what my client should go to. Any ideas what I am
 doing wrong ?
 Kate
 _______________________________________________

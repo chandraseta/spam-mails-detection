@@ -1,7 +1,7 @@
 Re: Mouse/Keyboard "Hook"?
 On Thu, Apr 29, 2010 at 3:19 PM, Luke Scott  wrote:
 > Is quartz "the option" or "one of the options" for capturing keyboard and
-> mouse events? If it's one of the options, I would be interested in knowing
+> mouse events? If it is one of the options, I would be interested in knowing
 > what the other options are.
 The supported modern way is via the CGEvent API...
 ... the best list for this API is likely ...

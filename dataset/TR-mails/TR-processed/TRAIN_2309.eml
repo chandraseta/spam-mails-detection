@@ -9,7 +9,7 @@ nothing in your case it work, but they are supposed to be hosts in
 different networks.  Which was the point I was trying to get at. And to
 be carefully - especially if you are doing it remotely
 as you & Anand have pointed out it does work.
-I have seen situation where it didn't work. cisco routers returning
+I have seen situation where it did not work. cisco routers returning
 icmp.
 > 
 > 

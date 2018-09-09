@@ -7,7 +7,7 @@ godo wrote:
 >>> I just made the mistake of my life and upgraded mc from 
 >>> 2:4.6.2~git20080311-4 to 3:4.7.0.1-1.
 >>>
->>> And the new color scheme is enough to cause instant blindness :-(
+>>> And the new color scheme is enough to because instant blindness :-(
 >>> No kidding!
 >>>
 >>> How do I get back to what I had?
@@ -20,7 +20,7 @@ godo wrote:
 >>
 >> darkfar - black background
 >> default - the old default: blue background
->> double-lines - like default but with double lines. Couldn't get that 
+>> double-lines - like default but with double lines. could not get that 
 >> to work
 >> featured - like double-lines
 >> gotar - black backround
@@ -32,7 +32,7 @@ godo wrote:
 >>
 >> I found no skins anywhere with my choice for years: white background.
 >>
->> So it's back to the old blue default because it takes days of diddling 
+>> So it is back to the old blue default because it takes days of diddling 
 >> to make up a skin.
 >>
 >> Hugo
@@ -48,16 +48,16 @@ godo wrote:
 > [core]
 >     _default_=white;
 > it should be white background.
-> I don't have mc so I can't try, but it seems easy to modified.
+> I do not have mc so I cannot try, but it seems easy to modified.
 Hi Goran,
 I just posted a followup with my complaint on the mc user list:
 http://mail.gnome.org/archives/mc/2010-April/msg00024.html
-It's not that simple as I mention there: when you change that default 
+it is not that simple as I mention there: when you change that default 
 option all the directory entries turn bright white and in mcedit the 
 entries turn black on white with a blue background which looks ridiculous.
 The problem is that they changed a major function without fallback and 
 without a spectrum of options.
-Too bad but it's waiting until skins get developed or pinning mc to 
+Too bad but it is waiting until skins get developed or pinning mc to 
 prevent 4.7.0.1 from installing.
 Hugo
 -- 

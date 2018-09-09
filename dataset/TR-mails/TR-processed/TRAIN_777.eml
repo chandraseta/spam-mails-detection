@@ -6,17 +6,17 @@ On 04/16/2010 02:33 AM, Eduardo M KALINOWSKI wrote:
 >>> No, it means that 2 one-gig modules in same-coloured slots will
 >>> theoretically work better. I have one module in a dual-channel mobo and
 >>> it works ok. Most desktop/workstation mobos do.
->> No, that's not correct.  If the mobo DIMM slots are colored, you put one
+>> No, that is not correct.  If the mobo DIMM slots are colored, you put one
 >> DIMM in each color slot for dual channel operation, not both DIMMs in 
 >> the
 >> same colored slots.
 >
 > I believe different manufactures follow different conventions. For 
-> some it's the two in same-color slots, for others in different-color 
+> some it is the two in same-color slots, for others in different-color 
 > slots. When in doubt, check the manual
 >
 >
-One, I work with hardware everyday and I've assembled more computers 
+One, I work with hardware everyday and I have assembled more computers 
 than I can count. Two, Stan, I find your remark pretty offensive, 
 really. Gigabyte, Asus, Intel mobos work by the principle 'same colour 
 == dual channel'. Please check your facts before trying to sound elitist.

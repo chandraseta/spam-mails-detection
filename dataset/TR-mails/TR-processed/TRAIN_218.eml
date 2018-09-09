@@ -15,7 +15,7 @@ files modified are extrasInit.tcl and pgpExec.tcl.
 i've added three new preferences in the 'general pgp' section, which
 allow everybody to use his/her favourite external tool to get the
 passphrase (everything which spits out the phrase on stdout is ok).
-i'd be happy if somebody with cvs access thinks that this stuff 
+i would be happy if somebody with cvs access thinks that this stuff 
 is worth to be added and does so; apart from that i'm happy for 
 suggestions, comments or critique (mind you, i'm not exactly a special 
 friend of tcl so my code may leave things to be desired...)
@@ -44,7 +44,7 @@ Content-Transfer-Encoding: 8bit
 +from the external cache, if pgpExtPass is active. 
 +The key id is substituted with %s (using format)." }
      }
-     # Make sure we don't inherit a bad pgp(version) from a previous setup
+     # Make sure we do not inherit a bad pgp(version) from a previous setup
 --- /usr/lib/exmh/pgpExec.tcl	Sat Mar  2 17:26:39 2002
 +++ ./pgpExec.tcl	Fri Sep 27 14:19:40 2002
 @@ -647,6 +647,33 @@

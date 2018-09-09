@@ -9,13 +9,13 @@ Aaron Toponce wrote:
 >> sda2+sdb2 -> md1 swap
 >> sda3+sdb3 -> md2 /home
 >>
->> I'd like to resize partitions to get more space on md2 and less on md0.	
+>> I would like to resize partitions to get more space on md2 and less on md0.	
 >>
 >> What would bea good way to achieve this ?
 > 
 > The "best" way to acheive this would be to use LVM above your software
 > RAID. At that point, it would be very painless, compared to what is
-> ahead of you now. If you're curious, here would be the steps:
+> ahead of you now. If you are curious, here would be the steps:
 > 
 > mdadm -C /dev/md0 -n 2 -l 1 -a yes /dev/sd{a,b}
 > pvcreate /dev/md0
@@ -25,7 +25,7 @@ Aaron Toponce wrote:
 > lvcreate -l 100%FREE -n home home
 > 
 > Then, for giving more space to home, and less to root, boot off a live
-> CD, and (assuming you're using ext3/4):
+> CD, and (assuming you are using ext3/4):
 > 
 > e2fsck /dev/home/root
 > resize2fs /dev/home/root 6G
@@ -33,9 +33,9 @@ Aaron Toponce wrote:
 > lvextend -L +4G /dev/home/home
 > resize2fs /dev/home/home
 > 
-> That's it! However, because you chose not to use LVM, you will need to
+> that is it! However, because you chose not to use LVM, you will need to
 > boot of a live CD that supports Linux software RAID, rebuild the array,
-> and perform the resizing there. I'm not sure if GParted supports this or
+> and perform the resizing there. I am not sure if GParted supports this or
 > not. Worth checking out, however.
 > 
 > I would personally recommend backing up your data, and reinstalling,

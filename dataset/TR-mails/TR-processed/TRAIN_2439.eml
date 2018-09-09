@@ -1,6 +1,6 @@
 Re: ALSA Problem with Null kernel
 Once upon a time, Hesty wrote :
-> I know they're all included in the freshrpms alsa-null
+> I know they are all included in the freshrpms alsa-null
 > directory.
 Now that Psyche is released, that directory was erased.
 > I was worried that with the new mplayer-pre8, these
@@ -11,20 +11,20 @@ Now that Psyche is released, that directory was erased.
 > Or is there some swtiches to enable these options
 > during 
 > rpm build?
-For all my recent packages that support --with and --without options, I've
+For all my recent packages that support --with and --without options, I have
 put them in the %description section. See for instance :
 http://psyche.freshrpms.net/rpm.html?id=80
 Where you can see :
 Available rpmbuild rebuild options :
 --with : alsa
 --without : aalib lirc libdv arts
-The ogle package has also a --with alsa option, and I've had a bug report
+The ogle package has also a --with alsa option, and I have had a bug report
 about xine that I apparently unintentionally compiled with ALSA directly
 :-/
-I'd like to aks this on the rpm-zzzlist : Would a new dependency of 250k, the
+I would like to aks this on the rpm-zzzlist : Would a new dependency of 250k, the
 alsa-lib package, for many packages (mplayer, ogle, xine) be a problem for
 the freshrpms.net packages users? As I really feel like blending ALSA in
-now, especially since I've just spent some time recompiling alsa-kernel
+now, especially since I have just spent some time recompiling alsa-kernel
 package for all the Psyche kernels!!!
 Matthias
 -- 

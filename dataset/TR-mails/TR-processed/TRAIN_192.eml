@@ -1,8 +1,8 @@
 Re: [ILUG] Network problems
 Quoting Eamonn Shinners :
 > Hi guys,
-> 	I'm looking for help on this one. I have a server with SME5.5 installed
-> - used to be e-smith. It's based on RH7.1, has a 3c507 NIC, and is
+> 	I am looking for help on this one. I have a server with SME5.5 installed
+> - used to be e-smith. it is based on RH7.1, has a 3c507 NIC, and is
 > connected to a hub. Also connected to the hub are a laptop and
 > workstation, both with RH7.3 . The server supplies DHCP amongst other
 > things.
@@ -19,7 +19,7 @@ If this is new behaviour in a previously working network, what did you do to it?
 Seriously, if the server has a PCI slot free, something like a Realtek 8139
 based card costs less than 20 euro.  The design is a couple of generations later
 - more memory, less cruft, no *FSCKING* dos config utility, no jumpers on the
-card and it's PCI.  
+card and it is PCI.  
 Ronan.
 -- 
 Irish Linux Users' Group: ilug@linux.ie

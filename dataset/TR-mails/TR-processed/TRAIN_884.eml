@@ -2,7 +2,7 @@ Re: Vnc server
 Il 09/05/2010 21:50, Andrew Lapham ha scritto:
 > Hello all.
 >
-> I'm new to debian (2 days) but have been using Linux for a while. Anyway my
+> I am new to debian (2 days) but have been using Linux for a while. Anyway my
 > problem is with Vnc4server.
 >
 > Yesterday I set up my /home/.Vnc/xstartup to include gnome session and I
@@ -25,8 +25,8 @@ the session, but rather launch a session and cleanup afterwards, ie
 # right
 gnome-session
 vncserver -kill $DISPLAY
-If you grok the shell you'll probably use the trap command to make sure 
-that cleanup is done no matter what, but that's just a detail
+If you grok the she will you will probably use the trap command to make sure 
+that cleanup is done no matter what, but that is just a detail
 good luck
 -- 
 To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 

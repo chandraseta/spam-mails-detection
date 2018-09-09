@@ -15,7 +15,7 @@ Re: Shutdown problem -- cron job related?
 > Look at the parent of pstree, and the process started this one.
 > If you go back that way, finally you will reach init, but before that you
 > could find which system process started these processes.
-I'll have to try it when I know the thing is running.
+I will have to try it when I know the thing is running.
 > As I recall, pstree is not part of basic installation.
 > It was put to do some scripting, regarding found, in
 > perl/python?

@@ -1,5 +1,5 @@
 [SAtalk] Compile error under Digital Unix
-Hi, I'm trying to build SA under Digital Unix 4.0f and am receiving a
+Hi, I am trying to build SA under Digital Unix 4.0f and am receiving a
 compile error (and many warnings) for spamc.  The "perl Makefile.PL"
 does OK, but when I do the make, I get this:
 cc -std -fprm d -ieee -D_INTRINSICS -I/usr/local/include -DLANGUAGE_C
@@ -82,7 +82,7 @@ Jim
 *-------------------------------------------------------------------------*
 -------------------------------------------------------
 This sf.net email is sponsored by: Jabber - The world's fastest growing 
-real-time communications platform! Don't just IM. Build it in! 
+real-time communications platform! do not just im. Build it in! 
 http://www.jabber.com/osdn/xim
 _______________________________________________
 Spamassassin-talk mailing list

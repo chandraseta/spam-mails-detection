@@ -22,14 +22,14 @@ span.link {font-size: 8pt; font-family: Arial, Helvetica, sans-serif; color:#666
    View this issue as simple text
 September 10, 2002    
 In this Issue
-WELCOME to the Core JavaTM Technologies Tech Tips, September 10, 2002. Here you'll get tips on using core Java technologies and APIs, such as those in Java 2 Platform, Standard Edition (J2SETM).
+WELCOME to the Core JavaTM Technologies Tech Tips, September 10, 2002. Here you will get tips on using core Java technologies and APIs, such as those in Java 2 Platform, Standard Edition (J2SETM).
 Using ArrayList and LinkedList
 Using Zero-Length Arrays
 These tips were developed using Java 2 SDK, Standard Edition, v 1.4.
 This issue of the JDC Tech Tips is written by Glen McCluskey.
 USING ARRAYLIST AND LINKEDLIST
 ArrayList and LinkedList are two Collections classes used for storing lists of object references. For example, you could have an ArrayList of Strings, or a LinkedList of Integers. This tip compares the performance of ArrayList and LinkedList, and offers some suggestions about which of these classes is the right choice in a given situation.
-The first key point is that an ArrayList is backed by a primitive Object array. Because of that, an ArrayList is much faster than a LinkedList for random access, that is, when accessing arbitrary list elements using the get method. Note that the get method is implemented for LinkedLists, but it requires a sequential scan from the front or back of the list. This scan is very slow. For a LinkedList, there's no fast way to access the Nth element of the list.
+The first key point is that an ArrayList is backed by a primitive Object array. Because of that, an ArrayList is much faster than a LinkedList for random access, that is, when accessing arbitrary list elements using the get method. Note that the get method is implemented for LinkedLists, but it requires a sequential scan from the front or back of the list. This scan is very slow. For a LinkedList, there is no fast way to access the Nth element of the list.
 Consider the following example. Suppose you have a large list of sorted elements, either an ArrayList or a LinkedList. Suppose too that you do a binary search on the list. The standard binary search algorithm starts by checking the search key against the value in the middle of the list. If the middle value is too high, then the upper half of the list is eliminated. However, if the middle value is too low, then the lower half of the list is ignored. This process continues until the key is found in the list, or until the lower bound of the search becomes greater than the upper bound.
 Here's a program that does a binary search on all the elements in an ArrayList or a LinkedList:
     import java.util.*;
@@ -88,7 +88,7 @@ You can use the RandomAccess marker interface to check whether a List supports f
     }
 ArrayList implements the RandomAccess interface, and LinkedList. does not. Note that Collections.binarySearch does take advantage of the RandomAccess property, to optimize searches.
 Do these results prove that ArrayList is always a better choice? Not necessarily. There are many cases where LinkedList does better. Also note that there are many situations where an algorithm can be implemented efficiently for LinkedList. An example is reversing a LinkedList using Collections.reverse. The internal algorithm does this, and gets reasonable performance, by using forward and backward iterators.
-Let's look at another example. Suppose you have a list of elements, and you do a lot of element inserting and deleting to the list. In this case, LinkedList is the better choice. To demonstrate that, consider the following "worst case" scenario. In this demo, a program repeatedly inserts elements at the beginning of a list. The code looks like this:
+let us look at another example. Suppose you have a list of elements, and you do a lot of element inserting and deleting to the list. In this case, LinkedList is the better choice. To demonstrate that, consider the following "worst case" scenario. In this demo, a program repeatedly inserts elements at the beginning of a list. The code looks like this:
     import java.util.*;
     public class ListDemo2 {
         static final int N = 50000;
@@ -117,8 +117,8 @@ When you run this program, the result should look something like this:
     time for ArrayList = 4859
     time for LinkedList = 125
 These results are pretty much the reverse of the previous example.
-When an element is added to the beginning of an ArrayList, all of the existing elements must be pushed back, which means a lot of expensive data movement and copying. By contrast, adding an element to the beginning of a LinkedList simply means allocating an internal record for the element and then adjusting a couple of links. Adding to the beginning of a LinkedList has fixed cost, but adding to the beginning of an ArrayList has a cost that's proportional to the list size.
-So far, this tip has looked at speed issues, but what about space? Let's look at some internal details of how ArrayList and LinkedList are implemented in Java 2 SDK, Standard Edition v 1.4. These details are not part of the external specification of these classes, but are illustrative of how such classes work internally.
+When an element is added to the beginning of an ArrayList, all of the existing elements must be pushed back, which means a lot of expensive data movement and copying. By contrast, adding an element to the beginning of a LinkedList simply means allocating an internal record for the element and then adjusting a couple of links. Adding to the beginning of a LinkedList has fixed cost, but adding to the beginning of an ArrayList has a cost that is proportional to the list size.
+So far, this tip has looked at speed issues, but what about space? let us look at some internal details of how ArrayList and LinkedList are implemented in Java 2 SDK, Standard Edition v 1.4. These details are not part of the external specification of these classes, but are illustrative of how such classes work internally.
 The LinkedList class has a private internal class defined like this:
     private static class Entry {
         Object element;
@@ -131,7 +131,7 @@ An ArrayList has a backing Object array to store the elements. This array starts
 Notice that the array capacity grows each time by about 50%. This means that if you have an ArrayList with a large number of elements, there will be a significant amount of space wasted at the end. This waste is intrinsic to the way ArrayList works. If there was no spare capacity, the array would have to be reallocated for each new element, and performance would suffer dramatically. Changing the growth strategy to be more aggressive (such as doubling the size at each reallocation) would result in slightly better performance, but it would waste more space.
 If you know how many elements will be in an ArrayList, you can specify the capacity to the constructor. You can also call the trimToSize method after the fact to reallocate the internal array. This gets rid of the wasted space.
 So far, this discussion has assumed that either an ArrayList or a LinkedList is "right" for a given application. But sometimes, other choices make more sense. For example, consider the very common situation where you have a list of key/value pairs, and you would like to retrieve a value for a given key.
-You could store the pairs in an N x 2 Object array. To find the right pair, you could do a sequential search on the key values. This approach works, and is a useful choice for very small lists (say 10 elements or less), but it doesn't scale to big lists.
+You could store the pairs in an N x 2 Object array. To find the right pair, you could do a sequential search on the key values. This approach works, and is a useful choice for very small lists (say 10 elements or less), but it does not scale to big lists.
 Another approach is to sort the key/value pairs by ascending key value, store the result in a pair of ArrayLists, and then do a binary search on the keys list. This approach also works, and is very fast. Yet another approach is to not use a list structure at all, but instead use a map structure (hash table), in the form of a HashMap.
 Which is faster, a binary search on an ArrayList, or a HashMap? Here's a final example that compares these two:
     import java.util.*;
@@ -207,7 +207,7 @@ When you run the ListDemo3 program, you should get a result that looks something
     HashMap time = 281
 In this example, N has a value of 500000. Approximately, log2(N) - 1 comparisons are required in an average successful binary search, so each binary search lookup in the ArrayList will take about 18 comparisons. By contrast, a properly implemented hash table typically requires only 1-3 comparisons. So you should expect the hash table to be faster in this case.
 However, binary search is still useful. For example, you might want to do a lookup in a sorted list and then find keys that are close in value to the key used for the lookup. Doing this is easy with binary search, but impossible in a hash table. Keys in a hash table are stored in apparent random order. Also, if you are concerned with worst-case performance, the binary search algorithm offers a much stronger performance guarantee than a hash table scheme. You might also consider using TreeMap for doing lookups in sorted collections of key/value pairs.
-Let's summarize the key points presented in this tip:
+let us summarize the key points presented in this tip:
  Appending elements to the end of a list has a fixed averaged cost for both ArrayList and LinkedList. For ArrayList, appending typically involves setting an internal array location to the element reference, but occasionally results in the array being reallocated. For LinkedList, the cost is uniform and involves allocating an internal Entry object.
  Inserting or deleting elements in the middle of an ArrayList implies that the rest of the list must be moved. Inserting or deleting elements in the middle of a LinkedList has fixed cost.
  A LinkedList does not support efficient random access
@@ -216,7 +216,7 @@ Let's summarize the key points presented in this tip:
 For more information about Using ArrayList and LinkedLists, see section 16.6, List, and section 16.7, Map and SortedMap, in "The JavaTM Programming Language Third Edition" by Arnold, Gosling, and Holmes. Also see the Collections trail in the Java Tutorial, Third Edition.
 back to top
 USING ZERO-LENGTH ARRAYS
-Suppose that you are writing a Java application that involves some sort of data filtering. You have some raw data that you want to clean up and process in various ways. One of the methods you've written takes an array of integers, along with minimum and maximum values. The method goes through the array and eliminates "outliers," that is, values that are too small or too big. The result of the filtering process is a new array of cleaned-up data.
+Suppose that you are writing a Java application that involves some sort of data filtering. You have some raw data that you want to clean up and process in various ways. One of the methods you have written takes an array of integers, along with minimum and maximum values. The method goes through the array and eliminates "outliers," that is, values that are too small or too big. The result of the filtering process is a new array of cleaned-up data.
 How could you implement this kind of filtering method? Here's one approach:
     import java.util.*;
     public class ZeroDemo1 {
@@ -293,7 +293,7 @@ A better approach in this example would be to comment out the block of code that
     */
 When there is no valid data, the code will fall through to the next line, where a zero-length array is allocated:
     int outdata[] = new int[0];
-This is perfectly legal Java usage. The representation of Java arrays includes the length of the array, and it's therefore possible to tell if an array has zero length.
+This is perfectly legal Java usage. The representation of Java arrays includes the length of the array, and it is therefore possible to tell if an array has zero length.
 For the ZeroDemo1 example, if you anticipate that validcnt will often be zero, that is, data filtering will often eliminate all values from the input, then you could optimize away the second input scan by adding code like this:
     int outdata[] = new int[validcnt];
     if (validcnt == 0) {
@@ -302,11 +302,11 @@ For the ZeroDemo1 example, if you anticipate that validcnt will often be zero, t
 Note that usage such as:
     int outdata[] = new int[]{};
 is also legal, to initialize an array with a zero-length set of integer constants.
-In general, it's best not to return null from a method that returns an array type. Always returning an array, even if the array has zero length, greatly improves the generality of algorithms. If you anticipate that your methods will often return zero-length arrays, you might be concerned about the performance implications of allocating many such arrays. In this case, you can allocate a single array, and always return the same one, as follows:
+In general, it is best not to return null from a method that returns an array type. Always returning an array, even if the array has zero length, greatly improves the generality of algorithms. If you anticipate that your methods will often return zero-length arrays, you might be concerned about the performance implications of allocating many such arrays. In this case, you can allocate a single array, and always return the same one, as follows:
     private static final int ZERO_LENGTH_ARRAY[] = 
                                             new int[0];
-This array is immutable (it can't be changed), and can be shared throughout your application.
-There's another way that zero-length arrays are used, as illustrated in the following example:
+This array is immutable (it cannot be changed), and can be shared throughout your application.
+there is another way that zero-length arrays are used, as illustrated in the following example:
     import java.util.*;
     public class ZeroDemo2 {
         public static void main(String args[]) {
@@ -328,7 +328,7 @@ The result of running the ZeroDemo2 program is:
     string 1
     string 2
     string 3
-The ZeroDemo2 program sets up an ArrayList, and adds three strings to it. Then the program calls toArray to get a String array of the three elements in the ArrayList. In this example, the argument to toArray is "new String[0]". This argument serves a couple of purposes. First, if you have a String array that's big enough to hold the elements of the ArrayList, you can specify it as the argument to toArray. The method will use the String array.
+The ZeroDemo2 program sets up an ArrayList, and adds three strings to it. Then the program calls toArray to get a String array of the three elements in the ArrayList. In this example, the argument to toArray is "new String[0]". This argument serves a couple of purposes. First, if you have a String array that is big enough to hold the elements of the ArrayList, you can specify it as the argument to toArray. The method will use the String array.
 But if your array is not big enough, then the toArray method allocates an array to return the elements. It uses the type of the array that was passed in to determine the type of the allocated array. ArrayList stores its element references in an Object array. The toArray method needs to be told if there is some other type (such as String) to be used for returning the array of elements. The method uses reflection (java.lang.reflect.Array.newInstance) to create an array of the appropriate type.
 For more information about using zero-Length arrays, see item 27 "Return zero-length arrays, not nulls" in "Effective Java Programming Language Guide" by Joshua Bloch.
 back to top
@@ -348,7 +348,7 @@ Subscribe to the following newsletters for the latest information about technolo
   - Go to the JDC Newsletters and Publications page, 
     choose the newsletters you want to subscribe to and click "Update".
   - To unsubscribe, go to the subscriptions page, uncheck the appropriate checkbox, and click "Update".
-ARCHIVES: You'll find the Core Java Technologies Tech Tips archives at:
+ARCHIVES: you will find the Core Java Technologies Tech Tips archives at:
 http://java.sun.com/jdc/TechTips/index.html
 Copyright 2002 Sun Microsystems, Inc. All rights reserved. 901 San Antonio Road, Palo Alto, California 94303 USA.
 Sun, Sun Microsystems, Java, Java Developer Connection, J2SE, J2EE, and J2ME are trademarks or registered trademarks of Sun Microsystems, Inc. in the United States and other countries.

@@ -15,10 +15,10 @@ a) If I select the 6-channel mode (in kmix or alsa-mixer), the two sound
 outputs work but the microphone do not work.
 b) If I select the 2-channel mode (in kmix or alsa-mixer), the microphone
 works but only one sound output works.
-You do not agree with me that this is a bug? I've been experiencing it in
+You do not agree with me that this is a bug? I have been experiencing it in
 different distributions and several versions of the Linux kernel. As in
 several versions of ALSA.
-Before you ask me, yes, I've tried all the options associated with ALC662
+Before you ask me, yes, I have tried all the options associated with ALC662
 codec (
 http://www.mjmwired.net/kernel/Documentation/sound/alsa/HD-Audio-Models.txt)
 and the option mentioned above was that worked best.

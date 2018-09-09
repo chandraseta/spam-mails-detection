@@ -7,7 +7,7 @@ On Sat, 01 May 2010 19:14:52 +0200, Florian Kulzer
 >> because a stupid mistake, I have interrupted apt-get during early
 >> stage of dist-upgrade from Lenny to Squeeze.
 >>
->> Now I cannot get apt-get working and I don't know how to fix it.
+>> Now I cannot get apt-get working and I do not know how to fix it.
 >>
 [...]
 >> dpkg: warning: 'ldconfig' not found on PATH.

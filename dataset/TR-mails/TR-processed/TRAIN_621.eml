@@ -2,22 +2,22 @@ Re: About USB hard drives and errors
 On 20100411_005025, Stan Hoeppner wrote:
 > Paul E Condon put forth on 4/10/2010 11:41 PM:
 > 
-> > So, the fact that my WD drives don't play well with S.M.A.R.T doesn't 
+> > So, the fact that my WD drives do not play well with S.M.A.R.T does not 
 > > make them special, and I should not spend much, if any, time looking
 > > for a USB solution. What other options are there for external HD?
 > 
-> You're got 3 USB hard drives already, and you're throwing them out and
-> looking for another solution, just because they don't do S.M.A.R.T?  If
+> you are got 3 USB hard drives already, and you are throwing them out and
+> looking for another solution, just because they do not do S.M.A.R.T?  If
 > neither USB nor firewire do smart, you choices are very limited.
-Well, the sad story is that I don't really want to do S.M.A.R.T. I was
+Well, the sad story is that I do not really want to do S.M.A.R.T. I was
 experiencing disk errors on the drives which caused something in the
 kernel to throw a fit. When this happened, the only recovery I could
 find was to reboot. This is slow and not really a way to learn how to
 fix the problem. So I ask for advice on this list. I work down the
 list of suggestions, not having much success, and arrive at
-smartctl. But now we know that that doesn't work for reasons that I
+smartctl. But now we know that that does not work for reasons that I
 might have known if I had read the whole of wikipedia and had total
-recall --- but I hadn't and I don't.
+recall --- but I had not and I do not.
 Since my last post, I have succeeded in doing a successful, error
 free, backup to each of the disks. One notable fact about all the
 errors is that after reboot it would appear that no data was lost and
@@ -26,8 +26,8 @@ crash. The only thing that I can think that I did differently in these
 new successful runs is that I did not sit at the computer and
 watch. Can software detect being watched? I think not, but ...
 My reading about eSATA gives me suspicion that it has its own poorly
-documented problems. I'm not convinced that I cannot make USB work
-without S.M.A.R.T, but I really don't have any good ideas as to
+documented problems. I am not convinced that I cannot make USB work
+without S.M.A.R.T, but I really do not have any good ideas as to
 how. And now, without errors happening fairly frequently, I doubt that
 I will be able to test and debug any approach that I dream up.
 > 

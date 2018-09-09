@@ -1,37 +1,37 @@
 RE: [SAtalk] O.T. Habeus -- Why?
 Guys, the Habeas Infringers List (HIL) exists explicitly to deal with
-spammers while we're getting judgments against them and especially in
+spammers while we are getting judgments against them and especially in
 other countries, where those judgments are harder to get.
 Please note that nobody has ever had an incentive before to go after
 regular spammers.  Yes, some attorneys general have prosecuted blatant
 pyramid schemes, and ISPs have won some theft of service suits, but the
 vast majority of spammers go forward with out any legal hassles.  So, I
-can't understand how Daniel can assert that you can't track spammers
-down when it's never really been tried.  We can subpoena the records of
+cannot understand how Daniel can assert that you cannot track spammers
+down when it is never really been tried.  We can subpoena the records of
 the business they spammed on behalf of.  We can subpoena the records of
 the ISP that provided them service, and of the credit card they used for
 the whack-a-mole accounts.  We can use private investigators.  Yes,
-these people are often lowlifes (chickenboners).  But, they're not
-secret agents.  They're just trying to make a buck, and Habeas' whole
+these people are often lowlifes (chickenboners).  But, they are not
+secret agents.  they are just trying to make a buck, and Habeas' whole
 business is about finding them and putting them out of business
 Habeas has the incentive to pursue spammers (that use our warrant mark)
 in a way that no one ever has had before.  Given that our whole business
-plan relies on Habeas becoming synonymous with "not spam", I can't
+plan relies on Habeas becoming synonymous with "not spam", I cannot
 understand why you would assume ahead of time that we will be
 unsuccessful, plan for that failure, and in so doing, remove the
 potential of success, which is anti-spam filters like SA acting on the
 Habeas warrant mark.
-Daniel, it's easy enough for you to change the Habeas scores yourself on
+Daniel, it is easy enough for you to change the Habeas scores yourself on
 your installation.  If Habeas fails to live up to its promise to only
 license the warrant mark to non-spammers and to place all violators on
 the HIL, then I have no doubt that Justin and Craig will quickly remove
-us from the next release.  But, you're trying to kill Habeas before it
+us from the next release.  But, you are trying to kill Habeas before it
 has a chance to show any promise.
 At the end of the day, SpamAssassin is like the Club, in that it
 encourages thieves (spammers) to just go after the next car (those
 without SA) rather than yours.  Habeas can play the role of LoJack (the
-transmitter), in enabling the apprehension of thieves so that they don't
-steal any more cars.  But only if we're given a chance to succeed.
+transmitter), in enabling the apprehension of thieves so that they do not
+steal any more cars.  But only if we are given a chance to succeed.
           - dan
 --
 Dan Kohn 
@@ -55,14 +55,14 @@ Just a few notes:
  - Contact information can change: phone numbers, PO boxes, stolen
    cell phones, temporary email addresses, etc.
  - Spammers do not always remember to include contact information!  I
-   don't understand it either, but nobody said they were bright.  Also,
+   do not understand it either, but nobody said they were bright.  Also,
    some spam is non-commercial or sent by a third-party (for example,
    "pump and dump" stock scams), so contact information is not strictly
    required for the spammer to get their way.
 Dan
 -------------------------------------------------------
 This sf.net email is sponsored by: Jabber - The world's fastest growing 
-real-time communications platform! Don't just IM. Build it in! 
+real-time communications platform! do not just im. Build it in! 
 http://www.jabber.com/osdn/xim
 _______________________________________________
 Spamassassin-talk mailing list
@@ -70,7 +70,7 @@ Spamassassin-talk@lists.sourceforge.net
 https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
 -------------------------------------------------------
 This sf.net email is sponsored by: Jabber - The world's fastest growing 
-real-time communications platform! Don't just IM. Build it in! 
+real-time communications platform! do not just im. Build it in! 
 http://www.jabber.com/osdn/xim
 _______________________________________________
 Spamassassin-talk mailing list

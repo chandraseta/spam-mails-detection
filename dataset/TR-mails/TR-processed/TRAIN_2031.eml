@@ -4,7 +4,7 @@ On May 5, 2010, at 9:12 PM, ext Dominic Giampaolo wrote:
 >> - if the user adds or removes a directory, I delete the current FSEventS=
 tream and create a new one with the right values
 >>=20
-> Are you sure that you're properly tearing down and
+> Are you sure that you are properly tearing down and
 > releasing the old FSEvent stream before creating=20
 > the new one?=20
 >=20
@@ -24,7 +24,7 @@ I printed all the steps on the output to check:
 #### Stop stream=20
 ##### Invalidate stream=20
 ###### Release stream=20
-I don't unschedule the stream from the run loop since I invalidate it.
+I do not unschedule the stream from the run loop since I invalidate it.
 > Also, is it possible that one FSEventStream gets=20
 > deleted on one thread and another is created on
 > another thread at the same time?  Can you see if
@@ -33,10 +33,10 @@ I don't unschedule the stream from the run loop since I invalidate it.
 >=20
 All the stream related stuff is happening on the same thread (at least for =
 now).
-Plus, in my example, I don't create a new stream after deleting the first o=
+Plus, in my example, I do not create a new stream after deleting the first o=
 ne (since I have nothing left to watch).
 It seems to me the stream may not be properly closed, or it is trying to ac=
-cess something that doesn't exist anymore.
+cess something that does not exist anymore.
 But I am following all the steps for properly stopping and releasing the st=
 ream.
 --=20

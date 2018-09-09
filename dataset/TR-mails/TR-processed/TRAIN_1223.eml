@@ -1,11 +1,11 @@
 [SAdev] [Bug 839] mailbox corruption not fixed with procmail 3.22
 http://www.hughes-family.org/bugzilla/show_bug.cgi?id=839
 ------- Additional Comments From alan@rdrop.com  2002-09-05 22:22 -------
-I haven't tried 2.41 yet because it requires File::Spec, which barfs when
-spamassassin tries to use it.  I haven't filed a bug yet because I suspect it's
-because I'm still running 5.005 perl because of reported compatibility issues
-with 5.6 and later, but I probably will because I think there's too much legacy
-perl code to put up with major compatibility problems, and spamassassin didn't,
+I have not tried 2.41 yet because it requires File::Spec, which barfs when
+spamassassin tries to use it.  I have not filed a bug yet because I suspect it is
+because I am still running 5.005 perl because of reported compatibility issues
+with 5.6 and later, but I probably will because I think there is too much legacy
+perl code to put up with major compatibility problems, and spamassassin did not,
 at least in the quickest of looks, say it needed a newer one.  The perl @ stuff
 was bad enough...  but this is all a separate soapbox...
 ------- You are receiving this mail because: -------

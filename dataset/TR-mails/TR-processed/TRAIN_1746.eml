@@ -14,7 +14,7 @@ with a few adjustments to serious problems.
 PLEASE NOTE: Security support for the oldstable distribution ended in
 February 2010 [1] and no updates have been released since that point.
   1: http://www.debian.org/News/2010/20100121
-Those who frequently install updates from security.debian.org won't
+Those who frequently install updates from security.debian.org will not
 have to update many packages and most updates from security.debian.org
 are included in this update.
 New CD and DVD images containing updated packages and the regular
@@ -47,13 +47,13 @@ packages:
     linux-2.6.24           Several vulnerabilities
     mksh                   Fix unauthenticated local privilege escalation
     mt-daapd               Update the embedded prototype.js to fix security issues
-    openafs                Don't create invalid pointers to kernel memory when handling errors
+    openafs                do not create invalid pointers to kernel memory when handling errors
     openssl                Deprecate MD2 hash signatures and fix several DoS vulnerabilities
     serveez                Fix remote buffer overflow
-    tetex-bin              Don't fail when LaTeX is more than five years old
-    texlive-bin            Don't fail when LaTeX is more than five years old
-    texlive-extra          Don't fail when LaTeX is more than five years old
-    texlive-lang           Don't fail when LaTeX is more than five years old
+    tetex-bin              do not fail when LaTeX is more than five years old
+    texlive-bin            do not fail when LaTeX is more than five years old
+    texlive-extra          do not fail when LaTeX is more than five years old
+    texlive-lang           do not fail when LaTeX is more than five years old
     wordpress              Fix DoS via long title and specially constructed charset parameter
     xcftools               Fix crash with files containing negative co-ordinates
 Debian Installer

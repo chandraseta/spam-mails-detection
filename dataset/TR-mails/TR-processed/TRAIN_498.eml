@@ -8,7 +8,7 @@ Preparing...                ###########################################
 [100%]
 error: db3 error(-30998) from db->close: DB_INCOMPLETE: Cache flush was 
 unable to complete
-Whats the DB_INCOMPLETE mean?
+what is the DB_INCOMPLETE mean?
 It all seems to have installed ok thou...
                                     -- \m/ --
   "...if I seem super human I have been misunderstood." (c) Dream Theater

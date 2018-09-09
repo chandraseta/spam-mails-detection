@@ -2,8 +2,8 @@ Re: [ILUG] slashdot EW Dijkstra humor
 Gary Coady wrote:
 > Oops, I tend to feel like that most times! I tend to feel that if we
 > have extremely good compilation tools, then those tools should be able
-> to do the inlining and optimisation far better than I could. That's the
-> theory anyway :) And there's always a tradeoff with inlining between
+> to do the inlining and optimisation far better than I could. that is the
+> theory anyway :) And there is always a tradeoff with inlining between
 > speed and memory bloat (which may sometimes be no tradeoff if swap
 > starts getting involved...)
 This is something that often annoys me. Programmers can spend hours inlining
@@ -23,7 +23,7 @@ optimisations can turn that same 20 hours into 10 minutes.
 - Matthew (who really should be writing code)
 __________________________________________________
 Do You Yahoo!?
-Everything you'll ever need on one web page
+Everything you will ever need on one web page
 from News and Sport to Email and Music Charts
 http://uk.my.yahoo.com
 -- 

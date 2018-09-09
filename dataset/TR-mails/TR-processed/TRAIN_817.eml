@@ -2,12 +2,12 @@ Re: [SAdev] 2.40: ready for release?
 > t/db_based_whitelist.Use of bare << to mean <<"" is deprecated at
 > ../lib/Mail/SpamAssassin/HTML.pm line 1. Use of bare << to mean <<"" is
 > deprecated at ../lib/Mail/SpamAssassin/HTML.pm line 6. Unquoted string
-hmm, could you check your installation?  those chars aren't in my
+hmm, could you check your installation?  those chars are not in my
 version at all.
 --j.
 -------------------------------------------------------
 This sf.net email is sponsored by: Jabber - The world's fastest growing 
-real-time communications platform! Don't just IM. Build it in! 
+real-time communications platform! do not just im. Build it in! 
 http://www.jabber.com/osdn/xim
 _______________________________________________
 Spamassassin-devel mailing list

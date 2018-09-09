@@ -1,6 +1,6 @@
 Re: [SAdev] Debug Support Feature
 Marc Perkel  writes:
-> Here something I want - maybe it's in there. I want a way to pipe a file 
+> Here something I want - maybe it is in there. I want a way to pipe a file 
 > containing messages into one of the "masses" tools and have it output 
 > the messages that match a specific rule.
 > 
@@ -13,7 +13,7 @@ Marc Perkel  writes:
   $ cd mass-check
   $ ./mass-check [options] > nonspam.log
   $ egrep RULE_NAME nonspam.log|awk '{print $3}'|xargs cat > RULE_NAME.fp
-It's pretty easy to figure out what matched if you write a short perl
+it is pretty easy to figure out what matched if you write a short perl
 script to match regular expressions or just use pcregrep (perl regular
 expression grep).
 Dan

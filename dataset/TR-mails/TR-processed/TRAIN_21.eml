@@ -1,5 +1,5 @@
 Re: exmh bug?
-Hmm - I'm cc'ing the exmh-workers list, because I really don't know
+Hmm - I am cc'ing the exmh-workers list, because I really do not know
 much about the various PGP interfaces.  I think there has been some
 talk about "issues" with the latest version of gpg.
 >>>Hacksaw said:
@@ -9,7 +9,7 @@ talk about "issues" with the latest version of gpg.
  > EDT 2001 i686 unknown
  > Tk 8.3 Tcl 8.3
  > 
- > It's not clear to me this is a bug with exmh per se, but it's something 
+ > it is not clear to me this is a bug with exmh per se, but it is something 
 that
  > manifests through exmh, so I figured asking you might help me track it 
 down.

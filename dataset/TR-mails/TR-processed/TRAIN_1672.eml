@@ -1,5 +1,5 @@
 Re: Icedove always loads Epiphany when URL is clicked
-On my system, sid, this command wouldn't work:
+On my system, sid, this command would not work:
 >$ update-alternatives --display x-www-browser
 this command will:
 $ update-alternatives --config x-www-browser

@@ -2,15 +2,15 @@ Re: hi
 Once upon a time, Thomas wrote :
 > I wanted to find out who tried recompiling a working apt rpm for (null)
 > or psyche.  I would like to get good GStreamer packages done by monday
-> when it's released.
+> when it is released.
 I have a working apt 0.5.4cnc7 package for Red Hat Linux 8.0. It will be
 available at the same second the distribution will, and so will a complete
 apt repository already including quite a few of my packages updated for Red
 Hat Linux 8.0.
-I didn't want to say all this before Monday, but as the new release already
+I did not want to say all this before Monday, but as the new release already
 leaked from many places, and official statements made about it, it
-shouldn't be a big deal :-/
-I'll keep you all posted on Monday! They'll even be a big apt-related
+should not be a big deal :-/
+I will keep you all posted on Monday! they will even be a big apt-related
 surprise! ;-))))
 Matthias
 -- 

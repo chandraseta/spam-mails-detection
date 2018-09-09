@@ -1,8 +1,8 @@
 Re: My brain hurts
 More than a dozen jokes - thanks guys and girls!
 (plus some anti-French abuse from the usual suspect).
-Well my brain doesn't hurt so much any more, and it was well worth it.
-I've now got an even faster method for elliptic-curve point counting,
+Well my brain does not hurt so much any more, and it was well worth it.
+I have now got an even faster method for elliptic-curve point counting,
 both pratically and asymptotically.
 It lifts a curve over a field of degree n in time O(n^(2+1/2+eps)),
 or O(n^(2+eps)) with precomputation.  Before the best methods took

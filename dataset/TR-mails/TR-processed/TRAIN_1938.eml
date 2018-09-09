@@ -2,7 +2,7 @@ Re: using umlaut works in console, not in Citrix client
 On Mon, 26 Apr 2010 17:38:32 +0200, Benedict Verheyen wrote:
 > i'm using Debian stable on a Toshiba  Satellite Pro laptop with an
 > azerty keyboard layout (Belgian period) and when i use the Citrix client
-> (v11), it doesn't translate all the key combinations correctly. I cannot
+> (v11), it does not translate all the key combinations correctly. I cannot
 > use an umlaut with a small caps letter, it automatically makes the small
 > letter a capital letter with an umlaut. It however works in the console
 > and in an xterm, but not when i'm in citrix.

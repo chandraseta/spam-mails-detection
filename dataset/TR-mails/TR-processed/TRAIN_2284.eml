@@ -5,9 +5,9 @@ On Fri, 07 May 2010 19:58:26 +0200 Merciadri Luca wrote:
 > Firefox/Iceweasel becomes sluggish, slower and slower, and often
 > stalls after some time. I also noticed that, when becoming more and
 > more sluggish, it takes more and more RAM, even when all the pages
-> are completely loaded. Why? Am I the only person who's experiencing
+> are completely loaded. Why? Am I the only person who is experiencing
 > this? Is there an objective explanation to this?
-I'd had similar problem with Iceweasel on Lenny when my browser cache
+I would had similar problem with Iceweasel on Lenny when my browser cache
 limit was set to a large value.  But things are okay after bringing it
 down (to 20MB).  You might want to try that.
 Large cache slows Iceweasel down because it uses these large databases

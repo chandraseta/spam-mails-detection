@@ -2,9 +2,9 @@ Re: Battery monitor tools?
 From nobody Sun Sep  9 13:54:59 2018
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: quoted-printable
-I may be a light debian user. 'Cause i simply use GNOME power manager as
+I may be a light debian user. because i simply use GNOME power manager as
 battery tool, supposed to be the default power manager in GNOME. I think it
-is kind of dull. I've found battery using up much more quickly under debian
+is kind of dull. I have found battery using up much more quickly under debian
 than it under windows(yes, i'm using a dual-booting laptop).
 So, is this just because i choosed a unsuitable tool? Or it has any other
 reason. In the comparison mentioned above, I was doing some file work and/o=
@@ -12,7 +12,7 @@ r
 running emacs
 On Mon, Apr 19, 2010 at 11:29 PM, Bob Proulx  wrote:
 > Joe Emenaker wrote:
-> > I'm looking for a good battery charge/discharge profiler tool for my
+> > I am looking for a good battery charge/discharge profiler tool for my
 > > Ubuntu laptop.
 >
 > Of course I am sure that you know you are posting about Ubuntu to the
@@ -27,7 +27,7 @@ r
 > > tool was learning what "80%" /really/ meant to that battery.
 >
 > I have often wanted this too.  And your other wishlist items as well.
-> As far as I know there isn't a tool that does exactly this for
+> As far as I know there is not a tool that does exactly this for
 > GNU/Linux in general or on Debian in particular.  If you find one I
 > would be interested in it.
 >
@@ -39,7 +39,7 @@ r
 >  full recharge. It requires APM, ACPI or PMU.
 >
 > It needs some training.  But given that it does perform fairly well.
-> Unfortunately it isn't tied into the system tray tools and so isn't
+> Unfortunately it is not tied into the system tray tools and so is not
 > going to be a seemless integration there.  It is available in gkrellm
 > if you use that stack.  See the gkrellm-ibam package.
 >

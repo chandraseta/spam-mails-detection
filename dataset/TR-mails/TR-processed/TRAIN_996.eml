@@ -1,12 +1,12 @@
 Re: 64-bit netbooks with Debian linux
 Peter Tenenbaum  writes:
 > First, I intend to build a home computer which will run linux, and
-> it will be 64-bit; since I'm quite new to maintaining my own linux
-> computers, I'd rather limit the number of differences between the
+> it will be 64-bit; since I am quite new to maintaining my own linux
+> computers, I would rather limit the number of differences between the
 > home machine and my portable.
 Hi PT,
-In regards to Debian, don't let this be a discriminator.
-If you had a 64-bit and 32-bit system, it would only mean that you'd
+In regards to Debian, do not let this be a discriminator.
+If you had a 64-bit and 32-bit system, it would only mean that you would
 have to burn two installation CDs. Once those CDs were installed, your
 installations would be mostly indistinguishable. After the initial
 install, Debian grabs the right bits for your system.

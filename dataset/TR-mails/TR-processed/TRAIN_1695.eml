@@ -21,12 +21,12 @@ Am Dienstag 11 Mai 2010 schrieb Dotan Cohen:
 > > IMHO when a config setting is not handled properly on upgrade of KDE
 > > its a bug.
 >=20
-> Agreed, but it's not one that is likely to be fixed. There seems to be
-> no backwards-compatibility in KDE anymore. It's a problem, I know.
+> Agreed, but it is not one that is likely to be fixed. There seems to be
+> no backwards-compatibility in KDE anymore. it is a problem, I know.
 Well I got no reply to my detailed bug report yet.
 > > I migrated configuration from KDE 3.5.10 and just pressed on "Reset
 > > to defaults" for quite some appearance related settings in order to
-> > switch them to Oxygen. There have been issues, but I mostly didn't
+> > switch them to Oxygen. There have been issues, but I mostly did not
 > > file them as bugs.
 > >=20
 > > Only one I triaged and filed: The separator "58" for colon for web
@@ -35,9 +35,9 @@ Well I got no reply to my detailed bug report yet.
 > > both. Unfortunately Konqueror saved it as "58" not as ":".
 >=20
 > It _should_ be escaped.
-It doesn't work in krunner when it is. See here:
+It does not work in krunner when it is. See here:
 [Bug 218272] New: webshortcuts broken after upgrading KDE 3 to 4 due to=20
-decimal in keyword delimiter which krunner doesnt support
+decimal in keyword delimiter which krunner does not support
 https://bugs.kde.org/218272
 =20
 > > Anyway I suggest to file those issues as concrete as possible as bugs
@@ -48,7 +48,7 @@ an empty configuration. Its as easy as that:
 mkdir ~/.kde-test
 export KDEHOME=3D~/.kde-test
 Then start your KDE application you want to test with empty settings from=20
-this shell. You can also easily see what configuration files the applicatio=
+this she will. You can also easily see what configuration files the applicatio=
 n=20
 or the subsystems it uses create.
 Ciao,

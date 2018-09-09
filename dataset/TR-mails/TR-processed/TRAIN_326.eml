@@ -18,8 +18,8 @@ Sxy link in Kxy for the respective runlevel (this can also be done with=20
 any of the available runlevel editors, like sysv-rc-conf).
 Removing all Sxy symlinks will result in them being recreated on the=20
 next upgrade (as you have experienced).
-You can also make changes to the init.d script, but I'm not sure which=20
-ones will be detected by dpkg. Textual changes will, but don't know=20
+You can also make changes to the init.d script, but I am not sure which=20
+ones will be detected by dpkg. Textual changes will, but do not know=20
 about removing the execute bit or the like.
 Regards,
 Andrei

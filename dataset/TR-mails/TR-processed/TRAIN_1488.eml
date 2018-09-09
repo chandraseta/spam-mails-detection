@@ -11,26 +11,26 @@ On 4 Aug 2002 the voices made Scott A Crosby write:
 > > domain/user the e-mail appears to have been sent from.
 > >
 >
-> That can be problematic.. For example, if I'm at home and want to send
-> email out from my work-address; I can't go through my ISP's
-> mailserver.. I don't thikn we want to enforce a link linking an email
+> That can be problematic.. For example, if I am at home and want to send
+> email out from my work-address; I cannot go through my ISP's
+> mailserver.. I do not thikn we want to enforce a link linking an email
 > address and the server sending it; there are many reasons to have the
 > two things be different entities.
- True, but that's the thinking of today, that the company mailserver can be
+ True, but that is the thinking of today, that the company mailserver can be
 closed to you from the outside; because as it is today you can use any mail-
-server that you've got access to. If there's a good reason for setting it up
-they won't be that lazy in the future.
+server that you have got access to. If there is a good reason for setting it up
+they will not be that lazy in the future.
 > However, requiring mailservers to sign the Received: header...  That
 > could be useful. (assuming the signature is of reasonable size). That
-> could indicate at what server the email *did* enter the system. IT'd
+> could indicate at what server the email *did* enter the system. it would
 > also be incontravertable proof that that mailserver did allow itself
 > to be abused. Signatures could be checked by either MX or inaddr-arpa
 > records indicating the host's public key.
 >
-> There's still some problems left though. You'd have to bind the
+> there is still some problems left though. you would have to bind the
 > headers to the message somehow, via signatures. (To avoid someone
 > taking an email then twiddling the body and claiming that spam came
-> from a particular host.) This would mean that you couldn't alter the
+> from a particular host.) This would mean that you could not alter the
 > body of a message.
 >
 > An unforgable Received chain would be very useful evidence.
@@ -43,7 +43,7 @@ Received2: Date: [date];
 	Env-id: 
 	Code: [cache#, salted hashvalue, rsa or other signature]
  And then you have the two optional From and To, only added by the sending
-server that's identified the local sender or the server accepting mail for a
+server that is identified the local sender or the server accepting mail for a
 certain user (to verify that it did really come via that server, in case you
 forward it using procmail or something like it).
  You of course would need some standard for how to check these headers.

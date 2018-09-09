@@ -2,8 +2,8 @@
 I bought a webcam:
 Bus 006 Device 004: ID 093a:2622 Pixart Imaging, Inc. 
 What should I do, to bring it to life?
-I installed cheese, but it doesn't gives any video.
-/dev/video doesn't exists.
+I installed cheese, but it does not gives any video.
+/dev/video does not exists.
 Is there a script that installs all the webcam drivers?
 Or how to find out, what drivers does it need?
 Thank you.

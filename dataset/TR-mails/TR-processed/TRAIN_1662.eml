@@ -18,7 +18,7 @@ http://www.dcc-servers.net/dcc/dcc-tree/CHANGES start with
     remove "# whitelisted" from `cdcc stats` output to give more room
 	for totals.
     prevent empty dccproc log files as noted by Krzysztof Snopek.
-    even fatal errors should cause dccproc to exit with 0 to avoid
+    even fatal errors should because dccproc to exit with 0 to avoid
 	rejecting mail, as noted by Krzysztof Snopek.
     When server hostnames have common IP addresses, prefer the server
 	with the non-anonymous client-ID, noted by Krzysztof Snopek.

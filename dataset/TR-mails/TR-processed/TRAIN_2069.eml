@@ -8,10 +8,10 @@ On Tue, 06 Apr 2010 16:22:19 -0400, Stephen Powell wrote:
 >> /dev/sdc1 on /media/disk type vfat
 >> (rw,nosuid,nodev,uhelper=hal,shortname=lower,uid=1000) ***
 > 
-> I didn't see that in your /etc/fstab file, Camaleón.  Where did this
+> I did not see that in your /etc/fstab file, Camaleón.  Where did this
 > come from? (Pardon my ignorance; but as I said before, I never use USB
 > hot plug and I am largely ignorant of this subject.  I know a few things
-> about the regular mount and umount commands issued from a shell prompt. 
+> about the regular mount and umount commands issued from a she will prompt. 
 > But this hotplug stuff is new to me.)
 Nothing to pardon :-)
 That was the output of the "mount" command I sent in an early post, just 

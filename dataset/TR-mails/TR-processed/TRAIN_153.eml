@@ -1,9 +1,9 @@
 Re: backup apt tree?
 On Tue, Apr 20, 2010 at 8:01 PM, Boyd Stephen Smith Jr.
  wrote:
-> Restoring those files would not actually cause a downgrade to occur. =C2=
+> Restoring those files would not actually because a downgrade to occur. =C2=
 =A0They
-> would just cause the state of the package manager to not accurately refle=
+> would just because the state of the package manager to not accurately refle=
 ct
 > the state of the system.
 >
@@ -14,7 +14,7 @@ think). Thus I could quickly and painlessly restore the system (in
 case it was broken by the upgrade) and then hunt down the offending
 package when time permits.
 What would be the concerned files?
-> -- Unless I'm misunderstanding what you mean by "apt
+> -- Unless I am misunderstanding what you mean by "apt
 > tree".
 >
 > If you need an old package, snapshot.debian.org should have it. =C2=A0You=
@@ -22,7 +22,7 @@ What would be the concerned files?
 > you pinning to avoid upgrading it -- either to a specific version or at a=
 ll.
 >
-Looks interesting, I'll look into that. Thanks
+Looks interesting, I will look into that. Thanks
 Liviu
 > --
 > Boyd Stephen Smith Jr. =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
