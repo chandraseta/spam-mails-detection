@@ -1,0 +1,440 @@
+Is Your Family Protected?
+ReliaQuote - Save Up To 70% On Life Insurance
+  
+ Life
+                                can change in an instant. That's why it is so
+                                important to protect your family's financial future
+                                with sufficient life insurance coverage.
+              <table class=hptbcolor cellspacing=0 cellpadding=2 width="100%"
+        border=0>
+ State
+                          of Residence:
+                          <select id=FormsComboBox12
+                  size=1 name=state>
+ Select State
+ Alabama
+ Alaska
+                            <option
+                    value=Arizona>Arizona
+                            <option
+                    value=Arkansas>Arkansas
+                            <option
+                    value=California>California
+                            <option
+                    value=Colorado>Colorado
+                            <option
+                    value=Connecticut>Connecticut
+                            <option
+                    value=Delaware>Delaware
+ Dist. of Columbia
+ Florida
+ Georgia
+                            <option
+                    value=Hawaii>Hawaii
+                            <option
+                    value=Idaho>Idaho
+                            <option
+                    value=Illinois>Illinois
+                            <option
+                    value=Indiana>Indiana
+                            <option
+                    value=Iowa>Iowa
+                            <option
+                    value=Kansas>Kansas
+                            <option
+                    value=Kentucky>Kentucky
+                            <option
+                    value=Louisiana>Louisiana
+                            <option
+                    value=Maine>Maine
+                            <option
+                    value=Maryland>Maryland
+                            <option
+                    value=Massachusetts>Massachusetts
+                            <option
+                    value=Michigan>Michigan
+                            <option
+                    value=Minnesota>Minnesota
+                            <option
+                    value=Mississippi>Mississippi
+                            <option
+                    value=Missouri>Missouri
+                            <option
+                    value=Montana>Montana
+                            <option
+                    value=Nebraska>Nebraska
+                            <option
+                    value=Nevada>Nevada
+                            <option
+                    value="New Hampshire">New Hampshire
+                            <option
+                    value="New Jersey">New Jersey
+                            <option
+                    value="New Mexico">New Mexico
+                            <option
+                    value="New York">New York
+                            <option
+                    value="North Carolina">North Carolina
+                            <option
+                    value="North Dakota">North Dakota
+                            <option
+                    value=Ohio>Ohio
+                            <option
+                    value=Oklahoma>Oklahoma
+                            <option
+                    value=Oregon>Oregon
+                            <option
+                    value=Pennsylvania>Pennsylvania
+                            <option
+                    value="Rhode Island">Rhode Island
+                            <option
+                    value="South Carolina">South Carolina
+                            <option
+                    value="South Dakota">South Dakota
+                            <option
+                    value=Tennessee>Tennessee
+                            <option
+                    value=Texas>Texas
+ Utah
+ Vermont
+                            <option
+                    value=Virginia>Virginia
+                            <option
+                    value=Washington>Washington
+                            <option
+                    value="West Virginia">West Virginia
+                            <option
+                    value=Wisconsin>Wisconsin
+                            <option
+                    value=Wyoming>Wyoming
+ Date
+                          of Birth (MM/DD/YY):
+                            <option
+                    value="" selected>MM
+ 01
+ 02
+ 03
+ 04
+ 05
+ 06
+ 07
+ 08
+ 09
+ 10
+ 11
+ 12
+                          /
+ DD
+                            <option
+                    value=01>01
+ 02
+                            <option
+                    value=03>03
+ 04
+                            <option
+                    value=05>05
+ 06
+                            <option
+                    value=07>07
+ 08
+                            <option
+                    value=09>09
+ 10
+                            <option
+                    value=11>11
+ 12
+                            <option
+                    value=13>13
+ 14
+                            <option
+                    value=15>15
+ 16
+                            <option
+                    value=17>17
+ 18
+                            <option
+                    value=19>19
+ 20
+                            <option
+                    value=21>21
+ 22
+                            <option
+                    value=23>23
+ 24
+                            <option
+                    value=25>25
+ 26
+                            <option
+                    value=27>27
+ 28
+                            <option
+                    value=29>29
+ 30
+                            <option
+                    value=31>31
+                          /
+ YY
+                            <option
+                    value=13>13
+ 14
+                            <option
+                    value=15>15
+ 16
+                            <option
+                    value=17>17
+ 18
+                            <option
+                    value=19>19
+ 20
+                            <option
+                    value=21>21
+ 22
+                            <option
+                    value=23>23
+ 24
+                            <option
+                    value=25>25
+ 26
+                            <option
+                    value=27>27
+ 28
+                            <option
+                    value=29>29
+ 30
+                            <option
+                    value=31>31
+ 32
+                            <option
+                    value=33>33
+ 34
+                            <option
+                    value=35>35
+ 36
+                            <option
+                    value=37>37
+ 38
+                            <option
+                    value=39>39
+ 40
+                            <option
+                    value=41>41
+ 42
+                            <option
+                    value=43>43
+ 44
+                            <option
+                    value=45>45
+ 46
+                            <option
+                    value=47>47
+ 48
+                            <option
+                    value=49>49
+ 50
+                            <option
+                    value=51>51
+ 52
+                            <option
+                    value=53>53
+ 54
+                            <option
+                    value=55>55
+ 56
+                            <option
+                    value=57>57
+ 58
+                            <option
+                    value=59>59
+ 60
+                            <option
+                    value=61>61
+ 62
+                            <option
+                    value=63>63
+ 64
+                            <option
+                    value=65>65
+ 66
+                            <option
+                    value=67>67
+ 68
+                            <option
+                    value=69>69
+ 70
+                            <option
+                    value=71>71
+ 72
+                            <option
+                    value=73>73
+ 74
+                            <option
+                    value=75>75
+ 76
+                            <option
+                    value=77>77
+ 78
+                            <option
+                    value=79>79
+ 80
+                            <option
+                    value=81>81
+ 82
+                            <option
+                    value=83>83
+                                          <option
+                    value=84>84
+ Sex:
+                                <input id=FormsRadioButton1 type=radio
+                        value=M name=Sex>
+                                Male
+                                <input id=FormsRadioButton2 type=radio
+                        value=F name=Sex>
+                                Female
+ Have
+                          you used any tobacco products in the last 12 months?
+                                <input id=FormsRadioButton4 type=radio
+                        value=N name=Tobacco>
+                                No
+                                <input id=FormsRadioButton3 type=radio
+                        value=Y name=Tobacco>
+                                Yes
+ Coverage
+                          Amount:
+                          <select id=FormsComboBox11
+                  size=1 name=coverage-amount>
+                            <option value=""
+                    selected>Select Amount
+                            <option
+                    value=100000.00>100,000
+                            <option
+                    value=125000.00>125,000
+                            <option
+                    value=150000.00>150,000
+                            <option
+                    value=175000.00>175,000
+                            <option
+                    value=200000.00>200,000
+                            <option
+                    value=225000.00>225,000
+                            <option
+                    value=250000.00>250,000
+                            <option
+                    value=275000.00>275,000
+                            <option
+                    value=300000.00>300,000
+                            <option
+                    value=325000.00>325,000
+                            <option
+                    value=350000.00>350,000
+                            <option
+                    value=375000.00>375,000
+                            <option
+                    value=400000.00>400,000
+                            <option
+                    value=425000.00>425,000
+                            <option
+                    value=450000.00>450,000
+                            <option
+                    value=475000.00>475,000
+                            <option
+                    value=500000.00>500,000
+                            <option
+                    value=550000.00>550,000
+                            <option
+                    value=600000.00>600,000
+                            <option
+                    value=650000.00>650,000
+                            <option
+                    value=700000.00>700,000
+                            <option
+                    value=750000.00>750,000
+                            <option
+                    value=800000.00>800,000
+                            <option
+                    value=850000.00>850,000
+                            <option
+                    value=900000.00>900,000
+                            <option
+                    value=950000.00>950,000
+                            <option
+                    value=1000000.00>1,000,000
+                            <option
+                    value=1250000.00>1,250,000
+                            <option
+                    value=1500000.00>1,500,000
+                            <option
+                    value=1750000.00>1,750,000
+                            <option
+                    value=2000000.00>2,000,000
+                            <option
+                    value=2250000.00>2,250,000
+                            <option
+                    value=2500000.00>2,500,000
+                            <option
+                    value=3000000.00>3,000,000
+                            <option
+                    value=3500000.00>3,500,000
+                            <option
+                    value=4000000.00>4,000,000
+                            <option
+                    value=4500000.00>4,500,000
+                            <option
+                    value=5000000.00>5,000,000
+                            <option
+                    value=6000000.00>6,000,000
+                            <option
+                    value=7000000.00>7,000,000
+                            <option
+                    value=8000000.00>8,000,000
+                            <option
+                    value=9000000.00>9,000,000
+                            <option
+                    value=10000000.00>10,000,000
+                            <option
+                    value=11000000.00>11,000,000
+                            <option
+                    value=12000000.00>12,000,000
+                            <option
+                    value=13000000.00>13,000,000
+                            <option
+                    value=14000000.00>14,000,000
+                            <option
+                    value=15000000.00>15,000,000
+ How
+                          long do you need the coverage?
+                          <select id=FormsComboBox10
+                  size=1 name=plan>
+ Select Year
+ 5 Years
+                            <option
+                    value=10>10 Years
+ 15 Years
+ 20 Years
+                            <option
+                    value=25>25 Years
+ 30 Years
+   
+ ReliaQuote
+                    makes it easy and affordable. We can instantly provide you
+                    with free quotes from highly rated insurance companies. 
+ Save
+                        up to
+ on
+                        Life Insurance
+ Compare quotes today.
+                  There is nothing more 
+                  important than protecting 
+                  their future.
+ Copyright 2001 ReliaQuote,
+        Inc.
+        All rights reserved.
+You are receiving this mailing because you are a
+member of SendGreatOffers.com and subscribed as:JM@NETNOTEINC.COM
+To unsubscribe 
+Click Here
+(http://admanmail.com/subscription.asp?em=JM@NETNOTEINC.COM&l=SGO)
+or reply to this email with REMOVE in the subject line - you must
+also include the body of this message to be unsubscribed. Any correspondence about
+the products/services should be directed to
+the company in the ad.
+%EM%JM@NETNOTEINC.COM%/EM%

@@ -63,4 +63,4 @@ if not os.path.exists(dstdir):
 	os.makedirs(dstdir)
 
 ###################################################################
-ExtractBodyFromDir ( srcdir, dstdir ) beautifulsoup4
+ExtractBodyFromDir ( srcdir, dstdir )
