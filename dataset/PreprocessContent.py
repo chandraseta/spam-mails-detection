@@ -22,7 +22,7 @@ def denoise_data(strip_html_tags=True, extract_contractions=True):
                 content = contractions.fix(content)
 
         outfile = open(filepath, 'w+')
-        outfile.write(content)
+        outfile.write(str(content))
 
 def normalize_data():
     for filepath in glob.glob('TR-mails/TR-processed/*'):
@@ -124,7 +124,6 @@ def normalize_data():
 
 denoise_data(strip_html_tags=True, extract_contractions=True)
 normalize_data()
-
 
 
 
