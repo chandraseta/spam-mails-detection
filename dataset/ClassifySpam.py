@@ -13,15 +13,15 @@ from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 
 
 classifiers = [
-    ("Nearest Neighbors", KNeighborsClassifier(3)),
-    ("Linear SVM", SVC(kernel="linear", C=0.025)),
+    # ("Nearest Neighbors", KNeighborsClassifier(3)),
+    # ("Linear SVM", SVC(kernel="linear", C=0.025)),
+    ("Neural Net", MLPClassifier(hidden_layer_sizes=(20,10,5))),
+    ("Random Forest", RandomForestClassifier(
+        max_depth=20, n_estimators=100)),
     ("RBF SVM", SVC(gamma=2, C=1)),
     # ("Gaussian Process", GaussianProcessClassifier(1.0 * RBF(1.0))),
-    ("Decision Tree", DecisionTreeClassifier(max_depth=5)),
-    ("Random Forest", RandomForestClassifier(
-        max_depth=5, n_estimators=10, max_features=1)),
-    ("Neural Net", MLPClassifier(hidden_layer_sizes=(10,))),
-    ("AdaBoost", AdaBoostClassifier()),
+    ("Decision Tree", DecisionTreeClassifier(max_depth=20)),
+    # ("AdaBoost", AdaBoostClassifier()),
     # ("Naive Bayes", GaussianNB()),
     # ("QDA", QuadraticDiscriminantAnalysis()),
 ]
@@ -62,10 +62,24 @@ for classifier_name, classifier in classifiers:
     # Predict testing lemmas
     prediction = classifier.predict(vector_test)
 
+    failed_indices = []
     n_same = 0
     for i, val in enumerate(csv_test.predictions):
         if val == prediction[i]:
             n_same += 1
+        else:
+            failed_indices.append(i)
+
+        if i==343:
+            print(csv_test.lemmas[i])
+
+
+    outfile = open('mismatched.txt', 'a+')
+    outfile.write(classifier_name + '\n')
+    for index in failed_indices:
+        outfile.write(str(index) + ' ')
+
+    outfile.write('\n')
 
     p_accuracy = n_same / len(csv_test.predictions)
     print("Accuracy: {}%".format(p_accuracy * 100))
